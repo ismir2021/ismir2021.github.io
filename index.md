@@ -1,6 +1,5 @@
 ---
 layout: home
-title: ISMIR 2021
 ---
 
 
