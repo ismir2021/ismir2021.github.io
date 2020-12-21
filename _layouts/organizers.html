@@ -6,27 +6,28 @@
   <body>
 
     {%- include header.html -%}
-
-    {%- for category in site.data.organizers %}
-        <div id=organizer-category-name>
-            <label>
-                {{ category[0] }}
-            </label>
-        </div>
-        {%- for person in category[1] %}
-            <li>
-                <div id="organizer-card">
-                    <span id="organizer-img">
-                        <img src="/assets/img/{{ person.photo }}.jpg" alt="">
-                    </span>
-                    <span id="organizer-name">
-                        {{ person.name }}
-                    </span>
+    <div class="page-content">
+        <div class="wrapper">
+            {%- for category in site.data.organizers %}
+                <div id=organizer-category>
+                    <div id=organizer-category-name>
+                        <h1>{{ category[0] }}</h1>
+                    </div>
+                    {%- for person in category[1] %}
+                        <div id="organizer-card">
+                            <div id="organizer-img">
+                                <img src="/assets/img/{{ person.photo }}.jpg" alt="">
+                            </div>
+                            <div id="organizer-name">
+                                {{ person.name }}
+                            </div>
+                        </div>
+                    {% endfor %}
+                    <br>
                 </div>
-            </li>
-        {% endfor %}
-        <br>
-    {% endfor %}
+            {% endfor %}
+        </div>
+    </div>
 
     {%- include footer.html -%}
 
