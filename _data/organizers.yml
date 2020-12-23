@@ -1,34 +1,34 @@
 General Chairs:
     - name: Jin Ha Lee
-      photo: placeholder   # path to image in assets/
+      photo: placeholder.jpg   # name of image stored in assets/img/
     - name: Alexander Lerch
-      photo: placeholder
+      photo: placeholder.jpg
 
 Scientific Program:
     - name: Zhiyao Duan
-      photo: placeholder
+      photo: placeholder.jpg
     - name: Juhan Nam
-      photo: placeholder
+      photo: placeholder.jpg
     - name: Preeti Rao
-      photo: placeholder
+      photo: placeholder.jpg
     - name: Peter van Kranenburg
-      photo: placeholder
+      photo: placeholder.jpg
 
 Diversity and Inclusion:
     - name: Blair Kaneshiro
-      photo: placeholder
+      photo: placeholder.jpg
 
 Social Program:
     - name: Oriol Nieto
-      photo: placeholder
+      photo: placeholder.jpg
 
 Tutorial Program:
     - name: Yi-Hsuan Yang
-      photo: placeholder
+      photo: placeholder.jpg
 
 Late Breaking Demo Program:
     - name: Li Su
-      photo: placeholder
+      photo: placeholder.jpg
 
 Music:
     - name: TBA
