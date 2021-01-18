@@ -5,8 +5,9 @@ permalink: /about/
 ---
 
 ### General Chairs
-- ![Jin Ha Lee](placeholder.png) Jin Ha Lee
-- Alexander Lerch
+![Jin Ha Lee](images/placeholder.png) Jin Ha Lee
+
+![Alexander Lerch](images/placeholder.png) Alexander Lerch
 
 ### Scientific Program
 - Zhiyao Duan
