@@ -5,12 +5,7 @@ permalink: /about/
 ---
 
 ### General Chairs
-<img src="placeholder.png"
-     alt="lee"
-     align="left"
-	width="180"
-	height="220"/> 
-Jin Ha Lee
+- ![Jin Ha Lee](placeholder.png) Jin Ha Lee
 - Alexander Lerch
 
 ### Scientific Program
