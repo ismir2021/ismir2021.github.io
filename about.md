@@ -10,22 +10,34 @@ permalink: /about/
 ![Alexander Lerch](images/placeholder.png) Alexander Lerch
 
 ### Scientific Program
-- Zhiyao Duan
-- Juhan Nam
-- Preeti Rao
-- Peter van Kranenburg
+
+![Zhiyao Duan](images/placeholder.png) Zhiyao Duan
+
+![Juhan Nam](images/nam.jpg) Juhan Nam
+
+![Preeti Rao](images/placeholder.png) Preeti Rao
+
+![Peter van Kranenburg](images/placeholder.png) Peter van Kranenburg
 
 ### Diversity and Inclusion
-- Blair Kaneshiro
+
+![Blair Kaneshiro](images/kaneshiro.jpg) Blair Kaneshiro
 
 ### Social Program
-- Oriol Nieto
+
+![Oriol Nieto](images/nieto.jpg) Oriol Nieto
 
 ### Tutorial Program
-- Yi-Hsuan Yang
+
+![Yi-Hsuan Yang](images/placeholder.png) Yi-Hsuan Yang
 
 ### Late Breaking Demo Program
-- Li Su
+
+![Li Su](images/su.jpg) Li Su
+
+![Chih-Wei Wu](images/placeholder.png) Chih-Wei Wu
+
+![Siddharth Gururani](images/placeholder.png) Siddharth Gururani
 
 ### Music
 - TBA
