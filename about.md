@@ -7,7 +7,7 @@ permalink: /about/
 ### General Chairs
 ![Jin Ha Lee](images/placeholder.png) Jin Ha Lee
 
-![Alexander Lerch](images/placeholder.png) Alexander Lerch
+![Alexander Lerch](images/lerch.jpg) Alexander Lerch
 
 ### Scientific Program
 
@@ -39,5 +39,4 @@ permalink: /about/
 
 ![Siddharth Gururani](images/placeholder.png) Siddharth Gururani
 
-### Music
-- TBA
+### More chairs to be announced soon!
