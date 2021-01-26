@@ -23,6 +23,10 @@ permalink: /team/
 
 ![Blair Kaneshiro](images/kaneshiro.jpg) Blair Kaneshiro
 
+### Technological Oversight
+
+![Kahyun Choi](images/placeholder.png) Kahyun Choi
+
 ### Social Program
 
 ![Oriol Nieto](images/nieto.jpg) Oriol Nieto
@@ -30,6 +34,8 @@ permalink: /team/
 ### Tutorial Program
 
 ![Yi-Hsuan Yang](images/placeholder.png) Yi-Hsuan Yang
+
+![Ashis Pati](images/placeholder.png) Ashis Pati
 
 ### Late Breaking Demo Program
 
