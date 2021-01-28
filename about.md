@@ -11,7 +11,7 @@ permalink: /team/
 
 ### Scientific Program
 
-![Zhiyao Duan](images/placeholder.png) Zhiyao Duan
+![Zhiyao Duan](images/duan.jpg) Zhiyao Duan
 
 ![Juhan Nam](images/nam.jpg) Juhan Nam
 
@@ -23,7 +23,7 @@ permalink: /team/
 
 ![Blair Kaneshiro](images/kaneshiro.jpg) Blair Kaneshiro
 
-### Technological Oversight
+### Technology
 
 ![Kahyun Choi](images/placeholder.png) Kahyun Choi
 
@@ -44,5 +44,10 @@ permalink: /team/
 ![Chih-Wei Wu](images/placeholder.png) Chih-Wei Wu
 
 ![Siddharth Gururani](images/placeholder.png) Siddharth Gururani
+
+### Publications
+
+![Ajay Srinivasamurthy](images/placeholder.png) Ajay Srinivasamurthy
+
 
 ### More chairs to be announced soon!
