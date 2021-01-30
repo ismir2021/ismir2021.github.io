@@ -47,7 +47,7 @@ permalink: /team/
 
 ### Publications
 
-![Ajay Srinivasamurthy](images/placeholder.png) Ajay Srinivasamurthy
+![Ajay Srinivasamurthy](images/srinivasamurthy.png) Ajay Srinivasamurthy
 
 
 ### More chairs to be announced soon!
