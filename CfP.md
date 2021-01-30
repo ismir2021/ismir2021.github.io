@@ -7,7 +7,7 @@ permalink: /cfp/
 The annual conference of the International Society for Music Information Retrieval (ISMIR) is the world’s leading research forum on processing, analyzing, searching, organizing and accessing music-related data. The 22nd ISMIR conference, to be held online, welcomes contributions related to any aspect of Music IR, including foundations and theories for music processing, evaluation algorithms, applications, and analysis.
 
 
-#Important Dates:
+# Important Dates:
 Time zone: Anywhere On Earth (AOE)
 Abstract Submission: May 8, 2021
 Final Submission: May 15, 2021
@@ -17,7 +17,7 @@ Camera-Ready Upload: August 2, 2021
 There will be *no extension* to the submission deadlines. However, authors of registered papers on or before May 8th will be allowed to upload new versions of their papers until May 15th.
 
 
-#Submission Guidelines
+# Submission Guidelines
 All submissions must comply with the following requirements:
 
 Length (6+n pages): papers must contain at most 6 pages of scientific content (including figures and tables), with additional optional pages that contain only references and acknowledgments.
@@ -30,7 +30,7 @@ Originality: papers must be original contributions. They cannot have been publis
 
 
 
-#Submissions
+# Submissions
 Submission system: We will use Microsoft CMT (the submission link will be released soon).
 
 Supplementary material: In addition to the PDF file of the manuscript, authors will be able to also upload supplementary files for their submission, such as audio samples, code or additional results. We strongly encourage authors to do this.
@@ -46,7 +46,7 @@ Submissions that deviate from any of the above requirements will be automaticall
 
 
 
-#Review Process
+# Review Process
 In order to ensure the quality of the papers published at the conference, all submissions will be evaluated according to the following criteria:
 
 - Novelty
@@ -64,7 +64,7 @@ The reviewing workflow follows a two-tier model, i.e. with one level of “regul
 Accepted papers must be presented at the conference by one of the authors, and at least one of the authors must register before the deadline given for author registration (TBD). Failure to register before the deadline will result in automatic withdrawal of the paper from the conference proceedings and program.
 
 
-#Topics of Interest
+# Topics of Interest
 ISMIR 2021 welcomes full-paper contributions to any aspect of Music IR. Relevant topics include, but are not limited to:
 
 - MIR fundamentals and methodology: music signal processing; symbolic music processing; metadata, tags, linked data, and semantic web; lyrics and other textual data, web mining, and natural language processing; multimodality.
