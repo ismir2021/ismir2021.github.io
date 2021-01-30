@@ -7,8 +7,7 @@ permalink: /cfp/
 The annual conference of the International Society for Music Information Retrieval (ISMIR) is the world’s leading research forum on processing, analyzing, searching, organizing and accessing music-related data. The 22nd ISMIR conference, to be held online, welcomes contributions related to any aspect of Music IR, including foundations and theories for music processing, evaluation algorithms, applications, and analysis.
 
 
-### Important Dates:
-- Time zone: Anywhere On Earth (AOE)
+### Important Dates (AoE):
 - Abstract Submission: May 8, 2021
 - Final Submission: May 15, 2021
 - Notification of Acceptance: July 9, 2021
