@@ -1,6 +1,6 @@
 ---
 layout: page
-title: call for papers
+title: Call for Papers
 permalink: /cfp/
 ---
 
@@ -65,7 +65,7 @@ Musical features and properties: melody and motives; harmony, chords and tonalit
 - Evaluation, datasets, and reproducibility: evaluation methodology; evaluation metrics; novel datasets and use cases; annotation protocols; reproducibility; MIR tasks.
 Philosophical and ethical discussions: philosophical and methodological foundations; legal and societal aspects of MIR; ethical issues related to designing and implementing MIR tools and technologies.
 - Human-centered MIR: user behavior analysis and mining, user modeling; human-computer interaction and interfaces; personalization; user-centered evaluation.
-Applications: digital libraries and archives; music retrieval systems; music recommendation and playlist generation; music and health, well-being and therapy; music training and education; music composition, performance, and production; gaming; business and marketing. 
+Applications: digital libraries and archives; music retrieval systems; music recommendation and playlist generation; music and health, well-being and therapy; music training and education; music composition, performance, and production; gaming; business and marketing.
 
 For additional information, you can reach the program chairs via email at ismir2021@gmail.com.
 
