@@ -19,7 +19,7 @@ social:
 # THEME SETTINGS
 navigation: # Navigation links
   # - {name: 'Home', link: '/'}
-  - {name: 'About', link: '/team/'}
+  - {name: 'Team', link: '/team/'}
   - {name: 'Call For Papers', link: '/cfp/'}
 tagline: >
   International Society for Music Information Retrieval Conference 2021
