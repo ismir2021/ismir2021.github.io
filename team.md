@@ -55,5 +55,8 @@ permalink: /team/
 
 ![Ajay Srinivasamurthy](images/srinivasamurthy.png) Ajay Srinivasamurthy
 
+### Sponsorship
 
-### More chairs to be announced soon!
+![Sertan Senturk](images/placeholder.png) Sertan Şentürk
+
+
