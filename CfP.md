@@ -60,15 +60,16 @@ ISMIR 2021 welcomes full-paper contributions to any aspect of Music IR. Relevant
 
 - MIR fundamentals and methodology: music signal processing; symbolic music processing; metadata, tags, linked data, and semantic web; lyrics and other textual data, web mining, and natural language processing; multimodality.
 - Domain knowledge: representations of music; music acoustics; computational music theory and musicology; cognitive MIR; machine learning/artificial intelligence for music.
-Musical features and properties: melody and motives; harmony, chords and tonality; rhythm, beat, tempo; structure, segmentation, and form; timbre, instrumentation, and voice; musical style and genre; musical affect, emotion and mood; expression and performative aspects of music.
+- Musical features and properties: melody and motives; harmony, chords and tonality; rhythm, beat, tempo; structure, segmentation, and form; timbre, instrumentation, and voice; musical style and genre; musical affect, emotion and mood; expression and performative aspects of music.
 - MIR tasks: sound source separation; music transcription and annotation; optical music recognition; alignment, synchronization, and score following; music summarization; music synthesis and transformation; fingerprinting; automatic classification; indexing and querying; pattern matching and detection; similarity metrics.
 - Evaluation, datasets, and reproducibility: evaluation methodology; evaluation metrics; novel datasets and use cases; annotation protocols; reproducibility; MIR tasks.
-Philosophical and ethical discussions: philosophical and methodological foundations; legal and societal aspects of MIR; ethical issues related to designing and implementing MIR tools and technologies.
+- Philosophical and ethical discussions: philosophical and methodological foundations; legal and societal aspects of MIR; ethical issues related to designing and implementing MIR tools and technologies.
 - Human-centered MIR: user behavior analysis and mining, user modeling; human-computer interaction and interfaces; personalization; user-centered evaluation.
-Applications: digital libraries and archives; music retrieval systems; music recommendation and playlist generation; music and health, well-being and therapy; music training and education; music composition, performance, and production; gaming; business and marketing.
+- Applications: digital libraries and archives; music retrieval systems; music recommendation and playlist generation; music and health, well-being and therapy; music training and education; music composition, performance, and production; gaming; business and marketing.
 
-For additional information, you can reach the program chairs via email at ismir2021@gmail.com.
+For additional information, you can reach the program chairs via [email](mailto:ismir2021-papers@ismir.net).
 
 
 Best regards,
+
 Scientific Program Chairs (Zhiyao Duan, Peter van Kranenburg, Juhan Nam, and Preeti Rao)
