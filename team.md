@@ -33,7 +33,7 @@ permalink: /team/
 
 ### Tutorial Program
 
-![Yi-Hsuan Yang](images/placeholder.png) Yi-Hsuan Yang
+![Yi-Hsuan Yang](images/yang.jpg) Yi-Hsuan Yang
 
 ![Ashis Pati](images/placeholder.png) Ashis Pati
 
