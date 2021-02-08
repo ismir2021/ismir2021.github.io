@@ -35,7 +35,7 @@ permalink: /team/
 
 ![Yi-Hsuan Yang](images/yang.jpg) Yi-Hsuan Yang
 
-![Ashis Pati](images/placeholder.png) Ashis Pati
+![Ashis Pati](images/pati.jpg) Ashis Pati
 
 ### Late Breaking Demo Program
 
