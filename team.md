@@ -15,7 +15,7 @@ permalink: /team/
 
 ![Juhan Nam](images/nam.jpg) Juhan Nam
 
-![Preeti Rao](images/placeholder.png) Preeti Rao
+![Preeti Rao](images/rao.jpg) Preeti Rao
 
 ![Peter van Kranenburg](images/placeholder.png) Peter van Kranenburg
 
