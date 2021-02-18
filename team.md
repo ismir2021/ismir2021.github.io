@@ -5,7 +5,7 @@ permalink: /team/
 ---
 
 ### General Chairs
-![Jin Ha Lee](images/placeholder.png) Jin Ha Lee
+![Jin Ha Lee](images/lee.jpg) Jin Ha Lee
 
 ![Alexander Lerch](images/lerch.jpg) Alexander Lerch
 
