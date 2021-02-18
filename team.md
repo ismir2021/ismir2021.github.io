@@ -43,7 +43,7 @@ permalink: /team/
 
 ![Chih-Wei Wu](images/placeholder.png) Chih-Wei Wu
 
-![Siddharth Gururani](images/placeholder.png) Siddharth Gururani
+![Siddharth Gururani](images/gururani.jpg) Siddharth Gururani
 
 ### Music Program
 
