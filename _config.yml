@@ -21,6 +21,7 @@ navigation: # Navigation links
   # - {name: 'Home', link: '/'}
   - {name: 'Team', link: '/team/'}
   - {name: 'Call For Papers', link: '/cfp/'}
+  - {name: 'Call for Tutorials', link: '/cft/'}
 tagline: >
   International Society for Music Information Retrieval Conference 2021
 
