@@ -18,7 +18,7 @@ To make the conference more accessible and inclusive, in addition to the standar
 
 ### Submissions
 
-Initial proposals should be submitted as a PDF attachment via email to ismir2021-tutorials@ismir.net by April 9, 2021. After that, authors are welcome to submit revised submissions (but not initiate new submissions) by April 16, 2021.
+Initial proposals should be submitted as a PDF attachment via email to [ismir2021-tutorials@ismir.net](mailto:ismir2021-tutorials@ismir.net) by April 9, 2021. After that, authors are welcome to submit revised submissions (but not initiate new submissions) by April 16, 2021.
 
 
 ### Submission Guidelines
@@ -48,7 +48,7 @@ Acceptance/rejection decisions will be made by the ISMIR2021 Tutorial Chairs, an
 * Usage of open-source and free software tools/data, reproducible research
 
 
-For additional information, you can reach the tutorial program chairs via ismir2021-tutorials@ismir.net
+For additional information, you can reach the tutorial program chairs via [ismir2021-tutorials@ismir.net](mailto:ismir2021-tutorials@ismir.net)
 
 
 Best regards,
