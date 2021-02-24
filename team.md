@@ -25,7 +25,7 @@ permalink: /team/
 
 ### Technology
 
-![Kahyun Choi](images/placeholder.png) Kahyun Choi
+![Sharath Adavanne](images/placeholder.png) Sharath Adavanne
 
 ### Social Program
 
@@ -41,7 +41,7 @@ permalink: /team/
 
 ![Li Su](images/su.jpg) Li Su
 
-![Chih-Wei Wu](images/placeholder.png) Chih-Wei Wu
+![Chih-Wei Wu](images/wu.jpg) Chih-Wei Wu
 
 ![Siddharth Gururani](images/gururani.jpg) Siddharth Gururani
 
