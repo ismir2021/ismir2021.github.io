@@ -17,7 +17,7 @@ permalink: /team/
 
 ![Preeti Rao](images/rao.jpg) Preeti Rao
 
-![Peter van Kranenburg](images/placeholder.png) Peter van Kranenburg
+![Peter van Kranenburg](images/vankranenburg.jpg) Peter van Kranenburg
 
 ### Diversity and Inclusion
 
