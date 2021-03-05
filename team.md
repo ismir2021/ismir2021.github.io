@@ -59,6 +59,6 @@ permalink: /team/
 
 ![Sertan Senturk](images/placeholder.png) Sertan Şentürk
 
-![Alia Morsi](images/placeholder.png) Alia Morsi
+![Alia Morsi](images/morsi.jpg) Alia Morsi
 
 
