@@ -1,6 +1,6 @@
 <header class="header" itemscope itemtype="http://schema.org/SiteNavigationElement" aria-label="Main navigation">
     <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar navbar-expand-lg">
             <a class="navbar-brand header__logo" href="{{ '/' | relative_url }}">
                 <div class="header__logo--container">
                     <img src="/assets/logo.svg" width="30" height="30" alt="">
@@ -10,7 +10,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav mr-auto">
+                <ul class="navbar-nav ml-auto">
                     {% for item in site.navigation  %}
                     {% if item.subitems  %}
                     <li class="nav-item dropdown">
