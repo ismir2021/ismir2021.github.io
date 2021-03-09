@@ -1,0 +1,51 @@
+chairs:
+  -
+    title: "General Chairs"
+    members:
+      - {name: "Jin Ha Lee", img: "/images/placeholder.png"}
+      - {name: "Alexander Lerch", img: "/images/lerch.jpg"}
+
+  -
+    title: "Scientific Chairs"
+    members:
+      - {name: "Zhiyao Duan", img: "/images/duan.jpg"}
+      - {name: "Juhan Nam", img: "/images/nam.jpg"}
+      - {name: "Preeti Rao", img: "/images/rao.jpg"}
+      - {name: "Peter van Kranenburg", img: "/images/vankranenburg.jpg"}
+  -
+    title: "Diversity and Inclusion"
+    members:
+      - {name: "Blair Kaneshiro", img: "images/kaneshiro.jpg"}
+  -
+    title: "Technology"
+    members:
+      - {name: "Sharath Adavanne", img: "images/placeholder.png"}
+  -
+    title: "Social Program"
+    members:
+      - {name: "Oriol Nieto", img: "images/nieto.jpg"}
+  -
+    title: "Tutorial Program"
+    members:
+      - {name: "Yi-Hsuan Yang", img: "images/yang.jpg"}
+      - {name: "Ashis Pati", img: "images/pati.jpg"}
+  -
+    title: "Late Breaking Demo Program"
+    members:
+      - {name: "Li Su", img: "images/su.jpg"}
+      - {name: "Chih-Wei Wu", img: "images/wu.jpg"}
+      - {name: "Siddharth Gururani", img: "images/gururani.jpg"}
+  -
+    title: "Music Program"
+    members:
+      - {name: "Carlos Guedes", img: "images/placeholder.png"}
+      - {name: "Bochen Li", img: "images/placeholder.png"}
+  -
+    title: "Publications"
+    members:
+      - {name: "Ajay Srinivasamurthy", img: "images/srinivasamurthy.png"}
+  -
+    title: "Sponsorship"
+    members:
+      - {name: "Sertan Senturk", img: "images/placeholder.png"}
+      - {name: "Alia Morsi", img: "images/morsi.jpg"}
