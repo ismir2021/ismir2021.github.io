@@ -23,9 +23,13 @@ permalink: /team/
 
 ![Blair Kaneshiro](images/kaneshiro.jpg) Blair Kaneshiro
 
+![Mohamed Sordo](images/placeholder.png) Mohamed Sordo
+
 ### Technology
 
 ![Sharath Adavanne](images/placeholder.png) Sharath Adavanne
+
+![Andrea Cogliati](images/placeholder.png) Andrea Cogliati
 
 ### Social Program
 
