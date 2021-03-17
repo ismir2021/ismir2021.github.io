@@ -31,6 +31,10 @@ permalink: /team/
 
 ![Andrea Cogliati](images/placeholder.png) Andrea Cogliati
 
+![Stefan Balke](images/placeholder.png) Stefan Balke
+
+![Hendrik Schreiber](images/placeholder.png) Hendrik Schreiber
+
 ### Social Program
 
 ![Oriol Nieto](images/nieto.jpg) Oriol Nieto
