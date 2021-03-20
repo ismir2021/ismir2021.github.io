@@ -1,39 +1,43 @@
-<header class="header" itemscope itemtype="http://schema.org/SiteNavigationElement" aria-label="Main navigation">
+<header aria-label="Main navigation" class="header" itemscope itemtype="http://schema.org/SiteNavigationElement">
     <div class="container">
-        <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand header__logo" href="{{ '/' | relative_url }}">
-                <div class="header__logo--container">
-                    <img src="/assets/logo.svg" width="30" height="30" alt="">
+<!--        <div class="header__inner">-->
+            <nav class="navbar navbar-light navbar-expand-lg py-0">
+                <a class="navbar-brand header__logo" href="{{ '/' | relative_url }}">
+                    <div class="header__logo--container">
+                        <img alt="" height="30" src="/assets/logo.svg" width="30">
+                    </div>
+                </a>
+                <button aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"
+                        data-target="#navbarNavDropdown" data-toggle="collapse" type="button">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        {% for item in site.navigation %}
+                        {% if item.subitems %}
+                        <li class="nav-item dropdown">
+                            <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle"
+                               data-toggle="dropdown" href="#" id="navbarDropdownMenuLink">
+                                {{ item.name }}
+                            </a>
+
+                            <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
+                                {% for subitem in item.subitems %}
+                                <a class="dropdown-item" href="{{ subitem.link }}">{{ subitem.name }}</a>
+                                {% endfor %}
+                            </div>
+                        </li>
+
+                        {% else %}
+                        <li class="nav-item">
+                            <a class="nav-link" href=" {{ item.link }}"> {{ item.name }}</a>
+                        </li>
+                        {% endif %}
+                        {% endfor %}
+                    </ul>
                 </div>
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav ml-auto">
-                    {% for item in site.navigation  %}
-                    {% if item.subitems  %}
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            {{ item.name }}
-                        </a>
-
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            {% for subitem in item.subitems  %}
-                            <a class="dropdown-item" href="{{ subitem.link }}">{{ subitem.name }}</a>
-                            {% endfor %}
-                        </div>
-                    </li>
-
-                    {% else %}
-                    <li class="nav-item">
-                        <a class="nav-link" href=" {{ item.link }}"> {{ item.name }}</a>
-                    </li>
-                    {% endif %}
-                    {% endfor %}
-                </ul>
-            </div>
-        </nav>
-    </div>
-
+            </nav>
+        </div>
+<!--    </div>-->
 </header>
