@@ -2,50 +2,53 @@ chairs:
   -
     title: "General Chairs"
     members:
-      - {name: "Jin Ha Lee", img: "/images/placeholder.png"}
-      - {name: "Alexander Lerch", img: "/images/lerch.jpg"}
+      - {name: "Jin Ha Lee", img: "/assets/team/lee.png"}
+      - {name: "Alexander Lerch", img: "/assets/team/lerch.png"}
 
   -
     title: "Scientific Chairs"
     members:
-      - {name: "Zhiyao Duan", img: "/images/duan.jpg"}
-      - {name: "Juhan Nam", img: "/images/nam.jpg"}
-      - {name: "Preeti Rao", img: "/images/rao.jpg"}
-      - {name: "Peter van Kranenburg", img: "/images/vankranenburg.jpg"}
+      - {name: "Zhiyao Duan", img: "/assets/team/duan.png"}
+      - {name: "Juhan Nam", img: "/assets/team/nam.png"}
+      - {name: "Preeti Rao", img: "/assets/team/rao.png"}
+      - {name: "Peter van Kranenburg", img: "/assets/team/vankranenburg.png"}
   -
     title: "Diversity and Inclusion"
     members:
-      - {name: "Blair Kaneshiro", img: "images/kaneshiro.jpg"}
+      - {name: "Blair Kaneshiro", img: "/assets/team/kaneshiro.png"}
   -
     title: "Technology"
     members:
-      - {name: "Sharath Adavanne", img: "images/placeholder.png"}
+      - {name: "Sharath Adavanne", img: "/assets/team/placeholder.png"}
+      - {name: "Andrea Cogliati", img: "/assets/team/placeholder.png"}
+      - {name: "Stefan Balke", img: "/assets/team/placeholder.png"}
+      - {name: "Hendrik Schreiber", img: "/assets/team/placeholder.png"}
   -
     title: "Social Program"
     members:
-      - {name: "Oriol Nieto", img: "images/nieto.jpg"}
+      - {name: "Oriol Nieto", img: "/assets/team/nieto.png"}
   -
     title: "Tutorial Program"
     members:
-      - {name: "Yi-Hsuan Yang", img: "images/yang.jpg"}
-      - {name: "Ashis Pati", img: "images/pati.jpg"}
+      - {name: "Yi-Hsuan Yang", img: "/assets/team/yang.png"}
+      - {name: "Ashis Pati", img: "/assets/team/pati.png"}
   -
     title: "Late Breaking Demo Program"
     members:
-      - {name: "Li Su", img: "images/su.jpg"}
-      - {name: "Chih-Wei Wu", img: "images/wu.jpg"}
-      - {name: "Siddharth Gururani", img: "images/gururani.jpg"}
+      - {name: "Li Su", img: "/assets/team/su.png"}
+      - {name: "Chih-Wei Wu", img: "/assets/team/wu.png"}
+      - {name: "Siddharth Gururani", img: "/assets/team/gururani.png"}
   -
     title: "Music Program"
     members:
-      - {name: "Carlos Guedes", img: "images/placeholder.png"}
-      - {name: "Bochen Li", img: "images/placeholder.png"}
+      - {name: "Carlos Guedes", img: "/assets/team/placeholder.png"}
+      - {name: "Bochen Li", img: "/assets/team/placeholder.png"}
   -
     title: "Publications"
     members:
-      - {name: "Ajay Srinivasamurthy", img: "images/srinivasamurthy.png"}
+      - {name: "Ajay Srinivasamurthy", img: "/assets/team/srinivasamurthy.png"}
   -
     title: "Sponsorship"
     members:
-      - {name: "Sertan Senturk", img: "images/placeholder.png"}
-      - {name: "Alia Morsi", img: "images/morsi.jpg"}
+      - {name: "Sertan Senturk", img: "/assets/team/placeholder.png"}
+      - {name: "Alia Morsi", img: "/assets/team/morsi.png"}
