@@ -6,8 +6,8 @@
   "abstracts/mixins";
 
 // 2. Vendors
-@import
-  "vendor/normalize";
+//@import
+//  "vendor/normalize";
 
 // 3. Base
 @import
@@ -30,6 +30,7 @@
   "components/form",
   "components/modal",
   "components/table",
+  "components/team",
   "components/syntax";
 
 // 6. Page-specific styles

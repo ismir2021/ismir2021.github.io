@@ -19,9 +19,9 @@ layout: compress
 
     {% include header.html %}
 
-     <div class="hero lazyload" data-bg="{{ site.url }}{{ site.baseurl }}/assets/img/{{ site.hero_img }}">
+      <div class="hero lazyload" data-bg="{{ '/assets/banners/banner.png' | relative_url }}" style='background-image: url("/assets/banners/banner.png");'>
         <div class="hero__wrap">
-            <h2 class="hero__title">
+            <h2 class="hero__title" style="text-align: left">
                 Welcome to the 22<sup>nd</sup>
                 <br>
                 <b>International Society
@@ -33,8 +33,15 @@ layout: compress
 
      <main class="site__content">
          <div class="container">
-             <div class="page-content">
-                 {{ content }}
+             <div class="row">
+                 <div class='col-sm'>
+                     <div class="page-content">
+                         {{ content }}
+                     </div>
+                 </div>
+                 <div class='col-sm'>
+                     <a class="twitter-timeline" data-dnt="true" data-height="50vh" href="https://twitter.com/ismir2021?ref_src=twsrc%5Etfw">Tweets by ismir2021</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                 </div>
              </div>
          </div>
      </main>

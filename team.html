@@ -1,0 +1,22 @@
+---
+layout: page
+title: Team
+permalink: /team/
+---
+
+{% for section in site.data.team.chairs %}
+{% assign amount = 0 %}
+<div class="team__row">
+    <h4 class="team_title"> {{ section.title }} </h4>
+    <div class="row">
+        {% for member in section.members %}
+        <div class="col-sm">
+            <div class="team_container">
+                <img class="team__img" src="{{ member.img | relative_url }}"> </img>
+                <div class="member__name"> {{ member.name }}</div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endfor  %}

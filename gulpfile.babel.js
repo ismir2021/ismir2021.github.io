@@ -184,7 +184,8 @@ gulp.task( "img", () => {
 // Build the Jekyll Site
 gulp.task( "jekyll-build", done =>  {
     browserSync.notify( messages.jekyllBuild );
-    return cp.spawn( jekyll, [ "build" ], { stdio: "inherit" } )
+    console.log(jekyll)
+    return cp.spawn( "bundle", [ "exec", "jekyll", "build" ], { stdio: "inherit" } )
         .on( "close", done );
 } );
 
