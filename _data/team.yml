@@ -52,3 +52,13 @@ chairs:
     members:
       - {name: "Sertan Senturk", img: "/assets/team/placeholder.png"}
       - {name: "Alia Morsi", img: "/assets/team/morsi.png"}
+
+  -
+    title: "Social Media"
+    members:
+      - {name: "Qhansa Bayu", img: "/assets/team/qhansa.png"}
+
+  -
+    title: "Website"
+    members:
+      - {name: "Ashvala Vinay", img: "/assets/team/ashvala.png"}
