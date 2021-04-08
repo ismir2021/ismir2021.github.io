@@ -4,6 +4,8 @@ title: Call for Tutorials
 permalink: /cft/
 ---
 
+[PDF Version](/assets/pdf/cft.pdf)
+
 The annual conference of the International Society for Music Information Retrieval (ISMIR) is the world’s leading research forum on processing, analyzing, searching, organizing and accessing music-related data. The 22nd ISMIR conference, to be held in an all-virtual format, welcomes proposals for tutorials to be given in conjunction with the conference. Tutorials take place at the start of the ISMIR conference, and this year will be held on Sunday, Nov 7, 2021 in an online format. Each tutorial is allocated 3 hours to concentrate on a single topic; tutorials take place in parallel sessions.
 
 To make the conference more accessible and inclusive, in addition to the standard tutorial suggestions, we particularly welcome tutorial proposals which either cover fundamental and introductory topics in MIR, or present an informative and stimulating coverage of current MIR topics in a manner that is targeted towards people new to the field.

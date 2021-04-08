@@ -4,6 +4,8 @@ title: Call for Papers
 permalink: /cfp/
 ---
 
+[PDF Version](/assets/pdf/cfp.pdf)
+
 The annual conference of the International Society for Music Information Retrieval (ISMIR) is the world’s leading research forum on processing, analyzing, searching, organizing and accessing music-related data. The 22nd ISMIR conference, to be held online, welcomes contributions related to any aspect of Music IR, including foundations and theories for music processing, evaluation algorithms, applications, and analysis.
 
 
@@ -72,3 +74,4 @@ For additional information, you can reach the program chairs via [email](mailto:
 Best regards,
 
 Scientific Program Chairs (Zhiyao Duan, Peter van Kranenburg, Juhan Nam, and Preeti Rao)
+

@@ -1,12 +1,14 @@
 chairs:
   -
     title: "General Chairs"
+    email: "ismir2021@ismir.net"
     members:
       - {name: "Jin Ha Lee", img: "/assets/team/lee.png"}
       - {name: "Alexander Lerch", img: "/assets/team/lerch.png"}
 
   -
     title: "Scientific Chairs"
+    email: "ismir2021-papers@ismir.net"
     members:
       - {name: "Zhiyao Duan", img: "/assets/team/duan.png"}
       - {name: "Juhan Nam", img: "/assets/team/nam.png"}
@@ -14,10 +16,12 @@ chairs:
       - {name: "Peter van Kranenburg", img: "/assets/team/vankranenburg.png"}
   -
     title: "Diversity and Inclusion"
+    email: "ismir2021-diversity@ismir.net"
     members:
       - {name: "Blair Kaneshiro", img: "/assets/team/kaneshiro.png"}
   -
     title: "Technology"
+    email: "ismir2021-tech@ismir.net"
     members:
       - {name: "Sharath Adavanne", img: "/assets/team/placeholder.png"}
       - {name: "Andrea Cogliati", img: "/assets/team/placeholder.png"}
@@ -29,29 +33,35 @@ chairs:
       - {name: "Oriol Nieto", img: "/assets/team/nieto.png"}
   -
     title: "Tutorial Program"
+    email: "ismir2021-tutorials@ismir.net"
     members:
       - {name: "Yi-Hsuan Yang", img: "/assets/team/yang.png"}
       - {name: "Ashis Pati", img: "/assets/team/pati.png"}
   -
     title: "Late Breaking Demo Program"
+    email: "ismir2021-lbd@ismir.net"
     members:
       - {name: "Li Su", img: "/assets/team/su.png"}
       - {name: "Chih-Wei Wu", img: "/assets/team/wu.png"}
       - {name: "Siddharth Gururani", img: "/assets/team/gururani.png"}
   -
     title: "Music Program"
+    email: "ismir2021-music@ismir.net"
     members:
       - {name: "Carlos Guedes", img: "/assets/team/placeholder.png"}
       - {name: "Bochen Li", img: "/assets/team/placeholder.png"}
   -
     title: "Publications"
+    email: "ismir2021@ismir.net"
     members:
       - {name: "Ajay Srinivasamurthy", img: "/assets/team/srinivasamurthy.png"}
   -
     title: "Sponsorship"
+    email: "ismir2021-sponsorship@ismir.net"
     members:
-      - {name: "Sertan Senturk", img: "/assets/team/placeholder.png"}
+      - {name: "Sertan Şentürk", img: "/assets/team/sertan.png"}
       - {name: "Alia Morsi", img: "/assets/team/morsi.png"}
+      - {name: "Lamtharn \"Hanoi\" Hantrakul", img: "/assets/team/hanoi.png" }
 
   -
     title: "Social Media"
