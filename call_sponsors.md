@@ -132,7 +132,7 @@ Social Media thank you posts to sponsors. For example:
 
 > At the end of the conference, with all sponsors on the same image ordered by Tiers.
 
-### Announcements
+### Announcements ###
 
 Announcements in social media, ISMIR mailing list, and (if applicable) conference platform. Possible examples:
 
@@ -191,4 +191,4 @@ The conference attendees, who are interested in industry opportunities (full-tim
 
 The Conference will provide a Job Board, which will showcase industrial and academic opportunities. Platinum and Gold Sponsors could post relevant opportunities such as internship openings, call for collaborations, fixed-term or permanent positions.
 
-Job posts from Platinum Sponsors will be promoted in the Job Board and as part of the Industry Spotlight (see [Announcements](#Announcements) section above).
+Job posts from Platinum Sponsors will be promoted in the Job Board and as part of the Industry Spotlight (see [Announcements](#announcements) section above).
