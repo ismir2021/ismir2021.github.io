@@ -84,6 +84,11 @@
   @include breakpoint($md) {
     padding: 3.75rem 0;
   }
+
+  blockquote{
+    border-left: 4px solid #a1a1a1;
+    padding-left: 10px;
+  }
 }
 
 .team_container{

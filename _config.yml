@@ -19,6 +19,7 @@ navigation:
     subitems:
     - {name: "Call for Papers", link: "/cfp/"}
     - {name: "Call for Tutorials", link: "/cft/"}
+    - {name: "Call for Sponsors", link: "/cfs/"}
 
 tagline: >
   International Society for Music Information Retrieval Conference 2021
