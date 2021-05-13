@@ -20,6 +20,7 @@ navigation:
     - {name: "Call for Papers", link: "/cfp/"}
     - {name: "Call for Tutorials", link: "/cft/"}
     - {name: "Call for Sponsors", link: "/cfs/"}
+  - {name: "Code of Conduct", link: "/coc/"}
 
 tagline: >
   International Society for Music Information Retrieval Conference 2021
