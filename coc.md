@@ -10,8 +10,9 @@ ISMIR2021 is committed to providing a harassment-free experience for everyone. A
 
 If you are being harassed, notice that someone else is being harassed, or have any other concerns regarding conference conduct, you may report it through the following channels:
 
-* ISMIR2021 Code of Conduct Email Contacts (Blair Kaneshiro, Jordan Smith): [codeofconduct@ismir.net](mailto:codeofconduct@ismir.net)
 * ISMIR2021 General Chairs (Jin Ha Lee, Alexander Lerch): [ismir2021@ismir.net](mailto:ismir2021@ismir.net)
+* ISMIR2021 Code of Conduct Email Contacts (Blair Kaneshiro, Jordan Smith): [codeofconduct@ismir.net](mailto:codeofconduct@ismir.net)
+* ISMIR Board (roster [here](https://ismir.net/about/)): [board@ismir.net](mailto:board@ismir.net) 
 * Volunteer team contact (24-hour support)
 
 
