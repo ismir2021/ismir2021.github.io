@@ -7,9 +7,9 @@ Welcome to ISMIR21! The ISMIR conference is the world's leading research forum o
 
 
 # Important dates ([AoE](https://en.wikipedia.org/wiki/Anywhere_on_Earth))
-- Tutorial initial submission: April 9, 2021
-- Tutorial submission: April 16, 2021
-- Paper abstract submission: May 8, 2021
+- ~~Tutorial initial submission: April 9, 2021~~
+- ~~Tutorial submission: April 16, 2021~~
+- ~~Paper abstract submission: May 8, 2021~~
 - Paper submission: May 15, 2021
 - Tutorial acceptance notification: June 4, 2021
 - Paper acceptance notification: July 9, 2021
