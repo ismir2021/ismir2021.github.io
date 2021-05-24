@@ -1,0 +1,13 @@
+- title: "Call for Papers"
+  url: "/cfp/"
+  dates:
+    - {name: "Abstract Submission", date: "May 8, 2021", done: true}
+    - {name: "Final Submission", date: "May 15, 2021", done: false}
+    - {name: "Notifcation of Acceptance", date: "July 9, 2021", done: false}
+    - {name: "Camera Ready Upload", date: "August 2, 2021", done: false}
+- title: "Call for Tutorials"
+  url: "/cft/"
+  dates:
+    - {name: "Initial Proposal Submission", date: "April 9, 2021", done: true}
+    - {name: "Final Proposal Submission", date: "April 16, 2021", done: true}
+    - {name: "Notification of Acceptance", date: "June 4, 2021", done: false}

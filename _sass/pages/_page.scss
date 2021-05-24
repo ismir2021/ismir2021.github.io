@@ -77,7 +77,7 @@
 }
 
 .page-content {
-  max-width: 52.5rem;
+  max-width: 72rem;
   margin: 0 auto;
   padding: 2.5em 0;
 
@@ -91,6 +91,22 @@
   }
 }
 
+.deadline-bar{
+  // border-right: 1px dotted #fbfbfb;
+  height: 100%;
+  padding-right: 10px;
+  background: #fbfbfb;
+  box-shadow: 0px 0px 3px #d1d1d1;
+  padding: 1em;
+  .deadline-date{
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+  .deadline-header{
+    margin-bottom: 0.5em;
+
+  }
+}
 .team_container{
   margin-bottom: 10px;
 }
