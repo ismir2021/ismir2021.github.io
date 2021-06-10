@@ -49,9 +49,9 @@ The late-breaking/demo session welcomes topics interesting to the MIR community,
 ### For Special Opt-in Track
 
 In the New-to-ISMIR special track, we especially welcome submissions from junior researchers who would benefit from the mentoring process. In addition to the topics described above, we encourage the following types of submissions:
-Proof of concepts for new MIR methods
-MIR-focused school projects
-Case-studies involving MIR
+- Proof of concepts for new MIR methods
+- MIR-focused school projects
+- Case-studies involving MIR
 
 
 For additional information or questions, you can reach the session chairs via email at [ismir2021-lbd@ismir.net](mailto:ismir2021-lbd@ismir.net).
