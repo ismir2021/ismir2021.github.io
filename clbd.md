@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Call for Late-breaking Demo Contributions
+title: ISMIR 2021 Call for Late-breaking Demo Contributions
 permalink: /clbd/
 ---
 
@@ -10,11 +10,11 @@ Those interested should follow the submission guidelines (see below) and submit 
 
 ## Important Dates
 
-Time zone: Anywhere On Earth (AOE)
-Submission open: August 20 (Fri), 2021
-Submission deadline: October 11 (Mon), 2021
-Notification of acceptance: October 26 (Tue), 2021
-Camera-ready & final video/poster upload: November 1 (Mon), 2021
+- Time zone: Anywhere On Earth (AOE)
+- Submission open: August 20 (Fri), 2021
+- Submission deadline: October 11 (Mon), 2021
+- Notification of acceptance: October 26 (Tue), 2021
+- Camera-ready & final video/poster upload: November 1 (Mon), 2021
 
 ## Submission Guidelines
 
@@ -41,7 +41,7 @@ To promote young researchers and newcomers to the MIR community, the LBD session
 - Participants or mentees from the 2020-2021 WiMIR workshop/mentorship program
 - Self-identifies as an underrepresented minority (e.g., in terms of gender, sexual orientation, race, country of origin)
 
-## Topic of Interest
+## Topics of Interest
 
 The late-breaking/demo session welcomes topics interesting to the MIR community, as specified in the main [call for papers](https://ismir2021.github.io/cfp/), with a special focus on prototype systems, initial concepts, and early results. We aim to provide an inclusive forum that facilitates the discussion of MIR projects in their early stages.
 
@@ -49,9 +49,9 @@ The late-breaking/demo session welcomes topics interesting to the MIR community,
 ### For Special Opt-in Track
 
 In the New-to-ISMIR special track, we especially welcome submissions from junior researchers who would benefit from the mentoring process. In addition to the topics described above, we encourage the following types of submissions:
-- Proof of concepts for new MIR methods
-- MIR-focused school projects
-- Case-studies involving MIR
+Proof of concepts for new MIR methods
+MIR-focused school projects
+Case-studies involving MIR
 
 
-For additional information or questions, you can reach the session chairs via email at [ismir2021-lbd@ismir.net](ismir2021-lbd@ismir.net).
+For additional information or questions, you can reach the session chairs via email at [ismir2021-lbd@ismir.net](mailto:ismir2021-lbd@ismir.net).
