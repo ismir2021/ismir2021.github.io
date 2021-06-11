@@ -3,7 +3,7 @@
   dates:
     - {name: "Abstract Submission", date: "May 8, 2021", done: true}
     - {name: "Final Submission", date: "May 15, 2021", done: false}
-    - {name: "Notifcation of Acceptance", date: "July 9, 2021", done: false}
+    - {name: "Notification of Acceptance", date: "July 9, 2021", done: false}
     - {name: "Camera Ready Upload", date: "August 2, 2021", done: false}
 - title: "Call for Tutorials"
   url: "/cft/"
