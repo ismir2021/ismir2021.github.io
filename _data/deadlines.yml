@@ -10,7 +10,7 @@
   dates:
     - {name: "Initial Proposal Submission", date: "April 9, 2021", done: true}
     - {name: "Final Proposal Submission", date: "April 16, 2021", done: true}
-    - {name: "Notification of Acceptance", date: "June 4, 2021", done: false}
+    - {name: "Notification of Acceptance", date: "June 4, 2021", done: true}
 - title: "Call for Late-breaking Demos"
   url: "/clbd/"
   dates: 
