@@ -32,7 +32,7 @@ All submissions will be screened for the following criteria:
 
 ## Special Opt-in Track: New-to-ISMIR
 
-To promote young researchers and newcomers to the MIR community, the LBD session at ISMIR 2021 specifically welcomes contributions by junior researchers or practitioners to demonstrate their work. 
+To support young researchers and newcomers to the MIR community, the LBD session at ISMIR 2021 specifically welcomes contributions by junior researchers or practitioners to demonstrate their work. 
 
 **Mentoring process:** all submissions under this special track will be mentored by volunteers in the ISMIR community, providing the authors with constructive feedback for potential improvements in their camera-ready versions. 
 
@@ -44,9 +44,6 @@ To promote young researchers and newcomers to the MIR community, the LBD session
 ## Topics of Interest
 
 The late-breaking/demo session welcomes topics interesting to the MIR community, as specified in the main [call for papers](https://ismir2021.github.io/cfp/), with a special focus on prototype systems, initial concepts, and early results. We aim to provide an inclusive forum that facilitates the discussion of MIR projects in their early stages.
-
-
-### For Special Opt-in Track
 
 In the New-to-ISMIR special track, we especially welcome submissions from junior researchers who would benefit from the mentoring process. In addition to the topics described above, we encourage the following types of submissions:
 - Proof of concepts for new MIR methods
