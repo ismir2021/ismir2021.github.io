@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: sponsorship
 title: ISMIR 2021 Call for Sponsors
 permalink: /cfs/
 ---

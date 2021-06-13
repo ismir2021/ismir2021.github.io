@@ -1,0 +1,34 @@
+--- 
+- 
+  Name: Platinum
+  Sponsors:  
+    - 
+      logo: /assets/sponsors/SonyCSL.png
+      name: Sony
+      url: "#"
+- 
+  Name: Gold
+  Sponsors:  
+    - 
+      logo: /assets/sponsors/Yamaha.png
+      name: Yamaha
+      url: "https://www.yamaha.com/en/"
+- 
+  Name: Silver
+  Sponsors: 
+    - 
+      logo: /assets/sponsors/Steinberg.png
+      name: Steinberg
+      url: "https://www.steinberg.net"
+    - 
+      logo: /assets/sponsors/Dolby.png
+      name: Dolby
+      url: "https://www.dolby.com"
+    - 
+      logo: /assets/sponsors/ACRCloud.png
+      name: ACRCloud
+      url: "https://www.acrcloud.com"
+    - 
+      logo: /assets/sponsors/Cochl.png
+      name: Cochlear.ai
+      url: "#"
