@@ -26,29 +26,23 @@ layout: compress
     </div>
     <main class="site__content">
         <div class="container">
-          <div class="row"> 
           <h1> Sponsors </h1>
-            {% for tier in site.data.sponsorship %}
-              <h3> {{ tier.Name }} </h3>
-              <div class="row"> 
-              {% for sponsor in tier.Sponsors %}
-             
-                <div class="col">      
-                 <a class="sponsor__url" href="{{ sponsor.url }}">            
-                    <img class="sponsor__logo" src="{{ sponsor.logo | relative_url }}">
-                  </a>
-                  <h4> {{ sponsor.name }} </h4>
-                </div>
-              
-              {% endfor %}
-              
+          <div class="row">
+            {% for tier in site.data.sponsorship %}              
+                    <h3 class="tier__name"> {{ tier.Name }} </h3>
+                    {% for sponsor in tier.Sponsors %}    
+                    <div class="col-5">
+                      <a class="sponsor__url" href="{{ sponsor.url }}">  
+                        <img class="sponsor__logo" src="{{ sponsor.logo | relative_url }}">                  
+                      <div class="sponsor__name"> {{ sponsor.name }} </div>
+                      </a>
+                    </div>
+                {% endfor %}
             {% endfor %}
           </div>
-          <div class="row">
             <div class="page-content">
                 {{ content }}
             </div>
-          </div>
         </div>
 
     </main>
