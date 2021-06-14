@@ -28,17 +28,19 @@ layout: compress
         <div class="container">
           <h1> Sponsors </h1>
           <div class="row">
-            {% for tier in site.data.sponsorship %}              
+            {% for tier in site.data.sponsorship %}   
                     <h3 class="tier__name"> {{ tier.Name }} </h3>
                     {% for sponsor in tier.Sponsors %}    
                     <div class="col-5">
                       <a class="sponsor__url" href="{{ sponsor.url }}">  
-                        <img class="sponsor__logo" src="{{ sponsor.logo | relative_url }}">                  
-                      <div class="sponsor__name"> {{ sponsor.name }} </div>
+                        <img class="sponsor__logo {{ tier.Name }}" src="{{ sponsor.logo | relative_url }}">                  
+                      <!-- <div class="sponsor__name"> {{ sponsor.name }} </div> -->
                       </a>
                     </div>
                 {% endfor %}
+              
             {% endfor %}
+            </div>
           </div>
             <div class="page-content">
                 {{ content }}
