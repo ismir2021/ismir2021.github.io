@@ -3,6 +3,7 @@ layout: post
 author: ISMIR 2021
 permalink: /blog/preparing/
 title: Preparing a Successful ISMIR Submission
+featured-img: assets/banners/banner.png
 ---
 
 _This blog post is part of a series of posts aimed toward supporting Diversity &amp; Inclusion at the ISMIR2021 conference. It was authored by the Diversity &amp; Inclusion Chairs and Scientific Program Chairs._
