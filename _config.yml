@@ -22,6 +22,7 @@ navigation:
     - {name: "Call for Sponsors", link: "/cfs/"}
     - {name: "Call for Late-breaking Demo Contributions", link: "/clbd/"}
   - {name: "Code of Conduct", link: "/coc/"}
+  - {name: "Blog", link: "/blog/"}
 
 tagline: >
   International Society for Music Information Retrieval Conference 2021
