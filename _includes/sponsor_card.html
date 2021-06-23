@@ -1,8 +1,8 @@
-<h1> Sponsors </h1>
-
 {% for tier in site.data.sponsorship %}   
       <div class="row">
+        <div class="sponsor_tier_pill"> 
           <h3 class="tier__name tier__{{ tier.Name }}"> {{ tier.Name }} </h3>                    
+        </div>
           {% for sponsor in tier.Sponsors %}    
             <div class="col-6">
               <a class="sponsor__url" href="{{ sponsor.url }}">  

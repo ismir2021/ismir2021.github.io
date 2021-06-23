@@ -14,7 +14,21 @@
   font-weight: bold;
 }
 
-.sponsor__name {
+.sponsor_tier_pill{ 
+  width: 100%; 
+  display: flex;
+
+  h3{ 
+    display: inline-block;
+    max-width: 20%;    
+    border-radius: 10px; 
+    text-align: center;
+    padding: 10px; 
+  }
+}
+  
+
+.sponsor__name {  
   margin-bottom: 1em;
   margin-top: 1em;
   text-align: left;
@@ -23,21 +37,19 @@
 }
 
 .tier__Platinum{ 
-  padding: 10px; 
   color: #333333;
   background: -webkit-linear-gradient(top, #d7d7d7, #fdfdfd, #d7d7d7);
+  
 }
 
 
 .tier__Gold{
   background-color: #c9b037;
-  padding: 10px; 
   color: white;
 }
 
 .tier__Silver{ 
   background-color: #b4b4b4;
-  padding: 10px; 
   color: white; 
 }
 
