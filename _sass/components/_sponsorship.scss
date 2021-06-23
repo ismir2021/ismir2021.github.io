@@ -27,21 +27,21 @@
 
 .Platinum{
   display:inline-flex;
-   max-width: 80%;
-   max-height: 80%;  
+    min-width: 330px;
+    min-height: 100%; 
    align-content: center;
 }
 
 
 .Gold{
-   max-width: 66%;
-   max-height: 66%;  
+   min-width: 230px;
+   min-height: 100%; 
    margin: 0px auto;
 }
 
 .Silver{
-  max-width: 70%;
-  max-height: 55%;
+  max-width: 150px;
+  margin-bottom: 2em;
 }
 
 .sponsorRow{

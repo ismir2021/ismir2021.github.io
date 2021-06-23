@@ -4,7 +4,7 @@
       <div class="row">
           <h3 class="tier__name"> {{ tier.Name }} </h3>                    
           {% for sponsor in tier.Sponsors %}    
-            <div class="col">
+            <div class="col-6">
               <a class="sponsor__url" href="{{ sponsor.url }}">  
                 <img class="sponsor__logo {{ tier.Name }}" src="{{ sponsor.logo | relative_url }}"/>                                          
             </a>
