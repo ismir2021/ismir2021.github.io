@@ -11,6 +11,7 @@
 .tier__name{
   margin-top: 1em;
   margin-bottom: 1em;
+  font-weight: bold;
 }
 
 .sponsor__name {
@@ -19,6 +20,25 @@
   text-align: left;
   color: black;
   font-size: 1.1em;
+}
+
+.tier__Platinum{ 
+  padding: 10px; 
+  color: #333333;
+  background: -webkit-linear-gradient(top, #d7d7d7, #fdfdfd, #d7d7d7);
+}
+
+
+.tier__Gold{
+  background-color: #c9b037;
+  padding: 10px; 
+  color: white;
+}
+
+.tier__Silver{ 
+  background-color: #b4b4b4;
+  padding: 10px; 
+  color: white; 
 }
 
 .sponsor__url:hover{

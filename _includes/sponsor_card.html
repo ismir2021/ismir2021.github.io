@@ -2,7 +2,7 @@
 
 {% for tier in site.data.sponsorship %}   
       <div class="row">
-          <h3 class="tier__name"> {{ tier.Name }} </h3>                    
+          <h3 class="tier__name tier__{{ tier.Name }}"> {{ tier.Name }} </h3>                    
           {% for sponsor in tier.Sponsors %}    
             <div class="col-6">
               <a class="sponsor__url" href="{{ sponsor.url }}">  
