@@ -14,15 +14,19 @@ social:
 
 # THEME SETTINGS
 navigation:
-  - {name: "Team", link: "/team/"}
+  
   - name: "Calls"
     subitems:
     - {name: "Call for Papers", link: "/cfp/"}
     - {name: "Call for Tutorials", link: "/cft/"}
     - {name: "Call for Sponsors", link: "/cfs/"}
     - {name: "Call for Late-breaking Demo Contributions", link: "/clbd/"}
-  - {name: "Code of Conduct", link: "/coc/"}
+  - name: "For Attendees"
+    subitems:
+    - {name: "Code of Conduct", link: "/coc/"}
   - {name: "Blog", link: "/blog/"}
+  - {name: "Sponsors", link: "/sponsors/"}
+  - {name: "Team", link: "/team/"}
 
 tagline: >
   International Society for Music Information Retrieval Conference 2021
