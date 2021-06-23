@@ -23,6 +23,7 @@ navigation:
     - {name: "Call for Late-breaking Demo Contributions", link: "/clbd/"}
   - name: "For Attendees"
     subitems:
+    - {name: "Accepted Tutorials", link: "/tutorials"}  
     - {name: "Code of Conduct", link: "/coc/"}
   - {name: "Blog", link: "/blog/"}
   - {name: "Sponsors", link: "/sponsors/"}
