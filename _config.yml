@@ -67,6 +67,9 @@ permalink: /:title/
 compress_html:
   clippings: all
 
+kramdown: 
+  parse_block_html: true 
+
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag

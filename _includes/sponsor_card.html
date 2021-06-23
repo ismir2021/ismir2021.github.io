@@ -1,0 +1,14 @@
+<h1> Sponsors </h1>
+
+{% for tier in site.data.sponsorship %}   
+      <div class="row">
+          <h3 class="tier__name"> {{ tier.Name }} </h3>                    
+          {% for sponsor in tier.Sponsors %}    
+            <div class="col">
+              <a class="sponsor__url" href="{{ sponsor.url }}">  
+                <img class="sponsor__logo {{ tier.Name }}" src="{{ sponsor.logo | relative_url }}"/>                                          
+            </a>
+          </div>
+          {% endfor %}
+      </div>
+{% endfor %}
