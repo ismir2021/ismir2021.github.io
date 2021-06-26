@@ -81,7 +81,7 @@ We provide an accompanying code repository and Jupyter notebooks that can be use
 
 [1] [A Tutorial on Deep Learning for Music Information Retrieval, Keunwoo Choi et al., 2017](https://arxiv.org/abs/1709.04396) (Concepts in deep learning) [https://arxiv.org/abs/1709.04396](https://arxiv.org/abs/1709.04396)
 
-[2] [An Introduction to Statistical Learning, Daniela Witten et al., 2013](https://www.statlearning.com/) (Chapter 2-4 for ML fundamentals) https://www.statlearning.com/
+[2] [An Introduction to Statistical Learning, Daniela Witten et al., 2013](https://www.statlearning.com/) (Chapter 2-4 for ML fundamentals) [https://www.statlearning.com/](https://www.statlearning.com/)
 
 **Biography of Presenters**
 
