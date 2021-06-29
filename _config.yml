@@ -21,6 +21,7 @@ navigation:
     - {name: "Call for Tutorials", link: "/cft/"}
     - {name: "Call for Sponsors", link: "/cfs/"}
     - {name: "Call for Late-breaking Demo Contributions", link: "/clbd/"}
+  - {name: "Attend", link: "/attend/"}
   - name: "For Attendees"
     subitems:
     - {name: "Accepted Tutorials", link: "/tutorials/"}  

@@ -6,6 +6,7 @@
 .sponsor__logo { 
   max-width: 30%;
   max-height: 40%;  
+
 }
 
 .tier__name{
@@ -20,8 +21,8 @@
 
   h3{ 
     display: inline-block;
-    min-width: 30%;
-    max-width: 30%;    
+    min-width: 40%;
+    max-width: 40%;    
     border-radius: 10px; 
     text-align: left;
     padding: 5px 10px; 
@@ -60,9 +61,9 @@
 
 .Platinum{
   display:inline-flex;
-    min-width: 330px;
-    min-height: 100%; 
-   align-content: center;
+  min-width: 330px;
+  min-height: 100%; 
+  align-content: center;
 }
 
 
