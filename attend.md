@@ -22,7 +22,7 @@ Registration for ISMIR 2021 is [now open](https://epay.gatech.edu/C20793_ustores
 
 *free for ISMIR attendees
 
-Please find information on tutorials [here]({{ /tutorials/ | relative_url }}). Information on the Satellite events is available here: [MDX](https://www.aicrowd.com/challenges/music-demixing-challenge-ismir-2021) and [NLP4Mus](https://sites.google.com/view/nlp4musa-2021).
+Please find information on tutorials [here](/tutorials/). Information on the Satellite events is available here: [MDX](https://www.aicrowd.com/challenges/music-demixing-challenge-ismir-2021) and [NLP4Mus](https://sites.google.com/view/nlp4musa-2021).
 
 For additional information, please feel free to contact the ISMIR registration team via [ismir2021-registration@ismir.net](mailto:ismir2021-registration@ismir.net)
 
