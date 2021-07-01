@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Attendee information
-permalink: /attend/
+title: Registration
+permalink: /registration/
 ---
 
 
