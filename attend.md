@@ -11,14 +11,10 @@ Registration for ISMIR 2021 is [now open](https://epay.gatech.edu/C20793_ustores
 
 |                               | Early Bird (until Sep 30)        |    Late      |
 |:-----------------------------:|:--------------------------------:|:-------------------:|
-| ISMIR Registration (Full)     | $100 | $150|
-| ISMIR Registration (Student)  | $15  | $25|
-| Tutorials (Full)              | $30  | $30|
-| Tutorials (Student)           | $5   | $5|
-| Satellite: NLP4Mus (Full)*    | $14  | $14|
-| Satellite: NLP4Mus (Student)* | $10  | $10|
-| Satellite: MDX (Full)*        | $14  | $14|
-| Satellite: MDX (Student)*     | $10  | $10|
+| ISMIR Registration (Full/Student)     | $100/$15 | $150/$25|
+| Tutorials (Full/Student)              | $30/$5  | $30/$5|
+| Satellite: NLP4Mus (Full/Student)*    | $14/$10  | $14/$10|
+| Satellite: MDX (Full/Student)*        | $14/$10  | $14/$10|
 
 *free for ISMIR attendees
 
