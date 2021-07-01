@@ -20,10 +20,10 @@ navigation:
     - {name: "Call for Papers", link: "/cfp/"}
     - {name: "Call for Tutorials", link: "/cft/"}
     - {name: "Call for Sponsors", link: "/cfs/"}
-    - {name: "Call for Late-breaking Demo Contributions", link: "/clbd/"}
-  - {name: "Attend", link: "/attend/"}
-  - name: "For Attendees"
+    - {name: "Call for Late-breaking Demo Contributions", link: "/clbd/"}  
+  - name: "Attend"
     subitems:
+    - {name: "Registration", link: "/registration/"}
     - {name: "Accepted Tutorials", link: "/tutorials/"}  
     - {name: "Code of Conduct", link: "/coc/"}
   - {name: "Blog", link: "/blog/"}
