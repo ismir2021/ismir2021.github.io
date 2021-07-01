@@ -3,10 +3,10 @@
   min-height: 16.25rem;
   width: 100%;
   position: relative;
-  background-color: #dde5ea;
+  background-color: #222;
   background-repeat: no-repeat;
   background-position: 50%;
-  background-size: cover;
+  background-size: cover;  
 
   @include breakpoint($lg) {
     margin: 0 auto;
@@ -129,3 +129,13 @@ img{
     padding-top: 5em;
   }
 }
+
+.post__meta{
+  padding-top:5em;
+  margin: 3.75rem auto 0;
+  min-height: 10.25rem;
+  width: 100%;
+  margin-bottom: 2em;
+  margin-top: 2rem;
+}
+

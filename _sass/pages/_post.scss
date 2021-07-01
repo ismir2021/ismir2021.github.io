@@ -6,6 +6,14 @@
   @include breakpoint($md) {
     padding-top: 5em;
   }
+
+  blockquote{
+    margin-left: 1rem;
+  }
+
+  hr{ 
+    background: #222;
+  }
 }
 
 .comments {
@@ -60,3 +68,8 @@
     }
   }
 }
+
+time{
+  color: black;
+}
+

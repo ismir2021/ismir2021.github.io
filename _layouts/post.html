@@ -19,8 +19,8 @@ layout: compress
 
 {% include header.html %}
 
-  {% if page.featured-img %}
-  <div class="hero lazyload" data-bg="{{ site.url }}{{ site.baseurl }}/assets/img/posts/{{ page.featured-img }}.jpg">
+<!--   {% if page.featured-img %}
+  <div class="hero lazyload"> 
   {% else %}
   <div class="hero dark-bg">
   {% endif %}
@@ -38,27 +38,20 @@ layout: compress
           {% endfor %}
         </div>
       {% endif %}
-      <h1 class="hero__title">{{ page.title }}</h1>
+      
+            
       <p class="hero__meta">
         <span>
-          <time>{{ page.date | date_to_string }}</time>&nbsp;&middot;
-        </span>
-        <span>
-            {% assign words = content | number_of_words %}
-              {% if words < 360 %}
-                1 min
-              {% else %}
-                {{ words | divided_by:180 }} mins
-            {% endif %} read
+          <time>{{ page.date | date_to_string }}</time>
         </span>
       </p>
     </div>
-  </div>
+  </div> -->
 
   <main class="site__content">
     <div class="container">
       <article class="post-content" itemprop="articleBody">
-
+        <div class="post__meta"> <h1>{{ page.title }}</h1> <time>{{ page.date | date_to_string }}</time> </div>
         {{ content }}
 
       </article>

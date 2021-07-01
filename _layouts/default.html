@@ -20,13 +20,17 @@ layout: compress
     {% include header.html %}
 
 <!--    <div class="hero lazyload" data-bg="{{ site.url }}{{ site.baseurl }}/assets/img/{{ site.hero_img }}">-->
-    <div class="hero lazyload" data-bg="{{ '/assets/banners/banner.png' | relative_url }}">
-      <div class="hero__wrap">
-        <h1 class="hero__title">{{ site.title | escape }}</h1>
-        <p class="hero__meta">{{ site.tagline }}</p>
-      </div>
-    </div>
-
+      <div class="hero lazyload" data-bg="{{ '/assets/banners/banner.png' | relative_url }}" style='background-image: url("/assets/banners/banner.png");'>
+        <div class="hero__wrap">
+            <h2 class="hero__title" style="text-align: left">
+                Welcome to the 22<sup>nd</sup>
+                <br>
+                <b>International Society
+                    <br>for Music Information Retrieval</b>
+                    <br>Conference
+            </h2>
+        </div>
+     </div>
     <main class="site__content">
       <section class="blog">
         <div class="container">

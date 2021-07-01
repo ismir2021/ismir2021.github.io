@@ -1,0 +1,84 @@
+.sponsor__url { 
+    border-bottom: none;
+
+}
+
+.sponsor__logo { 
+  max-width: 30%;
+  max-height: 40%;  
+
+}
+
+.tier__name{
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-weight: bold;
+}
+
+.sponsor_tier_pill{ 
+  width: 100%; 
+  display: flex;
+
+  h3{ 
+    display: inline-block;
+    min-width: 40%;
+    max-width: 40%;    
+    border-radius: 10px; 
+    text-align: left;
+    padding: 5px 10px; 
+  }
+}
+  
+
+.sponsor__name {  
+  margin-bottom: 1em;
+  margin-top: 1em;
+  text-align: left;
+  color: black;
+  font-size: 1.1em;
+}
+
+.tier__Platinum{ 
+  color: #333333;
+  background: -webkit-linear-gradient(top, #d7d7d7, #fdfdfd, #d7d7d7);
+  
+}
+
+
+.tier__Gold{
+  background-color: #c9b037;
+  color: white;
+}
+
+.tier__Silver{ 
+  background-color: #b4b4b4;
+  color: white; 
+}
+
+.sponsor__url:hover{
+  border-bottom: none;
+}
+
+.Platinum{
+  display:inline-flex;
+  min-width: 330px;
+  min-height: 100%; 
+  align-content: center;
+}
+
+
+.Gold{
+   min-width: 230px;
+   min-height: 100%; 
+   margin: 0px auto;
+}
+
+.Silver{
+  max-width: 150px;
+  margin-bottom: 2em;
+}
+
+.sponsorRow{
+  background: #aaa;
+  margin-bottom: 3px;
+}
