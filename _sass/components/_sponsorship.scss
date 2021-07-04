@@ -4,10 +4,12 @@
 }
 
 .sponsor__logo { 
-  max-width: 30%;
-  max-height: 40%;  
-
-}
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: contain;
+  border: none !important;
+  border-image-width: 0px;
+} 
 
 .tier__name{
   margin-top: 1em;
@@ -62,23 +64,22 @@
 .Platinum{
   display:inline-flex;
   min-width: 330px;
-  min-height: 100%; 
-  align-content: center;
+  min-height: 330px; 
+  align-content: center;  
 }
 
 
 .Gold{
-   min-width: 230px;
-   min-height: 100%; 
+   min-width: 250px;
+   min-height: 250px; 
    margin: 0px auto;
 }
 
 .Silver{
-  max-width: 150px;
-  margin-bottom: 2em;
+  min-width: 180px;
+  min-height: 180px;
+
 }
 
-.sponsorRow{
-  background: #aaa;
-  margin-bottom: 3px;
-}
+
+

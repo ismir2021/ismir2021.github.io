@@ -19,7 +19,11 @@
     - 
       logo: /assets/sponsors/Steinberg.png
       name: Steinberg
-      url: "https://www.steinberg.net"
+      url: "https://www.steinberg.net"   
+    - 
+      logo: /assets/sponsors/Deezer.svg
+      name: Deezer
+      url: "https://research.deezer.com/"   
     - 
       logo: /assets/sponsors/Dolby.png
       name: Dolby
@@ -36,3 +40,7 @@
       logo: /assets/sponsors/Orfium.png
       name: Orfium
       url: "https://www.orfium.com"
+    - 
+      logo: /assets/sponsors/Apple.jpg
+      name: Apple
+      url: "#"

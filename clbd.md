@@ -4,6 +4,8 @@ title: ISMIR 2021 Call for Late-breaking Demo Contributions
 permalink: /clbd/
 ---
 
+[PDF Version](/assets/pdf/clbd.pdf)
+
 LBD session is a forum for sharing prototype systems, initial concepts, and early results which have not yet fully matured but are of interest to the Music-IR community. It is also a great entry point for people who are new to ISMIR to showcase their preliminary work and receive early feedback from fellow researchers. To better support and encourage contributions from people **who are attending ISMIR for the first time**, we are happy to announce a **special opt-in track** in this year's LBD session, which includes a mentoring process that provides constructive feedback to the authors.
 
 Those interested should follow the submission guidelines (see below) and submit extended abstracts through the system. The accepted abstracts must be presented by at least one author as a poster during the LBD session. **Note that the LBD abstract is not a conference paper and will not be part of the official ISMIR 2021 proceedings.**

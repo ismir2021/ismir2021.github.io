@@ -4,9 +4,9 @@
           <h3 class="tier__name tier__{{ tier.Name }}"> {{ tier.Name }} Sponsors </h3>                    
         </div>
           {% for sponsor in tier.Sponsors %}    
-            <div class="col-6">
+            <div class="col-6 sponsor_logo_box">
               <a class="sponsor__url" href="{{ sponsor.url }}">  
-                <img class="sponsor__logo {{ tier.Name }}" src="{{ sponsor.logo | relative_url }}"/>                                          
+                <img class="sponsor__logo {{ tier.Name }}" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" style="background-image: url({{ sponsor.logo | relative_url }})" />                                         
             </a>
           </div>
           {% endfor %}
