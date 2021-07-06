@@ -22,6 +22,11 @@
   dates:
     - {name: "Author Registration Deadline", date: "Aug 9, 2021", done: false}
     - {name: "Early Bird Registration Deadline", date: "Sep 30, 2021", done: false}
+- title: "Grants"
+  url: "#"
+  dates: 
+    - {name: "Deadline for Authors", date: "Jul 26, 2021", done: false}
+    - {name: "Deadline for Early Bird pricing", date: "Sep 13, 2021", done: false}
 - title: "Main Event"
   url: "#"
   dates: 
