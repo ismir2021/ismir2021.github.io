@@ -29,3 +29,19 @@ table {
   }
 }
 
+.table{
+  border: none !important;
+  th,
+  td{
+    border: none;
+  }
+  font-size: 1.1em;
+  a{
+    h5{
+      color: #0B7A75;
+    }
+    h5:hover{ 
+      color: #19535f;
+    }
+  }
+}
