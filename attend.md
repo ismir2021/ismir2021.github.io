@@ -29,9 +29,9 @@ Please check if you are eligible, apply, and receive your waiver before you regi
 ### Important Dates (AoE)
 
 * Author registration deadline (one paper per author): Aug 9, 2021
+	* Grant application deadline for authors: July 26, 2021
 * Early bird registration deadline: Sep 30, 2021
-* Grant application deadline for authors: July 26, 2021
-* Grant application deadline for early bird pricing: September 13, 2021
+	* Grant application deadline for early bird pricing: September 13, 2021
 
 ### Refund Policy
 
