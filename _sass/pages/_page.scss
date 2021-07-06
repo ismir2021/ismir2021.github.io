@@ -65,8 +65,7 @@
   }
 
   .hero__title {
-    font-size: 1.8em;
-    font-family: "Roboto", sans-serif;
+    font-size: 1.8em;    
     color: #000000;
 
     @include breakpoint($md) {
