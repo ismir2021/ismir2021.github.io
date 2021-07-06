@@ -116,18 +116,35 @@ img{
     width: 100px;
   }
 }
+
 .blog {
   background-color: #f9f9f9;
+  h3{
+      padding-top: 0.125em;
+    }
 }
 
+
+
 .post-list {
-  padding-top: 2.5em;
+  padding-top: 1.65em;
   display: flex;
   flex-wrap: wrap;
   flex: 1 0 auto;
-
   @include breakpoint($md) {
     padding-top: 5em;
+  }
+}
+
+.home-post-list{
+ 
+  padding-top: 1.65em;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 0 auto;
+  @include breakpoint($md) {
+    padding-top: 1.65em;
+
   }
 }
 

@@ -3,28 +3,33 @@
   dates:
     - {name: "Abstract Submission", date: "May 8, 2021", done: true}
     - {name: "Final Submission", date: "May 15, 2021", done: true}
-    - {name: "Notification of Acceptance", date: "July 9, 2021", done: false}
-    - {name: "Camera Ready Upload", date: "August 2, 2021", done: false}
+    - {name: "Notification of Acceptance", date: "Jul 9, 2021", done: false}
+    - {name: "Camera Ready Upload", date: "Aug 2, 2021", done: false}
 - title: "Call for Tutorials"
   url: "/cft/"
   dates:
-    - {name: "Initial Proposal Submission", date: "April 9, 2021", done: true}
-    - {name: "Final Proposal Submission", date: "April 16, 2021", done: true}
-    - {name: "Notification of Acceptance", date: "June 4, 2021", done: true}
+    - {name: "Initial Proposal Submission", date: "Apr 9, 2021", done: true}
+    - {name: "Final Proposal Submission", date: "Apr 16, 2021", done: true}
+    - {name: "Notification of Acceptance", date: "Jun 4, 2021", done: true}
 - title: "Call for Late-breaking Demos"
   url: "/clbd/"
   dates: 
-    - {name: "Submission open date", date: "August 20, 2021", done: false}
-    - {name: "Submission deadline", date: "October 11, 2021", done: false}
-    - {name: "Notification of Acceptance", date: "October 26, 2021", done: false}
+    - {name: "Submission open date", date: "Aug 20, 2021", done: false}
+    - {name: "Submission deadline", date: "Oct 11, 2021", done: false}
+    - {name: "Notification of Acceptance", date: "Oct 26, 2021", done: false}
+- title: "Registration"
+  url: "/attend/"
+  dates:
+    - {name: "Author Registration Deadline", date: "Aug 9, 2021", done: false}
+    - {name: "Early Bird Registration Deadline", date: "Sep 30, 2021", done: false}
 - title: "Main Event"
   url: "#"
   dates: 
-    - {name: "Tutorials", date: "November 7, 2021", done: false}
-    - {name: "Scientific Program", date: "November 8-11, 2021", done: false}
+    - {name: "Tutorials", date: "Nov 7, 2021", done: false}
+    - {name: "Scientific Program", date: "Nov 8-11, 2021", done: false}
 - title: "Satellite Events"
   url: "#"
   dates: 
-    - {name: "WiMIR Workshop", date: "October 29-30, 2021", done: false}
-    - {name: "DMX", date: "November 12, 2021", done: false}
-    - {name: "NLP4MusA", date: "November 12, 2021", done: false}
+    - {name: "WiMIR Workshop", date: "Oct 29-30, 2021", done: false}
+    - {name: "DMX", date: "Nov 12, 2021", done: false}
+    - {name: "NLP4MusA", date: "Nov 12, 2021", done: false}
