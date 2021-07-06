@@ -17,8 +17,8 @@ permalink: /team/
 
     <div class="row">
         {% for member in section.members %}
-        <div class="col-sm">
-            <div class="team_container">
+        <div class="col-3">
+            <div class="text-center team_container">
                 <img class="team__img" src="{{ member.img | relative_url }}"> </img>
                 <div class="member__name"> {{ member.name }}</div>
             </div>
