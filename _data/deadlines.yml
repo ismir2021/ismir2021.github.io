@@ -16,14 +16,14 @@
   dates: 
     - {name: "Submission open date", date: "August 20, 2021", done: false}
     - {name: "Submission deadline", date: "October 11, 2021", done: false}
-    - {name: "Notification of Acceptance", date: "October 26, 2021", done: false}- title: "Call for Late-breaking Demos"
+    - {name: "Notification of Acceptance", date: "October 26, 2021", done: false}
 - title: "Main Event"
-  url: ""
+  url: "#"
   dates: 
     - {name: "Tutorials", date: "November 7, 2021", done: false}
-    - {name: "Scientific Program", date: "November 8-11, 2021", done: false}- title: "Main Event"
+    - {name: "Scientific Program", date: "November 8-11, 2021", done: false}
 - title: "Satellite Events"
-  url: ""
+  url: "#"
   dates: 
     - {name: "WiMIR Workshop", date: "October 29-30, 2021", done: false}
     - {name: "DMX", date: "November 12, 2021", done: false}
