@@ -33,9 +33,11 @@ table {
   border: none !important;
   th,
   td{
-    border: none;
-  }
-  font-size: 1.1em;
+    border: none;    
+  };
+
+  font-size: 1.05em;
+
   a{
     h5{
       color: #0B7A75;
@@ -43,5 +45,12 @@ table {
     h5:hover{ 
       color: #19535f;
     }
+  }
+}
+
+.deadline-table{
+  tr{
+    margin-top: 1em !important; 
+    margin-bottom: 1em !important;
   }
 }

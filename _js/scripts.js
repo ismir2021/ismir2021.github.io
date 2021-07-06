@@ -246,6 +246,12 @@ function addErrorData( element, error ) {
     element.after( "<span class='error-data'>" + error + "</span>" );
 }
 
+$('.twitter-feed').on('DOMSubtreeModified propertychange',"#twitter-widget-0", function() {
+  $(".twitter-timeline").contents().find(".timeline-Tweet-text").css("font-size", "1.75rem");
+  $(".twitter-timeline").contents().find(".timeline-Tweet-text").css("line-height", "1.2em");
+});
+
+
 
 /*-------------------------------------------------------------------------*/
 /* AJAX FORM SUBMIT

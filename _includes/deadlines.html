@@ -1,6 +1,6 @@
 <div class="deadline-bar table-responsive">
 
-    <table class="table table-sm">
+    <table class="deadline-table table">
         <h4 class="deadline-header"> Important Dates (<a href="https://en.wikipedia.org/wiki/Anywhere_on_Earth">AoE</a>)</h4>
         {% for deadline in site.data.deadlines %}
         <th scope="row"> <a href="{{ deadline.url | relative_url }}"> <h5> {{ deadline.title }} </h5> </a> </th>

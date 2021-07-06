@@ -6,7 +6,7 @@ layout: compress
 
   {% include head.html %}
 
-  <body class="site">
+  <body class="site" onload="customTwitter()">
 
     {% if site.google_tag_manager %}
 
@@ -57,8 +57,8 @@ layout: compress
                       </section>
                      </div>
                      <hr>
-                    <div class='row'>
-                         <a class="twitter-timeline" data-dnt="true" data-height="75vh" href="https://twitter.com/ismir2021?ref_src=twsrc%5Etfw">Tweets by ismir2021</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    <div class='row twitter-feed'>
+                         <a class="twitter-timeline" data-dnt="true" data-height="75vh" data-font-size="1em" href="https://twitter.com/ismir2021?ref_src=twsrc%5Etfw">Tweets by ismir2021</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                      </div>
 
                  </div>
@@ -70,5 +70,4 @@ layout: compress
     {% include footer.html %}
 
   </body>
-
 </html>
