@@ -46,10 +46,14 @@ table {
       color: #19535f;
     }
   }
+
+  .deadline-title{
+    padding-top: 2em;
+  }
 }
 
 .deadline-table{
-  tr{
+  th{
     margin-top: 1em !important; 
     margin-bottom: 1em !important;
   }
