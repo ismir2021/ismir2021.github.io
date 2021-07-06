@@ -18,7 +18,7 @@
     - {name: "Submission deadline", date: "Oct 11, 2021", done: false}
     - {name: "Notification of Acceptance", date: "Oct 26, 2021", done: false}
 - title: "Registration"
-  url: "/attend/"
+  url: "/registration/"
   dates:
     - {name: "Author Registration Deadline", date: "Aug 9, 2021", done: false}
     - {name: "Early Bird Registration Deadline", date: "Sep 30, 2021", done: false}
