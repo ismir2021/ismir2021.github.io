@@ -7,6 +7,9 @@
 }
 .team_title{
   margin-bottom: 1.1em;
+  &:hover{
+    color: #0B7A75; 
+  }
 }
 .team__row{
   margin-bottom: 1.1em;

@@ -15,6 +15,6 @@
   }
 
   @include breakpoint($xl) {
-    @include container(1170px);
+    @include container(1536px);
   }
 }

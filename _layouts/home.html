@@ -6,7 +6,7 @@ layout: compress
 
   {% include head.html %}
 
-  <body class="site">
+  <body class="site" onload="customTwitter()">
 
     {% if site.google_tag_manager %}
 
@@ -35,14 +35,32 @@ layout: compress
          <div class="container">
              <div class="page-content">
              <div class="row">
-                 <div class="col-sm">
+                 <div class="col-sm-4">
                      {% include deadlines.html %}
                  </div>
-                 <div class='col-sm'>
-                     {{ content }}
-                     <div class='row'>
-                         <a class="twitter-timeline" data-dnt="true" data-height="75vh" href="https://twitter.com/ismir2021?ref_src=twsrc%5Etfw">Tweets by ismir2021</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                 <div class='col-lg'>  
+                    <div class="row home-content">                        
+                         {{ content }}
                      </div>
+                     <hr>
+                     <div class="row">                        
+                        <section class="blog">
+                        <h3> Read our blog posts </h3>
+                          <div class="home-post-list" itemscope="" itemtype="http://schema.org/Blog">
+
+                            {% for post in site.posts %}
+                              {% include card.html %}
+                            {% endfor %}
+
+                           <!--  {% include pagination.html %} -->
+                          </div>
+                      </section>
+                     </div>
+                     <hr>
+                    <div class='row twitter-feed'>
+                         <a class="twitter-timeline" data-dnt="true" data-height="75vh" data-font-size="1em" href="https://twitter.com/ismir2021?ref_src=twsrc%5Etfw">Tweets by ismir2021</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                     </div>
+
                  </div>
 
              </div>
@@ -52,5 +70,4 @@ layout: compress
     {% include footer.html %}
 
   </body>
-
 </html>

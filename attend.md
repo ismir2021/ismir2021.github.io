@@ -7,7 +7,7 @@ permalink: /registration/
 
 ### Registration
 
-Registration for ISMIR 2021 is [now open](https://epay.gatech.edu/C20793_ustores/web/store_main.jsp?STOREID=503). At least one author per paper needs to register by Aug 2, 2021. All prices are in USD.
+Registration for ISMIR 2021 is [now open](https://epay.gatech.edu/C20793_ustores/web/store_main.jsp?STOREID=503). At least one author per paper needs to register by Aug 9, 2021. All prices are in USD.
 
 |                               | Early Bird (until Sep 30)        |    Late      |
 |:-----------------------------:|:--------------------------------:|:-------------------:|
@@ -37,4 +37,4 @@ Cancellations made before 15 October 2021 will receive a full refund minus the a
 
 ### Code of Conduct
 
-ISMIR2020 is committed to providing a harassment-free experience for everyone. All conference attendees agree to follow the [Code of Conduct](https://ismir2021.ismir.net/coc/)
+ISMIR2021 is committed to providing a harassment-free experience for everyone. All conference attendees agree to follow the [Code of Conduct](https://ismir2021.ismir.net/coc/)

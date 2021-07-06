@@ -1,28 +1,28 @@
-<div class="deadline-bar">
-    <h4 class="deadline-header"> Important Dates (<a href="https://en.wikipedia.org/wiki/Anywhere_on_Earth">AoE</a>)</h4>
-    {% for deadline in site.data.deadlines %}
-        <a href="{{ deadline.url | relative_url }}"> <h5> {{ deadline.title }} </h5> </a>
+<div class="deadline-bar table-responsive">
+
+    <table class="deadline-table table">
+        <h4 class="deadline-header"> Important Dates (<a href="https://en.wikipedia.org/wiki/Anywhere_on_Earth">AoE</a>)</h4>
+        {% for deadline in site.data.deadlines %}
+        <th class="deadline-title" scope="row"> <a href="{{ deadline.url | relative_url }}"> <h5> {{ deadline.title }} </h5> </a> </th>
         {% for date in deadline.dates %}
-            <div class="row">
-                <div class="deadline-date">
-                    {% if date.done != true %}
-                    <div class="col-sm">
-                        {{ date.name }}
-                    </div>
-                    <div class="col-sm">
-                        {{ date.date }}
-                    </div>
-                    {% else %}
-                        <div class="col-sm">
-                            <del> {{ date.name }} </del>
-                        </div>
-                        <div class="col-sm">
-                            <del> {{ date.date }} </del>
-                        </div>
-                    {% endif %}
-                </div>
-            </div>
+        <tr>            
+            {% if date.done != true %}
+                <td>
+                    {{ date.name }}
+                </td>
+                <td>
+                    {{ date.date }}
+                </td>
+            {% else %}
+                    <td>
+                        <del> {{ date.name }} </del>
+                    </td>
+                    <td>
+                        <del> {{ date.date }} </del>
+                    </td>
+            {% endif %}    
+        </tr>   
         {% endfor %}
     {% endfor %}
-
+    </table>
 </div>
