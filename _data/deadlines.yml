@@ -1,17 +1,17 @@
-- title: "Call for Papers"
+- title: "Papers"
   url: "/cfp/"
   dates:
     - {name: "Abstract Submission", date: "May 8, 2021", done: true}
     - {name: "Final Submission", date: "May 15, 2021", done: true}
     - {name: "Notification of Acceptance", date: "Jul 9, 2021", done: false}
     - {name: "Camera Ready Upload", date: "Aug 2, 2021", done: false}
-- title: "Call for Tutorials"
+- title: "Tutorials"
   url: "/cft/"
   dates:
     - {name: "Initial Proposal Submission", date: "Apr 9, 2021", done: true}
     - {name: "Final Proposal Submission", date: "Apr 16, 2021", done: true}
     - {name: "Notification of Acceptance", date: "Jun 4, 2021", done: true}
-- title: "Call for Late-breaking Demos"
+- title: "Late-breaking Demos"
   url: "/clbd/"
   dates: 
     - {name: "Submission open date", date: "Aug 20, 2021", done: false}
