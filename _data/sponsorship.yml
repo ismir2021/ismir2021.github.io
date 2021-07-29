@@ -17,9 +17,17 @@
   Name: Silver
   Sponsors: 
     - 
-      logo: /assets/sponsors/Steinberg.png
-      name: Steinberg
-      url: "https://www.steinberg.net"   
+      logo: /assets/sponsors/ACRCloud.png
+      name: ACRCloud
+      url: "https://www.acrcloud.com"
+    - 
+      logo: /assets/sponsors/Apple.jpg
+      name: Apple
+      url: "https://www.apple.com/jobs/us/teams/machine-learning-and-ai.html"
+    - 
+      logo: /assets/sponsors/Cochl.png
+      name: Cochlear.ai
+      url: "#"
     - 
       logo: /assets/sponsors/Deezer.svg
       name: Deezer
@@ -29,18 +37,14 @@
       name: Dolby
       url: "https://www.dolby.com"
     - 
-      logo: /assets/sponsors/ACRCloud.png
-      name: ACRCloud
-      url: "https://www.acrcloud.com"
-    - 
-      logo: /assets/sponsors/Cochl.png
-      name: Cochlear.ai
+      logo: /assets/sponsors/iZotope.png
+      name: iZotope
       url: "#"
     - 
       logo: /assets/sponsors/Orfium.png
       name: Orfium
       url: "https://www.orfium.com"
     - 
-      logo: /assets/sponsors/Apple.jpg
-      name: Apple
-      url: "#"
+      logo: /assets/sponsors/Steinberg.png
+      name: Steinberg
+      url: "https://www.steinberg.net"   
