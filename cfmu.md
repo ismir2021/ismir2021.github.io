@@ -10,8 +10,8 @@ ISMIR 2021 invites submissions of music works for the concert program during the
 
 This year, music from any genre and in any formats is invited for submission. However, to make it a good fit for an online format and make it more interesting, we propose three themes that participants are encouraged to explore:
 
-* **Networked Ensemble**. Contributors form teams to record ensemble performances to submit. Performers in different locations can pre-record each track and assemble it with others’ tracks by post editing, to perform as if the performances were played at the same time. 
-* **Live Performance**. Participants can also select to do a live performance using specialized audio streaming software (like Jacktrip, Soundjack, or Jamulus) providing the audio to a multiple screen chat application like Jitsi or Zoom. Arrangements with the music program chairs should be done in advance for this to happen. 
+* **Networked Ensemble**. Participants form teams to record ensemble performances to submit. Performers in different locations can pre-record each track and assemble it with others’ tracks by post editing, to perform as if the performances were played at the same time. 
+* **Live Performance**. Participants can also select to do a live performance using specialized audio streaming software (like Jacktrip, Soundjack, or Jamulus) providing the audio to a multiple screen chat application like Zoom. Arrangements with the music program chairs should be done in advance for this to happen. 
 * **Creative Visuals for Music**. Participants are encouraged to apply creative visual effects to accompany music. This includes but is not limited to AI-powered visual effects (e.g., facial distortion, video filtering) synced with music contents, animations or fictions, body performances, etc.
 
 ## Concert
@@ -30,7 +30,7 @@ After notice of acceptance, for non-live performances participants have a chance
 
 Only one submission per participant will be accepted. Pieces have to be shorter than 10 minutes.
 
-The submission is not anonymous. The proposals and video performances will be submitted through the CMT system for a light review. There is no guarantee that all submissions will be accepted for the program. Please note the submission proposal is for informative purposes for the selection and will not be included in the conference proceedings. 
+The submission is not anonymous. The proposals and video performances will be submitted through the [CMT system](https://cmt3.research.microsoft.com/ISMIR2021/Submission/Index) for a light review. There is no guarantee that all submissions will be accepted for the program. Please note the submission proposal is for informative purposes for the selection and will not be included in the conference proceedings. 
 
 ## Important Dates
 * Submission deadline: Sept 8th
