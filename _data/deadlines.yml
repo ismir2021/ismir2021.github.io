@@ -17,6 +17,12 @@
     - {name: "Submission open date", date: "Aug 20, 2021", done: false}
     - {name: "Submission deadline", date: "Oct 11, 2021", done: false}
     - {name: "Notification of Acceptance", date: "Oct 26, 2021", done: false}
+- title: "Call for Music"
+  url: "/cfm/"
+  dates: 
+    - {name: "Submission deadline", date: "Sep 8, 2021", done: false}
+    - {name: "Notification of Acceptance", date: "Oct 10, 2021", done: false}
+    - {name: "Performance-ready submission deadline", date: "Oct 24, 2021", done: false}
 - title: "Registration"
   url: "/registration/"
   dates:
