@@ -19,7 +19,7 @@ chairs:
     email: "ismir2021-diversity@ismir.net"
     members:
       - {name: "Blair Kaneshiro", img: "/assets/team/kaneshiro.png"}
-      - {name: "Jordan Smith", img: "/assets/team/placeholder.png"}
+      - {name: "Jordan Smith", img: "/assets/team/jordan.png"}
   -
     title: "Technology"
     email: "ismir2021-tech@ismir.net"
@@ -27,7 +27,7 @@ chairs:
       - {name: "Sharath Adavanne", img: "/assets/team/placeholder.png"}
       - {name: "Andrea Cogliati", img: "/assets/team/placeholder.png"}
       - {name: "Stefan Balke", img: "/assets/team/placeholder.png"}
-      - {name: "Hendrik Schreiber", img: "/assets/team/placeholder.png"}
+      - {name: "Hendrik Schreiber", img: "/assets/team/hendrik.png"}
       - {name: "Fabian-Robert Stöter", img: "/assets/team/placeholder.png"}
   -
     title: "Social Program"
