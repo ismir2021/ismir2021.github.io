@@ -19,35 +19,6 @@ layout: compress
 
 {% include header.html %}
 
-<!--   {% if page.featured-img %}
-  <div class="hero lazyload"> 
-  {% else %}
-  <div class="hero dark-bg">
-  {% endif %}
-    <div class="hero__wrap">
-      {% if post.categories or page.categories %}
-        <div class="hero__categories">
-          {% if post %}
-            {% assign categories = post.categories %}
-          {% else %}
-            {% assign categories = page.categories %}
-          {% endif %}
-          {% for category in categories %}
-            <a class="label" href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
-            {% unless forloop.last %}&nbsp;{% endunless %}
-          {% endfor %}
-        </div>
-      {% endif %}
-      
-            
-      <p class="hero__meta">
-        <span>
-          <time>{{ page.date | date_to_string }}</time>
-        </span>
-      </p>
-    </div>
-  </div> -->
-
   <main class="site__content">
     <div class="container">
       <article class="post-content" itemprop="articleBody">
