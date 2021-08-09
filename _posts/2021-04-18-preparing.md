@@ -1,6 +1,6 @@
 ---
 layout: post
-author: ISMIR 2021
+authors: Blair Kaneshiro, Zhiyao Duan, Juhan Nam, Preeti Rao, Peter van Krananburg, Jordan B.L. Smith
 permalink: /blog/preparing/
 title: Preparing a Successful ISMIR Submission
 featured-img: /assets/img/blog/preparing.png
