@@ -4,6 +4,8 @@ title: Call for Music
 permalink: /cfm/
 ---
 
+[PDF Version](/assets/pdf/cfm.pdf)
+
 ISMIR 2021 invites submissions of music works for the concert program during the conference week. Like the conference, the concert will be held as an online format. The call is open to all composers, technologists, and performers for inclusion in the conference’s concert program. 
 
 ## Themes
