@@ -70,6 +70,23 @@ chairs:
     members:
       - {name: "Qhansa Bayu", img: "/assets/team/qhansa.png"}
 
+  - 
+    title: "Volunteering Chair"
+    members: 
+      - {name: "Kahyun Choi", img: "/assets/team/placeholder.png"}
+
+  - 
+    title: "Showcase Chair"
+    members: 
+      - {name: "Lele Liu", img: "/assets/team/placeholder.png"}
+
+  - 
+    title: "Newcomer Initiatives"
+    members: 
+      - {name: "Nick Gang", img: "/assets/team/placeholder.png"}
+
+
+
   -
     title: "Website"
     members:
