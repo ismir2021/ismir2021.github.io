@@ -32,6 +32,11 @@
   dates:
     - {name: "Author Registration Deadline", date: "Aug 9, 2021", done: true}
     - {name: "Early Bird Registration Deadline", date: "Sep 30, 2021", done: false}
+- title: "Lab Showcase Contributions"
+  url: "/cflab"
+  dates: 
+    - {name: "Submission Deadline", date: "Sep 30, 2021", done: false}
+    - {name: "Notification of Acceptance", date: "Oct 10, 2021", done: false}
 - title: "Grants"
   url: "#"
   dates: 
