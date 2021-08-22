@@ -16,6 +16,10 @@
 - 
   Name: Silver
   Sponsors: 
+    -
+      logo: /assets/sponsors/Ableton.png
+      name: Ableton
+      url: "https://www.ableton.com"
     - 
       logo: /assets/sponsors/ACRCloud.png
       name: ACRCloud
