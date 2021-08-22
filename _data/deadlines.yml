@@ -26,7 +26,7 @@
 - title: "Call for Volunteers"
   url: "#"
   dates: 
-    - {name: "Deadline for Application", date: "Aug 20, 2021", done: false}
+    - {name: "Deadline for Application", date: "Aug 20, 2021", done: true}
 - title: "Registration"
   url: "/registration/"
   dates:
