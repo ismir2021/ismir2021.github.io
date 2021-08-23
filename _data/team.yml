@@ -24,11 +24,11 @@ chairs:
     title: "Technology"
     email: "ismir2021-tech@ismir.net"
     members:
-      - {name: "Sharath Adavanne", img: "/assets/team/placeholder.png"}
-      - {name: "Andrea Cogliati", img: "/assets/team/placeholder.png"}
-      - {name: "Stefan Balke", img: "/assets/team/placeholder.png"}
+      - {name: "Sharath Adavanne", img: "/assets/team/sharath.png"}
+      - {name: "Andrea Cogliati", img: "/assets/team/andrea.png"}
+      - {name: "Stefan Balke", img: "/assets/team/balke.png"}
       - {name: "Hendrik Schreiber", img: "/assets/team/hendrik.png"}
-      - {name: "Fabian-Robert Stöter", img: "/assets/team/placeholder.png"}
+      - {name: "Fabian-Robert Stöter", img: "/assets/team/stoter.png"}
   -
     title: "Social Program"
     members:
@@ -83,7 +83,8 @@ chairs:
   - 
     title: "Newcomer Initiatives"
     members: 
-      - {name: "Nick Gang", img: "/assets/team/placeholder.png"}
+      - {name: "Nick Gang", img: "/assets/team/nick.png"}
+      - {name: "Elona Shatri", img: "/assets/team/placeholder.png"}
 
   -
     title: "Website"

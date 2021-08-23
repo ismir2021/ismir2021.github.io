@@ -4,6 +4,8 @@ title: "ISMIR 2021 Lab Showcase: Call for Contributions"
 permalink: /cflab/
 ---
 
+[PDF Version](/assets/pdf/cflab.pdf)
+
 We are inviting labs to our Lab Showcase, a new ISMIR activity! This call is open to **academic** labs **focusing on MIR research**. To avoid overlap, we accept **no more than one lab from each institution** (but labs are welcome to team up).
 
 ## Lab Showcase:
