@@ -1,0 +1,128 @@
+---
+layout: page
+title: Papers
+permalink: /papers/
+---
+
+
+<div class="container">
+	<div class="row">
+		<div class="col-sm-4">
+			<div class="filters">
+				<h4> Filters </h4>
+				<div class="main_category">
+					<b> General filters </b>
+					<div class="filter_button active" data-filter="all"> All </div>
+					<div class="filter_button inactive" data-filter="special"> Special Track papers </div>
+				</div>
+			</div>
+		</div>
+		<div class="col">
+			{% for paper in site.data.2021_draft_ver2 %}
+				<div class="paper" data-subject-area="{{paper.extra.subject_area_primary}}" data-special-track="{{paper.extra.special_track}}">
+					<div class="paper_title"> 
+						{{ paper.title }} 
+					</div>
+					{% if paper.extra.special_track == true %}
+						<div class="special_track"> 
+							Special Track Paper 
+						</div>
+					{% endif %}
+
+					<div class="paper_authors">
+						{% for author in paper.author %}
+							<span class="paper_author">
+								{{ author }}
+							</span>
+						{% endfor %}
+					</div>
+					<button class="abstract" type="button" data-toggle="collapse" data-target="#paper_abstract_{{ forloop.index }}" aria-expanded="false" aria-controls="paper_abstract_{{ forloop.index }}">
+					Toggle Abstract
+					</button>
+					<div class="collapse" id="paper_abstract_{{ forloop.index }}">
+						<p class="paper_abstract"> {{ paper.abstract }} </p>
+					</div>
+				</div>
+			{% endfor %}
+		</div>
+	</div>
+</div>
+
+<script>
+
+
+
+	function categorize(name){ 
+		const splits = name.split(" -> ");
+		return {main: splits[0], sub: splits[1]};
+	}
+
+	function toFilterString(main, sub){ 
+		return `${main} -> ${sub}`;
+	}
+
+	function toFilterHTML(main, sub){
+		return `<div class="filter_button inactive" data-filter='${toFilterString(main, sub)}'> ${sub} </div>\n`;
+	}
+
+
+	const papers = document.getElementsByClassName("paper");
+	const arr = Array.from(papers);	
+	const paper_attrs = arr.map((i) => {
+		return i.getAttribute("data-subject-area");
+	});
+	const unique = paper_attrs.filter((item, i, ar) => ar.indexOf(item) === i);
+	const filters = document.getElementsByClassName("filters")[0];
+	const filter_categories = unique.map((i) => categorize(i)).sort((a, b) => a.main > b.main ? 1 : -1);
+	const main_categories = filter_categories.map((i) => i.main).filter((item, i, ar) => ar.indexOf(item) === i);
+	var htmlString = "";
+
+	for (const i in main_categories){
+		const myMain = main_categories[i];
+		var main_html = `<div class="main_category"> <b> ${myMain} </b> `;
+		for (const j in filter_categories){
+
+			if(filter_categories[j].main === myMain){
+				const filtered_string = toFilterString(myMain, filter_categories[j].sub);
+				main_html += toFilterHTML(myMain, filter_categories[j].sub);
+			}			
+		}
+		main_html += "</div>";
+		htmlString += main_html;
+	}
+	console.log(htmlString);
+	filters.innerHTML += htmlString;
+
+	$(".filter_button").click((event)=> {
+		const target = $(event.target);
+		const filter = target.data("filter");
+		$(".filter_button").removeClass("active").addClass("inactive");
+		target.removeClass("inactive").addClass("active");
+
+		if (filter === "all"){
+			console.log("all");
+			$(".paper").show();
+		}else if(filter === "special"){ 
+			arr.map((i) => { 
+				if ($(i).data("special-track") !== true){
+					$(i).hide()
+				}else{
+					$(i).show();
+				}
+			});
+		}else{			
+			arr.map((i) => { 
+				if ($(i).data("subject-area") !== filter){
+					$(i).hide()
+				}else{
+					$(i).show();
+				}
+			});
+		}
+		target.addClass("active");
+		$(window).scrollTop(0);
+	});
+
+
+	
+</script>
