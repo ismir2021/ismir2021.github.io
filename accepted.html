@@ -4,10 +4,10 @@ title: Papers
 permalink: /papers/
 ---
 
-<!-- <div class='alert alert-primary' role='alert'>
-	
+<div class='alert alert-primary' role='alert'>
+	There are 104 papers accepted to be presented at ISMIR 2021, which includes 11 papers under the special call for papers on cultural diversity in MIR.	
 </div>
- -->
+
 <div class="container">
 	<div class="row">
 		<div class="col-sm-4">
@@ -16,19 +16,19 @@ permalink: /papers/
 				<div class="main_category">
 					<b> General filters </b>
 					<div class="filter_button active" data-filter="all"> All </div>
-					<div class="filter_button inactive" data-filter="special"> Special Track papers </div>
+					<div class="filter_button inactive" data-filter="special"> Special call papers </div>
 				</div>
 			</div>
 		</div>
 		<div class="col">
 			{% for paper in site.data.2021_draft_ver2 %}
-				<div class="paper" data-subject-area="{{paper.extra.subject_area_primary}}" data-special-track="{{paper.extra.special_track}}">
+				<div class="paper" data-subject-area="{{paper.extra.subject_area_primary}}" data-special-call="{{paper.extra.special_track}}">
 					<div class="paper_title"> 
 						{{ paper.title }} 
 					</div>
 					{% if paper.extra.special_track == true %}
-						<div class="special_track"> 
-							Special Track Paper 
+						<div class="special_call"> 
+							Special call Paper 
 						</div>
 					{% endif %}
 
@@ -107,7 +107,7 @@ permalink: /papers/
 			$(".paper").show();
 		}else if(filter === "special"){ 
 			arr.map((i) => { 
-				if ($(i).data("special-track") !== true){
+				if ($(i).data("special-call") !== true){
 					$(i).hide()
 				}else{
 					$(i).show();
