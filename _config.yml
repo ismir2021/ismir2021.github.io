@@ -26,6 +26,7 @@ navigation:
   - name: "Attend"
     subitems:
     - {name: "Registration", link: "/registration/"}
+    - {name: "Accepted Papers", link: "/papers/"} 
     - {name: "Accepted Tutorials", link: "/tutorials/"}  
     - {name: "Code of Conduct", link: "/coc/"}
   - {name: "Blog", link: "/blog/"}
