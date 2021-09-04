@@ -4,7 +4,10 @@ title: Papers
 permalink: /papers/
 ---
 
-
+<!-- <div class='alert alert-primary' role='alert'>
+	
+</div>
+ -->
 <div class="container">
 	<div class="row">
 		<div class="col-sm-4">
@@ -37,7 +40,7 @@ permalink: /papers/
 						{% endfor %}
 					</div>
 					<button class="abstract" type="button" data-toggle="collapse" data-target="#paper_abstract_{{ forloop.index }}" aria-expanded="false" aria-controls="paper_abstract_{{ forloop.index }}">
-					Toggle Abstract
+					Abstract
 					</button>
 					<div class="collapse" id="paper_abstract_{{ forloop.index }}">
 						<p class="paper_abstract"> {{ paper.abstract }} </p>
