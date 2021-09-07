@@ -4,9 +4,9 @@ title: Financial Support
 permalink: /financialsupport/
 ---
 
-Keeping ISMIR affordable and accessible is an important way to support Diversity & Inclusion in our community. To this end, ISMIR2021 offers registration waivers and childcare grants.
+We aim to keep ISMIR affordable and accessible in order to support Diversity & Inclusion in our community. To this end, ISMIR2021 offers registration waivers and childcare grants.
 
-To apply for this support, please visit: https://bit.ly/ismir2021grants.
+To apply for this support, please [visit the registration form](https://docs.google.com/forms/d/e/1FAIpQLSewOxtkMKf5P4JdfJ-OQ3Oo81_g76-R2xWMwopc8ANNFE1mHQ/viewform).
 
 ## Important dates
 
