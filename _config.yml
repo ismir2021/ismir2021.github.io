@@ -14,20 +14,21 @@ social:
 
 # THEME SETTINGS
 navigation:
-  
+
   - name: "Calls"
     subitems:
     - {name: "Call for Papers", link: "/cfp/"}
     - {name: "Call for Tutorials", link: "/cft/"}
     - {name: "Call for Sponsors", link: "/cfs/"}
-    - {name: "Call for Late-breaking Demo Contributions", link: "/clbd/"}  
+    - {name: "Call for Late-breaking Demo Contributions", link: "/clbd/"}
     - {name: "Call for Music", link: "/cfm/"}
     - {name: "Call for Lab Showcase", link: "/cflab/"}
   - name: "Attend"
     subitems:
     - {name: "Registration", link: "/registration/"}
-    - {name: "Accepted Papers", link: "/papers/"} 
-    - {name: "Accepted Tutorials", link: "/tutorials/"}  
+    - {name: "Financial Support", link: "/financialsupport/"}
+    - {name: "Accepted Papers", link: "/papers/"}
+    - {name: "Accepted Tutorials", link: "/tutorials/"}
     - {name: "Code of Conduct", link: "/coc/"}
   - {name: "Blog", link: "/blog/"}
   - {name: "Sponsors", link: "/sponsors/"}
@@ -72,8 +73,8 @@ permalink: /:title/
 compress_html:
   clippings: all
 
-kramdown: 
-  parse_block_html: true 
+kramdown:
+  parse_block_html: true
 
 plugins:
   - jekyll-sitemap
