@@ -20,7 +20,7 @@ We need the following information in submissions:
 2. Principle director(s) and contact email(s);  
 3. A brief lab introduction (about one paragraph)
 
-Please refer to the [submission form](https://bit.ly/ismir2021labs) or send the above inforamtion to us via [email](mailto:ismir2021-labshowcase@ismir.net).
+Please refer to the [submission form](https://bit.ly/ismir2021labs) or send the above information to us via [email](mailto:ismir2021-labshowcase@ismir.net).
 
 ## Important Dates:
 

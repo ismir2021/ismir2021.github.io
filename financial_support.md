@@ -36,4 +36,4 @@ Grants are awarded on the basis of financial need, student status and Diversity 
 
 ## Contact
 
-If you have any questions, please contact the Diversity and Inclusion Chairs (Blair Kaneshiro, Jordan B. L. Smith) via ismir2021-diversity@ismir.net.
+If you have any questions, please contact the Diversity and Inclusion Chairs (Blair Kaneshiro, Jordan B. L. Smith) via [ismir2021-diversity@ismir.net](mailto:ismir2021-diversity@ismir.net).

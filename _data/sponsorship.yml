@@ -6,6 +6,10 @@
       logo: /assets/sponsors/SonyCSL.png
       name: Sony
       url: "#"
+    - 
+      logo: /assets/sponsors/Spotify.png
+      name: Spotify
+      url: "https://www.spotify.com"
 - 
   Name: Gold
   Sponsors:  
@@ -13,6 +17,10 @@
       logo: /assets/sponsors/Yamaha.png
       name: Yamaha
       url: "https://www.yamaha.com/en/"
+    - 
+      logo: /assets/sponsors/Pandora.png
+      name: Pandora
+      url: "#"
 - 
   Name: Silver
   Sponsors: 

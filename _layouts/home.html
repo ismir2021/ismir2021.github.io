@@ -3,71 +3,68 @@ layout: compress
 ---
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en-US" }}">
-
-  {% include head.html %}
-
-  <body class="site" onload="customTwitter()">
-
-    {% if site.google_tag_manager %}
-
-      <!-- Google Tag Manager (noscript) -->
-      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.google_tag_manager }}"
-      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-      <!-- End Google Tag Manager (noscript) -->
-
-    {% endif %}
-
-    {% include header.html %}
-
-      <div class="hero lazyload" data-bg="{{ '/assets/banners/banner.png' | relative_url }}" style='background-image: url("/assets/banners/banner.png");'>
-        <div class="hero__wrap">
-            <h2 class="hero__title" style="text-align: left">
+    {% include head.html %}
+    <body class="site" onload="customTwitter()">
+        {% if site.google_tag_manager %}
+            <!-- Google Tag Manager (noscript) -->
+            <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.google_tag_manager }}"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+            <!-- End Google Tag Manager (noscript) -->
+        {% endif %}
+        {% include header.html %}
+        <div class="hero lazyload" data-bg="{{ '/assets/banners/banner.png' | relative_url }}" style='background-image: url("/assets/banners/banner.png");'>
+            <div class="hero__wrap">
+                <h2 class="hero__title" style="text-align: left">
+                <br/>
+                <br/>
                 Welcome to the 22<sup>nd</sup>
                 <br>
                 <b>International Society
-                    <br>for Music Information Retrieval</b>
-                    <br>Conference
-            </h2>
+                <br>for Music Information Retrieval</b>
+                <br>Conference
+                </h2>
+                <h3 style="text-align: left">
+                <br>
+                <br>
+                <b> Nov 8<sup>th</sup> - 12<sup>th</sup>, Online </b>
+                <br/>
+                 
+                </h3>
+                <br/>
+            </div>
         </div>
-     </div>
-
-     <main class="site__content">
-         <div class="container">
-             <div class="page-content">
-             <div class="row">
-                 <div class="col-sm-4">
-                     {% include deadlines.html %}
-                 </div>
-                 <div class='col-lg'>  
-                    <div class="row home-content">                        
-                         {{ content }}
-                     </div>
-                     <hr>
-                     <div class="row">                        
-                        <section class="blog">
-                        <h3> Read our blog posts </h3>
-                          <div class="home-post-list" itemscope="" itemtype="http://schema.org/Blog">
-
-                            {% for post in site.posts %}
-                              {% include card.html %}
-                            {% endfor %}
-
-                           <!--  {% include pagination.html %} -->
-                          </div>
-                      </section>
-                     </div>
-                     <hr>
-                    <div class='row twitter-feed'>
-                         <a class="twitter-timeline" data-dnt="true" data-height="75vh" data-font-size="1em" href="https://twitter.com/ismir2021?ref_src=twsrc%5Etfw">Tweets by ismir2021</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                     </div>
-
-                 </div>
-
-             </div>
-         </div>
-         </div>
-     </main>
-    {% include footer.html %}
-
-  </body>
+        <main class="site__content">
+            <div class="container">
+                <div class="page-content">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            {% include deadlines.html %}
+                        </div>
+                        <div class='col-lg'>
+                            <div class="row home-content">
+                                {{ content }}
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <section class="blog">
+                                    <h3> Read our blog posts </h3>
+                                    <div class="home-post-list" itemscope="" itemtype="http://schema.org/Blog">
+                                        {% for post in site.posts %}
+                                            {% include card.html %}
+                                        {% endfor %}
+                                        <!--  {% include pagination.html %} -->
+                                    </div>
+                                </section>
+                            </div>
+                            <hr>
+                            <div class='row twitter-feed'>
+                                <a class="twitter-timeline" data-dnt="true" data-height="75vh" data-font-size="1em" href="https://twitter.com/ismir2021?ref_src=twsrc%5Etfw">Tweets by ismir2021</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        {% include footer.html %}
+    </body>
 </html>
