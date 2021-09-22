@@ -9,12 +9,12 @@ permalink: /registration/
 
 Registration for ISMIR 2021 is [now open](https://epay.gatech.edu/C20793_ustores/web/store_main.jsp?STOREID=503). At least one author per paper needs to register by Aug 9, 2021. All prices are in USD.
 
-|                               | Early Bird (until Sep 30)        |    Late      |
-|:-----------------------------:|:--------------------------------:|:-------------------:|
-| ISMIR Registration (Full/Student)     | $100/$15 | $150/$25|
-| Tutorials (Full/Student)              | $30/$5  | $30/$5|
-| Satellite: NLP4Mus (Full/Student)*    | $14/$10  | $14/$10|
-| Satellite: MDX (Full/Student)*        | $14/$10  | $14/$10|
+|                               | Early Bird (until Sep 30)        |
+|:-----------------------------:|:--------------------------------:|
+| ISMIR Registration (Full/Student)     | $100/$15 | 
+| Tutorials (Full/Student)              | $30/$5  | 
+| Satellite: NLP4Mus (Full/Student)*    | $14/$10  | 
+| Satellite: MDX (Full/Student)*        | $14/$10  | 
 
 *free for ISMIR attendees
 
@@ -23,7 +23,7 @@ Please find information on tutorials [here](/tutorials/). Information on the Sat
 For additional information, please feel free to contact the ISMIR registration team via [ismir2021-registration@ismir.net](mailto:ismir2021-registration@ismir.net)
 
 ### Registration Fee Waivers
-You can apply for a reduced or waived participation fee [here](https://docs.google.com/forms/d/e/1FAIpQLSewOxtkMKf5P4JdfJ-OQ3Oo81_g76-R2xWMwopc8ANNFE1mHQ/viewform).
+You can apply for a __reduced or waived participation fee__ [here](https://docs.google.com/forms/d/e/1FAIpQLSewOxtkMKf5P4JdfJ-OQ3Oo81_g76-R2xWMwopc8ANNFE1mHQ/viewform).
 Please check if you are eligible, apply, and receive your waiver before you register for the conference. 
 
 ### Important Dates (AoE)
