@@ -21,6 +21,14 @@
       logo: /assets/sponsors/Pandora.png
       name: Pandora
       url: "#"
+    -
+      logo: /assets/sponsors/Adobe.png
+      name: Adobe
+      url: "https://research.adobe.com/"
+    -
+      logo: /assets/sponsors/Bytedance.png
+      name: ByteDance 
+      url: "#"
 - 
   Name: Silver
   Sponsors: 
