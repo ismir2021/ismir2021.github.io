@@ -7,7 +7,7 @@
           {% if tier.Name == "Platinum" %}
             <div class="col-lg-4 sponsor_logo_box">
               {% else %}
-              <div class="col-lg-4 sponsor_logo_box">
+              <div class="col-sm-3 sponsor_logo_box">
             {% endif %}
               <a class="sponsor__url" href="{{ sponsor.url }}">  
                 <img class="sponsor__logo {{ tier.Name }}" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" style="background-image: url({{ sponsor.logo | relative_url }})" />                                         
