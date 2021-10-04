@@ -13,14 +13,25 @@
 - 
   Name: Gold
   Sponsors:  
-    - 
-      logo: /assets/sponsors/Yamaha.png
-      name: Yamaha
-      url: "https://www.yamaha.com/en/"
+    -
+      logo: /assets/sponsors/Adobe.png
+      name: Adobe
+      url: "https://research.adobe.com/"
+    -
+      logo: /assets/sponsors/ByteDance.png
+      name: ByteDance 
+      url: "#"
     - 
       logo: /assets/sponsors/Pandora.png
       name: Pandora
       url: "#"
+    - 
+      logo: /assets/sponsors/Yamaha.png
+      name: Yamaha
+      url: "https://www.yamaha.com/en/"
+
+
+
 - 
   Name: Silver
   Sponsors: 
