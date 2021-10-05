@@ -1,0 +1,185 @@
+---
+layout: schedule
+title: Schedule
+permalink: /schedule/
+---
+		
+
+
+	<div class="row">
+		<div class="col-sm-1" id="filters">
+			<h4 class='event_col_title'> Filters </h4>
+				<div class="filters">
+					<div class="filter_button" data-filter="all">  All </div>					
+				</div>
+
+		</div>
+		<div class="col-sm" id="November6">
+			<h4 class='event_col_title'> November 6 </h4>
+			{% for event in site.data.nov6.schedule %}
+				<div class="row event_card {{event.type}}" data-date="{{ event.date }}" data-startTime="{{ event.start_time }}" data-endTime="{{ event.end_time }}" data-eventType="{{event.type}}">
+					<div class="event_title"> 
+						{{ event.title }} 						
+					</div>	
+					<div class="event_date"> 
+						{{ event.date }}
+					</div>
+					<div class="duration">
+						<span> {{ event.start_time}} - {{ event.end_time }} </span>
+					</div>
+
+				</div>
+		{% endfor %}
+
+		</div>
+		<div class="col-sm" id="November7">
+			<h4 class='event_col_title'> November 7 </h4>
+			{% for event in site.data.nov7.schedule %}
+				<div class="row event_card {{event.type}}" data-date="{{ event.date }}" data-startTime="{{ event.start_time }}" data-endTime="{{ event.end_time }}" data-eventType="{{event.type}}">
+					<div class="event_title"> 
+						{{ event.title }} 						
+					</div>	
+					<div class="event_date"> 
+						{{ event.date }}
+					</div>
+					<div class="duration">
+						<span> {{ event.start_time}} - {{ event.end_time }} </span>
+					</div>
+
+				</div>
+		{% endfor %}
+		</div>
+		<div class="col-sm" id="November8">
+			<h4 class='event_col_title'> November 8 </h4>
+			{% for event in site.data.nov8.schedule %}
+				<div class="row event_card {{event.type}}" data-date="{{ event.date }}" data-startTime="{{ event.start_time }}" data-endTime="{{ event.end_time }}" data-eventType="{{event.type}}">
+					<div class="event_title"> 
+						{{ event.title }} 						
+					</div>	
+					<div class="event_date"> 
+						{{ event.date }}
+					</div>
+					<div class="duration">
+						<span> {{ event.start_time}} - {{ event.end_time }} </span>
+					</div>
+
+				</div>
+		{% endfor %}
+		</div>
+		<div class="col-sm" id="November9">
+			<h4 class='event_col_title'> November 9 </h4>
+			{% for event in site.data.nov9.schedule %}
+				<div class="row event_card {{event.type}}" data-date="{{ event.date }}" data-startTime="{{ event.start_time }}" data-endTime="{{ event.end_time }}" data-eventType="{{event.type}}">
+					<div class="event_title"> 
+						{{ event.title }} 						
+					</div>	
+					<div class="event_date"> 
+						{{ event.date }}
+					</div>
+					<div class="duration">
+						<span> {{ event.start_time}} - {{ event.end_time }} </span>
+					</div>
+				</div>
+			{% endfor %}
+		</div>
+		<div class="col-sm" id="November10">
+			<h4 class='event_col_title'> November 10 </h4>
+			{% for event in site.data.nov10.schedule %}
+				<div class="row event_card {{event.type}}" data-date="{{ event.date }}" data-startTime="{{ event.start_time }}" data-endTime="{{ event.end_time }}" data-eventType="{{event.type}}">
+					<div class="event_title"> 
+						{{ event.title }} 						
+					</div>	
+					<div class="event_date"> 
+						{{ event.date }}
+					</div>
+					<div class="duration">
+						<span> {{ event.start_time}} - {{ event.end_time }} </span>
+					</div>
+				</div>
+			{% endfor %}
+		</div>
+		<div class="col-sm" id="November11">
+			<h4 class='event_col_title'> November 11 </h4>
+			{% for event in site.data.nov11.schedule %}
+				<div class="row event_card {{event.type}}" data-date="{{ event.date }}" data-startTime="{{ event.start_time }}" data-endTime="{{ event.end_time }}" data-eventType="{{event.type}}">
+					<div class="event_title"> 
+						{{ event.title }} 						
+					</div>	
+					<div class="event_date"> 
+						{{ event.date }}
+					</div>
+					<div class="duration">
+						<span> {{ event.start_time}} - {{ event.end_time }} </span>
+					</div>
+				</div>
+			{% endfor %}
+		</div>
+
+		<div class="col-sm" id="November12">
+			<h4 class='event_col_title'> November 12 </h4>
+			{% for event in site.data.nov12.schedule %}
+				<div class="row event_card {{event.type}}" data-date="{{ event.date }}" data-startTime="{{ event.start_time }}" data-endTime="{{ event.end_time }}" data-eventType="{{event.type}}">
+					<div class="event_title"> 
+						{{ event.title }} 						
+					</div>	
+					<div class="event_date"> 
+						{{ event.date }}
+					</div>
+					<div class="duration">
+						<span> {{ event.start_time}} - {{ event.end_time }} </span>
+					</div>
+				</div>
+			{% endfor %}
+		</div>
+	</div>
+
+
+<script>
+	$(".event_card").click((event) => {
+		const target = $(event.target); 		
+		console.log(target);
+	});	
+
+	function toFilterEventHTML(filter){
+		return `<div class="filter_button inactive" data-filter='${filter}'> ${filter} </div>\n`;
+	}
+
+	const events = document.getElementsByClassName("event_card"); 
+	const arr = Array.from(events); 
+	const event_attrs = arr.map((i) => { 
+		return i.getAttribute("data-eventType");
+	});
+	const unique_events_types = event_attrs.filter((item, i, ar) => ar.indexOf(item) === i);
+	const filters = document.getElementsByClassName("filters")[0];
+	var htmlString = "";
+
+	for (const j in unique_events_types){	
+		htmlString += toFilterEventHTML(unique_events_types[j]);		
+	}
+
+	filters.innerHTML += htmlString;
+
+	$(".filter_button").click((event)=> {
+		const target = $(event.target);
+		const filter = target.data("filter");
+		console.log(filter);
+		$(".filter_button").removeClass("active").addClass("inactive");
+		target.removeClass("inactive").addClass("active");
+
+		if (filter === "all"){
+			console.log("all");
+			$(".event_card").show();		
+		}else{			
+			arr.map((i) => { 
+				if ($(i).data("eventtype") !== filter){					
+					$(i).hide();
+				}else{
+					$(i).show();
+				}
+			});
+		}
+		target.addClass("active");
+		$(window).scrollTop(0);
+	});
+
+</script>

@@ -1,0 +1,32 @@
+{
+	
+	"schedule": [
+		{
+			"date": "Nov 6 2021",
+			"start_time": "16:00",
+			"end_time": "19:00",
+			"title": "Tutorial A.1.1: Tempo, Beat and Downbeat Estimation",
+			"type": "Tutorial"
+		},
+		{
+			"date": "Nov 6 2021",
+			"start_time": "16:00",
+			"end_time": "19:00",
+			"title": "Tutorial A.1.2: Programming MIR Baselines from Scratch",
+			"type": "Tutorial"
+		}, {
+			"date": "Nov 6 2021",
+			"start_time": "20:00",
+			"end_time": "23:00",
+			"title": "Tutorial A.2.1: Music Classification: Beyond Supervised Learning",
+			"type": "Tutorial"
+		},
+		{
+			"date": "Nov 6 2021",
+			"start_time": "20:00",
+			"end_time": "23:00",
+			"title": "Tutorial A.2.2: Teaching Music Information Retrieval",
+			"type": "Tutorial"
+		},
+	]
+}

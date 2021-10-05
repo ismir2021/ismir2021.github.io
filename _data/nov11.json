@@ -1,0 +1,113 @@
+{
+	
+	"schedule": [
+		{
+			"date": "Nov 11, 2021", 
+			"start_time": "01:30", 
+			"end_time": "02:30", 
+			"title": "WiMIR Special Session",
+			"type": "WiMIR"
+		},		
+		{
+			"date": "Nov 11, 2021", 
+			"start_time": "01:30", 
+			"end_time": "02:30", 
+			"title": "Special Session 5",
+			"type": "Special"
+		},
+		{
+			"date": "Nov 11, 2021", 
+			"start_time": "03:00", 
+			"end_time": "04:00", 
+			"title": "Music",
+			"type": "Music"
+		},
+		{
+			"date": "Nov 11, 2021", 
+			"start_time": "04:30", 
+			"end_time": "06:00",
+			"title": "Social - Jam",
+			"type": "Social"			
+		},
+		{
+			"date": "Nov 11, 2021", 
+			"start_time": "06:00", 
+			"end_time": "07:30",
+			"title": "WiMIR Keynote",
+			"type": "WiMIR"			
+		},
+		{
+			"date": "Nov 11, 2021", 
+			"start_time": "07:30", 
+			"end_time": "09:00",
+			"title": "Poster 5",
+			"type": "Main"			
+		},
+		{
+			"date": "Nov 11, 2021", 
+			"start_time": "09:30", 
+			"end_time": "10:30",
+			"title": "Best paper candidates 2",
+			"type": "Main"			
+		},
+		{
+			"date": "Nov 11, 2021", 
+			"start_time": "11:30", 
+			"end_time": "13:30",
+			"title": "Industry Presentation",
+			"type": "Main"		
+		},
+		{
+			"date": "Nov 11, 2021", 
+			"start_time": "13:30", 
+			"end_time": "14:30",
+			"title": "WiMIR Special Session",
+			"type": "Main"		
+		},
+		{
+			"date": "Nov 11, 2021", 
+			"start_time": "13:30", 
+			"end_time": "14:30",
+			"title": "Special Session 6",
+			"type": "Special"		
+		},
+		{
+			"date": "Nov 11, 2021", 
+			"start_time": "15:00", 
+			"end_time": "16:00",
+			"title": "Music",
+			"type": "Music"		
+		},
+		{
+			"date": "Nov 11, 2021", 
+			"start_time": "16:30", 
+			"end_time": "18:00",
+			"title": "Social - Jam",
+			"type": "Social"		
+		},
+		{
+			"date": "Nov 11, 2021", 
+			"start_time": "18:00", 
+			"end_time": "20:00",
+			"title": "Late Breaking Demos",
+			"type": "Main"		
+		},
+		{
+			"date": "Nov 11, 2021", 
+			"start_time": "20:30", 
+			"end_time": "21:30",
+			"title": "Business Meeting + awards",
+			"type": "Main"		
+		},
+		{
+			"date": "Nov 11, 2021", 
+			"start_time": "22:00", 
+			"end_time": "23:00",
+			"title": "WiMIR special session",
+			"type": "WiMIR"		
+		},
+
+		
+
+	]
+}

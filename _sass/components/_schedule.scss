@@ -1,0 +1,52 @@
+.event_card{
+	width: 100%; 
+	padding: 20px;	
+	margin-bottom: 2em;
+	border-radius: 10px;
+	font-family: "Roboto";
+	// box-shadow: 1px 1px 4px black;
+}
+
+
+.event_card:hover{
+	box-shadow: 1px 1px 10px #ddd;
+}
+
+.Tutorial{
+	background-color: #0CA7DB;
+	color: white;
+}
+
+.WiMIR{ 
+	background: #19535f;
+	color: white;
+}
+
+.Music{
+	background: #ECE5F0;
+	color: black;
+}
+.Main{
+	background: #FAA916;
+	color: white;
+}
+
+.Special{ 
+	background: #BA274A; 
+	color: white;
+}
+
+.Social{
+	background: #9D6381;
+	color: white;
+}
+
+.event_title{
+	margin-bottom: 1em;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.event_date{
+	margin-bottom: 1em;
+}

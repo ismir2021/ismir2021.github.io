@@ -1,0 +1,141 @@
+{
+	"schedule": [
+		{
+			"date": "Nov 6 2021",
+			"start_time": "16:00",
+			"end_time": "19:00",
+			"title": "Tutorial A.1.1: Tempo, Beat and Downbeat Estimation",
+			"type": "Tutorial"
+		},
+		{
+			"date": "Nov 6 2021",
+			"start_time": "16:00",
+			"end_time": "19:00",
+			"title": "Tutorial A.1.2: Programming MIR Baselines from Scratch",
+			"type": "Tutorial"
+		}, {
+			"date": "Nov 6 2021",
+			"start_time": "20:00",
+			"end_time": "23:00",
+			"title": "Tutorial A.2.1: Music Classification: Beyond Supervised Learning",
+			"type": "Tutorial"
+		},
+		{
+			"date": "Nov 6 2021",
+			"start_time": "20:00",
+			"end_time": "23:00",
+			"title": "Tutorial A.2.2: Teaching Music Information Retrieval",
+			"type": "Tutorial"
+		},
+		{
+			"date": "Nov 7 2021",
+			"start_time": "00:00",
+			"end_time": "03:00",
+			"title": "Tutorial A.3.1: Designing Generative Models for Interactive Co-Creation",
+			"type": "Tutorial"
+		},
+		{
+			"date": "Nov 7 2021",
+			"start_time": "00:00",
+			"end_time": "03:00",
+			"title": "Tutorial A.3.2: Scales, Chords and Cadences: Practical Music Theory for MIR researchers",
+			"type": "Tutorial"
+		},
+		{
+			"date": "Nov 7 2021", 
+		  	"start_time": "04:00", 
+		  	"end_time": "07:00",
+		  	"title": "Tutorial B.1.1: Programming MIR Baselines from Scratch",
+		  	"type": "Tutorial"		  			  	
+		},
+		{
+			"date": "Nov 7 2021", 
+		  	"start_time": "04:00", 
+		  	"end_time": "07:00",
+		  	"title": "Tutorial B.1.2: Teaching Music Information Retrieval",
+		  	"type": "Tutorial"	  	
+		},
+		{
+			"date": "Nov 7 2021",
+			"start_time": "08:00", 
+			"end_time": "11:00",
+			"title": "Tutorial B.2.1: Music Classification: Beyond Supervised Learning",
+			"type": "Tutorial"
+		},
+		{
+			"date": "Nov 7 2021",
+			"start_time": "10:00", 
+			"end_time": "13:00",
+			"title": "Tutorial B.2.2: Tempo, Beat and Downbeat Estimation",
+			"type": "Tutorial"
+		},
+		{
+			"date": "Nov 7 2021",
+			"start_time": "12:00",
+			"end_time": "15:00",
+			"title": "Scales, Chords and Cadences: Practical Music Theory for MIR researchers",
+			"type": "Tutorial"
+		},
+		{
+			"date": "Nov 8 2021",
+			"start_time": "18:00",
+			"end_time": "19:00",
+			"title": "Opening Session",
+			"type": "Main"
+		},
+		{
+			"date": "Nov 8 2021",
+			"start_time": "19:00",
+			"end_time": "20:00",
+			"title": "Keynote 1",
+			"type": "Main"
+		},
+		{
+			"date": "Nov 8 2021",
+			"start_time": "20:30",
+			"end_time": "22:00",
+			"title": "Poster 1",
+			"type": "Main"
+		},
+		{
+			"date": "Nov 8 2021",
+			"start_time": "23:00",
+			"end_time": "00:00",
+			"title": "WiMIR special session",
+			"type": "WiMIR"
+		},
+		{
+			"date": "Nov 9 2021", 
+			"start_time": "00:30", 
+			"end_time": "02:00", 
+			"title": "Poster 2",
+			"type": "Main"
+		},
+		{
+			"date": "Nov 9 2021", 
+			"start_time": "02:30", 
+			"end_time": "03:30", 
+			"title": "Music",
+			"type": "Main"
+		},
+		{
+			"date": "Nov 9 2021", 
+			"start_time": "02:30", 
+			"end_time": "03:30", 
+			"title": "Special Session 1",
+			"type": "Special"
+		},
+		{
+			"date": "Nov 9 2021", 
+			"start_time": "02:30", 
+			"end_time": "03:30", 
+			"title": "Special Session 1",
+			"type": "Special"
+		},
+		
+
+		
+
+
+	]
+}

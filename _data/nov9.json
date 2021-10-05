@@ -1,0 +1,105 @@
+{
+	
+	"schedule": [
+		{
+			"date": "Nov 9 2021", 
+			"start_time": "00:30", 
+			"end_time": "02:00", 
+			"title": "Poster 2",
+			"type": "Main"
+		},
+		{
+			"date": "Nov 9 2021", 
+			"start_time": "02:30", 
+			"end_time": "03:30", 
+			"title": "Music",
+			"type": "Main"
+		},
+		{
+			"date": "Nov 9 2021", 
+			"start_time": "02:30", 
+			"end_time": "03:30", 
+			"title": "Special Session 1",
+			"type": "Special"
+		},
+		{
+			"date": "Nov 9 2021", 
+			"start_time": "04:00", 
+			"end_time": "06:00",
+			"title": "Social (Yoga)",
+			"type": "Social"			
+		},
+		{
+			"date": "Nov 9 2021", 
+			"start_time": "07:00", 
+			"end_time": "08:30",
+			"title": "Keynote 1",
+			"type": "Main"			
+		},
+		{
+			"date": "Nov 9 2021", 
+			"start_time": "08:30", 
+			"end_time": "10:00",
+			"title": "Poster 1",
+			"type": "Main"			
+		},
+		{
+			"date": "Nov 9 2021", 
+			"start_time": "11:00", 
+			"end_time": "12:00",
+			"title": "WiMIR special session",
+			"type": "WiMIR"			
+		},
+		{
+			"date": "Nov 9 2021", 
+			"start_time": "12:30", 
+			"end_time": "14:00",
+			"title": "Poster 2",
+			"type": "Main"		
+		},
+		{
+			"date": "Nov 9 2021", 
+			"start_time": "14:30", 
+			"end_time": "15:30",
+			"title": "Music",
+			"type": "Main"		
+		},
+		{
+			"date": "Nov 9 2021", 
+			"start_time": "14:30", 
+			"end_time": "15:30",
+			"title": "Special Session 2",
+			"type": "Special"		
+		},
+		{
+			"date": "Nov 9 2021", 
+			"start_time": "18:00", 
+			"end_time": "19:00",
+			"title": "Keynote 2",
+			"type": "Main"		
+		},
+		{
+			"date": "Nov 9 2021", 
+			"start_time": "19:30", 
+			"end_time": "21:00",
+			"title": "Poster 3",
+			"type": "Main"		
+		},
+		{
+			"date": "Nov 9 2021", 
+			"start_time": "21:30", 
+			"end_time": "22:30",
+			"title": "Best Paper Candidates 1",
+			"type": "Main"		
+		},
+		{
+			"date": "Nov 9 2021", 
+			"start_time": "23:30", 
+			"end_time": "01:00",
+			"title": "Poster 4",
+			"type": "Main"		
+		},
+		
+
+	]
+}
