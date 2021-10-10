@@ -15,13 +15,13 @@
   url: "/clbd/"
   dates: 
     - {name: "Submission open date", date: "Aug 20, 2021", done: true}
-    - {name: "Submission deadline", date: "Oct 11, 2021", done: false}
+    - {name: "Submission deadline", date: "Oct 11, 2021", done: true}
     - {name: "Notification of Acceptance", date: "Oct 26, 2021", done: false}
 - title: "Music"
   url: "/cfm/"
   dates: 
-    - {name: "Submission deadline", date: "Sep 8, 2021", done: false}
-    - {name: "Notification of Acceptance", date: "Oct 10, 2021", done: false}
+    - {name: "Submission deadline", date: "Sep 8, 2021", done: true}
+    - {name: "Notification of Acceptance", date: "Oct 10, 2021", done: true}
     - {name: "Performance-ready submission deadline", date: "Oct 24, 2021", done: false}
 - title: "Call for Volunteers"
   url: "#"
@@ -31,17 +31,15 @@
   url: "/registration/"
   dates:
     - {name: "Author Registration Deadline", date: "Aug 9, 2021", done: true}
-    - {name: "Early Bird Registration Deadline", date: "Sep 30, 2021", done: false}
 - title: "Lab Showcase Contributions"
   url: "/cflab"
   dates: 
-    - {name: "Submission Deadline", date: "Sep 30, 2021", done: false}
-    - {name: "Notification of Acceptance", date: "Oct 10, 2021", done: false}
+    - {name: "Submission Deadline", date: "Sep 30, 2021", done: true}
+    - {name: "Notification of Acceptance", date: "Oct 10, 2021", done: true}
 - title: "Grants"
   url: "#"
   dates: 
     - {name: "Deadline for Authors", date: "Jul 26, 2021", done: true}
-    - {name: "Deadline for Early Bird pricing", date: "Sep 13, 2021", done: false}
 - title: "Main Event"
   url: "#"
   dates: 
