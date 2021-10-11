@@ -4,20 +4,26 @@ title: Schedule
 permalink: /schedule/
 ---
 		
-
+	<div class="row" id="filters">
+		<h4 class='event_col_title'> Filters </h4>
+			<div class="filters">
+				<div class="filter_button" data-filter="all">  All </div>					
+			</div>
+	</div>
 
 	<div class="row">
-		<div class="col-sm-1" id="filters">
-			<h4 class='event_col_title'> Filters </h4>
-				<div class="filters">
-					<div class="filter_button" data-filter="all">  All </div>					
-				</div>
 
+		<div class="col-sm-1">
+			{% for i in (0..24) %}
+				<div class="row grid-line" id="{{i}}"> 
+					{{ i }}:00	
+				</div>
+			{%endfor%}
 		</div>
 		<div class="col-sm" id="November6">
 			<h4 class='event_col_title'> November 6 </h4>
 			{% for event in site.data.nov6.schedule %}
-				<div class="row event_card {{event.type}}" data-date="{{ event.date }}" data-startTime="{{ event.start_time }}" data-endTime="{{ event.end_time }}" data-eventType="{{event.type}}">
+				<div class="event_card {{event.type}}" data-date="{{ event.date }}" data-startTime="{{ event.start_time }}" data-endTime="{{ event.end_time }}" data-eventType="{{event.type}}">
 					<div class="event_title"> 
 						{{ event.title }} 						
 					</div>	
@@ -35,16 +41,16 @@ permalink: /schedule/
 		<div class="col-sm" id="November7">
 			<h4 class='event_col_title'> November 7 </h4>
 			{% for event in site.data.nov7.schedule %}
-				<div class="row event_card {{event.type}}" data-date="{{ event.date }}" data-startTime="{{ event.start_time }}" data-endTime="{{ event.end_time }}" data-eventType="{{event.type}}">
+				<div class="event_card {{event.type}}" data-date="{{ event.date }}" data-startTime="{{ event.start_time }}" data-endTime="{{ event.end_time }}" data-eventType="{{event.type}}">
 					<div class="event_title"> 
 						{{ event.title }} 						
 					</div>	
-					<div class="event_date"> 
+					<!-- <div class="event_date"> 
 						{{ event.date }}
 					</div>
 					<div class="duration">
 						<span> {{ event.start_time}} - {{ event.end_time }} </span>
-					</div>
+					</div> -->
 
 				</div>
 		{% endfor %}
@@ -52,65 +58,40 @@ permalink: /schedule/
 		<div class="col-sm" id="November8">
 			<h4 class='event_col_title'> November 8 </h4>
 			{% for event in site.data.nov8.schedule %}
-				<div class="row event_card {{event.type}}" data-date="{{ event.date }}" data-startTime="{{ event.start_time }}" data-endTime="{{ event.end_time }}" data-eventType="{{event.type}}">
+				<div class="event_card {{event.type}}" data-date="{{ event.date }}" data-startTime="{{ event.start_time }}" data-endTime="{{ event.end_time }}" data-eventType="{{event.type}}">
 					<div class="event_title"> 
 						{{ event.title }} 						
 					</div>	
-					<div class="event_date"> 
-						{{ event.date }}
-					</div>
-					<div class="duration">
-						<span> {{ event.start_time}} - {{ event.end_time }} </span>
-					</div>
-
 				</div>
 		{% endfor %}
 		</div>
 		<div class="col-sm" id="November9">
 			<h4 class='event_col_title'> November 9 </h4>
 			{% for event in site.data.nov9.schedule %}
-				<div class="row event_card {{event.type}}" data-date="{{ event.date }}" data-startTime="{{ event.start_time }}" data-endTime="{{ event.end_time }}" data-eventType="{{event.type}}">
+				<div class="event_card {{event.type}}" data-date="{{ event.date }}" data-startTime="{{ event.start_time }}" data-endTime="{{ event.end_time }}" data-eventType="{{event.type}}">
 					<div class="event_title"> 
 						{{ event.title }} 						
 					</div>	
-					<div class="event_date"> 
-						{{ event.date }}
-					</div>
-					<div class="duration">
-						<span> {{ event.start_time}} - {{ event.end_time }} </span>
-					</div>
 				</div>
 			{% endfor %}
 		</div>
 		<div class="col-sm" id="November10">
 			<h4 class='event_col_title'> November 10 </h4>
 			{% for event in site.data.nov10.schedule %}
-				<div class="row event_card {{event.type}}" data-date="{{ event.date }}" data-startTime="{{ event.start_time }}" data-endTime="{{ event.end_time }}" data-eventType="{{event.type}}">
+				<div class="event_card {{event.type}}" data-date="{{ event.date }}" data-startTime="{{ event.start_time }}" data-endTime="{{ event.end_time }}" data-eventType="{{event.type}}">
 					<div class="event_title"> 
 						{{ event.title }} 						
 					</div>	
-					<div class="event_date"> 
-						{{ event.date }}
-					</div>
-					<div class="duration">
-						<span> {{ event.start_time}} - {{ event.end_time }} </span>
-					</div>
 				</div>
 			{% endfor %}
 		</div>
 		<div class="col-sm" id="November11">
 			<h4 class='event_col_title'> November 11 </h4>
 			{% for event in site.data.nov11.schedule %}
-				<div class="row event_card {{event.type}}" data-date="{{ event.date }}" data-startTime="{{ event.start_time }}" data-endTime="{{ event.end_time }}" data-eventType="{{event.type}}">
+				<div class="event_card {{event.type}}" data-date="{{ event.date }}" data-startTime="{{ event.start_time }}" data-endTime="{{ event.end_time }}" data-eventType="{{event.type}}">
 					<div class="event_title"> 
 						{{ event.title }} 						
 					</div>	
-					<div class="event_date"> 
-						{{ event.date }}
-					</div>
-					<div class="duration">
-						<span> {{ event.start_time}} - {{ event.end_time }} </span>
-					</div>
 				</div>
 			{% endfor %}
 		</div>
@@ -118,22 +99,26 @@ permalink: /schedule/
 		<div class="col-sm" id="November12">
 			<h4 class='event_col_title'> November 12 </h4>
 			{% for event in site.data.nov12.schedule %}
-				<div class="row event_card {{event.type}}" data-date="{{ event.date }}" data-startTime="{{ event.start_time }}" data-endTime="{{ event.end_time }}" data-eventType="{{event.type}}">
+				<div class="event_card {{event.type}}" data-date="{{ event.date }}" data-startTime="{{ event.start_time }}" data-endTime="{{ event.end_time }}" data-eventType="{{event.type}}">
 					<div class="event_title"> 
 						{{ event.title }} 						
 					</div>	
-					<div class="event_date"> 
-						{{ event.date }}
-					</div>
-					<div class="duration">
-						<span> {{ event.start_time}} - {{ event.end_time }} </span>
-					</div>
 				</div>
 			{% endfor %}
 		</div>
 	</div>
 
+<script> 
 
+function overlapping(rect1, rect2){
+	var overlap = !(rect1.right < rect2.left || 
+	                rect1.left > rect2.right || 
+	                rect1.bottom < rect2.top || 
+	                rect1.top > rect2.bottom);
+	return overlap;
+}
+
+</script>
 <script>
 	$(".event_card").click((event) => {
 		const target = $(event.target); 		
@@ -143,6 +128,26 @@ permalink: /schedule/
 	function toFilterEventHTML(filter){
 		return `<div class="filter_button inactive" data-filter='${filter}'> ${filter} </div>\n`;
 	}
+
+	function computeDuration(t1, t2){ 		
+		return parseInt(t2) - parseInt(t1)
+	}
+
+	var diff = (start, end) => { 
+	    start = start.split(':');
+	    end = end.split(":");
+	    var startDate = new Date(0, 0, 0, start[0], start[1], 0);
+	    var endDate = new Date(0, 0, 0, end[0], end[1], 0);
+	    var diff = endDate.getTime() - startDate.getTime();
+	    var hours = Math.floor(diff / 1000 / 60 / 60);
+	    if(hours < 0){
+	       hours = hours + 24;
+	    };
+	    return hours;
+	};
+
+	const thirty_min_height = 64;
+
 
 	const events = document.getElementsByClassName("event_card"); 
 	const arr = Array.from(events); 
@@ -181,5 +186,25 @@ permalink: /schedule/
 		target.addClass("active");
 		$(window).scrollTop(0);
 	});
+	
+
+	const arranged = arr.map((i) => {
+		const start_time = i.getAttribute("data-startTime");
+		const end_time = i.getAttribute("data-endTime");
+		const duration = diff(start_time, end_time);
+		const duration_interval = thirty_min_height * duration;
+		i.style.height = `${duration_interval-10}px`;
+		i.style.position = `absolute`;
+		const myWidth = i.parentNode.getBoundingClientRect().width;
+		const start = start_time.split(":");
+		const my_grid_line = document.getElementById(`${parseInt(start[0])}`);
+		const bounding_rect = my_grid_line.getBoundingClientRect();
+		i.style.top = `${bounding_rect.top}px`;
+		i.style.width = `${myWidth - 2}px`;
+		const myDate = i.getAttribute("data-date");
+		return i;
+	});
+
+
 
 </script>
