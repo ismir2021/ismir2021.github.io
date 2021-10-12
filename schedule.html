@@ -45,12 +45,12 @@ permalink: /schedule/
 					<div class="event_title"> 
 						{{ event.title }} 						
 					</div>	
-					<!-- <div class="event_date"> 
+					<div class="event_date"> 
 						{{ event.date }}
 					</div>
 					<div class="duration">
 						<span> {{ event.start_time}} - {{ event.end_time }} </span>
-					</div> -->
+					</div>
 
 				</div>
 		{% endfor %}
@@ -62,6 +62,12 @@ permalink: /schedule/
 					<div class="event_title"> 
 						{{ event.title }} 						
 					</div>	
+					<div class="event_date"> 
+						{{ event.date }}
+					</div>
+					<div class="duration">
+						<span> {{ event.start_time}} - {{ event.end_time }} </span>
+					</div>
 				</div>
 		{% endfor %}
 		</div>
@@ -72,6 +78,12 @@ permalink: /schedule/
 					<div class="event_title"> 
 						{{ event.title }} 						
 					</div>	
+					<div class="event_date"> 
+						{{ event.date }}
+					</div>
+					<div class="duration">
+						<span> {{ event.start_time}} - {{ event.end_time }} </span>
+					</div>
 				</div>
 			{% endfor %}
 		</div>
@@ -82,6 +94,12 @@ permalink: /schedule/
 					<div class="event_title"> 
 						{{ event.title }} 						
 					</div>	
+					<div class="event_date"> 
+						{{ event.date }}
+					</div>
+					<div class="duration">
+						<span> {{ event.start_time}} - {{ event.end_time }} </span>
+					</div>
 				</div>
 			{% endfor %}
 		</div>
@@ -92,6 +110,12 @@ permalink: /schedule/
 					<div class="event_title"> 
 						{{ event.title }} 						
 					</div>	
+					<div class="event_date"> 
+						{{ event.date }}
+					</div>
+					<div class="duration">
+						<span> {{ event.start_time}} - {{ event.end_time }} </span>
+					</div>
 				</div>
 			{% endfor %}
 		</div>
@@ -103,10 +127,18 @@ permalink: /schedule/
 					<div class="event_title"> 
 						{{ event.title }} 						
 					</div>	
+					<div class="event_date"> 
+						{{ event.date }}
+					</div>
+					<div class="duration">
+						<span> {{ event.start_time}} - {{ event.end_time }} </span>
+					</div>
 				</div>
+
 			{% endfor %}
 		</div>
 	</div>
+
 
 <script> 
 
@@ -118,93 +150,110 @@ function overlapping(rect1, rect2){
 	return overlap;
 }
 
-</script>
-<script>
-	$(".event_card").click((event) => {
-		const target = $(event.target); 		
-		console.log(target);
-	});	
+$(".event_card").click((event) => {
+	const target = $(event.target); 		
+	console.log(target);
+});	
 
-	function toFilterEventHTML(filter){
-		return `<div class="filter_button inactive" data-filter='${filter}'> ${filter} </div>\n`;
+function toFilterEventHTML(filter){
+	return `<div class="filter_button inactive" data-filter='${filter}'> ${filter} </div>\n`;
+}
+
+function computeDuration(t1, t2){ 		
+	return parseInt(t2) - parseInt(t1)
+}
+
+var diff = (start, end) => { 
+    start = start.split(':');
+    end = end.split(":");
+    var startDate = new Date(0, 0, 0, start[0], start[1], 0);
+    var endDate = new Date(0, 0, 0, end[0], end[1], 0);
+    var diff = endDate.getTime() - startDate.getTime();
+    var hours = Math.floor(diff / 1000 / 60 / 60);
+    if(hours < 0){
+       hours = hours + 24;
+    };
+    return hours;
+};
+
+const thirty_min_height = 64;
+
+
+const events = document.getElementsByClassName("event_card"); 
+const arr = Array.from(events); 
+const event_attrs = arr.map((i) => { 
+	return i.getAttribute("data-eventType");
+});
+const unique_events_types = event_attrs.filter((item, i, ar) => ar.indexOf(item) === i);
+const filters = document.getElementsByClassName("filters")[0];
+var htmlString = "";
+
+for (const j in unique_events_types){	
+	htmlString += toFilterEventHTML(unique_events_types[j]);		
+}
+
+filters.innerHTML += htmlString;
+
+$(".filter_button").click((event)=> {
+	const target = $(event.target);
+	const filter = target.data("filter");
+	console.log(filter);
+	$(".filter_button").removeClass("active").addClass("inactive");
+	target.removeClass("inactive").addClass("active");
+
+	if (filter === "all"){
+		console.log("all");
+		$(".event_card").show();		
+	}else{			
+		arr.map((i) => { 
+			if ($(i).data("eventtype") !== filter){					
+				$(i).hide();
+			}else{
+				$(i).show();
+			}
+		});
 	}
-
-	function computeDuration(t1, t2){ 		
-		return parseInt(t2) - parseInt(t1)
-	}
-
-	var diff = (start, end) => { 
-	    start = start.split(':');
-	    end = end.split(":");
-	    var startDate = new Date(0, 0, 0, start[0], start[1], 0);
-	    var endDate = new Date(0, 0, 0, end[0], end[1], 0);
-	    var diff = endDate.getTime() - startDate.getTime();
-	    var hours = Math.floor(diff / 1000 / 60 / 60);
-	    if(hours < 0){
-	       hours = hours + 24;
-	    };
-	    return hours;
-	};
-
-	const thirty_min_height = 64;
+	target.addClass("active");
+	$(window).scrollTop(0);
+});
 
 
-	const events = document.getElementsByClassName("event_card"); 
-	const arr = Array.from(events); 
-	const event_attrs = arr.map((i) => { 
-		return i.getAttribute("data-eventType");
-	});
-	const unique_events_types = event_attrs.filter((item, i, ar) => ar.indexOf(item) === i);
-	const filters = document.getElementsByClassName("filters")[0];
-	var htmlString = "";
+const arranged = arr.map((i) => {
+	const start_time = i.getAttribute("data-startTime");
+	const end_time = i.getAttribute("data-endTime");
+	const duration = diff(start_time, end_time);
+	const duration_interval = thirty_min_height * duration;
+	i.style.height = `${duration_interval-16}px`;
+	i.style.position = `absolute`;
+	const myWidth = i.parentNode.getBoundingClientRect().width;
+	const start = start_time.split(":");
+	const my_grid_line = document.getElementById(`${parseInt(start[0])}`);
+	const bounding_rect = my_grid_line.getBoundingClientRect();
+	i.style.top = `${bounding_rect.top}px`;
+	i.style.width = `${myWidth - 5}px`;
+	const myDate = i.getAttribute("data-date");
+	return i;
+});
 
-	for (const j in unique_events_types){	
-		htmlString += toFilterEventHTML(unique_events_types[j]);		
-	}
+const bounding_boxes = arranged.map((i) => i.getBoundingClientRect());
 
-	filters.innerHTML += htmlString;
-
-	$(".filter_button").click((event)=> {
-		const target = $(event.target);
-		const filter = target.data("filter");
-		console.log(filter);
-		$(".filter_button").removeClass("active").addClass("inactive");
-		target.removeClass("inactive").addClass("active");
-
-		if (filter === "all"){
-			console.log("all");
-			$(".event_card").show();		
-		}else{			
-			arr.map((i) => { 
-				if ($(i).data("eventtype") !== filter){					
-					$(i).hide();
-				}else{
-					$(i).show();
-				}
-			});
+for (i = 0; i < bounding_boxes.length; i++){ 
+	if (i+1 !== bounding_boxes.length){
+		const is_overlapped = overlapping(bounding_boxes[i], bounding_boxes[i+1]);
+		if(is_overlapped){
+			const new_bounding_box1_old = arranged[i].getBoundingClientRect();
+			const new_bounding_box2_old = arranged[i+1].getBoundingClientRect();
+			console.log(i, i+1);
+			console.log(arranged[i], arranged[i+1]);
+			arranged[i].style.width = `${arranged[i].getBoundingClientRect().width/2}px`;
+			arranged[i+1].style.width = `${arranged[i].getBoundingClientRect().width/2}px`;
+			const new_bounding_box1 = arranged[i].getBoundingClientRect();
+			const new_bounding_box2 = arranged[i+1].getBoundingClientRect();
+			console.log(new_bounding_box2.x, new_bounding_box1.x);
+			console.log(new_bounding_box2);
+			arranged[i+1].style.marginLeft = `${new_bounding_box1.width}px`;				
 		}
-		target.addClass("active");
-		$(window).scrollTop(0);
-	});
-	
-
-	const arranged = arr.map((i) => {
-		const start_time = i.getAttribute("data-startTime");
-		const end_time = i.getAttribute("data-endTime");
-		const duration = diff(start_time, end_time);
-		const duration_interval = thirty_min_height * duration;
-		i.style.height = `${duration_interval-10}px`;
-		i.style.position = `absolute`;
-		const myWidth = i.parentNode.getBoundingClientRect().width;
-		const start = start_time.split(":");
-		const my_grid_line = document.getElementById(`${parseInt(start[0])}`);
-		const bounding_rect = my_grid_line.getBoundingClientRect();
-		i.style.top = `${bounding_rect.top}px`;
-		i.style.width = `${myWidth - 2}px`;
-		const myDate = i.getAttribute("data-date");
-		return i;
-	});
-
-
+	}
+}
 
 </script>
