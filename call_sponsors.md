@@ -38,11 +38,11 @@ For more information, please contact us at [ismir2021-sponsorship@ismir.net](mai
 | 5 Registrations | 2 Registrations | 1 Registration |
 | Sponsorship Acknowledgment and Announcements on Social Media | Sponsorship Acknowledgment and Announcements on Social Media | Sponsorship Acknowledgment and _partial_ Announcement on Social Media |
 | 2 promo items/Social Event Prize | 1 promo item/Social Event Prize| 1 promo item/Social Event Prize |
+| Access to opt-in attendee "CV pool" | Access to opt-in attendee "CV pool" | Access to opt-in attendee "CV pool" |
+| Submit promoted posts to the "job board" | Submit promoted posts to the "job board" | Submit posts to the "job board" |
 | | | *Silvers Select One Benefit From Below* |
 | "Virtual Booth" in the Clowdr Sponsors Booth section with video and text chat. The Booth will be placed at the top of the space | "Virtual Booth" in the Clowdr Sponsors Booth section with video and text chat. The Booth will be placed in the middle of the space| "Virtual Booth" in the Clowdr Sponsors Booth section with text chat only. The Booth will be placed in the bottom of the space |
 | 30 minute Sponsor Presentation session with the Sponsor’s name written in the Conference Program | 15 minute slot in a Sponsor Presentations event in the Conference Program | 10 minute slot in a Sponsor Presentations event in the Conference Program |
-| Access to opt-in attendee "CV pool" | Access to opt-in attendee "CV pool" | |
-| Submit promoted posts to the "job board" | Submit promoted posts to the "job board" | |
 | 2 Reserved Seats in 2 Industry Panels | 1 Reserved Seat in an Industry Panel | |
  
 ## 2021 WiMIR Sponsorship Packages
@@ -184,15 +184,15 @@ For prizes relevant to the Conference Social Events.
 - The name of the event is not tied to the prizes or sponsors.
 - The Sponsor's name will be announced in the Social in association with the prize.
  
-### Access to Opt-in Attendee CV Pool (Platinum and Gold Sponsors)
+### Access to Opt-in Attendee CV Pool
  
-Conference attendees who are interested in industry opportunities (full-time roles, internships, etc.) will be able to submit their CVs into a "pool," which will be only visible to the Platinum and Gold Sponsors. The Sponsorship Chairs will moderate the pool.
+Conference attendees who are interested in industry opportunities (full-time roles, internships, etc.) will be able to submit their CVs into a "pool," which will be only visible to the Sponsors. The Sponsorship Chairs will moderate the pool.
  
-### Job Board (Platinum and Gold Sponsors)
+### Job Board
  
-The Conference will provide a Job Board, which will showcase industrial and academic opportunities. Platinum and Gold Sponsors could post relevant opportunities such as internship openings, call for collaborations, fixed-term or permanent positions.
+The Conference will provide a Job Board, which will showcase industrial and academic opportunities. Sponsors could post relevant opportunities such as internship openings, call for collaborations, fixed-term or permanent positions.
  
-Job posts from Platinum Sponsors will be promoted in the Job Board and as part of the Industry Spotlight (see [Announcements](#Announcements) section above).
+Job posts from Platinum and Gold Sponsors will be promoted in the Job Board and as part of the Industry Spotlight (see [Announcements](#Announcements) section above).
  
  
 
