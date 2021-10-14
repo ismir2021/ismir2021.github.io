@@ -21,8 +21,10 @@
 .calendar_white_colheader_inner,
 .calendar_white_alldayheader_inner {
     color: #666;
-    background: #eee;
-    background: linear-gradient(to bottom, #eee 0%, #ddd);
+    font-family:  "Lato";
+    font-weight:  bold;
+    /*background: #eee;*/
+    /*background: linear-gradient(to bottom, #eee 0%, #ddd);*/
 }
 
 .calendar_white_cornerright_inner {

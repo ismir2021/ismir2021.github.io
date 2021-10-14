@@ -75,18 +75,20 @@ permalink: /scheduledp/
 	const nov10 = JSON.parse('{{ site.data.nov10 | jsonify }}');
 	const nov11 = JSON.parse('{{ site.data.nov11 | jsonify }}');
 	const nov12 = JSON.parse('{{ site.data.nov12 | jsonify }}');
-	const days = [nov6, nov7, nov8, nov9, nov10, nov11, nov12	];
-	
-    	
+	const days = [nov6, nov7, nov8, nov9, nov10, nov11, nov12];
 	var dp = $("#dp").daypilotCalendar({
 	  cssClassPrefix: "calendar_white",
       startDate: new DayPilot.Date("2021-11-06"),
       endDate: new DayPilot.Date("2021-11-13"),
-      businessBeginsHour: 0,
-      businessEndsHour: 23,
+      rowHeaderWidthAutoFit: true,
+      rowHeaderScrolling: true,
+      progressiveRowRendering: true, 	
+      dayBeginsHour: 6,
       dayEndsHour: 0,
-      days: 8,
-      viewType: "Days",
+      days: 7,
+      cellDuration:30,
+      viewType: "Resource",
+      allowEventOverlap: false,
       eventArrangement: "SideBySide",
       timeRangeSelectedHandling: "Disabled",
       eventDeleteHandling: "Disabled",
@@ -96,15 +98,13 @@ permalink: /scheduledp/
     	console.log("Event clicked: " + JSON.stringify(args.e));
     	console.log(myModal);
     	$('#myModal').appendTo("body");
-    	$(".modal-title").text(`${args.e.text()}`);
+    	$(".modal-title").html(`${args.e.text()}`);
     	myModal.show();
     	$(".modal-backdrop").hide()
   	  },
       eventHoverHandling: "Disabled",
     });
-
 	days.map(i => add_to_DayPilot(dp, i));
 	dp.init();
-    
 
 </script>
