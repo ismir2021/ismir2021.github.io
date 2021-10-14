@@ -95,13 +95,13 @@ permalink: /scheduledp/
       eventMoveHandling: "Disabled",
       eventResizeHandling: "Disabled",
       onEventClicked: (args) => {
-    	console.log("Event clicked: " + JSON.stringify(args.e));
-    	console.log(myModal);
-    	$('#myModal').appendTo("body");
-    	$(".modal-title").html(`${args.e.text()}`);
-    	myModal.show();
-    	$(".modal-backdrop").hide()
-  	  },
+	    	console.log("Event clicked: " + JSON.stringify(args.e));
+	    	console.log(myModal);
+	    	$('#myModal').appendTo("body");
+	    	$(".modal-title").html(`${args.e.text()}`);
+	    	myModal.show();
+	    	$(".modal-backdrop").hide()
+	  	  },
       eventHoverHandling: "Disabled",
     });
 	days.map(i => add_to_DayPilot(dp, i));
