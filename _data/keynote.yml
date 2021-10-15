@@ -1,0 +1,13 @@
+--- 
+- 
+  name: Christine McLeavey
+  affil: OpenAI
+  title: Jukebox and MuseNet - Generating Raw Audio and MIDI music
+  image: /assets/keynote/Christine.jpg
+  abstract: "Music generation is exciting both as a tool for augmenting human creativity, and as a domain for pushing the current capabilities of generative neural net models. OpenAI's MuseNet is a MIDI-based model able to generate music imitating hundreds of composers and styles. Composers such as Philip Glass have experimented with the model, and it has been used as a co-composing tool for works performed by the BBC Philharmonic, among others. Jukebox is a model that generates music with singing in the raw audio domain. Provided with written lyrics and an artist and genre to imitate, the model generates complete songs. This talk discusses both MuseNet and Jukebox in more depth, as well as some recent artistic collaborations."
+- 
+  abstract: "After studying the acoustic properties and sound qualities of several musical instruments (flute, organ) as well as those of European vocal techniques, I have directed my research towards the study of songs of oral tradition - thus without notation - for which problems of analysis and transcription arise, as well as difficulties due to our own listening references, fundamentally different from those of native musicians.<br/> <br/> In the course of the presentation we will travel to Central Africa with the Aka Pygmies, to Taiwan with the Bunun, to Central Asia with the Mongols and their \"diphonic\" singing, and back to Europe with a religious polyphonic song of the Sardinians. <br/><br/> At the end of this journey we will show that the classical notions of musical acoustics: pitch, intensity and timbre rarely correspond, for the human listener, to independent physical parameters, and that it would be necessary to consider the apprehension of global forms coordinating these parameters to account for the musical listening."
+  image: /assets/keynote/Michele.jpg
+  name: Michèle Castellengo
+  affil: Sorbonne Université
+  title: Acoustic Singularities of Some Songs of Oral Tradition 

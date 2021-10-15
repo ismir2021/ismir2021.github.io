@@ -1,0 +1,25 @@
+---
+layout: page
+title: "Keynote speakers"
+permalink: "/keynotes/"
+---
+
+{% for speaker in site.data.keynote %}
+	<div class="row">
+		<div class="col-lg-2">
+			<img src="{{ speaker.image | relative_url }}">
+		</div>
+		<div class="col-lg">
+			<h2> {{ speaker.name }} </h2>
+      <b> {{ speaker.affil }} </b>
+			<br/>
+      <h4> {{ speaker.title }} </h2>
+			<b> Abstract: </b>
+			<br/>
+			<p> {{ speaker.abstract }}</p>
+		</div>
+	</div>
+	<br/>
+	<br/>
+	<hr/>
+{% endfor %}
