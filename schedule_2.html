@@ -3,6 +3,8 @@ layout: schedule
 title: Schedule
 permalink: /scheduledp/
 ---
+
+
 <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
@@ -15,11 +17,20 @@ permalink: /scheduledp/
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
       </div>
     </div>
   </div>
 </div>
+
+<div class="time_zones" style="display: none">
+	<div class="time_button active" data-timezone="utc"> UTC </div>
+	<div class="time_button" data-timezone="America/New_York"> Eastern Standard Time </div>
+	<div class="time_button" data-timezone="America/Los_Angeles"> Pacific Standard Time </div>
+	<div class="time_button" data-timezone="Europe/Berlin"> Central European Standard Time </div>
+	<div class="time_button" data-timezone="Asia/Kolkata"> Indian Standard Time </div>
+	<div class="time_button" data-timezone="Asia/Shanghai"> China Standard Time </div>
+</div>
+
 
 
 <div id="dp"> </div>
@@ -27,13 +38,44 @@ permalink: /scheduledp/
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment-with-locales.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.9/moment-timezone-with-data.min.js"> </script>
 <script src="{{ '/assets/js/daypilot-all.min.js' | relative_url }}"></script>
 <link type="text/css" rel="stylesheet" href="{{ '/assets/css/calendar_white.css' | relative_url }} " />
 
 
 <script> 
+
+
+
 	$(document).ready(() => {
+
+
     	myModal = new bootstrap.Modal(document.getElementById('myModal'));	
+    	$(".time_zones").show();
+	   	var current_timezone = "utc";
+    	$(".time_button").click((e) => {
+    		const target = $(e.target);
+	    	const selected_timezone = target.data("timezone");  
+
+    		const DeleteEvents = new Promise((resolve, reject)=> {
+					const dp_events = dp.events.list;
+					var eventIdx = dp_events.length - 1;
+					for (eventIdx; eventIdx >= 0; eventIdx--) {  		
+				    		var myE = dp.events.find(dp.events.list[eventIdx].id);
+				    		dp.events.remove(myE);
+				    		if(eventIdx === 0){
+				    			resolve(1);
+				    		}
+			    }	    		    
+				});
+
+    		DeleteEvents.then((i) => {
+    			console.log("Done");
+    			days.map(j => add_to_DayPilot(dp, j, selected_timezone));
+    		});
+    		current_timezone = selected_timezone;
+    	});
+
     });
 	
 	const colormap = { 
@@ -45,17 +87,27 @@ permalink: /scheduledp/
 		"Main": "#FAA916"
 	};
 
-	function add_to_DayPilot(dp, json){
+
+
+
+	function add_to_DayPilot(dp, json, timezone){
 		for(var i in json.schedule){
-	    	const date = json.schedule[i].date;
+	    	const date = json.schedule[i].date;	    	
 	    	const start = json.schedule[i].start_time;
 	    	const end = json.schedule[i].end_time;
 	    	const event_type = json.schedule[i].type;
-	    	const event_start = moment.utc(date+" "+start).toDate();
-	    	const event_end = moment.utc(date+" "+end).toDate();
+	    	var event_start; 
+	    	var event_end; 
+	    	if (timezone === "utc"){
+	    		event_start = moment.utc(date+" "+start).toDate();
+	    		event_end = moment.utc(date+" "+end).toDate();	    		
+	    	}else{
+	    		event_start = moment.utc(date+" "+start).tz(timezone).format("YYYY-MM-DD HH:mm:ss");	    		
+	    		event_end = moment.utc(date+" "+end).tz(timezone).format("YYYY-MM-DD HH:mm:ss");	    		    		
+	    	}	    		    	
 	    	const dp_e = new DayPilot.Event({
-	    		start: new DayPilot.Date(event_start),
-	    		end: new DayPilot.Date(event_end),
+	    		start: new DayPilot.Date(event_start, false),
+	    		end: new DayPilot.Date(event_end, false),
 	    		id: DayPilot.guid(),
 	    		text: `${json.schedule[i].title} <br/> ${start} - ${end}`,
 	    		tag: {"type": event_type},
@@ -63,11 +115,10 @@ permalink: /scheduledp/
 	    		fontColor: event_type === "Music" ? "black" : "white",
 	    		fontSize: "1em"
 	    	});
-	    	console.log(dp.events.add(dp_e));
+	    	dp.events.add(dp_e);
     	}
 	}
-
-	console.log("Hello?");
+	
 	const nov6 = JSON.parse('{{ site.data.nov6 | jsonify }}');
 	const nov7 = JSON.parse('{{ site.data.nov7 | jsonify }}');
 	const nov8 = JSON.parse('{{ site.data.nov8 | jsonify }}');
@@ -104,7 +155,7 @@ permalink: /scheduledp/
 	  	  },
       eventHoverHandling: "Disabled",
     });
-	days.map(i => add_to_DayPilot(dp, i));
+	days.map(i => add_to_DayPilot(dp, i, "utc"));
 	dp.init();
 
 </script>

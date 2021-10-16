@@ -102,7 +102,7 @@ gulp.task( "critical", done => {
       height: 960
     } ],
     dest: "../_includes/critical.css",
-    minify: true,
+    minify: false,
     extract: false,
     ignore: [ "@font-face" ]
   } );
@@ -110,15 +110,15 @@ gulp.task( "critical", done => {
 } );
 
 // Minify HTML
-gulp.task( "html", done => {
-    gulp.src( "./_site/index.html" )
-      .pipe( htmlmin( { collapseWhitespace: true } ) )
-      .pipe( gulp.dest( "./_site" ) );
-    gulp.src( "./_site/*/*html" )
-      .pipe( htmlmin( { collapseWhitespace: true } ) )
-      .pipe( gulp.dest( "./_site/./" ) );
-    done();
-} );
+// gulp.task( "html", done => {
+//     gulp.src( "./_site/index.html" )
+//       .pipe( htmlmin( { collapseWhitespace: true } ) )
+//       .pipe( gulp.dest( "./_site" ) );
+//     gulp.src( "./_site/*/*html" )
+//       .pipe( htmlmin( { collapseWhitespace: true } ) )
+//       .pipe( gulp.dest( "./_site/./" ) );
+//     done();
+// } );
 
 // Service Worker
 gulp.task( "sw", () => {
