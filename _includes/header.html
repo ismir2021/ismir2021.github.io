@@ -7,18 +7,17 @@
                         <img alt="" height="30" src="/assets/logo.svg" width="30">
                     </div>
                 </a>
-                <button aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"
-                        data-target="#navbarNavDropdown" data-toggle="collapse" type="button">
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav">
                         {% for item in site.navigation %}
                         {% if item.subitems %}
                         <li class="nav-item dropdown">
                             <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle"
-                               data-toggle="dropdown" href="#" id="navbarDropdownMenuLink">
+                               data-bs-toggle="dropdown" href="#" id="navbarDropdownMenuLink">
                                 {{ item.name }}
                             </a>
 

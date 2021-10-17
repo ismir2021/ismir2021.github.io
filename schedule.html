@@ -52,7 +52,7 @@ permalink: /schedule/
 	$(document).ready(() => {
 			const time_zones = moment.tz.names();
 			time_zones.map((i) => {
-				$(".dropdown-menu").append(`<li> <a class='dropdown-item time_button' data-timezone=${i} href="#"> ${i} </a> </li>`);
+				$(".tz_dropdown").append(`<li> <a class='dropdown-item time_button' data-timezone=${i} href="#"> ${i} </a> </li>`);
 
 			});
 			$(".dropdown").show();
