@@ -23,6 +23,10 @@ navigation:
     - {name: "Call for Late-breaking Demo Contributions", link: "/clbd/"}
     - {name: "Call for Music", link: "/cfm/"}
     - {name: "Call for Lab Showcase", link: "/cflab/"}
+  - name: "Program"
+    subitems: 
+      - {name: "Keynote Speakers", link: "/keynotes/"}
+      - {name: "Schedule", link: "/schedule/"}
   - name: "Attend"
     subitems:
     - {name: "Registration", link: "/registration/"}
