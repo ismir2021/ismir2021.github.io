@@ -33,8 +33,7 @@ navigation:
     subitems:
     - {name: "Registration", link: "/registration/"}
     - {name: "Financial Support", link: "/financialsupport/"}   
-    - {name: "Code of Conduct", link: "/coc/"}
-    - {name: "Keynote Speakers", link: "/keynotes/"}
+    - {name: "Code of Conduct", link: "/coc/"}    
   - {name: "Blog", link: "/blog/"}
   - {name: "Sponsors", link: "/sponsors/"}
   - {name: "Team", link: "/team/"}
