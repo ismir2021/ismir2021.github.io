@@ -6,7 +6,7 @@
 			"start_time": "00:30", 
 			"end_time": "02:00",
 			"title": "Poster 4-A",
-			"type": "Main"		
+			"type": "Poster"		
 		},
 		{
 			"date": "2021/11/10", 
@@ -41,28 +41,28 @@
 			"start_time": "07:00", 
 			"end_time": "08:00",
 			"title": "Keynote 2-B",
-			"type": "Main"			
+			"type": "Keynote"			
 		},
 		{
 			"date": "2021/11/10", 
 			"start_time": "08:30", 
 			"end_time": "10:00",
 			"title": "Poster 3-B",
-			"type": "Main"			
+			"type": "Poster"			
 		},
 		{
 			"date": "2021/11/10", 
 			"start_time": "10:30", 
 			"end_time": "11:30",
 			"title": "Best Paper Candidates 2-A",
-			"type": "Main"			
+			"type": "Keynote"			
 		},
 		{
 			"date": "2021/11/10", 
 			"start_time": "12:30", 
 			"end_time": "14:00",
 			"title": "Poster 4-B",
-			"type": "Main"		
+			"type": "Poster"		
 		},
 		{
 			"date": "2021/11/10", 
@@ -76,7 +76,7 @@
 			"start_time": "14:30", 
 			"end_time": "15:30",
 			"title": "Special Session 4",
-			"type": "Main"		
+			"type": "Special"		
 		},
 		{
 			"date": "2021/11/10", 
@@ -104,14 +104,14 @@
 			"start_time": "20:30", 
 			"end_time": "22:00",
 			"title": "Poster 5-A",
-			"type": "Main"		
+			"type": "Poster"		
 		},
 		{
 			"date": "2021/11/10", 
 			"start_time": "22:30", 
 			"end_time": "23:30",
-			"title": "Best Paper Candidates - 2",
-			"type": "Main"		
+			"title": "Best Paper Candidates 2-B",
+			"type": "Keynote"		
 		},
 	]
 }

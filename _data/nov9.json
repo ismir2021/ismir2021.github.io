@@ -13,7 +13,7 @@
 			"start_time": "01:30", 
 			"end_time": "03:00", 
 			"title": "Poster 2-A",
-			"type": "Main"
+			"type": "Poster"
 		},
 		{
 			"date": "2021/11/09", 
@@ -41,14 +41,14 @@
 			"start_time": "08:00", 
 			"end_time": "09:00",
 			"title": "Keynote 1-B",
-			"type": "Main"			
+			"type": "Keynote"			
 		},
 		{
 			"date": "2021/11/09", 
 			"start_time": "09:30", 
 			"end_time": "11:00",
 			"title": "Poster 1-B",
-			"type": "Main"			
+			"type": "Poster"			
 		},
 		{
 			"date": "2021/11/09", 
@@ -62,7 +62,7 @@
 			"start_time": "13:30", 
 			"end_time": "15:00",
 			"title": "Poster 2-B",
-			"type": "Main"		
+			"type": "Poster"		
 		},
 		{
 			"date": "2021/11/09", 
@@ -89,15 +89,15 @@
 			"date": "2021/11/09", 
 			"start_time": "19:00", 
 			"end_time": "20:00",
-			"title": "Keynote 2 - Michele Castellengo",
-			"type": "Main"		
+			"title": "Keynote 2-A - Michele Castellengo",
+			"type": "Keynote"		
 		},
 		{
 			"date": "2021/11/09", 
 			"start_time": "20:30", 
 			"end_time": "22:00",
 			"title": "Poster 3-A",
-			"type": "Main"		
+			"type": "Poster"		
 		},
 		{
 			"date": "2021/11/09", 
