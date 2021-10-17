@@ -2,70 +2,70 @@
 	
 	"schedule": [
 	{
-			"date": "2021/11/07",
+			"date": "2021/11/08",
 			"start_time": "01:00",
 			"end_time": "04:00",
 			"title": "Tutorial A.3.1: Designing Generative Models for Interactive Co-Creation",
 			"type": "Tutorial"
 		},
 		{
-			"date": "2021/11/07",
+			"date": "2021/11/08",
 			"start_time": "01:00",
 			"end_time": "04:00",
 			"title": "Tutorial A.3.2: Scales, Chords and Cadences: Practical Music Theory for MIR researchers",
 			"type": "Tutorial"
 		},
 		{
-			"date": "2021/11/07",
+			"date": "2021/11/08",
 			"start_time": "04:00", 
 			"end_time": "06:00", 
 			"title": "Reception", 
 			"type": "Social"
 		},
 		{
-			"date": "2021/11/07", 
+			"date": "2021/11/08", 
 		  	"start_time": "05:00", 
 		  	"end_time": "08:00",
 		  	"title": "Tutorial B.1.1: Programming MIR Baselines from Scratch",
 		  	"type": "Tutorial"		  			  	
 		},
 		{
-			"date": "2021/11/07", 
+			"date": "2021/11/08", 
 		  	"start_time": "05:00", 
 		  	"end_time": "08:00",
 		  	"title": "Tutorial B.1.2: Teaching Music Information Retrieval",
 		  	"type": "Tutorial"	  	
 		},
 		{
-			"date": "2021/11/07",
+			"date": "2021/11/08",
 			"start_time": "09:00", 
 			"end_time": "12:00",
 			"title": "Tutorial B.2.1: Music Classification: Beyond Supervised Learning",
 			"type": "Tutorial"
 		},
 		{
-			"date": "2021/11/07",
+			"date": "2021/11/08",
 			"start_time": "11:00", 
 			"end_time": "14:00",
 			"title": "Tutorial B.2.2: Tempo, Beat and Downbeat Estimation",
 			"type": "Tutorial"
 		},
 		{
-			"date": "2021/11/07",
+			"date": "2021/11/08",
 			"start_time": "13:00",
 			"end_time": "16:00",
 			"title": "Tutorial B.3.2: Scales, Chords and Cadences: Practical Music Theory for MIR researchers",
 			"type": "Tutorial"
 		},
 		{
-			"date": "2021/11/07",
+			"date": "2021/11/08",
 			"start_time": "13:00",
 			"end_time": "16:00",
-			"title": "Tutorial B.3.1: Desining Generative Models for Interactive Co-Creation",
+			"title": "Tutorial B.3.1: Designing Generative Models for Interactive Co-Creation",
 			"type": "Tutorial"
 		},
 		{
-			"date": "2021/11/07",
+			"date": "2021/11/08",
 			"start_time": "16:00", 
 			"end_time": "18:00", 
 			"title": "Reception", 
