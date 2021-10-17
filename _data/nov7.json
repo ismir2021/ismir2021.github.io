@@ -18,8 +18,8 @@
 		{
 			"date": "2021/11/07",
 			"start_time": "04:00", 
-			"end_time": "04:30", 
-			"title": "Reception - Band", 
+			"end_time": "06:00", 
+			"title": "Reception", 
 			"type": "Main"
 		},
 		{
@@ -67,8 +67,8 @@
 		{
 			"date": "2021/11/07",
 			"start_time": "16:00", 
-			"end_time": "16:30", 
-			"title": "Reception - Band", 
+			"end_time": "18:00", 
+			"title": "Reception", 
 			"type": "Main"
 		},
 	]
