@@ -6,7 +6,7 @@
 			"start_time": "00:00", 
 			"end_time": "01:00",
 			"title": "Industry Presentation",
-			"type": "Special"		
+			"type": "Industry"		
 		},
 		{
 			"date": "2021/11/11", 
@@ -20,7 +20,7 @@
 			"start_time": "02:30", 
 			"end_time": "03:30", 
 			"title": "Masterclass",
-			"type": "Main"
+			"type": "Industry"
 		},
 		{
 			"date": "2021/11/11", 
@@ -62,7 +62,7 @@
 			"start_time": "12:00", 
 			"end_time": "13:00",
 			"title": "Industry Presentation",
-			"type": "Main"		
+			"type": "Industry"		
 		},
 		{
 			"date": "2021/11/11", 
@@ -97,7 +97,7 @@
 			"start_time": "19:00", 
 			"end_time": "21:00",
 			"title": "Late Breaking Demos-A",
-			"type": "Main"		
+			"type": "LBD"		
 		},
 		{
 			"date": "2021/11/11", 
@@ -118,7 +118,7 @@
 			"start_time": "23:00", 
 			"end_time": "2021/11/12 00:00",
 			"title": "Meet up 1",
-			"type": "Main"		
+			"type": "Special"		
 		},
 		
 	]

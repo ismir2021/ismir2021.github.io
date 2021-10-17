@@ -6,14 +6,14 @@
 			"start_time": "01:30", 
 			"end_time": "03:00", 
 			"title": "Industry Panel - MIR Technologies Across Cultures",
-			"type": "Main"
+			"type": "Industry"
 		},		
 		{
 			"date": "2021/11/12", 
 			"start_time": "03:00", 
 			"end_time": "04:00", 
 			"title": "Masterclass",
-			"type": "Main"
+			"type": "Industry"
 		},	
 		{
 			"date": "2021/11/12", 
@@ -27,7 +27,7 @@
 			"start_time": "07:00", 
 			"end_time": "09:00", 
 			"title": "Late Breaking Demos-B",
-			"type": "Main"
+			"type": "LBD"
 		},	
 		{
 			"date": "2021/11/12", 
@@ -48,21 +48,21 @@
 			"start_time": "11:00", 
 			"end_time": "12:00",
 			"title": "Meet up 2",
-			"type": "Main"		
+			"type": "Special"		
 		},		
 		{
 			"date": "2021/11/12", 
 			"start_time": "13:30", 
 			"end_time": "15:00", 
 			"title": "Industry Panel - MIR and Education",
-			"type": "Main"
+			"type": "Industry"
 		},	
 		{
 			"date": "2021/11/12", 
 			"start_time": "15:00", 
 			"end_time": "16:00", 
 			"title": "Masterclass",
-			"type": "Main"
+			"type": "Industry"
 		},	
 		{
 			"date": "2021/11/12", 
