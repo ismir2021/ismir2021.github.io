@@ -27,12 +27,12 @@ navigation:
     subitems: 
       - {name: "Keynote Speakers", link: "/keynotes/"}
       - {name: "Schedule", link: "/schedule/"}
+      - {name: "Accepted Papers", link: "/papers/"}
+      - {name: "Accepted Tutorials", link: "/tutorials/"}
   - name: "Attend"
     subitems:
     - {name: "Registration", link: "/registration/"}
-    - {name: "Financial Support", link: "/financialsupport/"}
-    - {name: "Accepted Papers", link: "/papers/"}
-    - {name: "Accepted Tutorials", link: "/tutorials/"}
+    - {name: "Financial Support", link: "/financialsupport/"}   
     - {name: "Code of Conduct", link: "/coc/"}
     - {name: "Keynote Speakers", link: "/keynotes/"}
   - {name: "Blog", link: "/blog/"}
