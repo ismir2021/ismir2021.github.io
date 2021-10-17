@@ -84,7 +84,8 @@ permalink: /scheduledp/
 		"WiMIR": "#19535f",
 		"Music": "#ECE5F0",
 		"Social": "#9D6381",
-		"Main": "#FAA916"
+		"Main": "#FAA916",
+		"Satellite": "#000000"
 	};
 
 
@@ -95,15 +96,27 @@ permalink: /scheduledp/
 	    	const date = json.schedule[i].date;	    	
 	    	const start = json.schedule[i].start_time;
 	    	const end = json.schedule[i].end_time;
+		    const ends = end.split(" ");
+
 	    	const event_type = json.schedule[i].type;
 	    	var event_start; 
 	    	var event_end; 
 	    	if (timezone === "utc"){
 	    		event_start = moment.utc(date+" "+start).toDate();
-	    		event_end = moment.utc(date+" "+end).toDate();	    		
+	    		if (ends.length === 2){
+		    		event_end = moment.utc(ends[0]+" "+ ends[1]).toDate();
+		    	}else{
+		    		event_end = moment.utc(date+" "+end).toDate();
+		    	}
+
+	    			    		
 	    	}else{
-	    		event_start = moment.utc(date+" "+start).tz(timezone).format("YYYY-MM-DD HH:mm:ss");	    		
-	    		event_end = moment.utc(date+" "+end).tz(timezone).format("YYYY-MM-DD HH:mm:ss");	    		    		
+	    		event_start = moment.utc(date+" "+start).tz(timezone).format("YYYY-MM-DD HH:mm:ss");	 
+	    		if (ends.length === 2){
+		    		event_end = moment.utc(ends[0]+" "+ ends[1]).tz(timezone).format("YYYY-MM-DD HH:mm:ss");	  
+		    	}else{
+		    		event_end = moment.utc(date+" "+end).tz(timezone).format("YYYY-MM-DD HH:mm:ss");	  
+		    	}	    	
 	    	}	    		    	
 	    	const dp_e = new DayPilot.Event({
 	    		start: new DayPilot.Date(event_start, false),
@@ -126,7 +139,8 @@ permalink: /scheduledp/
 	const nov10 = JSON.parse('{{ site.data.nov10 | jsonify }}');
 	const nov11 = JSON.parse('{{ site.data.nov11 | jsonify }}');
 	const nov12 = JSON.parse('{{ site.data.nov12 | jsonify }}');
-	const days = [nov6, nov7, nov8, nov9, nov10, nov11, nov12];
+	const nov13 = JSON.parse('{{ site.data.nov13 | jsonify }}');
+	const days = [nov6, nov7, nov8, nov9, nov10, nov11, nov12, nov13];
 	var dp = $("#dp").daypilotCalendar({
 	  cssClassPrefix: "calendar_white",
       startDate: new DayPilot.Date("2021-11-06"),
@@ -136,7 +150,7 @@ permalink: /scheduledp/
       progressiveRowRendering: true, 	
       dayBeginsHour: 6,
       dayEndsHour: 0,
-      days: 7,
+      days: 8,
       cellDuration:30,
       viewType: "Resource",
       allowEventOverlap: false,
