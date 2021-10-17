@@ -22,13 +22,15 @@ permalink: /scheduledp/
   </div>
 </div>
 
-<div class="time_zones" style="display: none">
-	<div class="time_button active" data-timezone="utc"> UTC </div>
-	<div class="time_button" data-timezone="America/New_York"> Eastern Standard Time </div>
-	<div class="time_button" data-timezone="America/Los_Angeles"> Pacific Standard Time </div>
-	<div class="time_button" data-timezone="Europe/Berlin"> Central European Standard Time </div>
-	<div class="time_button" data-timezone="Asia/Kolkata"> Indian Standard Time </div>
-	<div class="time_button" data-timezone="Asia/Shanghai"> China Standard Time </div>
+
+<div class="dropdown" style="z-index:1000000; display: hidden;">
+
+  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+    UTC
+  </a>
+
+  <ul class="dropdown-menu tz_dropdown" aria-labelledby="dropdownMenuLink" style="z-index: 100000;">
+  </ul>
 </div>
 
 
@@ -48,18 +50,24 @@ permalink: /scheduledp/
 
 
 	$(document).ready(() => {
+			const time_zones = moment.tz.names();
+			time_zones.map((i) => {
+				$(".dropdown-menu").append(`<li> <a class='dropdown-item time_button' data-timezone=${i} href="#"> ${i} </a> </li>`);
 
-
+			});
+			$(".dropdown").show();
     	myModal = new bootstrap.Modal(document.getElementById('myModal'));	
     	$(".time_zones").show();
 	   	var current_timezone = "utc";
+
     	$(".time_button").click((e) => {
     		const target = $(e.target);
 	    	const selected_timezone = target.data("timezone");  
-
+	    	$("#dropdownMenuLink").text(selected_timezone);
     		const DeleteEvents = new Promise((resolve, reject)=> {
 					const dp_events = dp.events.list;
 					var eventIdx = dp_events.length - 1;
+					
 					for (eventIdx; eventIdx >= 0; eventIdx--) {  		
 				    		var myE = dp.events.find(dp.events.list[eventIdx].id);
 				    		dp.events.remove(myE);
@@ -69,9 +77,9 @@ permalink: /scheduledp/
 			    }	    		    
 				});
 
-    		DeleteEvents.then((i) => {
-    			console.log("Done");
+    		DeleteEvents.then((i) => {    			
     			days.map(j => add_to_DayPilot(dp, j, selected_timezone));
+    			
     		});
     		current_timezone = selected_timezone;
     	});
@@ -140,6 +148,7 @@ permalink: /scheduledp/
 	const nov11 = JSON.parse('{{ site.data.nov11 | jsonify }}');
 	const nov12 = JSON.parse('{{ site.data.nov12 | jsonify }}');
 	const nov13 = JSON.parse('{{ site.data.nov13 | jsonify }}');
+
 	const days = [nov6, nov7, nov8, nov9, nov10, nov11, nov12, nov13];
 	var dp = $("#dp").daypilotCalendar({
 	  cssClassPrefix: "calendar_white",
@@ -147,6 +156,7 @@ permalink: /scheduledp/
       endDate: new DayPilot.Date("2021-11-13"),
       rowHeaderWidthAutoFit: true,
       rowHeaderScrolling: true,
+      dynamicEventRendering: true,
       progressiveRowRendering: true, 	
       dayBeginsHour: 6,
       dayEndsHour: 0,
@@ -160,8 +170,6 @@ permalink: /scheduledp/
       eventMoveHandling: "Disabled",
       eventResizeHandling: "Disabled",
       onEventClicked: (args) => {
-	    	console.log("Event clicked: " + JSON.stringify(args.e));
-	    	console.log(myModal);
 	    	$('#myModal').appendTo("body");
 	    	$(".modal-title").html(`${args.e.text()}`);
 	    	myModal.show();
