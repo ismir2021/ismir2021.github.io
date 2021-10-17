@@ -1,0 +1,117 @@
+{
+	
+	"schedule": [
+		{
+			"date": "2021/11/10", 
+			"start_time": "00:30", 
+			"end_time": "02:00",
+			"title": "Poster 4-A",
+			"type": "Main"		
+		},
+		{
+			"date": "2021/11/10", 
+			"start_time": "02:30", 
+			"end_time": "03:30", 
+			"title": "WiMIR Special Session",
+			"type": "WiMIR"
+		},		
+		{
+			"date": "2021/11/10", 
+			"start_time": "02:30", 
+			"end_time": "03:30", 
+			"title": "Master Class",
+			"type": "Main"
+		},
+		{
+			"date": "2021/11/10", 
+			"start_time": "04:00", 
+			"end_time": "05:00", 
+			"title": "Special Session 3: Promoting Cultural Diversity in MIR Research",
+			"type": "Special"
+		},
+		{
+			"date": "2021/11/10", 
+			"start_time": "04:00", 
+			"end_time": "05:00",
+			"title": "Social (Trivia)",
+			"type": "Social"			
+		},
+		{
+			"date": "2021/11/10", 
+			"start_time": "07:00", 
+			"end_time": "08:00",
+			"title": "Keynote 2-B",
+			"type": "Main"			
+		},
+		{
+			"date": "2021/11/10", 
+			"start_time": "08:30", 
+			"end_time": "10:00",
+			"title": "Poster 3-B",
+			"type": "Main"			
+		},
+		{
+			"date": "2021/11/10", 
+			"start_time": "10:30", 
+			"end_time": "11:30",
+			"title": "Best Paper Candidates 2-A",
+			"type": "Main"			
+		},
+		{
+			"date": "2021/11/10", 
+			"start_time": "12:30", 
+			"end_time": "14:00",
+			"title": "Poster 4-B",
+			"type": "Main"		
+		},
+		{
+			"date": "2021/11/10", 
+			"start_time": "14:30", 
+			"end_time": "15:30",
+			"title": "WiMIR Special Session",
+			"type": "WiMIR"		
+		},
+		{
+			"date": "2021/11/10", 
+			"start_time": "14:30", 
+			"end_time": "15:30",
+			"title": "Special Session 4",
+			"type": "Main"		
+		},
+		{
+			"date": "2021/11/10", 
+			"start_time": "16:00", 
+			"end_time": "17:00",
+			"title": "Social - Trivia",
+			"type": "Social"		
+		},
+		{
+			"date": "2021/11/10", 
+			"start_time": "16:00", 
+			"end_time": "17:00",
+			"title": "Special Session 5: MIR for Music Education",
+			"type": "Special"		
+		},
+		{
+			"date": "2021/11/10", 
+			"start_time": "19:00", 
+			"end_time": "20:00",
+			"title": "WiMIR Keynote",
+			"type": "WiMIR"		
+		},
+		{
+			"date": "2021/11/10", 
+			"start_time": "20:30", 
+			"end_time": "22:00",
+			"title": "Poster 5-A",
+			"type": "Main"		
+		},
+		{
+			"date": "2021/11/10", 
+			"start_time": "22:30", 
+			"end_time": "23:30",
+			"title": "Best Paper Candidates - 2",
+			"type": "Main"		
+		},
+	]
+}

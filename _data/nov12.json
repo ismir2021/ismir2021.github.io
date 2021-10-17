@@ -1,0 +1,83 @@
+{
+	
+	"schedule": [
+		{
+			"date": "2021/11/12", 
+			"start_time": "01:30", 
+			"end_time": "03:00", 
+			"title": "Industry Panel - MIR Technologies Across Cultures",
+			"type": "Main"
+		},		
+		{
+			"date": "2021/11/12", 
+			"start_time": "03:00", 
+			"end_time": "04:00", 
+			"title": "Masterclass",
+			"type": "Main"
+		},	
+		{
+			"date": "2021/11/12", 
+			"start_time": "04:30", 
+			"end_time": "05:30", 
+			"title": "Social - Yoga",
+			"type": "Social"
+		},	
+		{
+			"date": "2021/11/12", 
+			"start_time": "07:00", 
+			"end_time": "09:00", 
+			"title": "Late Breaking Demos-B",
+			"type": "Main"
+		},	
+		{
+			"date": "2021/11/12", 
+			"start_time": "09:30", 
+			"end_time": "11:00", 
+			"title": "Business Meeting + Awards-B",
+			"type": "Main"
+		},	
+		{
+			"date": "2021/11/12", 
+			"start_time": "11:00", 
+			"end_time": "12:00",
+			"title": "Diversity & Inclusion Discussion with ISMIR board and WiMIR A",
+			"type": "WiMIR"		
+		},		
+		{
+			"date": "2021/11/12", 
+			"start_time": "11:00", 
+			"end_time": "12:00",
+			"title": "Meet up 2",
+			"type": "Main"		
+		},		
+		{
+			"date": "2021/11/12", 
+			"start_time": "13:30", 
+			"end_time": "15:00", 
+			"title": "Industry Panel - MIR and Education",
+			"type": "Main"
+		},	
+		{
+			"date": "2021/11/12", 
+			"start_time": "15:00", 
+			"end_time": "16:00", 
+			"title": "Masterclass",
+			"type": "Main"
+		},	
+		{
+			"date": "2021/11/12", 
+			"start_time": "16:30", 
+			"end_time": "17:30", 
+			"title": "Social (Yoga)",
+			"type": "Social"
+		},
+		{
+			"date": "2021/11/12", 
+			"start_time": "19:00", 
+			"end_time": "2021/11/13 02:00", 
+			"title": "Satellite - Placeholder",
+			"type": "Satellite"	
+		}	
+
+	]
+}

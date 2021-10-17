@@ -1,0 +1,77 @@
+.event_card{
+	width: 100%; 
+	padding: 2px;	
+	margin-bottom: 2em;
+	border-radius: 0px;
+	align-content: center;
+	font-family: "Lato";
+	font-size: 1em;
+	// box-shadow: 1px 1px 4px black;
+}
+
+
+// .event_card:hover{
+// 	box-shadow: 1px 1px 10px #ddd;
+// }
+
+.Tutorial{
+	background-color: #0CA7DB;
+	color: white;
+}
+
+.WiMIR{ 
+	background: #19535f;
+	color: white;
+}
+
+.Music{
+	background: #ECE5F0;
+	color: black;
+}
+.Main{
+	background: #FAA916;
+	color: white;
+}
+
+.Special{ 
+	background: #BA274A; 
+	color: white;
+}
+
+.Social{
+	background: #9D6381;
+	color: white;
+}
+
+.event_title{
+	// margin-top: 1em;
+	// margin-bottom: 1em;
+	font-size: 0.95em;
+	font-weight: bold;
+}
+
+.event_date{
+	margin-bottom: 1em;
+}
+
+.grid-line{
+	min-width: 32px;
+	margin-top: 32px;
+	margin-bottom: 32px;
+}
+
+.time_zones{
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 10px; 
+}
+
+// .time_button{ 
+// 	display: inline-flex; 
+// 	background: #000;
+// 	color: white; 
+// 	padding-left: 5px; 
+// 	padding-right: 5px; 
+// 	border-radius: 3px; 
+// 	margin-right: 1em; 
+// }
