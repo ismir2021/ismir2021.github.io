@@ -7,7 +7,7 @@ chairs:
       - {name: "Alexander Lerch", img: "/assets/team/lerch.png"}
 
   -
-    title: "Scientific Chairs"
+    title: "Scientific Program"
     email: "ismir2021-papers@ismir.net"
     members:
       - {name: "Zhiyao Duan", img: "/assets/team/duan.png"}
@@ -71,12 +71,12 @@ chairs:
       - {name: "Qhansa Bayu", img: "/assets/team/qhansa.png"}
 
   - 
-    title: "Volunteering Chair"
+    title: "Volunteering"
     members: 
       - {name: "Kahyun Choi", img: "/assets/team/placeholder.png"}
 
   - 
-    title: "Lab Showcase Chair"
+    title: "Lab Showcases"
     members: 
       - {name: "Lele Liu", img: "/assets/team/lele.png"}
 
