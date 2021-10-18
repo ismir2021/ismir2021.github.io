@@ -40,21 +40,21 @@
 			"date": "2021/11/11", 
 			"start_time": "07:00", 
 			"end_time": "08:00",
-			"title": "WiMIR Keynote-B",
+			"title": "WiMIR Keynote (B)",
 			"type": "WiMIR"			
 		},
 		{
 			"date": "2021/11/11", 
 			"start_time": "08:30", 
 			"end_time": "10:00",
-			"title": "Poster 5-B",
+			"title": "Poster 5 (B)",
 			"type": "Poster"			
 		},
 		{
 			"date": "2021/11/11", 
 			"start_time": "10:30", 
 			"end_time": "11:30",
-			"title": "Best paper candidates 1-B",
+			"title": "Best paper candidates 1(B)",
 			"type": "Keynote"			
 		},
 		{
@@ -96,21 +96,21 @@
 			"date": "2021/11/11", 
 			"start_time": "19:00", 
 			"end_time": "21:00",
-			"title": "Late Breaking Demos-A",
+			"title": "Late Breaking Demos (A)",
 			"type": "LBD"		
 		},
 		{
 			"date": "2021/11/11", 
 			"start_time": "21:30", 
 			"end_time": "23:00",
-			"title": "Business Meeting + awards-A",
+			"title": "Business Meeting + Awards (A)",
 			"type": "Main"		
 		},
 		{
 			"date": "2021/11/11", 
 			"start_time": "23:00", 
 			"end_time": "2021/11/12 00:00",
-			"title": "Diversity & Inclusion Discussion with ISMIR board and WiMIR A",
+			"title": "Diversity & Inclusion Discussion with ISMIR board and WiMIR (A)",
 			"type": "WiMIR"		
 		},		
 		{

@@ -19,7 +19,7 @@
 			"date": "2021/11/08",
 			"start_time": "04:00", 
 			"end_time": "06:00", 
-			"title": "Reception", 
+			"title": "Reception (A)", 
 			"type": "Social"
 		},
 		{
@@ -68,7 +68,7 @@
 			"date": "2021/11/08",
 			"start_time": "16:00", 
 			"end_time": "18:00", 
-			"title": "Reception", 
+			"title": "Reception (B)", 
 			"type": "Social"
 		},
 	]

@@ -26,21 +26,21 @@
 			"date": "2021/11/12", 
 			"start_time": "07:00", 
 			"end_time": "09:00", 
-			"title": "Late Breaking Demos-B",
+			"title": "Late Breaking Demos (B)",
 			"type": "LBD"
 		},	
 		{
 			"date": "2021/11/12", 
 			"start_time": "09:30", 
 			"end_time": "11:00", 
-			"title": "Business Meeting + Awards-B",
+			"title": "Business Meeting + Awards (B)",
 			"type": "Main"
 		},	
 		{
 			"date": "2021/11/12", 
 			"start_time": "11:00", 
 			"end_time": "12:00",
-			"title": "Diversity & Inclusion Discussion with ISMIR board and WiMIR A",
+			"title": "Diversity & Inclusion Discussion with ISMIR board and WiMIR (A)",
 			"type": "WiMIR"		
 		},		
 		{
@@ -68,7 +68,7 @@
 			"date": "2021/11/12", 
 			"start_time": "16:30", 
 			"end_time": "17:30", 
-			"title": "Social (Yoga)",
+			"title": "Social - Yoga",
 			"type": "Social"
 		},
 		{

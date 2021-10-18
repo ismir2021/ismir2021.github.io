@@ -5,14 +5,14 @@
 			"date": "2021/11/09",
 			"start_time": "00:00",
 			"end_time": "01:00",
-			"title": "Getting the most out of ISMIR 2021",
+			"title": "Getting the most out of ISMIR 2021 (A)",
 			"type": "WiMIR"
 		},
 		{
 			"date": "2021/11/09", 
 			"start_time": "01:30", 
 			"end_time": "03:00", 
-			"title": "Poster 2-A",
+			"title": "Poster 2 (A)",
 			"type": "Poster"
 		},
 		{
@@ -33,35 +33,35 @@
 			"date": "2021/11/09", 
 			"start_time": "05:00", 
 			"end_time": "06:00",
-			"title": "Social (Yoga)",
+			"title": "Social - Yoga",
 			"type": "Social"			
 		},
 		{
 			"date": "2021/11/09", 
 			"start_time": "08:00", 
 			"end_time": "09:00",
-			"title": "Keynote 1-B",
+			"title": "Keynote 1 - Christine McLeavey (B)",
 			"type": "Keynote"			
 		},
 		{
 			"date": "2021/11/09", 
 			"start_time": "09:30", 
 			"end_time": "11:00",
-			"title": "Poster 1-B",
+			"title": "Poster 1 (B)",
 			"type": "Poster"			
 		},
 		{
 			"date": "2021/11/09", 
 			"start_time": "12:00", 
 			"end_time": "13:00",
-			"title": "Getting the Most Out of ISMIR2021",
+			"title": "Getting the Most Out of ISMIR2021 (B)",
 			"type": "WiMIR"			
 		},
 		{
 			"date": "2021/11/09", 
 			"start_time": "13:30", 
 			"end_time": "15:00",
-			"title": "Poster 2-B",
+			"title": "Poster 2 (B)",
 			"type": "Poster"		
 		},
 		{
@@ -82,28 +82,28 @@
 			"date": "2021/11/09", 
 			"start_time": "17:00", 
 			"end_time": "18:00",
-			"title": "Social (Yoga)",
+			"title": "Social - Yoga",
 			"type": "Social"	
 		},
 		{
 			"date": "2021/11/09", 
 			"start_time": "19:00", 
 			"end_time": "20:00",
-			"title": "Keynote 2-A - Michele Castellengo",
+			"title": "Keynote 2 - Michele Castellengo (A)",
 			"type": "Keynote"		
 		},
 		{
 			"date": "2021/11/09", 
 			"start_time": "20:30", 
 			"end_time": "22:00",
-			"title": "Poster 3-A",
+			"title": "Poster 3 (A)",
 			"type": "Poster"		
 		},
 		{
 			"date": "2021/11/09", 
 			"start_time": "22:30", 
 			"end_time": "23:30",
-			"title": "Best Paper Candidates 1-A",
+			"title": "Best Paper Candidates 1 (A)",
 			"type": "Keynote"		
 		},
 	]
