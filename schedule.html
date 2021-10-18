@@ -134,7 +134,7 @@ permalink: /schedule/
 	    		start: new DayPilot.Date(event_start, false),
 	    		end: new DayPilot.Date(event_end, false),
 	    		id: DayPilot.guid(),
-	    		text: `${json.schedule[i].title} <br/> ${start} - ${end}`,
+	    		text: `${json.schedule[i].title}`,
 	    		tag: {"type": event_type},
 	    		backColor: colormap[event_type],
 	    		fontColor: event_type === "Music" ? "black" : "white",
