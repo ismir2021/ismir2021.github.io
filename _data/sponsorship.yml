@@ -44,6 +44,10 @@
       name: ACRCloud
       url: "https://www.acrcloud.com"
     - 
+      logo: /assets/sponsors/Avid.png
+      name: Avid
+      url: "https://www.avid.com/"
+    - 
       logo: /assets/sponsors/Apple.png
       name: Apple
       url: "https://www.apple.com/jobs/us/teams/machine-learning-and-ai.html"
@@ -63,6 +67,10 @@
       logo: /assets/sponsors/iZotope.png
       name: iZotope
       url: "https://www.izotope.com/"
+    - 
+      logo: /assets/sponsors/Netflix.png
+      name: Netflix
+      url: "https://www.netflix.com/"
     - 
       logo: /assets/sponsors/Orfium.png
       name: Orfium
