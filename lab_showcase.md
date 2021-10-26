@@ -10,7 +10,7 @@ permalink: /labshowcase/
 
 *Principle Director(s): Masataka Goto*
 
-*Website: https://staff.aist.go.jp/m.goto/MIG/index-j.html*
+*Website: [https://staff.aist.go.jp/m.goto/MIG/index-j.html](https://staff.aist.go.jp/m.goto/MIG/index-j.html)*
 
 *Country: Japan*
 
@@ -21,7 +21,7 @@ Since Masataka Goto is a big fan of ISMIR, he and his colleagues attend ISMIR ev
 
 *Principle Director(s): Lorenzo J. Tardon / Isabel Barbancho*
 
-*Website: https://www.uma.es/atic/info/126243/infraestructuras/*
+*Website: [https://www.uma.es/atic/info/126243/infraestructuras/](https://www.uma.es/atic/info/126243/infraestructuras/)*
 
 *Country: Spain*
 
@@ -76,7 +76,7 @@ PC and MAC type computers, scanner, printer, Ultimaker S3 3D printer, Gigabyte A
 
 *Principle Director(s): Mathieu Giraud*
 
-*Website: http://www.algomus.fr/*
+*Website: [http://www.algomus.fr/](http://www.algomus.fr/)*
 
 *Country: France*
 
@@ -95,7 +95,7 @@ Our lab is centered around questions of how artificial intelligence interacts wi
 
 *Principle Director(s): Slim Essid*
 
-*Website: https://adasp.telecom-paris.fr*
+*Website: [https://adasp.telecom-paris.fr](https://adasp.telecom-paris.fr)*
 
 *Country: France*
 
@@ -120,7 +120,7 @@ More on [https://adasp.telecom-paris.fr](https://adasp.telecom-paris.fr)
 
 *Principle Director(s): Zhiyao Duan*
 
-*Website: http://www2.ece.rochester.edu/projects/air/index.html*
+*Website: [http://www2.ece.rochester.edu/projects/air/index.html](http://www2.ece.rochester.edu/projects/air/index.html)*
 
 *Country: United States*
 
@@ -139,7 +139,7 @@ The BLACK BOX is a brandnew lab doing interdisciplinary research about affective
 
 *Principle Director(s): Mark Sandler and Simon Dixon*
 
-*Website: https://c4dm.eecs.qmul.ac.uk/*
+*Website: [https://c4dm.eecs.qmul.ac.uk/](https://c4dm.eecs.qmul.ac.uk/)*
 
 *Country: United Kingdom*
 
@@ -150,7 +150,7 @@ The Centre for Digital Music was established at Queen Mary University of London 
 
 *Principle Director(s): Roger B. Dannenberg*
 
-*Website: https://www.cs.cmu.edu/~music/*
+*Website: [https://www.cs.cmu.edu/~music/](https://www.cs.cmu.edu/~music/)*
 
 *Country: United States*
 
@@ -161,7 +161,7 @@ The Computer Music Lab at CMU develops computer music and interactive performanc
 
 *Principle Director(s): Prof. Preeti Rao*
 
-*Website: https://www.ee.iitb.ac.in/student/~daplab/*
+*Website: [https://www.ee.iitb.ac.in/student/~daplab/](https://www.ee.iitb.ac.in/student/~daplab/)*
 
 *Country: India*
 
@@ -172,7 +172,7 @@ The Digital Audio Processing Lab is involved in research for speech and audio ap
 
 *Principle Director(s): Martin Rohrmeier*
 
-*Website: https://www.epfl.ch/labs/dcml/*
+*Website: [https://www.epfl.ch/labs/dcml/](https://www.epfl.ch/labs/dcml/)*
 
 *Country: Switzerland*
 
@@ -183,7 +183,7 @@ The Digital and Cognitive Musicology Lab (DCML) is a multi-disciplinary lab base
 
 *Principle Director(s): Prof. Ichiro Fujinaga*
 
-*Website: https://ddmal.music.mcgill.ca/*
+*Website: [https://ddmal.music.mcgill.ca/](https://ddmal.music.mcgill.ca/)*
 
 *Country: Canada*
 
@@ -214,7 +214,7 @@ While primarily based in Dortmund, the lab will also benefit from a second home 
 
 *Principle Director(s): Prof. Bryan Pardo*
 
-*Website: https://interactiveaudiolab.github.io/*
+*Website: [https://interactiveaudiolab.github.io/](https://interactiveaudiolab.github.io/)*
 
 *Country: United States*
 
@@ -225,7 +225,7 @@ Northwestern University's Interactive Audio Lab ( [https://interactiveaudiolab.g
 
 *Principle Director(s): Bernhard Grill*
 
-*Website: https://www.audiolabs-erlangen.de/*
+*Website: [https://www.audiolabs-erlangen.de/](https://www.audiolabs-erlangen.de/)*
 
 *Country: Germany*
 
@@ -236,7 +236,7 @@ Being the birthplace of mp3 and AAC, Erlangen has a long history in audio coding
 
 *Principle Director(s): Jonathan Berger (PI), Chris Chafe*
 
-*Website: https://ccrma.stanford.edu/groups/meri/*
+*Website: [https://ccrma.stanford.edu/groups/meri/](https://ccrma.stanford.edu/groups/meri/)*
 
 *Country: United States*
 
@@ -253,7 +253,7 @@ We seek to increase our understanding of how and why humans engage with music. O
 
 *Principle Director(s): Prof. George Tzanetakis*
 
-*Website: https://www.mistic.ece.uvic.ca/*
+*Website: [https://www.mistic.ece.uvic.ca/](https://www.mistic.ece.uvic.ca/)*
 
 *Country: Canada*
 
@@ -264,7 +264,7 @@ The MISTIC lab directed by Dr. Tzanetakis conducts interdisciplinary research in
 
 *Principle Director(s): Tom Collins*
 
-*Website: https://www.tomcollinsresearch.net/*
+*Website: [https://www.tomcollinsresearch.net/](https://www.tomcollinsresearch.net/)*
 
 *Country: United Kingdom*
 
@@ -275,7 +275,7 @@ Both in the lab and with collaborators across the globe, we apply the scientific
 
 *Principle Director(s): Alexander Lerch*
 
-*Website: https://musicinformatics.gatech.edu/*
+*Website: [https://musicinformatics.gatech.edu/](https://musicinformatics.gatech.edu/)*
 
 *Country: United States*
 
@@ -286,7 +286,7 @@ The Music Informatics Group, hosted at the Georgia Tech Center for Music Technol
 
 *Principle Director(s): Xavier Serra*
 
-*Website: https://www.upf.edu/web/mtg*
+*Website: [https://www.upf.edu/web/mtg](https://www.upf.edu/web/mtg)*
 
 *Country: Spain*
 
@@ -297,7 +297,7 @@ The Music Technology Group (MTG) of the Universitat Pompeu Fabra in Barcelona, p
 
 *Principle Director(s): Gus Xia*
 
-*Website: http://www.musicxlab.com/#/*
+*Website: [http://www.musicxlab.com/#/](http://www.musicxlab.com/#/)*
 
 *Country: China*
 
@@ -310,7 +310,7 @@ To answer the questions above, we design various algorithms & intelligent system
 
 *Principle Director(s): Juhan Nam*
 
-*Website: https://mac.kaist.ac.kr/*
+*Website: [https://mac.kaist.ac.kr/](https://mac.kaist.ac.kr/)*
 
 *Country: South Korea*
 
@@ -322,7 +322,7 @@ The Music and Audio Computing Lab (MACLab) is a music research group in the Grad
 
 *Principle Director(s): Kyogu Lee*
 
-*Website: http://marg.snu.ac.kr/*
+*Website: [http://marg.snu.ac.kr/](http://marg.snu.ac.kr/)*
 
 *Country: South Korea*
 
@@ -340,7 +340,7 @@ marg.snu.ac.kr
 
 *Principle Director(s): Juan Pablo Bello*
 
-*Website: https://steinhardt.nyu.edu/marl*
+*Website: [https://steinhardt.nyu.edu/marl](https://steinhardt.nyu.edu/marl)*
 
 *Country: United States*
 
@@ -351,7 +351,7 @@ MARL brings together scholars from a variety of disciplines to explore the inter
 
 *Principle Director(s): Carlos Guedes*
 
-*Website: https://masc.hosting.nyu.edu/*
+*Website: [https://masc.hosting.nyu.edu/](https://masc.hosting.nyu.edu/)*
 
 *Country: United Arab Emirates*
 
@@ -362,7 +362,7 @@ The Music and Sound Cultures research group (MaSC —[https://masc.hosting.nyu.e
 
 *Principle Director(s): Ye Wang*
 
-*Website: https://smcnus.comp.nus.edu.sg/*
+*Website: [https://smcnus.comp.nus.edu.sg/](https://smcnus.comp.nus.edu.sg/)*
 
 *Country: Singapore*
 
@@ -374,7 +374,7 @@ Leveraging on neuroscience as a glue, we seek to harness the synergy of SMC, MIR
 
 *Principle Director(s): Dr Amanda Krause*
 
-*Website: http://www.researchaboutlistening.com/*
+*Website: [http://www.researchaboutlistening.com/](http://www.researchaboutlistening.com/)*
 
 *Country: Australia*
 
@@ -401,7 +401,7 @@ The Sound Interaction and Computing (SInC) Lab is headed by Prof. Mark Cartwrigh
 
 *Principle Director(s): Crisron Rudolf G. Lucas*
 
-*Website: https://www.updsp.org/*
+*Website: [https://www.updsp.org/](https://www.updsp.org/)*
 
 *Country: Philippines*
 
