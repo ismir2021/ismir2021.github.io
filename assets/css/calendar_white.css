@@ -21,7 +21,7 @@
 .calendar_white_colheader_inner,
 .calendar_white_alldayheader_inner {
     color: #666;
-    font-family:  "Lato";
+    font-family:  "Lato", sans-serif;
     font-weight:  bold;
     /*background: #eee;*/
     /*background: linear-gradient(to bottom, #eee 0%, #ddd);*/
@@ -154,7 +154,7 @@
     padding: 2px;
     font-size: 1em;
     font-weight: bold;
-    font-family: "Lato";
+    font-family: "Lato", sans-serif;;
 }
 
 .calendar_white_shadow_inner {

@@ -4,33 +4,38 @@ title: Schedule
 permalink: /schedule/
 ---
 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
+	<div class="modal-dialog modal-fullscreen-sm">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modalLabel">Modal title</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body">
+			</div>
+			<div class="modal-footer">
+				<button type="button schedule_modal_button" class="btn btn-secondary"
+					data-bs-dismiss="modal">Close</button>
+				<button type="button schedule_modal_button" class="btn btn-secondary" id="ICS"> <a href="#" onclick="javascript:cal.download()"> Add to Calendar! </a></button>
+				<button type="button schedule_modal_button" class="btn btn-primary" id="details"> </button>
+				<button type="button schedule_modal_button" class="btn btn-primary" id="midspace_url"> </button>
+			</div>
+		</div>
+	</div>
 </div>
 
 
 <div class="dropdown" style="z-index:1000000; display: hidden;">
 
-  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-    UTC
-  </a>
+	<a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
+		aria-expanded="false">
+		UTC
+	</a>
 
-  <ul class="dropdown-menu tz_dropdown" aria-labelledby="dropdownMenuLink" style="z-index: 100000;">
-  </ul>
+	<ul class="dropdown-menu tz_dropdown" aria-labelledby="dropdownMenuLink" style="z-index: 100000;">
+	</ul>
 </div>
 
 
@@ -42,51 +47,53 @@ permalink: /schedule/
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment-with-locales.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.9/moment-timezone-with-data.min.js"> </script>
 <script src="{{ '/assets/js/daypilot-all.min.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/ics.js' | relative_url }}"></script>
 <link type="text/css" rel="stylesheet" href="{{ '/assets/css/calendar_white.css' | relative_url }} " />
 
 
-<script> 
-
-
-
+<script>
 	$(document).ready(() => {
-			const time_zones = moment.tz.names();
-			time_zones.map((i) => {
-				$(".tz_dropdown").append(`<li> <a class='dropdown-item time_button' data-timezone=${i} href="#"> ${i} </a> </li>`);
+		const time_zones = moment.tz.names();
+		time_zones.map((i) => {
+			$(".tz_dropdown").append(
+				`<li> <a class='dropdown-item time_button' data-timezone=${i} href="#"> ${i} </a> </li>`
+				);
+
+		});
+		$(".dropdown").show();
+		myModal = new bootstrap.Modal(document.getElementById('myModal'));
+		$(".time_zones").show();
+		var current_timezone = "utc";
+
+		$(".time_button").click((e) => {
+			const target = $(e.target);
+			const selected_timezone = target.data("timezone");
+			$("#dropdownMenuLink").text(selected_timezone);
+			const DeleteEvents = new Promise((resolve, reject) => {
+				const dp_events = dp.events.list;
+				var eventIdx = dp_events.length - 1;
+
+				for (eventIdx; eventIdx >= 0; eventIdx--) {
+					var myE = dp.events.find(dp.events.list[eventIdx].id);
+					dp.events.remove(myE);
+					if (eventIdx === 0) {
+						resolve(1);
+					}
+				}
+			});
+
+			DeleteEvents.then((i) => {
+				days.map(j => add_to_DayPilot(dp, j, selected_timezone));
 
 			});
-			$(".dropdown").show();
-    	myModal = new bootstrap.Modal(document.getElementById('myModal'));	
-    	$(".time_zones").show();
-	   	var current_timezone = "utc";
+			current_timezone = selected_timezone;
 
-    	$(".time_button").click((e) => {
-    		const target = $(e.target);
-	    	const selected_timezone = target.data("timezone");  
-	    	$("#dropdownMenuLink").text(selected_timezone);
-    		const DeleteEvents = new Promise((resolve, reject)=> {
-					const dp_events = dp.events.list;
-					var eventIdx = dp_events.length - 1;
-					
-					for (eventIdx; eventIdx >= 0; eventIdx--) {  		
-				    		var myE = dp.events.find(dp.events.list[eventIdx].id);
-				    		dp.events.remove(myE);
-				    		if(eventIdx === 0){
-				    			resolve(1);
-				    		}
-			    }	    		    
-				});
 
-    		DeleteEvents.then((i) => {    			
-    			days.map(j => add_to_DayPilot(dp, j, selected_timezone));
-    			
-    		});
-    		current_timezone = selected_timezone;
-    	});
+		});
 
-    });
-	
-	const colormap = { 
+	});
+
+	const colormap = {
 		"Special": "#BA274A",
 		"Tutorial": "#0CA7DB",
 		"WiMIR": "#19535f",
@@ -102,48 +109,55 @@ permalink: /schedule/
 
 
 
+	var cal = undefined;
 
-	function add_to_DayPilot(dp, json, timezone){
-		for(var i in json.schedule){
-	    	const date = json.schedule[i].date;	    	
-	    	const start = json.schedule[i].start_time;
-	    	const end = json.schedule[i].end_time;
-		    const ends = end.split(" ");
+	function add_to_DayPilot(dp, json, timezone) {
+		for (var i in json.schedule) {
+			const date = json.schedule[i].date;
+			const start = json.schedule[i].start_time;
+			const end = json.schedule[i].end_time;
+			const ends = end.split(" ");
 
-	    	const event_type = json.schedule[i].type;
-	    	var event_start; 
-	    	var event_end; 
-	    	if (timezone === "utc"){
-	    		event_start = moment.utc(date+" "+start).toDate();
-	    		if (ends.length === 2){
-		    		event_end = moment.utc(ends[0]+" "+ ends[1]).toDate();
-		    	}else{
-		    		event_end = moment.utc(date+" "+end).toDate();
-		    	}
+			const event_type = json.schedule[i].type;
+			var event_start;
+			var event_end;
+			if (timezone === "utc") {
+				event_start = moment.utc(date + " " + start).toDate();
+				if (ends.length === 2) {
+					event_end = moment.utc(ends[0] + " " + ends[1]).toDate();
+				} else {
+					event_end = moment.utc(date + " " + end).toDate();
+				}
 
-	    			    		
-	    	}else{
-	    		event_start = moment.utc(date+" "+start).tz(timezone).format("YYYY-MM-DD HH:mm:ss");	 
-	    		if (ends.length === 2){
-		    		event_end = moment.utc(ends[0]+" "+ ends[1]).tz(timezone).format("YYYY-MM-DD HH:mm:ss");	  
-		    	}else{
-		    		event_end = moment.utc(date+" "+end).tz(timezone).format("YYYY-MM-DD HH:mm:ss");	  
-		    	}	    	
-	    	}	    		    	
-	    	const dp_e = new DayPilot.Event({
-	    		start: new DayPilot.Date(event_start, false),
-	    		end: new DayPilot.Date(event_end, false),
-	    		id: DayPilot.guid(),
-	    		text: `${json.schedule[i].title}`,
-	    		tag: {"type": event_type},
-	    		backColor: colormap[event_type],
-	    		fontColor: event_type === "Music" ? "black" : "white",
-	    		fontSize: "1em"
-	    	});
-	    	dp.events.add(dp_e);
-    	}
+
+			} else {
+				event_start = moment.utc(date + " " + start).tz(timezone).format("YYYY-MM-DD HH:mm:ss");
+				if (ends.length === 2) {
+					event_end = moment.utc(ends[0] + " " + ends[1]).tz(timezone).format("YYYY-MM-DD HH:mm:ss");
+				} else {
+					event_end = moment.utc(date + " " + end).tz(timezone).format("YYYY-MM-DD HH:mm:ss");
+				}
+			}
+			const dp_e = new DayPilot.Event({
+				start: new DayPilot.Date(event_start, false),
+				end: new DayPilot.Date(event_end, false),
+				id: DayPilot.guid(),
+				text: `${json.schedule[i].title}`,
+				tag: {
+					"type": event_type,
+					"details_url": json.schedule[i].details,
+					"midspace_url": json.schedule[i].midspace,
+					"utc_start": moment.utc(date + " " + start).toDate(),
+					"utc_end": moment.utc(date + " " + end).toDate()
+				},
+				backColor: colormap[event_type],
+				fontColor: event_type === "Music" ? "black" : "white",
+				fontSize: "1em"
+			});
+			dp.events.add(dp_e);
+		}
 	}
-	
+
 	const nov6 = JSON.parse('{{ site.data.nov6 | jsonify }}');
 	const nov7 = JSON.parse('{{ site.data.nov7 | jsonify }}');
 	const nov8 = JSON.parse('{{ site.data.nov8 | jsonify }}');
@@ -155,33 +169,56 @@ permalink: /schedule/
 
 	const days = [nov6, nov7, nov8, nov9, nov10, nov11, nov12, nov13];
 	var dp = $("#dp").daypilotCalendar({
-	  cssClassPrefix: "calendar_white",
-      startDate: new DayPilot.Date("2021-11-07"),
-      endDate: new DayPilot.Date("2021-11-13"),
-      rowHeaderWidthAutoFit: true,
-      rowHeaderScrolling: true,
-      dynamicEventRendering: true,
-      progressiveRowRendering: true, 	
-      dayBeginsHour: 6,
-      dayEndsHour: 0,
-      days: 7,
-      cellDuration:30,
-      viewType: "Resource",
-      allowEventOverlap: false,
-      eventArrangement: "SideBySide",
-      timeRangeSelectedHandling: "Disabled",
-      eventDeleteHandling: "Disabled",
-      eventMoveHandling: "Disabled",
-      eventResizeHandling: "Disabled",
-      onEventClicked: (args) => {
-	    	$('#myModal').appendTo("body");
-	    	$(".modal-title").html(`${args.e.text()}`);
-	    	myModal.show();
-	    	$(".modal-backdrop").hide()
-	  	  },
-      eventHoverHandling: "Disabled",
-    });
+		cssClassPrefix: "calendar_white",
+		startDate: new DayPilot.Date("2021-11-07"),
+		endDate: new DayPilot.Date("2021-11-13"),
+		rowHeaderWidthAutoFit: true,
+		rowHeaderScrolling: true,
+		dynamicEventRendering: true,
+		progressiveRowRendering: true,
+		dayBeginsHour: 6,
+		dayEndsHour: 0,
+		days: 7,
+		cellDuration: 30,
+		viewType: "Resource",
+		allowEventOverlap: false,
+		eventArrangement: "SideBySide",
+		timeRangeSelectedHandling: "Disabled",
+		eventDeleteHandling: "Disabled",
+		eventMoveHandling: "Disabled",
+		eventResizeHandling: "Disabled",
+		onEventClicked: (args) => {
+			const my_data = args.e.data.tag;
+			const details_url = my_data.details_url;
+			const midspace_url = my_data.midspace_url;
+			if (details_url !== undefined) {
+				$("#details").html(`<a href="${details_url}" target="_blank">Details</a>`);
+				$("#details").show();
+			} else {
+				$("#details").html(`<a href="#" target="_blank">Details</a>`);
+				$("#details").hide();
+			}
+			if (midspace_url !== undefined) {
+				$("#midspace_url").html(`<a href="${midspace_url}" target="_blank">Midspace</a>`);
+				$("#midspace_url").show();
+			} else {
+				$("#midspace_url").hide();
+			}
+			cal = ics();			
+			cal.addEvent(args.e.text(), args.e.text(), "ISMIR 2021", args.e.data.tag.utc_start, args.e.data.tag.utc_end);
+			$('#myModal').appendTo("body");
+			$(".modal-title").html(`${args.e.text()}`);
+			myModal.show();
+			$(".modal-backdrop").hide()
+		},
+		eventHoverHandling: "Disabled",
+	});
 	days.map(i => add_to_DayPilot(dp, i, "utc"));
 	dp.init();
+	console.log(ics);
+	var myModalEl = document.getElementById('myModal');
+	myModalEl.addEventListener('hide.bs.modal', function (event) {
+		cal = undefined;
+	});
 
 </script>
