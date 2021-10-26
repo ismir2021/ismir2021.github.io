@@ -27,3 +27,23 @@ permalink: /team/
     </div>
 </div>
 {% endfor  %}
+
+<hr/>
+
+<h3> Volunteers </h3>
+<br/> 
+{% for volunteer in site.data.volunteers %}
+    <div class="row">     
+
+        <div class="col-sm-3 offset-sm-1">
+            <img class="team__img" src="{{ volunteer.photo | relative_url }}"> </img>
+        </div>  
+        <div class="col-lg">
+        <b class="member__name"> {{ volunteer.name }} </b>
+            {% if volunteer.bio %}
+                <p> {{ volunteer.bio }} </p>
+            {% endif %}
+        </div>  
+    </div>
+    <hr/>
+{% endfor %}

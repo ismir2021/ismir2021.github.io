@@ -1,0 +1,128 @@
+- 
+  name: "Gareth Wong"
+  photo: "/assets/volunteers/GarethWong.jpeg"
+  bio: "Gareth Wong is a sound designer and creative technologist who holds a M.M. degree in Music Technology from NYU Steinhardt and a B.M. degree from Berklee College of Music. With a background in post production and electronic music composition, his current research interests lie in DSP and ML as applied to audio synthesis. Outside of audio, he enjoys going on long walks, cooking, and rock climbing."
+-
+  name: "Yiting Xia"
+  photo: "/assets/volunteers/YitingXia.png"
+  bio: "I am a first-year PhD student at UIUC. I am passionate in analyzing and composing music in both computational and artistic ways. I hope my work can truly help music composition, production and appreciation technologically in the near future."
+-
+  name: "Yixiao Zhang"
+  photo: "/assets/volunteers/YixiaoZhang.png"
+  bio: "Yixiao Zhang is a 2nd-year PhD student at Queen Mary University of London, majoring in Artificial Intelligence and Music. His research interests include controllable music generation and natural language processing. (http://www.eecs.qmul.ac.uk/~yz007/)"  
+-
+  name: "Oğuz Araz"
+  photo: "/assets/volunteers/OguzAraz.jpg"
+  bio: "His interests lie in the fields of Sound, Music and Acoustics, with a focus on the area spanned by Signal Processing, Machine Learning, DJing, and Electronic Music Production. He is a first year Sound and Music Computing Masters student at UPF, Barselona."
+- 
+  name: "Karn Watcharasupat"
+  photo: "/assets/volunteers/KarnWatcharasupat.jpg"
+  bio: "Karn Watcharasupat is a final year undergraduate student at the School of Electrical and Electronic Engineering, Nanyang Technological University. She is also a visiting research student at Georgia Tech Center for Music Technology. She is currently working on several subfields of machine learning for music and audio, particularly at the intersection of psychoacoustic, machine listening, and representation learning."
+-
+  name: "Keon J. Lee"
+  photo: "/assets/volunteers/KeonLee.jpg"
+  bio: "Keon J. Lee just started his PhD program at Simon Fraser University under Dr. Philippe Pasquier. Recently, he completed his Master thesis titled \"Computer evaluation of musical timbre transfer on drum tracks\" at University of Victoria under Dr. George Tzanetakis and his paper was presented at AI Music Creativity 2021 conference. His research interest includes musical metacreation, interactive drum performance using AI and audio-visual, rhythm perception & emotion recognition, neural style transfer, and philosophy for creative AI."
+-
+  name: "Ke Nie"
+  photo: "/assets/volunteers/KeNie.jpg"
+  bio: "Ke Nie is a PhD candidate in sociology at the University of California, San Diego. His research uses MIR algorithms to answer questions about music and society, such as how economic incentives and political interventions shape music genre boundaries. He was a professional journalist and an amateur musician before joining the doctoral program."
+- 
+  name: "Gowriprasad R"
+  photo: "/assets/volunteers/Gowriprasad.jpg"
+  bio: "Gowriprasad R is a Ph.D. student at the Indian Institute of Technology, Madras, India. He is interested in MIR tasks in Indian rhythm. He plays the Indian percussion instrument Tabla."
+- 
+  name: "Mohit Jain"
+  photo: "/assets/volunteers/MohitJain.png"
+  bio: "Mohit Jain is a Data scientist working on recommendation engines, audio transcription, and information retrieval in the publishing domain. He is particularly interested in sound synthesis & generative music with deep learning to produce audio rich in complexity. He currently resides in Bangalore, India."
+- 
+  name: "Baibhav Nag"
+  photo: "/assets/volunteers/BaibhavNag.png"
+  bio: "My name is Baibhav Nag and I am currently in my final year of masters in mathematics at Jadavpur University,Kolkata,West Bengal, India. I am deeply interested in machine learning,deep learning and artificial intelligence with applications in computer vision and MIR. I am also fascinated by game theory and operations research. My research areas are multimodal emotion recognition from audio-visual information and autonomous navigation. Currently I am working on symbolic melody generation for music therapy and safety of autonomous vehicles."
+- 
+  name: "Liu Zhaorui"
+  photo: "/assets/volunteers/ZhaoruiLiu.jpeg"
+  bio: "Zhaorui Liu is a postgraduate student at China Conservatory of Music. His research interests focus on musical database construction and musical expression and performative. This is the first time he attending ISMIR as a volunteer."
+- 
+  name: "Ying Que"
+  photo: "/assets/volunteers/YingQue.jpg"
+  bio: "Ying Que is a third year Ph.D. student in the Faculty of Education, the University of Hong Kong. Her research interests include human computer interaction, music information retrieval, and multimodal learning analytics. She is currently working on her doctoral project. The project aims to explore the effects of background music on students’ learning performance, emotion and cognition at both behavioral and physiological levels (e.g., eye movement, EEG signals, heart rate, electrodermal activity)."
+- 
+  name: "Lorenzo Porcaro"
+  photo: "/assets/volunteers/LorenzoPorcaro.jpg"
+  bio: "He is a data scientist with a strong interest in social science and cultural studies, exploring how Information Technology is influencing human behaviour. He is currently (2018-) a PhD Student at the Music Technology Group (MTG) of the Universitat Pompeu Fabra (UPF) in Barcelona, and his current research is at the intersection between Music Information Retrieval and Social Computing. In particular, he is researching how music recommendation diversity is impacting our socio-cultural system."
+- 
+  name: "Huan Zhang"
+  photo: "/assets/volunteers/HuanZhang.jpeg"
+  bio: "Huan Zhang is a Ph.D student in Center for Digital Music, Queen Mary University of London. She is working under the guidance of Prof. Simon Dixon and her research focus is modelling expressive piano performance. She is also a classical pianist by training. "
+- 
+  name: "Dilip H"
+  photo: "/assets/volunteers/DilipH.jpg"
+  bio: "I'm an undergraduate in electrical engineering from Bengaluru and I'm currently working as a software consultant at Deloitte. I enjoy playing guitar and I'm also learning Indian classical music (karnatic), the curiosity and fascination towards machine learning and music has led me to volunteering for this amazing conference. "
+- 
+  name: "Jeremiah Abimbola"
+  photo: "/assets/volunteers/JeremiahAbimbola.png"
+  bio: "Pianist, music enthusiast and researcher on time signature and beat detection from Silesian University of Technology, Gliwice, Poland. Has Master’s degree from one of China’s best Universities in Changchun with a distinction.  His research interests focus on algorithmic methods for extracting sound features especially on music of all kinds of genre."
+- 
+  name: "Stewart Engart"
+  photo: "/assets/volunteers/stewartEngart.jpg"
+  bio: "Stewart Engart (b. 1991, he/him) is a Southern California based composer, performer, sound artist, and creative coder working in the fields of experimental electronic music, audiovisual installation, and innovative chamber music. Stewart is currently a PhD Candidate at University of California, Santa Barbara and is writing a dissertation on MIR driven algorithmic composition."
+- 
+  name: "Annie Chu"
+  photo: "/assets/volunteers/AnnieChu.jpg"
+  bio: "Annie is an Electrical & Computer Engineering senior at Olin College, interested in signal processing, DAFX, and making musical instruments accessible. This is her first time attending ISMIR. Growing up in NYC, her favorite genres are predictably Jazz and Rap. In her free time, Annie enjoys climbing, urban hiking, and crate digging."
+- 
+  name: "Ruilun Liu"
+  photo: "/assets/volunteers/RuilunLiu.jpg"
+  bio: "Ruilun Liu is a PhD student at the University of Hong Kong. His current research focusses on multimodal music recommendation system. He also dabbles in data science and natural language processing. In life, he enjoys watch movies, reading, and hiking."
+- 
+  name: "Gurunath Reddy Madhumani"
+  photo: "/assets/volunteers/GurunathReddyM.jpg"
+  bio: "Gurunath is a final year PhD student at IIT Kharagpur. He started his research career as a research assistant for developing children story Text-to-speech systems for Indian languages. Later, he shifted to Music Signal processing. His contributions are mostly in the signal processing of composite music to extract fundamental frequency of the singer, harmonic-percussive source separation, and singing voice classification and localization. Presently, he is working towards a complete AI system for automating songwriting process i.e., an AI system which can generate lyrics, composes melody and synthesizes singing voice for the generated lyrics and melody. His research interests are at the intersection of signal processing, convex optimization, and deep learning."
+- 
+  name: "Lela Tvaliashvili"
+  photo: "/assets/volunteers/LelaTvaliashvili.png"
+  bio: "Lela Tvaliashvili is a Software Developer interested in the intersection of Computer Science and audio due to her dedicated interest in both fields. She graduated from San Diego State University - Georgia with Bachelor of Science in Computer Science and she plans to further her knowledge in Computer Science by pursuing Master's degree and ideally PhD in near future, concentrating on Digital Signal Processing and feature extraction for music genre classification. In her free time, she likes to play piano, which is the primary reason for her interest in audio world through the lenses of Computer Science."
+- 
+  name: "Dinuka De Silva"
+  photo: "/assets/volunteers/DinukaDeSilva.jpg"
+  bio: "Dinuka is a graduate student at Indiana University Bloomington. He's interested in the applications of machine learning and artificial intelligence into music. He also spend most of his leisure time playing violin, piano and singing in choirs."
+- 
+  name: "Carlos Hernández Oliván"
+  photo: "/assets/volunteers/CarlosHernandezOlivan.png"
+  bio: "Carlos Hernández Oliván is a PhD candidate in Electronics at the University of Zaragoza, where he received the B.E. and M.Sc. degrees in Industrial Engineering in 2017 and 2019, respectively. He studied viola at the Professional Conservatory of Zaragoza where he received his professional certificate in 2013. His research interests are focused on Music Information Retrieval, in particular, in music analysis and generation systems with Artificial Intelligence."
+- 
+  name: "Sultan Eylem Atabay"
+  photo: "/assets/volunteers/SultanEylemAtabay.JPG"
+  bio: "Sultan Eylem Atabay studies Sound and Music Computing master's in Universitat Pompeu Fabra with an interest in interface design for DMI, intersection of artistic creation and music technologies. She is an amateur ukulele & piano player but also loves to synthesize noise with live coding."
+# - 
+#   name: "Marcus William"  
+# - 
+#   name: "Leonardo Parada"  
+# - 
+#   name: "Milap Rane"  
+# - 
+#   name: "Rafael Arias"  
+# - 
+#   name: "Maurice Frank"  
+# - 
+#   name: "Robertus Chris"  
+# - 
+#   name: "Ahmad Ali"  
+# - 
+#   name: "Lingan Gu"  
+# - 
+#   name: "Warsha Kiringoda"  
+# - 
+#   name: "Amir Abbas Orouji"  
+# - 
+#   name: "Giorgio De Luca"  
+# - 
+#   name: "Batita Yosser "  
+# - 
+#   name: "Jaya Srivastava "  
+# - 
+#   name: "Carrus Wan"
+# - 
+#   name: "Hasan Sercan Atlı"
+# - 
+#   name: "Sanga Chaki"
