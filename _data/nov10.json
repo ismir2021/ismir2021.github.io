@@ -41,7 +41,10 @@
 			"start_time": "07:00", 
 			"end_time": "08:00",
 			"title": "Keynote 2 - Michele Castellengo (B)",
-			"type": "Keynote"			
+			"type": "Keynote",
+			"details": "/keynotes/",
+			"description": "Click on the details button for more information."
+
 		},
 		{
 			"date": "2021/11/10", 

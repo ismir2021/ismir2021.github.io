@@ -13,7 +13,9 @@
 			"start_time": "20:00",
 			"end_time": "21:00",
 			"title": "Keynote 1 - Christine McLeavey (A)",
-			"type": "Keynote"
+			"type": "Keynote",
+			"details": "/keynotes/",
+			"description": "Click on the details button for more information."
 		},
 		{
 			"date": "2021/11/08",

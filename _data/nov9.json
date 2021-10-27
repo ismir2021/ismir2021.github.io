@@ -41,7 +41,9 @@
 			"start_time": "08:00", 
 			"end_time": "09:00",
 			"title": "Keynote 1 - Christine McLeavey (B)",
-			"type": "Keynote"			
+			"type": "Keynote",
+			"details": "/keynotes/",
+			"description": "Click on the details button for more information."			
 		},
 		{
 			"date": "2021/11/09", 
@@ -90,7 +92,9 @@
 			"start_time": "19:00", 
 			"end_time": "20:00",
 			"title": "Keynote 2 - Michele Castellengo (A)",
-			"type": "Keynote"		
+			"type": "Keynote",
+			"details": "/keynotes/",
+			"description": "Click on the details button for more information."
 		},
 		{
 			"date": "2021/11/09", 
@@ -104,7 +108,10 @@
 			"start_time": "22:30", 
 			"end_time": "23:30",
 			"title": "Best Paper Candidates 1 (A)",
-			"type": "Keynote"		
+			"type": "Keynote",
+			"description": "Click on the details for more information.",
+			"details": "/event_info/best_paper1/"
+
 		}
 	]
 }
