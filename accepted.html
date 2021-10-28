@@ -17,12 +17,17 @@ permalink: /papers/
 					<b> General filters </b>
 					<div class="filter_button active" data-filter="all"> All </div>
 					<div class="filter_button inactive" data-filter="special"> Special call papers </div>
+					<div class="filter_button inactive" data-filter="bpc"> Best Paper Candidates </div>
 				</div>
+				<div class="main_category" id="sessions">
+					<b> Poster Session filters </b>
+				</div>
+
 			</div>
 		</div>
 		<div class="col">
 			{% for paper in site.data.accepted %}
-				<div class="paper" data-subject-area="{{paper.extra.subject_area_primary}}" data-special-call="{{paper.extra.special_track}}">
+				<div class="paper" data-paper-best-candidate="{{paper.extra.best_paper_candidate}}" data-subject-area="{{paper.extra.subject_area_primary}}" data-special-call="{{paper.extra.special_track}}" data-paper-session="{{paper.extra.session}}">
 					<div class="paper_title"> 
 						{{ paper.title }} 
 					</div>
@@ -31,7 +36,6 @@ permalink: /papers/
 							Special call Paper 
 						</div>
 					{% endif %}
-
 					<div class="paper_authors">
 						{% for author in paper.author %}
 							<span class="paper_author">
@@ -42,6 +46,11 @@ permalink: /papers/
 					<button class="abstract" type="button" data-bs-toggle="collapse" data-bs-target="#paper_abstract_{{ forloop.index }}" aria-expanded="false" aria-controls="paper_abstract_{{ forloop.index }}">
 					Abstract
 					</button>
+					<a href="{{ paper.ee }}"> 
+						<button class="abstract" type="button"> PDF </button>
+					</a>
+					<div class="poster_assignment"> Poster session {{ paper.extra.session }} </div>
+						
 					<div class="collapse" id="paper_abstract_{{ forloop.index }}">
 						<p class="paper_abstract"> {{ paper.abstract }} </p>
 					</div>
@@ -53,7 +62,7 @@ permalink: /papers/
 
 <script>
 
-
+	
 
 	function categorize(name){ 
 		const splits = name.split(" -> ");
@@ -64,10 +73,17 @@ permalink: /papers/
 		return `${main} -> ${sub}`;
 	}
 
+	function toFilterString_session(main){ 
+		return `session-${main}`;
+	}
+
 	function toFilterHTML(main, sub){
 		return `<div class="filter_button inactive" data-filter='${toFilterString(main, sub)}'> ${sub} </div>\n`;
 	}
 
+	function toFilterHTML_session(main){
+		return `<div class="filter_button inactive" data-filter='${toFilterString_session(main)}'> Session ${main} </div>\n`;
+	}
 
 	const papers = document.getElementsByClassName("paper");
 	const arr = Array.from(papers);	
@@ -75,10 +91,16 @@ permalink: /papers/
 		return i.getAttribute("data-subject-area");
 	});
 	const unique = paper_attrs.filter((item, i, ar) => ar.indexOf(item) === i);
+	const session_attrs = arr.map((i) => {
+		return i.getAttribute("data-paper-session");
+	});
+	const unique_session = session_attrs.filter((item, i, ar) => ar.indexOf(item) === i).sort();
+
 	const filters = document.getElementsByClassName("filters")[0];
 	const filter_categories = unique.map((i) => categorize(i)).sort((a, b) => a.main > b.main ? 1 : -1);
 	const main_categories = filter_categories.map((i) => i.main).filter((item, i, ar) => ar.indexOf(item) === i);
 	var htmlString = "";
+
 
 	for (const i in main_categories){
 		const myMain = main_categories[i];
@@ -93,15 +115,22 @@ permalink: /papers/
 		main_html += "</div>";
 		htmlString += main_html;
 	}
-	console.log(htmlString);
+
 	filters.innerHTML += htmlString;
 
-	$(".filter_button").click((event)=> {
-		const target = $(event.target);
-		const filter = target.data("filter");
-		$(".filter_button").removeClass("active").addClass("inactive");
-		target.removeClass("inactive").addClass("active");
+	const session_filters = document.getElementById("sessions");
+	var htmlString_sessions = "";
+	for (const i in unique_session){
+		const myMain = unique_session[i];	
+		const filtered_string = toFilterString_session(myMain);		
+		htmlString_sessions += toFilterHTML_session(myMain);
+	}	
 
+	session_filters.innerHTML += htmlString_sessions;
+
+
+	function filter_papers(filter){
+		console.log("using filter: ", filter);
 		if (filter === "all"){
 			console.log("all");
 			$(".paper").show();
@@ -113,7 +142,26 @@ permalink: /papers/
 					$(i).show();
 				}
 			});
-		}else{			
+		}else if(filter === "bpc"){
+			arr.map((i) => { 
+				if ($(i).data("paper-best-candidate") !== true){
+					$(i).hide()
+				}else{
+					$(i).show();
+				}
+			});
+		}else if(filter.includes("session")){
+			const session_id = filter.split("-")[1];
+			arr.map((i) => { 
+				if (parseInt($(i).data("paper-session")) !== parseInt(session_id)){					
+					$(i).hide()
+				}else{
+
+					$(i).show();
+				}
+			});
+		}else{		
+			console.log("here?");	
 			arr.map((i) => { 
 				if ($(i).data("subject-area") !== filter){
 					$(i).hide()
@@ -122,9 +170,40 @@ permalink: /papers/
 				}
 			});
 		}
+	}
+
+	$(".filter_button").click((event)=> {
+		const target = $(event.target);
+		const filter = target.data("filter");
+		console.log(filter);
+		$(".filter_button").removeClass("active").addClass("inactive");
+		target.removeClass("inactive").addClass("active");
+		filter_papers(filter);
 		target.addClass("active");
 		$(window).scrollTop(0);
 	});
+
+	$(document).ready(()=> {
+		console.log("ready");
+		const url_params = window.location.search.substring(1);		
+		if(url_params !== ""){
+			if(url_params.includes("&")){
+			const params = decodeURIComponent(url_params).split("&");			
+			const filter_main_sub = {
+				main: params[0].split("=")[1],
+				sub: params[1].split("=")[1]
+			};			
+			const filter_string = toFilterString(filter_main_sub.main, filter_main_sub.sub);			
+			filter_papers(filter_string);
+			$(`.filter_button[data-filter='${filter_string}']`).addClass("active");
+			}else{
+				filter_papers(url_params);
+				$(".filter_button").removeClass("active").addClass("inactive");
+				$(`.filter_button[data-filter='${url_params}']`).addClass("active").removeClass("inactive");
+			}
+		}	
+	});
+
 
 
 	
