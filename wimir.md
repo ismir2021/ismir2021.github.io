@@ -26,7 +26,7 @@ The special guests for each session are:
 - 18:30 PST Nov 9: [Cheng-Zhi Anna Huang](https://research.google/people/105787/); Research Scientist / Adjunct Professor; Magenta / Google Brain / Université de Montréal / Mila
 - 06:30 PST Nov 10: [Emma Azelborn](https://emmaazelborn.com/); Senior Software Engineer; iZotope, Inc.
 - 18:30 PST Nov 10: [Xiao Hu](https://web.edu.hku.hk/faculty-academics/xiaoxhu); Associate Professor; The University of Hong Kong
-- 06:30 PST Nov 11: [Katerina Kosta](http://www.katerinakosta.com), Senior Machine Learning Researcher; ByteDance / TikTok
+- 06:30 PST Nov 11: [Katerina Kosta](http://www.katerinakosta.com); Senior Machine Learning Researcher; ByteDance / TikTok
 
 Each session will be an informal Q&A-type drop-in event akin to an "office hour" lasting about 45 minutes. In each session, participants will have the opportunity to talk with a notable woman in the field.
 
