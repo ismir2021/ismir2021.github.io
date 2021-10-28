@@ -1,0 +1,38 @@
+--- 
+- 
+  Name: Patron
+  Sponsors:  
+    - 
+      logo: /assets/sponsors/Spotify.png
+      name: Spotify
+      url: "https://www.spotify.com"
+- 
+  Name: Contributor
+  Sponsors:
+    -
+      logo: /assets/sponsors/Ableton.png
+      name: Ableton
+      url: "https://www.ableton.com"
+    -
+      logo: /assets/sponsors/Adobe.png
+      name: Adobe
+      url: "https://research.adobe.com/"
+    - 
+      logo: /assets/sponsors/Deezer.svg
+      name: Deezer
+      url: "https://research.deezer.com/"   
+    - 
+      logo: /assets/sponsors/iZotope.png
+      name: iZotope
+      url: "https://www.izotope.com/"
+    - 
+      logo: /assets/sponsors/Pandora.png
+      name: Pandora
+      url: "#"
+- 
+  Name: Supporter
+  Sponsors: 
+    - 
+      logo: /assets/sponsors/Steinberg.png
+      name: Steinberg
+      url: "https://www.steinberg.net"   
