@@ -12,8 +12,6 @@ We are pleased to have **Dr. Laurel S. Pardue**, Software Engineer at Ableton Li
 
 Lack of diversity and inclusion within a community means that important ideas and viewpoints are missing; a community’s needs are missed or misrepresented, data is more likely to be biased, and human beings can end up feeling and being excluded. The music technology and machine learning fields are known for long-standing issues in diversity with members being largely white, male, able-bodied, and originating from wealthy countries. While there are systemic challenges to broadening a community, this talk will introduce Dr. Pardue’s work on improving accessibility of musical performance before concentrating on potential actionable ways to make the research community more inclusive including focusing diversity and inclusivity efforts beyond the single strata of gender to incorporate ethnicity, language, disability, experience, and more.
 
----
-
 <div class="row">
 <div class="col-lg-2">
 ![Dr. Laurel S. Pardue]({{'/assets/keynote/Laurel.png' | relative_url}})
@@ -23,9 +21,10 @@ Lack of diversity and inclusion within a community means that important ideas an
 ### Dr. Laurel S. Pardue
 
 Dr. Laurel S. Pardue has worked in music technology and instrument design for over 15 years.  She focuses on real-world, real-time performance, designing and building instruments including Gamelan Elektrika (debuted in collaboration with Kronos Quartet at the NY Lincoln Center in 2010), the world’s first electronic tabla, Tabla Touch, with Kuljit Bhamra (launched 2020), and most recently, the Svampolin (3rd place 2020, Guthman Musical Instrument Competition, NIME 2019 Best Presentation).  She is also a founding member of Bela.io.  She holds 4 degrees from MIT and completed a PhD at Queen Mary University of London with Dr. Andrew McPherson with follow-on research positions using technology to study the learning of musical instruments at Aarlborg University Copenhagen, and the Sonic Arts Research Centre, Queens University Belfast.  Having previously worked as a ProTools software engineer, she is now a programmer for Ableton Live.  Dr. Pardue is also an active violinist having appeared at major festivals in Western Europe, NY, SF, live on BBC Radios 3,4, & 6, and German television with various artists including Sam Lee, Mishaped Pearls, Bang on a Can, and, as Bitchlovsky, playing semi-improvised violin with live electronic music.  She is currently the head of the [NIME diversity and inclusion committee](https://diversity.nime.org/).
+
+</div>
 </div>
 
----
 
 ## WiMIR Meet-Up Sessions
 
