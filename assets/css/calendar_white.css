@@ -4,8 +4,7 @@
     border: 1px solid #999;
 }
 
-.calendar_white_colheader {
-}
+
 
 .calendar_white_scroll_up {
     background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAB3RJTUUH2wESDiYcrhwCiQAAAAlwSFlzAAAuIwAALiMBeKU/dgAAAARnQU1BAACxjwv8YQUAAACcSURBVHjaY2AgF9wWsTW6yGMlhi7OhC7AyMDQzMnBXIpFHAFuCtuaMTP+P8nA8P/b1x//FfW/HHuF1UQmxv+NUP1c3OxMVVhNvCVi683E8H8LXOY/w9+fTH81tF8fv4NiIpBRj+YoZtZ/LDUoJmKYhsVUpv0MDiyMDP96sIYV0FS2/8z9ICaLlOhvS4b/jC//MzC8xBG0vJeF7GQBlK0xdiUzCtsAAAAASUVORK5CYII=);
@@ -21,7 +20,7 @@
 .calendar_white_colheader_inner,
 .calendar_white_alldayheader_inner {
     color: #666;
-    font-family:  "Lato";
+    font-family:  "Lato", sans-serif;
     font-weight:  bold;
     /*background: #eee;*/
     /*background: linear-gradient(to bottom, #eee 0%, #ddd);*/
@@ -152,9 +151,9 @@
     left: 2px;
     right: 0px;
     padding: 2px;
-    font-size: 1em;
+    font-size: 0.95em;
     font-weight: bold;
-    font-family: "Lato";
+    font-family: "Lato", sans-serif;;
 }
 
 .calendar_white_shadow_inner {

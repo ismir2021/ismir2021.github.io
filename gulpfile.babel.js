@@ -110,15 +110,15 @@ gulp.task( "critical", done => {
 } );
 
 // Minify HTML
-// gulp.task( "html", done => {
-//     gulp.src( "./_site/index.html" )
-//       .pipe( htmlmin( { collapseWhitespace: true } ) )
-//       .pipe( gulp.dest( "./_site" ) );
-//     gulp.src( "./_site/*/*html" )
-//       .pipe( htmlmin( { collapseWhitespace: true } ) )
-//       .pipe( gulp.dest( "./_site/./" ) );
-//     done();
-// } );
+gulp.task( "html", done => {
+    gulp.src( "./_site/index.html" )
+      .pipe( htmlmin( { collapseWhitespace: false } ) )
+      .pipe( gulp.dest( "./_site" ) );
+    gulp.src( "./_site/*/*html" )
+      .pipe( htmlmin( { collapseWhitespace: false } ) )
+      .pipe( gulp.dest( "./_site/./" ) );
+    done();
+} );
 
 // Service Worker
 gulp.task( "sw", () => {
