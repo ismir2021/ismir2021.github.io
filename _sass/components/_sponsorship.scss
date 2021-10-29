@@ -66,9 +66,14 @@
   min-width: 330px;
   min-height: 330px; 
   align-content: center;  
-
 }
 
+.Patron{
+  display:inline-flex;
+  min-width: 330px;
+  min-height: 330px; 
+  align-content: center;  
+}
 
 .Gold{  
    min-width: 200px;
@@ -76,12 +81,22 @@
    align-content: center;
 }
 
+.Contributor{  
+  min-width: 200px;
+  min-height: 200px; 
+  align-content: center;
+}
+
+
 .Silver{
   min-width: 100px;
   min-height: 100px;
-
 }
 
+.Supporter{
+  min-width: 100px;
+  min-height: 100px;
+}
   
 .tz_dropdown{
       height:200px;

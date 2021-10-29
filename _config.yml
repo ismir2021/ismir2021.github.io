@@ -29,6 +29,7 @@ navigation:
       - {name: "Schedule", link: "/schedule/"}
       - {name: "Accepted Papers", link: "/papers/"}
       - {name: "Accepted Tutorials", link: "/tutorials/"}
+      - {name: "Lab Showcase", link: "/labshowcase/"}
   - name: "Attend"
     subitems:
     - {name: "Registration", link: "/registration/"}
@@ -37,6 +38,7 @@ navigation:
   - {name: "Blog", link: "/blog/"}
   - {name: "Sponsors", link: "/sponsors/"}
   - {name: "Team", link: "/team/"}
+  - {name: "WiMIR", link: "/wimir/"}
 
 tagline: >
   International Society for Music Information Retrieval Conference 2021
