@@ -1,0 +1,182 @@
+---
+layout: page
+title: Accepted Late Breaking Demos
+permalink: /acceptedlbd/
+---
+
+<!-- <div class='alert alert-primary' role='alert'>
+	There are 104 papers accepted to be presented at ISMIR 2021, which includes 11 papers under the special call for papers on cultural diversity in MIR.
+</div> -->
+
+<div class="container">
+	<div class="row">
+		<div class="col-sm-4">
+			<div class="filters">
+				<h4> Filters </h4>
+				<div class="main_category">
+					<b> General filters </b>
+					<div class="filter_button active" data-filter="all"> All </div>
+					<div class="filter_button inactive" data-filter="special"> Special call papers </div>
+				</div>
+
+			</div>
+		</div>
+		<div class="col">
+			{% for paper in site.data.lbd %}
+				<div class="paper" data-subject-area="{{paper.extra.subject_area_primary}}" data-special-call="{{paper.extra.special_track}}">
+					<div class="paper_title">
+						{{ paper.title }}
+					</div>
+					<div class="paper_authors">
+						{% for author in paper.author %}
+							<span class="paper_author">
+								{{ author }}
+							</span>
+						{% endfor %}
+					</div>
+					{% if paper.extra.special_track == true %}
+						<div class="special_call">
+							Special call Paper
+						</div>
+					{% endif %}
+					{% if paper.extra.best_paper_candidate == true %}
+						<div class="best_paper">
+							Best Paper Candidate
+						</div>
+					{% endif %}
+					<!-- <div class="poster_assignment"> Poster session {{ paper.extra.session }} </div> -->
+					<br/>
+					<button class="abstract" type="button" data-bs-toggle="collapse" data-bs-target="#paper_abstract_{{ forloop.index }}" aria-expanded="false" aria-controls="paper_abstract_{{ forloop.index }}">
+					<b> Abstract </b>
+					</button>
+					<!-- <a href="{{ paper.ee }}">
+						<button class="abstract" type="button"> PDF </button>
+					</a> -->
+
+
+					<div class="collapse" id="paper_abstract_{{ forloop.index }}">
+						<p class="paper_abstract"> {{ paper.abstract }} </p>
+					</div>
+				</div>
+			{% endfor %}
+		</div>
+	</div>
+</div>
+
+<script>
+
+
+
+	function categorize(name){
+		const splits = name.split(" -> ");
+		return {main: splits[0], sub: splits[1]};
+	}
+
+	function toFilterString(main){
+		return `${main}`;
+	}
+
+	function toFilterString_session(main){
+		return `session-${main}`;
+	}
+
+	function toFilterHTML(main, sub){
+		return `<div class="filter_button inactive" data-filter='${toFilterString(main)}'> ${main} </div>\n`;
+	}
+
+	function toFilterHTML_session(main){
+		return `<div class="filter_button inactive" data-filter='${toFilterString_session(main)}'> Session ${main} </div>\n`;
+	}
+
+	const papers = document.getElementsByClassName("paper");
+	const arr = Array.from(papers);
+	const paper_attrs = arr.map((i) => {
+		return i.getAttribute("data-subject-area");
+	});
+	const unique = paper_attrs.filter((item, i, ar) => ar.indexOf(item) === i);
+	const session_attrs = arr.map((i) => {
+		return i.getAttribute("data-paper-session");
+	});
+	const unique_session = session_attrs.filter((item, i, ar) => ar.indexOf(item) === i).sort();
+
+	const filters = document.getElementsByClassName("filters")[0];
+	const filter_categories = unique.map((i) => categorize(i)).sort((a, b) => a.main > b.main ? 1 : -1);
+	const main_categories = filter_categories.map((i) => i.main).filter((item, i, ar) => ar.indexOf(item) === i);
+	var htmlString = "";
+	console.log(unique);
+
+
+	for (const i in main_categories){
+		const myMain = main_categories[i];
+		var main_html = `<div class="main_category"> <b> ${myMain} </b> `;
+		const filtered_string = toFilterString(myMain);
+		main_html += toFilterHTML(myMain);					
+		main_html += "</div>";
+		htmlString += main_html;
+	}
+
+	filters.innerHTML += htmlString;
+
+
+
+	function filter_papers(filter){
+		console.log("using filter: ", filter);
+		if (filter === "all"){
+			console.log("all");
+			$(".paper").show();
+		}else if(filter === "special"){
+			arr.map((i) => {
+				if ($(i).data("special-call") !== true){
+					$(i).hide()
+				}else{
+					$(i).show();
+				}
+			});			
+		}else{
+			console.log("here?");
+			arr.map((i) => {
+				if ($(i).data("subject-area") !== filter){
+					$(i).hide()
+				}else{
+					$(i).show();
+				}
+			});
+		}
+	}
+
+	$(".filter_button").click((event)=> {
+		const target = $(event.target);
+		const filter = target.data("filter");
+		console.log(filter);
+		$(".filter_button").removeClass("active").addClass("inactive");
+		target.removeClass("inactive").addClass("active");
+		filter_papers(filter);
+		target.addClass("active");
+		$(window).scrollTop(0);
+	});
+
+	$(document).ready(()=> {
+		console.log("ready");
+		const url_params = window.location.search.substring(1);
+		if(url_params !== ""){
+			if(url_params.includes("&")){
+			const params = decodeURIComponent(url_params).split("&");
+			const filter_main_sub = {
+				main: params[0].split("=")[1],
+				sub: params[1].split("=")[1]
+			};
+			const filter_string = toFilterString(filter_main_sub.main, filter_main_sub.sub);
+			filter_papers(filter_string);
+			$(`.filter_button[data-filter='${filter_string}']`).addClass("active");
+			}else{
+				filter_papers(url_params);
+				$(".filter_button").removeClass("active").addClass("inactive");
+				$(`.filter_button[data-filter='${url_params}']`).addClass("active").removeClass("inactive");
+			}
+		}
+	});
+
+
+
+
+</script>

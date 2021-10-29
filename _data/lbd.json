@@ -1,0 +1,1368 @@
+[
+    {
+        "title": "DawDreamer: Bridging the Gap Between Digital Audio Workstations and Python Interfaces",
+        "author": [
+            "David Braun"
+        ],
+        "year": "2021",
+        "abstract": "Audio production techniques which previously only existed in GUI-constrained digital audio workstations, live-coding environments, or C++ APIs are now accessible with our new Python module called DawDreamer. DawDreamer therefore bridges the gap between real sound engineers and coders imitating them with offline batch-processing. Like contemporary modules in this domain, DawDreamer facilitates the creation of directed acyclic graphs of audio processors which generate or manipulate audio streams. Modules such as RenderMan and Pedalboard can load audio plug-ins in various formats, but DawDreamer can also dynamically compile and execute code from Faust, a powerful signal processing language with many well-tested and optimized functions. Whereas VST and LV2 plug-ins are platform specific, Faust code can be deployed to many platforms and microcontrollers. We discuss DawDreamer's unique features and processors in detail and conclude by introducing potential applications across MIR and generative music tasks including source separation, transcription, parameter inference, and more. We provide fully cross-platform PyPi installers, a Linux Dockerfile, and an example Jupyter notebook.",
+        "extra": {
+            "email": {
+                "David Braun": "braun.david.b@gmail.com"
+            },
+            "affiliation": {
+                "David Braun": "Stanford University"
+            },
+            "submission_id": "375",
+            "subject_area_primary": "Software demo",
+            "special_track": true
+        }
+    },
+    {
+        "title": "Evaluation of Latent Space Disentanglement in the Presence of Interdependent Attributes",
+        "author": [
+            "Karn N. Watcharasupat",
+            "Alexander Lerch"
+        ],
+        "year": "2021",
+        "abstract": "Controllable music generation with deep generative models has become increasingly reliant on disentanglement learning techniques. However, current disentanglement metrics, such as mutual information gap (MIG), are often inadequate and misleading when used for evaluating latent representations in the presence of interdependent semantic attributes often encountered in real-world music datasets. In this work, we propose a dependency-aware information metric as a drop-in replacement for MIG that accounts for the inherent relationship between semantic attributes.",
+        "extra": {
+            "email": {
+                "Karn N. Watcharasupat": "karn001@e.ntu.edu.sg",
+                "Alexander Lerch": "alexander.lerch@gatech.edu"
+            },
+            "affiliation": {
+                "Karn N. Watcharasupat": "Nanyang Technological University",
+                "Alexander Lerch": "Georgia Tech Center for Music Technology"
+            },
+            "submission_id": "376",
+            "subject_area_primary": "Early research",
+            "special_track": true
+        }
+    },
+    {
+        "title": "Visualizing music structure using Spotify data",
+        "author": [
+            "Job Savelsberg"
+        ],
+        "year": "2021",
+        "abstract": "Understanding a song's structure is crucial to a musician's ability to learn and memorize a song. Discovering, explaining, and sharing structural patterns through visual representation is still done mostly by hand. This thesis aims to help musicians by providing a tool capable of automatically generating a visualization that contains a clear and comprehensive overview of repetition and change of musical aspects such as harmony, timbre, tempo, and dynamics. Using abstracted audio-content data provided by Spotify, existing structure extraction strategies are combined and expanded upon. Six separate visualization modules are created to accommodate the user in understanding and navigating the music by its structure.",
+        "extra": {
+            "email": {
+                "Job Savelsberg": "Jobsavelsberg@gmail.com"
+            },
+            "affiliation": {
+                "Job Savelsberg": "Eindhoven University of Technology"
+            },
+            "submission_id": "379",
+            "subject_area_primary": "Software demo",
+            "special_track": true
+        }
+    },
+    {
+        "title": "Structure-independent factors in expressive timing: a preliminary study on violin solo performance",
+        "author": [
+            "TZU-YUN Hung",
+            "YO-WEI HSIAO",
+            "Li Su"
+        ],
+        "year": "2021",
+        "abstract": "We investigate the static behavior of individual notes in real-world music performance. Different from the previous works which mostly focused on the dynamical behavior of expressive timing in performance, we assume that expressive timing has a global trend which is independent from musical structure, cadence, and other time-varying factors. An expression-wise study on a violin solo dataset with 11 different music expressions verifies our assumption.",
+        "extra": {
+            "email": {
+                "TZU-YUN Hung": "hong.megan@gmail.com",
+                "YO-WEI HSIAO": "willyhsiao@iis.sinica.edu.tw",
+                "Li Su": "lisu@iis.sinica.edu.tw"
+            },
+            "affiliation": {
+                "TZU-YUN Hung": "National Taiwan Normal University",
+                "YO-WEI HSIAO": "Academia Sinica",
+                "Li Su": "Academia Sinica"
+            },
+            "submission_id": "380",
+            "subject_area_primary": "Early research",
+            "special_track": true
+        }
+    },
+    {
+        "title": "MidiTok: A Python package for MIDI file tokenization",
+        "author": [
+            "Nathan Fradet",
+            "Fabien Chhel",
+            "Amal Seghrouchni",
+            "Jean-Pierre Briot",
+            "Nicolas Gutowski"
+        ],
+        "year": "2021",
+        "abstract": "We present MidiTok, a Python package to encode MIDI files into sequences of tokens to be used with sequential Deep Learning models like Transformers or Recurrent Neural Networks. It allows researchers and developers to encode datasets with various strategies built around the idea that they share common parameters. This key idea makes it easy to :1) optimize the size of the vocabulary and the elements it can represent w.r.t. the MIDI specifications; 2) compare tokenization methods to see which performs best in which case; 3) measure the relevance of additional information like chords or tempo changes.\n Code and documentation of MidiTok are on Github.",
+        "extra": {
+            "email": {
+                "Nathan Fradet": "nathan.fradet@icloud.com",
+                "Fabien Chhel": "fabien.chhel@eseo.fr",
+                "Amal Seghrouchni": "amal.elfallah@lip6.fr",
+                "Jean-Pierre Briot": "Jean-Pierre.Briot@lip6.fr",
+                "Nicolas Gutowski": "nicolas.gutowski@univ-angers.fr"
+            },
+            "affiliation": {
+                "Nathan Fradet": "LIP6 - Sorbonne University",
+                "Fabien Chhel": "Groupe ESEO",
+                "Amal Seghrouchni": "",
+                "Jean-Pierre Briot": "PUC-Rio",
+                "Nicolas Gutowski": "University of Angers"
+            },
+            "submission_id": "385",
+            "subject_area_primary": "Early research",
+            "special_track": true
+        }
+    },
+    {
+        "title": "Burstiness and hierarchy in tonal classical music",
+        "author": [
+            "Mikaela Irene D Fudolig",
+            "Takayuki Hiraoka",
+            "Patrick E. Savage",
+            "Hang-Hyun Jo"
+        ],
+        "year": "2021",
+        "abstract": "A musical work is, in general, a coherent whole that is more than the sum of its individual notes. We are interested in the emergent coherent behavior that arises from the combination of the sounds made by the individual pitches, focusing on the temporal aspect. We consider each pitch activation as an event, and examine the distribution of the interevent times, the time between the deactivation and consecutive activation of the same pitch. The interevent times in a sample of 428 works by four canonical Western composers obey heavy-tailed distributions, and these distributions can be attributed not to the pitch durations themselves but to the order in which pitches are activated. Our results imply that the generative process in music is neither random nor regular, and suggest the presence of hierarchy in pitch activations. We present our initial attempt in creating a hierarchical generative model of music, inspired by the similarities between our findings and Schenkerian analysis.",
+        "extra": {
+            "email": {
+                "Mikaela Irene D Fudolig": "mikaela.fudolig@uvm.edu",
+                "Takayuki Hiraoka": "takayuki.hiraoka@aalto.fi",
+                "Patrick E. Savage": "psavage@sfc.keio.ac.jp",
+                "Hang-Hyun Jo": "h2jo23@gmail.com"
+            },
+            "affiliation": {
+                "Mikaela Irene D Fudolig": "University of Vermont",
+                "Takayuki Hiraoka": "Aalto University",
+                "Patrick E. Savage": "Keio University",
+                "Hang-Hyun Jo": "The Catholic University of Korea"
+            },
+            "submission_id": "387",
+            "subject_area_primary": "Early research",
+            "special_track": true
+        }
+    },
+    {
+        "title": "Piano Fingering Estimation and Completion with Transformers",
+        "author": [
+            "Masahiro Suzuki"
+        ],
+        "year": "2021",
+        "abstract": "We formulate fingering-related tasks as sequence-to-sequence problems and solve them with the Transformer model. By integrating finger information into REMI-based tokens, we show our trained model can 1) estimate partial fingering (fingering is estimated for only partial notes), and 2) complete fingering from partially specified fingering.",
+        "extra": {
+            "email": {
+                "Masahiro Suzuki": "masahiro1.suzuki@music.yamaha.com"
+            },
+            "affiliation": {
+                "Masahiro Suzuki": "Yamaha corp."
+            },
+            "submission_id": "391",
+            "subject_area_primary": "Early research",
+            "special_track": true
+        }
+    },
+    {
+        "title": "autochord - Automatic Chord Recognition Library and Chord Visualization App",
+        "author": [
+            "Christopher John Bayron"
+        ],
+        "year": "2021",
+        "abstract": "In this paper I present autochord, a bundle of tools for automatic chord recognition, comprising of 1) a Python library that performs Audio Chord Estimation (ACE), and 2) a JavaScript app for visualizing and comparing chord labels, all open-source and freely available online. The Python library (hereinafter referred to as autochord.py) can generate MIREX-style chord labels which can be interpreted and visualized by the app (hereinafter referred to as autochord.js). Used together, this toolset functions as a full chord recognition app.",
+        "extra": {
+            "email": {
+                "Christopher John Bayron": "cjdbayron@gmail.com"
+            },
+            "affiliation": {
+                "Christopher John Bayron": "N/A, Independent"
+            },
+            "submission_id": "393",
+            "subject_area_primary": "Software demo",
+            "special_track": true
+        }
+    },
+    {
+        "title": "Music-to-body-movement generation with recurrent neural network and reinforcement learning",
+        "author": [
+            "Hsien-Lun Chen",
+            "Li Su"
+        ],
+        "year": "2021",
+        "abstract": "This paper presents a preliminary reinforcement learning model in music-to-body movement generation which combines LSTM based music-to-motion generation with a DDPG-based skeleton tracking model to calibrate the movement of the bowing hand for a virtual violinist. Comparing to simply applying the LSTM generation, the DDPG integrated model smooths the overall motion of the bowing hand and achieves a larger range of motion.",
+        "extra": {
+            "email": {
+                "Hsien-Lun Chen": "peter05152425@gmail.com",
+                "Li Su": "lisu@iis.sinica.edu.tw"
+            },
+            "affiliation": {
+                "Hsien-Lun Chen": "Institute of Information Science, Academia Sinica",
+                "Li Su": "Academia Sinica"
+            },
+            "submission_id": "394",
+            "subject_area_primary": "Early research",
+            "special_track": true
+        }
+    },
+    {
+        "title": "A Model Designed for Automatic Generated Rap Lyrics in given Beats, Rhymes, and Styles",
+        "author": [
+            "Lingan Gu"
+        ],
+        "year": "2021",
+        "abstract": "Automatic lyrics generation with deep learning has been a popular research area. The methods have evolved from rule-based approaches into AI driven systems. Existing approaches, however, are mainly focused on alignment of melody and rhythm, or ignore the beats and rap styles. This paper proposes an lyrics generation model using Generative Adversarial Networks, which can generate rap lyrics based on the rhyme and beat. Furthermore, the gen-erator allows additional input condition: the rap style.",
+        "extra": {
+            "email": {
+                "Lingan Gu": "lingangu79@gmail.com"
+            },
+            "affiliation": {
+                "Lingan Gu": "Nanyang Technology University"
+            },
+            "submission_id": "401",
+            "subject_area_primary": "Software demo",
+            "special_track": true
+        }
+    },
+    {
+        "title": "A Novel Dataset for Time-Dependent Harmonic Similarity between Chord Sequences",
+        "author": [
+            "Franca Bittner",
+            "Jakob Abe\u00dfer",
+            "Christon Ragavan-Nadar",
+            "Hanna Lukashevich",
+            "Patrick Kramer"
+        ],
+        "year": "2021",
+        "abstract": "State-of-the-art algorithms in many music information retrieval (MIR) tasks such as chord recognition, multipitch estimation, or instrument recognition rely on deep learning algorithms, which require large amounts of data to be trained and evaluated. In this paper, we present the IDMT-SMT-CHORD-SEQUENCES dataset, which is a novel synthetic dataset of 45,000 chord progressions played on 45 different musical instruments. The dataset is organized in a triplet fashion and each triplet includes one \u201canchor\u201d chord sequence as well as one corresponding\n similar and dissimilar chord progression. The audio files are synthesized from MIDI data using different sound fonts from FluidSynth. Furthermore, we conducted a benchmark experiment on time-dependent harmonic similarity based on learnt embedding representations. The results show that a convolutional neural network (CNN), which considers the temporal context of a chord progression outperforms a simpler approach based on temporal averaging of input features.",
+        "extra": {
+            "email": {
+                "Franca Bittner": "franca.bittner@idmt.fraunhofer.de",
+                "Jakob Abe\u00dfer": "jakob.abesser@idmt.fraunhofer.de",
+                "Christon Ragavan-Nadar": "christon-ragavan.nadar@idmt.fraunhofer.de",
+                "Hanna Lukashevich": "hanna.lukashevich@idmt.fraunhofer.de",
+                "Patrick Kramer": "patrick.kramer@idmt.fraunhofer.de"
+            },
+            "affiliation": {
+                "Franca Bittner": "Fraunhofer IDMT",
+                "Jakob Abe\u00dfer": "Fraunhofer IDMT",
+                "Christon Ragavan-Nadar": "Fraunhofer IDMT",
+                "Hanna Lukashevich": "Fraunhofer IDMT",
+                "Patrick Kramer": "Fraunhofer IDMT"
+            },
+            "submission_id": "404",
+            "subject_area_primary": "Dataset contribution",
+            "special_track": true
+        }
+    },
+    {
+        "title": "Musical Audio Similarity with Self-supervised Convolutional Neural Networks",
+        "author": [
+            "Carl Thom\u00e9",
+            "Sebastian Piwell",
+            "Oscar Utterb\u00e4ck"
+        ],
+        "year": "2021",
+        "abstract": "We have built a music similarity search engine that lets video producers search by listenable music excerpts, as a complement to traditional full-text search. Our system suggests similar sounding track segments in a large music catalog by training a self-supervised convolutional neural network with triplet loss terms and musical transformations. Semi-structured user interviews demonstrate that we can successfully impress professional video producers with the quality of the search experience, and perceived similarities to query tracks averaged 7.8/10 in user testing. We believe this search tool will make for a more natural search experience that is easier to find music to soundtrack videos with.",
+        "extra": {
+            "email": {
+                "Carl Thom\u00e9": "carlthome@gmail.com",
+                "Sebastian Piwell": "sebastian.piwell@epidemicsound.com",
+                "Oscar Utterb\u00e4ck": "oscar.utterback@epidemicsound.com"
+            },
+            "affiliation": {
+                "Carl Thom\u00e9": "Epidemic Sound",
+                "Sebastian Piwell": "Epidemic Sound",
+                "Oscar Utterb\u00e4ck": "Epidemic Sound"
+            },
+            "submission_id": "406",
+            "subject_area_primary": "Software demo",
+            "special_track": true
+        }
+    },
+    {
+        "title": "ACPAS: a dataset of Aligned Classical Piano Audio and Scores for audio-to-score transcription",
+        "author": [
+            "Lele Liu",
+            "Veronica Morfi",
+            "Emmanouil Benetos"
+        ],
+        "year": "2021",
+        "abstract": "We create the ACPAS dataset with aligned audio and scores on classical piano music for automatic music audio-to-score transcription research. The dataset contains 497 distinct music scores aligned with 2189 audio performances, 179.8 hours in total. To our knowledge, it is currently the largest dataset for audio-to-score transcription research. We provide aligned performance audio, performance MIDI and MIDI scores, together with beat, key signature, and time signature annotations. The dataset is partly collected from a list of existing automatic music transcription (AMT) datasets, and partly synthesized. Both real recordings and synthetic recordings are included. We provide a train/validation/test split with no piece overlap and in line with splits in other AMT datasets.",
+        "extra": {
+            "email": {
+                "Lele Liu": "lele.liu@qmul.ac.uk",
+                "Veronica Morfi": "g.v.morfi@qmul.ac.uk",
+                "Emmanouil Benetos": "emmanouil.benetos@qmul.ac.uk"
+            },
+            "affiliation": {
+                "Lele Liu": "Queen Mary University of London",
+                "Veronica Morfi": "Queen Mary University of London",
+                "Emmanouil Benetos": "Queen Mary University of London"
+            },
+            "submission_id": "410",
+            "subject_area_primary": "Dataset contribution",
+            "special_track": true
+        }
+    },
+    {
+        "title": "Visual Support for Human-AI Co-Composition",
+        "author": [
+            "Frank Heyen"
+        ],
+        "year": "2021",
+        "abstract": "We propose a visual approach for AI-assisted music composition, where the user interactively generates, selects, and adapts short melodies. Based on an entered start melody, we automatically generate multiple continuation samples. Repeating this step and in turn generating continuations for these samples results in a tree or graph of melodies. We visualize this structure with two visualizations, where nodes display the piano roll of the corresponding sample. By interacting with these visualizations, the user can quickly listen to, choose, and adapt melodies, to iteratively create a composition. A third visualization provides an overview over larger numbers of samples, allowing for insights into the AI's predictions and the sample space.",
+        "extra": {
+            "email": {
+                "Frank Heyen": "frank.heyen@visus.uni-stuttgart.de"
+            },
+            "affiliation": {
+                "Frank Heyen": "VISUS, University of Stuttgart"
+            },
+            "submission_id": "411",
+            "subject_area_primary": "Early research",
+            "special_track": true
+        }
+    },
+    {
+        "title": "Neural Drum Accompaniment Generation From Melody",
+        "author": [
+            "Rishabh A Dahale",
+            "Vaibhav Vinayak Talwadker",
+            "Prateek Verma",
+            "Preeti Rao"
+        ],
+        "year": "2021",
+        "abstract": "Transformer and its variants have demonstrated state-of-the art performance on a variety of tasks including music generation and yet existing works have not explored this model for drum accompaniment generation. In this work a transformer model is designed to generate an accompanying symbolic drum pattern conditioned on an input melody sequence. We propose a data representation scheme for symbolic music, in which silences are also considered and that can be easily scaled to an arbitrary number of instruments, unlike the popular serialized grid. We propose a loss function taking into account the imbalance in the occurrence of the different percussion instruments, and report performance on Lakh Pianoroll dataset set via two musically relevant evaluation metrics.",
+        "extra": {
+            "email": {
+                "Rishabh A Dahale": "dahalerishabh1@iitb.ac.in",
+                "Vaibhav Vinayak Talwadker": "talwadkerv@gmail.com",
+                "Prateek Verma": "prateekv@stanford.edu",
+                "Preeti Rao": "prao@ee.iitb.ac.in"
+            },
+            "affiliation": {
+                "Rishabh A Dahale": "Indian Institute of Technology Bombay",
+                "Vaibhav Vinayak Talwadker": "Indian Institute of Technology Bombay",
+                "Prateek Verma": "Stanford University",
+                "Preeti Rao": "Indian Institute of Technology Bombay"
+            },
+            "submission_id": "412",
+            "subject_area_primary": "Early research",
+            "special_track": true
+        }
+    },
+    {
+        "title": "AUTOMATIC BASS LINE TRANSCRIPTION FOR ELECTRONIC MUSIC",
+        "author": [
+            "Recep Oguz Araz"
+        ],
+        "year": "2021",
+        "abstract": "Current bass line transcription systems either require a sep-\n arate bass line track or attempt to transcribe the bass line\n directly from mixed multi track recordings. In the absence\n of separate bass line tracks, their performances are lim-\n ited to the success of polyphonic transcription algorithms,\n which notoriously perform worse than monophonic tran-\n scription algorithms. In this work, we re-formulate the\n bass line transcription task and design a system that can\n transcribe and reconstruct bass lines for helping with the\n music production process. We use our domain knowledge\n on electronic music and develop a python library for per-\n forming monophonic chorus bass line transcriptions. Tak-\n ing a polyphonic recording, the system can find a beat-\n synchronized chorus section, transcribe its bass line and\n output a bass line reconstruction MIDI file. The tran-\n scribed bass lines are locked tightly to the beat grid with an\n 1/32th (1/128th note in the common time) beat onset reso-\n lution, which can capture rich bass line grooves. Using this\n batch processing integrated python library, we test the per-\n formance on a collection of Tech House music tracks and\n evaluate the outputs by visually inspecting their spectro-\n grams and listening to the bass line MIDI reconstructions.",
+        "extra": {
+            "email": {
+                "Recep Oguz Araz": "oguza97@gmail.com"
+            },
+            "affiliation": {
+                "Recep Oguz Araz": "Universitat Pompeu Fabra"
+            },
+            "submission_id": "414",
+            "subject_area_primary": "Early research",
+            "special_track": true
+        }
+    },
+    {
+        "title": "Learning to Generate Piano Music With Sustain Pedals",
+        "author": [
+            "Joann Ching",
+            "Yi-Hsuan Yang"
+        ],
+        "year": "2021",
+        "abstract": "Recent years have witnessed a growing interest in research related to the detection of piano pedals from audio signals in the music information retrieval community [1-4]. However, to our best knowledge, recent generative models for symbolic music have rarely taken piano pedals into account. In this work, we employ the transcription model proposed by Kong et al. [4] to get pedal information from the audio recordings of piano performance in the the AILabs1k7 dataset [5], and then modify the Compound Word Transformer proposed by Hsiao et al. [5] to build a Transformer decoder that generates pedal-related tokens along with other musical tokens. While the work is done by using second-hand sustain pedal information as training data, the result shows hope for further improvement and the importance of the involvement of sustain pedal in tasks of piano performance generations.",
+        "extra": {
+            "email": {
+                "Joann Ching": "joann8512@utexas.edu",
+                "Yi-Hsuan Yang": "affige@gmail.com"
+            },
+            "affiliation": {
+                "Joann Ching": "Academia Sinica",
+                "Yi-Hsuan Yang": "Academia Sinica"
+            },
+            "submission_id": "420",
+            "subject_area_primary": "Early research",
+            "special_track": true
+        }
+    },
+    {
+        "title": "Harmonize this Melody: Automatic Four-Part Harmony Generation Using Neo-Riemannian Voice-Leading",
+        "author": [
+            "Timothy Greer",
+            "Shrikanth Narayanan"
+        ],
+        "year": "2021",
+        "abstract": "Harmonization is an important component of any comprehensive music generation system. Harmony provides context for melody and indicates the tonal framework and progression of a musical passage. One interesting element of music is that harmonic accompaniment is never strictly \"wrong\" or \"right.\" In this work, available at https://github.com/timothydgreer/4_part_harmonizer, we use chord choices and their progressions as proxies for harmonic movement. By using the information contained in a chord at a given moment and an input melody note, this system will output what accompanying chord could be used next in a musical passage. An additional parameter can be tweaked which determines how \"conservative\" the next chord choice would be, providing more possibilities for harmonization. Composers and songwriters can use this tool to brainstorm new harmonic choices, and anyone with an interest in music can find new chord changes to their favorite songs given that they have the melody notes for such a song. This work has applications in music generation and symbolic music representation.",
+        "extra": {
+            "email": {
+                "Timothy Greer": "timothdg@usc.edu",
+                "Shrikanth Narayanan": "shri@ee.usc.edu"
+            },
+            "affiliation": {
+                "Timothy Greer": "University of Southern California",
+                "Shrikanth Narayanan": "USC"
+            },
+            "submission_id": "426",
+            "subject_area_primary": "Software demo",
+            "special_track": true
+        }
+    },
+    {
+        "title": "Music Score Expansion with Variable-Length Infilling",
+        "author": [
+            "Chih-Pin Tan"
+        ],
+        "year": "2021",
+        "abstract": "In this paper, we investigate using the variable-length infilling (VLI) model [1], which is originally proposed to infill missing segments, to \u201cprolong\u201d existing musical segments at musical boundaries. Specifically, as a case study, we expand 20 musical segments from 12 bars to 16 bars, and examine the degree to which the VLI model preserves musical boundaries in the expanded results using a few objective metrics, including the Register Histogram Similarity we newly propose. The results show that the VLI model has the potential to address the expansion task.",
+        "extra": {
+            "email": {
+                "Chih-Pin Tan": "p76091551@gs.ncku.edu.tw"
+            },
+            "affiliation": {
+                "Chih-Pin Tan": "National Cheng Kung University"
+            },
+            "submission_id": "427",
+            "subject_area_primary": "Early research",
+            "special_track": true
+        }
+    },
+    {
+        "title": "Semantic Integration of MIR Datasets with the Polifonia Ontology Network",
+        "author": [
+            "Valentina Carriero",
+            "Fiorela Ciroku",
+            "Jacopo de Berardinis",
+            "Delfina Sol Martinez Pandiani",
+            "Albert Mero\u00f1o Pe\u00f1uela",
+            "Andrea Poltronieri",
+            "Valentina Presutti"
+        ],
+        "year": "2021",
+        "abstract": "Integration between different data formats, and between data belonging to different collections, is an ongoing challenge in the MIR field. Semantic Web tools have proved to be promising resources for making different types of music information interoperable. However, the use of these technologies has so far been limited and scattered in the field.\n To address this, the Polifonia project is developing an ontological ecosystem that can cover a wide variety of musical aspects (musical features, instruments, emotions, performances). \n In this paper, we present the Polifonia Ontology Network, an ecosystem that enables and fosters the transition towards semantic MIR.",
+        "extra": {
+            "email": {
+                "Valentina Carriero": "valentina.carriero3@unibo.it",
+                "Fiorela Ciroku": "fiorela.ciroku2@unibo.it",
+                "Jacopo de Berardinis": "jacopo.deberardinis@kcl.ac.uk",
+                "Delfina Sol Martinez Pandiani": "delfinasol.martinez2@unibo.it",
+                "Albert Mero\u00f1o Pe\u00f1uela": "albert.merono@kcl.ac.uk",
+                "Andrea Poltronieri": "andrea.poltronieri2@unibo.it",
+                "Valentina Presutti": "valentina.presutti@unibo.it"
+            },
+            "affiliation": {
+                "Valentina Carriero": "University of Bologna",
+                "Fiorela Ciroku": "University of Bologna",
+                "Jacopo de Berardinis": "King's College London",
+                "Delfina Sol Martinez Pandiani": "University of Bologna",
+                "Albert Mero\u00f1o Pe\u00f1uela": "King's College London",
+                "Andrea Poltronieri": "University of Bologna",
+                "Valentina Presutti": "University of Bologna"
+            },
+            "submission_id": "431",
+            "subject_area_primary": "",
+            "special_track": true
+        }
+    },
+    {
+        "title": "A real-time beat tracking system based on predominant local pulse information",
+        "author": [
+            "Peter Meier",
+            "Gerhard Krump",
+            "Meinard M\u00fcller"
+        ],
+        "year": "2021",
+        "abstract": "Beat tracking is a central topic within the MIR community and an active area of research. The scientific progress in this area is mainly thanks to recent machine learning techniques. However, some machine learning approaches are black boxes, hard to understand, and often without direct control over the parameters to adjust the beat tracker. For this demo, we choose a model-based approach that is easy to understand, good for interactions, and well suited for educational purposes. In particular, we present a system for real-time interactive beat tracking based on predominant local pulse (PLP) information, as first described in Grosche et al. In the first section, we show how the PLP-based algorithm can be transformed from an offline procedure to a real-time procedure. In the second section, we present the implementation of a system that uses this real-time procedure as the centerpiece of an interactive beat tracking application.",
+        "extra": {
+            "email": {
+                "Peter Meier": "peter.meier@th-deg.de",
+                "Gerhard Krump": "gerhard.krump@th-deg.de",
+                "Meinard M\u00fcller": "meinard.mueller@audiolabs-erlangen.de"
+            },
+            "affiliation": {
+                "Peter Meier": "Deggendorf Institute of Technology",
+                "Gerhard Krump": "Deggendorf Institute of Technology",
+                "Meinard M\u00fcller": "International Audio Laboratories Erlangen"
+            },
+            "submission_id": "330",
+            "subject_area_primary": "Software demo",
+            "special_track": false
+        }
+    },
+    {
+        "title": "Multimodal Audio and Image Music Transcription",
+        "author": [
+            "Carlos de la Fuente",
+            "Jose J. Valero-Mas",
+            "Francisco J. Castellanos",
+            "Jorge Calvo-Zaragoza",
+            "Mar\u00eda Alfaro-Contreras",
+            "Jose M. Inesta"
+        ],
+        "year": "2021",
+        "abstract": "Optical Music Recognition (OMR) and Automatic Music Transcription (AMT) stand for the research fields which aim at obtaining a structured digital representation of the music content present in either a sheet music image or an acoustic recording, respectively. While these fields have historically evolved separately, the fact that both tasks share the same output representation poses the question of whether they could be combined in a multimodal framework that exploits the individual transcription advantages depicted by each modality in a synergistic manner. To assess this hypothesis, this work presents a proof-of-concept research piece that combines the predictions given by end-to-end AMT and OMR systems over a corpus of monophonic music pieces considering a local alignment approach. The results obtained, while showing a narrow improvement with respect to the best individual modality, validate our initial premise.",
+        "extra": {
+            "email": {
+                "Carlos de la Fuente": "cdlf4@alu.ua.es",
+                "Jose J. Valero-Mas": "jjvalero@dlsi.ua.es",
+                "Francisco J. Castellanos": "fcastellanos@dlsi.ua.es",
+                "Jorge Calvo-Zaragoza": "jcalvo@dlsi.ua.es",
+                "Mar\u00eda Alfaro-Contreras": "malfaro@dlsi.ua.es",
+                "Jose M. Inesta": "inesta@dlsi.ua.es"
+            },
+            "affiliation": {
+                "Carlos de la Fuente": "University of Alicante",
+                "Jose J. Valero-Mas": "University of Alicante",
+                "Francisco J. Castellanos": "University of Alicante",
+                "Jorge Calvo-Zaragoza": "University of Alicante",
+                "Mar\u00eda Alfaro-Contreras": "University of Alicante",
+                "Jose M. Inesta": "University of Alicante"
+            },
+            "submission_id": "331",
+            "subject_area_primary": "Early research",
+            "special_track": false
+        }
+    },
+    {
+        "title": "Sound Scope Phone: Focus on a Specific Part Using Face and Hand Tracking",
+        "author": [
+            "Masatoshi Hamanaka"
+        ],
+        "year": "2021",
+        "abstract": "This paper describes Sound Scope Phone, an application that enables you to emphasize the part you want to listen to in a song consisting of multiple parts by head direction or hand gestures. The previously proposed interface required special headphones equipped with a digital compass and distance sensor to detect the direction of the head and distance between the head and a hand, respectively. Sound Scope Phone integrates face tracking information on the basis of images from the front camera of a commercially available smartphone with information from the built-in acceleration/gyro sensor to detect the head direction. The built application is published on the Apple App store under the name SoundScopePhone.",
+        "extra": {
+            "email": {
+                "Masatoshi Hamanaka": "masatoshi.hamanaka@riken.jp"
+            },
+            "affiliation": {
+                "Masatoshi Hamanaka": "RIKEN"
+            },
+            "submission_id": "338",
+            "subject_area_primary": "Software demo",
+            "special_track": false
+        }
+    },
+    {
+        "title": "MIDI Representation with Graph Embeddings",
+        "author": [
+            "Pasquale Lisena",
+            "Albert Mero\u00f1o-Pe\u00f1uela",
+            "Raphael Troncy"
+        ],
+        "year": "2021",
+        "abstract": "In MIR, feature extraction has been extensively used for learning models of MIDI. We propose an alternative approach that relies on the extraction of latent features from a graph of connected nodes. We show that our MIDI2vec approach has good performance in metadata prediction.",
+        "extra": {
+            "email": {
+                "Pasquale Lisena": "pasquale.lisena@eurecom.fr",
+                "Albert Mero\u00f1o-Pe\u00f1uela": "albert.merono@kcl.ac.uk",
+                "Raphael Troncy": "raphael.troncy@eurecom.fr"
+            },
+            "affiliation": {
+                "Pasquale Lisena": "EURECOM",
+                "Albert Mero\u00f1o-Pe\u00f1uela": "King\u2019s College London",
+                "Raphael Troncy": "EURECOM"
+            },
+            "submission_id": "360",
+            "subject_area_primary": "Software demo",
+            "special_track": false
+        }
+    },
+    {
+        "title": "Using The Sync Toolbox for an Experiment on High-Resolution Music Alignment",
+        "author": [
+            "Yigitcan \u00d6zer",
+            "Michael Krause",
+            "Meinard M\u00fcller"
+        ],
+        "year": "2021",
+        "abstract": "Music synchronization aims to automatically align multiple music representations such as audio recordings, MIDI files, and sheet music. For this task, we have recently published the Sync Toolbox, an open-source Python package for efficient, robust, and accurate music synchronization. This work combines spectral flux used as onset features with conventional chroma features to increase the alignment accuracy. We conduct some experiments within the Sync Toolbox framework to show that our approach preserves the accuracy compared with another high-resolution approach while being computationally simpler.",
+        "extra": {
+            "email": {
+                "Yigitcan \u00d6zer": "yigitcan.oezer@audiolabs-erlangen.de",
+                "Michael Krause": "michael.krause@audiolabs-erlangen.de",
+                "Meinard M\u00fcller": "meinard.mueller@audiolabs-erlangen.de"
+            },
+            "affiliation": {
+                "Yigitcan \u00d6zer": "International Audio Laboratories Erlangen",
+                "Michael Krause": "International Audio Laboratories Erlangen",
+                "Meinard M\u00fcller": "International Audio Laboratories Erlangen"
+            },
+            "submission_id": "377",
+            "subject_area_primary": "Software demo",
+            "special_track": false
+        }
+    },
+    {
+        "title": "Fully Automatic Page Turning on Real Scores",
+        "author": [
+            "Florian Henkel",
+            "Stephanie Schwaiger",
+            "Gerhard Widmer"
+        ],
+        "year": "2021",
+        "abstract": "We present a prototype of an automatic page turning system that works directly on real scores, i.e., sheet images, without any symbolic representation.\n Our system is based on a multi-modal neural network architecture that observes a complete sheet image page as input, listens to an incoming musical performance, and predicts the corresponding position in the image.\n Using the position estimation of our system, we use a simple heuristic to trigger a page turning event once a certain location within the sheet image is reached.\n As a proof of concept we further combine our system with an actual machine that will physically turn the page on command.",
+        "extra": {
+            "email": {
+                "Florian Henkel": "florian.henkel@jku.at",
+                "Stephanie Schwaiger": "stephanie.schwaiger97@gmail.com",
+                "Gerhard Widmer": "gerhard.widmer@jku.at"
+            },
+            "affiliation": {
+                "Florian Henkel": "Johannes Kepler University Linz",
+                "Stephanie Schwaiger": "Johannes Kepler University",
+                "Gerhard Widmer": "Johannes Kepler University"
+            },
+            "submission_id": "378",
+            "subject_area_primary": "Early research",
+            "special_track": false
+        }
+    },
+    {
+        "title": "Characterizing Musical Vocal Dynamics in Performance",
+        "author": [
+            "Jyoti Narang",
+            "Marius Miron",
+            "Xavier Serra",
+            "Ajay Srinivasamurthy"
+        ],
+        "year": "2021",
+        "abstract": "Dynamics play a fundamental role in varying the expressivity of any performance. While the usage of this tool can vary from artist to artist, and also from performance to performance, a systematic methodology to derive dynamics in terms of musically meaningful terms like piano, forte etc can offer valuable feedback in the context of vocal music education. To this end, we make use of commercial recordings of some popular rock and pop songs from the Smule vocal balanced dataset and transcribe it with dynamic markings with the help of a music teacher.\n Further, we compare the dynamics of the source separated original recordings with the aligned karaoke versions to find the variations in dynamics. We compare and present the differences using statistical analysis, with a goal to provide the dynamic markings as guiding tools for students to learn and adapt with a specific interpretation of a piece of music.",
+        "extra": {
+            "email": {
+                "Jyoti Narang": "jyoti.narang@upf.edu",
+                "Marius Miron": "marius.miron@upf.edu",
+                "Xavier Serra": "xavier.serra@upf.edu",
+                "Ajay Srinivasamurthy": "ajays.murthy@gmail.com"
+            },
+            "affiliation": {
+                "Jyoti Narang": "Student",
+                "Marius Miron": "UPF",
+                "Xavier Serra": "Universitat Pompeu Fabra",
+                "Ajay Srinivasamurthy": "Amazon Alexa"
+            },
+            "submission_id": "383",
+            "subject_area_primary": "Early research",
+            "special_track": false
+        }
+    },
+    {
+        "title": "Serious games for music learning with real-time audio interaction",
+        "author": [
+            "Mario Molina",
+            "Isaac Ariza",
+            "Ana M Barbancho",
+            "Lorenzo J. Tard\u00f3n",
+            "Isabel Barbancho"
+        ],
+        "year": "2021",
+        "abstract": "In this LBD, we present four Apps for learning music in a fun and interactive way. These gamified Apps are based on real-time audio interaction algorithms developed by ATIC Group at Universidad de M\u00e1laga.",
+        "extra": {
+            "email": {
+                "Mario Molina": "mmolina@ic.uma.es",
+                "Isaac Ariza": "iariza@ic.uma.es",
+                "Ana M Barbancho": "abp@ic.uma.es",
+                "Lorenzo J. Tard\u00f3n": "lorenzo@ic.uma.es",
+                "Isabel Barbancho": "ibp@ic.uma.es"
+            },
+            "affiliation": {
+                "Mario Molina": "ATIC Research Group. Universidad de Malaga.",
+                "Isaac Ariza": "ATIC Research Group. Universidad de M\u00e1laga.",
+                "Ana M Barbancho": "ATIC Research Group. Universidad de Malaga.",
+                "Lorenzo J. Tard\u00f3n": "ATIC Reseach Group. Universidad de M\u00e1laga",
+                "Isabel Barbancho": "Universidad de M\u00e1laga"
+            },
+            "submission_id": "384",
+            "subject_area_primary": "Software demo",
+            "special_track": false
+        }
+    },
+    {
+        "title": "Comparison of Network Architectures for Polyphonic Guitar Transcription",
+        "author": [
+            "Andrew F Wiggins",
+            "Youngmoo Kim"
+        ],
+        "year": "2021",
+        "abstract": "In our previous work, we introduced a framework for the unsupervised transcription of solo acoustic guitar performances. The approach extends the technique used in DrummerNet, in which a transcription network is fed into a fixed synthesis network and is trained via reconstruction loss. Our initial tests to apply this technique to the problem of guitar transcription performed poorly, so in this work, we focus on improving the transcription part of the previously proposed framework. Here we compare the capabilities and limitations of two different transcription network structures for the task of polyphonic guitar transcription. To verify the plausibility of the network structure in the unsupervised case, we investigate the task in the supervised setting, utilizing the limited labeled guitar data available in the GuitarSet dataset. We find that a 2D CNN (Convolutional Neural Network) operating on input spectrograms is better suited to the guitar transcription task than a U-Net architecture based on 1D convolutions on raw audio. In future work, we will leverage our insights regarding transcription network structure to improve upon our original unsupervised model.",
+        "extra": {
+            "email": {
+                "Andrew F Wiggins": "awiggins@drexel.edu",
+                "Youngmoo Kim": "ykim@drexel.edu"
+            },
+            "affiliation": {
+                "Andrew F Wiggins": "Drexel University",
+                "Youngmoo Kim": "Drexel University"
+            },
+            "submission_id": "386",
+            "subject_area_primary": "Early research",
+            "special_track": false
+        }
+    },
+    {
+        "title": "Chinese Opera Style Investigation by Convolutional Neural Network",
+        "author": [
+            "Huan Zhang",
+            "Yiliang Jiang",
+            "Weifeng Zhao",
+            "Tao Jiang",
+            "Hu Peng"
+        ],
+        "year": "2021",
+        "abstract": "In this study, we explore the stylistic differences of regional Chinese opera genres with convolutional neural networks in audio domain. In the classification experiment, we report an F1 value of 0.88 for the classification of Chinese opera genres. Besides, we also performed clustering of the learnt embeddings to investigate the similarity between genres. Finally, a positive correlation between music embedding distance and geographical distance of these regional genres was found.",
+        "extra": {
+            "email": {
+                "Huan Zhang": "huan.zhang@qmul.ac.uk",
+                "Yiliang Jiang": "yiljiang@tencent.com",
+                "Weifeng Zhao": "ethanzhao@tencent.com",
+                "Tao Jiang": "marsjiang@tencent.com",
+                "Hu Peng": "stevenhu@tencent.com"
+            },
+            "affiliation": {
+                "Huan Zhang": "Queen Mary University of London",
+                "Yiliang Jiang": "Tencent Music Entertainment",
+                "Weifeng Zhao": "Tencent Music Entertainment",
+                "Tao Jiang": "Tencent Music Entertainment",
+                "Hu Peng": "Tencent Music Entertainment"
+            },
+            "submission_id": "388",
+            "subject_area_primary": "Early research",
+            "special_track": false
+        }
+    },
+    {
+        "title": "Controlled Music Generation from Unlabeled Data",
+        "author": [
+            "Zhihao Ouyang",
+            "Keunwoo Choi"
+        ],
+        "year": "2021",
+        "abstract": "The Variational AutoEncoder (VAE) has demonstrated advantages in modeling for generation of sequential data with long-term structures such as symbolic music representations. In this paper, we propose a theoretically supported approach to enhance the interpretability of the VAE model by disentangling its latent space via the Gaussian Mixture Model (GMM) to generate highly controlled music through an unsupervised manner. Furthermore, with the Gaussian prior, latent variables retrieved from GMM clustering results are robuster than those of naive VAEs, especially in few-shot scenarios. With an implemented model, we observed the style of music is effectively controlled. It also reduced the amount of music data for music generation from hundreds per style to several. Demo link: https://github.com/oyzh888/GMM_MusicVAE.",
+        "extra": {
+            "email": {
+                "Zhihao Ouyang": "zhihao.ouyang@bytedance.com",
+                "Keunwoo Choi": "keunwoo.choi@bytedance.com"
+            },
+            "affiliation": {
+                "Zhihao Ouyang": "Bytedance",
+                "Keunwoo Choi": "ByteDance"
+            },
+            "submission_id": "389",
+            "subject_area_primary": "Early research",
+            "special_track": false
+        }
+    },
+    {
+        "title": "Score Transformer: Transcribing Quantized MIDI into Comprehensive Musical Score",
+        "author": [
+            "Masahiro Suzuki"
+        ],
+        "year": "2021",
+        "abstract": "We explore the tokenized representation of musical scores to generate musical scores with transformers. We design score token representation corresponding to the musical symbols and attributes used in musical scores and train the Transformer model to transcribe note-level representation into musical scores. Evaluations of popular piano scores show that our model significantly outperforms existing methods on all 4 investigated categories. We also explore an effective token representation, including those based on existing text-like score formats, and show that our proposed representation produces the steadiest results.",
+        "extra": {
+            "email": {
+                "Masahiro Suzuki": "masahiro1.suzuki@music.yamaha.com"
+            },
+            "affiliation": {
+                "Masahiro Suzuki": "Yamaha corp."
+            },
+            "submission_id": "390",
+            "subject_area_primary": "Early research",
+            "special_track": false
+        }
+    },
+    {
+        "title": "Music Mood Recognition Based on Synchronized Audio and Lyrics",
+        "author": [
+            "Sho Ikeda",
+            "Shinji Sako"
+        ],
+        "year": "2021",
+        "abstract": "The aim of our study is to improve the accuracy of music mood recognition using audio and lyrics. As a method, we make a dataset in which audio and lyrics are synchronized, and utilize both lyrics and audio modality for mood recognition. There are few research that deal with the synchronization of audio and lyrics in music mood recognition. Therefore, we make a dataset by extracting the part of lyrics sung in audio. Using the dataset, We investigate the impact of lyric and audio synchronization on music mood recognition tasks. In our experiments, we extract the word embedding representation from lyrics as a feature, and perform music mood recognition using a deep neural network. To verify the effectiveness of synchronizing audio and lyrics, we conduct the experiment in terms of the number of words in the lyrics and the number of music clips.",
+        "extra": {
+            "email": {
+                "Sho Ikeda": "s_ikeda@slp.nitech.ac.jp",
+                "Shinji Sako": "s.sako@nitech.ac.jp"
+            },
+            "affiliation": {
+                "Sho Ikeda": "Nagoya Institute of Technology",
+                "Shinji Sako": "Nagoya Institute of Technology"
+            },
+            "submission_id": "392",
+            "subject_area_primary": "Early research",
+            "special_track": false
+        }
+    },
+    {
+        "title": "AVASpeech-SMAD: A Strongly Labelled Speech and Music Activity Detection Dataset with Label Co-Occurrence",
+        "author": [
+            "Yun-Ning Hung",
+            "Karn N. Watcharasupat",
+            "PAVAN M SESHADRI",
+            "Kelian Li",
+            "Iroro Orife",
+            "Chih-Wei Wu",
+            "Junyoung Lee"
+        ],
+        "year": "2021",
+        "abstract": "We propose a dataset, AVASpeech-SMAD, to assist speech and music activity detection research. With frame-level music labels, the proposed dataset extends the existing AVASpeech dataset, which originally consists of \\num{45} hours of audio and speech activity labels. To the best of our knowledge, the proposed AVASpeech-SMAD is the first open-source dataset that features strong polyphonic labels for both music and speech. The dataset was manually annotated and verified via an iterative cross-checking process. A simple automatic examination was also implemented to further improve the quality of the labels. Evaluation results from two state-of-the-art SMAD systems are also provided as a benchmark for future reference.",
+        "extra": {
+            "email": {
+                "Yun-Ning Hung": "yhung33@gatech.edu",
+                "Karn N. Watcharasupat": "karn001@e.ntu.edu.sg",
+                "PAVAN M SESHADRI": "pavan.seshadri1@gmail.com",
+                "Kelian Li": "kli421@gatech.edu",
+                "Iroro Orife": "iorife@netflix.com",
+                "Chih-Wei Wu": "cwu307@gmail.com",
+                "Junyoung Lee": "JUNYOUNG002@e.ntu.edu.sg"
+            },
+            "affiliation": {
+                "Yun-Ning Hung": "Georgia Tech",
+                "Karn N. Watcharasupat": "Nanyang Technological University",
+                "PAVAN M SESHADRI": "Georgia Institute of Technology",
+                "Kelian Li": "Georgia Tech",
+                "Iroro Orife": "Netflix Inc.",
+                "Chih-Wei Wu": "Netflix, Inc.",
+                "Junyoung Lee": "Nanyang Technological University"
+            },
+            "submission_id": "397",
+            "subject_area_primary": "Dataset contribution",
+            "special_track": false
+        }
+    },
+    {
+        "title": "Attribute-Aware Deep Music Transformation For Polyphonic Music",
+        "author": [
+            "Yuta Matsuoka",
+            "Shinji Sako"
+        ],
+        "year": "2021",
+        "abstract": "Recent machine learning technology have made it possible to automatically create a variety of new music.\n And many approaches have been proposed to control musical attributes such as pitch and rhythm of the generated music.\n However, most of them focus only on monophonic music.\n In this study, we apply the deep music transformation model \\cite{kawai2020attributes}, which can control the musical attributes of monophonic music, to polyphonic music.\n We employ Performance Encoding \\cite{oore2020this}, which can efficiently describe polyphonic music, as the input to the model.\n To evaluate the proposed method, we performed music transformation using a polyphonic music dataset.",
+        "extra": {
+            "email": {
+                "Yuta Matsuoka": "matsuoka@slp.nitech.ac.jp",
+                "Shinji Sako": "s.sako@nitech.ac.jp"
+            },
+            "affiliation": {
+                "Yuta Matsuoka": "Nagoya Institute of Technology",
+                "Shinji Sako": "Nagoya Institute of Technology"
+            },
+            "submission_id": "398",
+            "subject_area_primary": "Early research",
+            "special_track": false
+        }
+    },
+    {
+        "title": "Piano Precision: visualizing practice subtleties of piano learners",
+        "author": [
+            "Yucong Jiang"
+        ],
+        "year": "2021",
+        "abstract": "Unlike most piano tutoring applications, which guide students to play correct notes, Piano Precision focuses on guiding students to play better sounding notes. This application visualizes essential aspects (such as the tempo) of a performance, to help piano learners reflect objectively on their playing. The user may record and analyze multiple takes before moving on to a different score. A video demo is included to show the functionality of this prototype. Furthermore, this tool can be useful to study music learning and teaching, and support musicology research.",
+        "extra": {
+            "email": {
+                "Yucong Jiang": "yjiang3@richmond.edu"
+            },
+            "affiliation": {
+                "Yucong Jiang": "University of Richmond"
+            },
+            "submission_id": "399",
+            "subject_area_primary": "Software demo",
+            "special_track": false
+        }
+    },
+    {
+        "title": "Context-aware generation of melodic MIDI loops",
+        "author": [
+            "Nikolay Glazyrin"
+        ],
+        "year": "2021",
+        "abstract": "In this paper we describe a method of generation of symbolic melody loops to fit in an existing set of melodic, harmonic and bass loops. Two main contributions are the way of representing MIDI data in textual form and the post-processing procedure for selecting best candidates among a potentially infinite set of generated melodies. Due to the proposed representation a generative model can be conditioned on music style and music intensity. Overall performance of our method has been evaluated with the help of a professional music producer.",
+        "extra": {
+            "email": {
+                "Nikolay Glazyrin": "nglazyrin@gmail.com"
+            },
+            "affiliation": {
+                "Nikolay Glazyrin": "Yandex Mediaservices"
+            },
+            "submission_id": "400",
+            "subject_area_primary": "Early research",
+            "special_track": false
+        }
+    },
+    {
+        "title": "Difficulty Analysis of Etude Pieces Considering the Complexity of the Action for Guitar Learners",
+        "author": [
+            "Nami Iino"
+        ],
+        "year": "2021",
+        "abstract": "This paper describes the difficulty of classical guitar etudes to support learners' music selection. We first we analyzed the complexity of guitar renditions using the Guitar Rendition Ontology (GRO), which is a structural description of the actual actions of techniques. Then, we attempted to calculate the difficulty level of each etude by conducting a new analysis using TF-IDF and the complexity indicator. Experimental results suggested that the difficulty value of an etude corresponds to the author's subjectivity and intention.",
+        "extra": {
+            "email": {
+                "Nami Iino": "nami-iino@nii.ac.jp"
+            },
+            "affiliation": {
+                "Nami Iino": "National Institute of Informatics"
+            },
+            "submission_id": "402",
+            "subject_area_primary": "Early research",
+            "special_track": false
+        }
+    },
+    {
+        "title": "Panako 2.0 - Updates for an acoustic fingerprinting system",
+        "author": [
+            "Joren Six"
+        ],
+        "year": "2021",
+        "abstract": "This work presents updates to Panako, an acoustic fingerprinting system that was introduced at ISMIR 2014. The notable feature of Panako is that it matches queries even after a speedup, time-stretch or pitch-shift. It is freely available and has no problems indexing and querying 100k sea shanties. The updates presented here improve query performance significantly and allow a wider range of time-stretch, pitch-shift and speed-up factors: e.g. the top 1 true positive rate for 20s query that were sped up by 10 percent increased from 18% to 83% from the 2014 version of Panako to the new version.\n \n The aim of this short writeup is to reintroduce Panako, evaluate the improvements and highlight two techniques with wider applicability. The first of the two techniques is the use of a constant-Q non-stationary Gabor transform: a fast, reversible, fine-grained spectral transform which can be used as a front-end for many MIR tasks. The second is how near-exact hashing is used in combination with a persistent B-Tree to allow some margin of error while maintaining reasonable query speeds.",
+        "extra": {
+            "email": {
+                "Joren Six": "joren.six@ugent.be"
+            },
+            "affiliation": {
+                "Joren Six": "University Ghent - IPEM"
+            },
+            "submission_id": "403",
+            "subject_area_primary": "Software demo",
+            "special_track": false
+        }
+    },
+    {
+        "title": "Interactively Exploring Similarities Between Music Genres Based on User-generated Tags",
+        "author": [
+            "Stefan Brandl",
+            "Markus Schedl"
+        ],
+        "year": "2021",
+        "abstract": "Searching for music by genre is one of the most common strategies. Knowledge about similarities between (sub-)genres likewise facilitates discovery of new music. However, given the often very fine-grained genre taxonomies used by major music providers (e.g., Spotify organizes their collection according to more than 5,000 micro-genres), grasping the meaning of those genre names is impossible for most users.\n Addressing this issue, we present Genre Similarity Explorer (GSE), an interactive exploration tool for pairwise genre similarity. Genre similarity is quantified based on co-occurrences of genre tags in a collection of user-generated song annotations.",
+        "extra": {
+            "email": {
+                "Stefan Brandl": "stefan.brandl@jku.at",
+                "Markus Schedl": "markus.schedl@jku.at"
+            },
+            "affiliation": {
+                "Stefan Brandl": "Johannes Kepler University Linz",
+                "Markus Schedl": "Johannes Kepler University Linz"
+            },
+            "submission_id": "405",
+            "subject_area_primary": "Software demo",
+            "special_track": false
+        }
+    },
+    {
+        "title": "Style-based Drum Synthesis with GAN Inversion",
+        "author": [
+            "Jake Drysdale",
+            "Maciej Tomczak",
+            "Jason Hockman"
+        ],
+        "year": "2021",
+        "abstract": "Neural audio synthesizers exploit deep learning as an alternative to traditional synthesizers that generate audio from hand-designed components such as oscillators and wavetables. For a neural audio synthesizer to be applicable to music creation, meaningful control over the output is essential. This paper provides an overview of an unsupervised approach to deriving useful feature controls learned by a generative model. A system for generation and transformation of drum samples using a style-based generative adversarial network (GAN) is proposed. The system provides functional control of audio style features, based on principal component analysis (PCA) applied to the intermediate latent space. Additionally, we propose the use of an encoder trained to invert input drums back to the latent space of the pre-trained GAN. We experiment with three modes of control and provide audio results on a supporting website.",
+        "extra": {
+            "email": {
+                "Jake Drysdale": "jake.drysdale@mail.bcu.ac.uk",
+                "Maciej Tomczak": "maciej.tomczak@bcu.ac.uk",
+                "Jason Hockman": "jason.hockman@bcu.ac.uk"
+            },
+            "affiliation": {
+                "Jake Drysdale": "Birmingham City University",
+                "Maciej Tomczak": "Birmingham City University",
+                "Jason Hockman": "Birmingham City University"
+            },
+            "submission_id": "407",
+            "subject_area_primary": "Early research",
+            "special_track": false
+        }
+    },
+    {
+        "title": "Transcription-driven spectral basis learning for audio source separation combining Convolutional Neural Networks and Non-negative Matrix Factorization",
+        "author": [
+            "Alejandro Koretzky",
+            "Naveen Rajashekharappa"
+        ],
+        "year": "2021",
+        "abstract": "In the context of Audio Source Separation, one of the main limitations of supervised Non-negative Matrix Factorization (NMF) solutions is the difficulty in designing optimal spectral bases that generalize to any input mix. This lack of generalization has been one of the main reasons why most of the current solutions rely on artificial neural networks (ANN). In this contribution we present a hybrid, transcription-driven template-learning approach that combines the power of ANN with the simplicity and performance of NMF, achieving high-quality, real-time, low interference separation of drums & percussion components. Where in most implementations, NMF-based solutions try to estimate the Activations Matrix (H) given an input mix and a static, manually-defined set of spectral bases (W matrix), here we adapt the transcription output from an ANN to instantiate the H matrix, and have NMF estimate the W matrix instead, resulting in optimal spectral templates that adapt to the input mix. Because the task of transcription is, in general, less complex compared to the task of audio source separation, we still end up with a highly efficient, fast-inference, low-memory footprint pipeline that can run on CPU, making it particularly suitable for client-side implementations as part of creator tools for music production.",
+        "extra": {
+            "email": {
+                "Alejandro Koretzky": "alejandro.koretzky@splice.com",
+                "Naveen Rajashekharappa": "naveen@splice.com"
+            },
+            "affiliation": {
+                "Alejandro Koretzky": "Splice.com",
+                "Naveen Rajashekharappa": "Splice"
+            },
+            "submission_id": "408",
+            "subject_area_primary": "Early research",
+            "special_track": false
+        }
+    },
+    {
+        "title": "Beyond Hard Decisions: Accounting for Uncertainty in Deep MIR Models",
+        "author": [
+            "Qingyang Xi",
+            "Brian McFee"
+        ],
+        "year": "2021",
+        "abstract": "Modern deep learning models provide increasingly more accurate predictions for common MIR tasks, however, the models' confidence scores associated with each prediction are often left unchecked. This potential mismatch between prediction confidence and empirical accuracy makes it difficult to account for uncertainties in these models' predictions. Controlling uncertainty is crucial if MIR models' prediction confidences are to be interpreted as probabilities, and doing so can help a model produce more meaningful predictions when faced with ambiguity.\n To properly account for model uncertainties, prediction confidence scores should be calibrated to better reflect the true chance of it being correct.\n We propose a simple and efficient post-hoc probability calibration process using Temperature Scaling.\n We demonstrate the effect of this calibration process on the Rock Corpus for key and chord estimation.",
+        "extra": {
+            "email": {
+                "Qingyang Xi": "tom.xi@nyu.edu",
+                "Brian McFee": "brian.mcfee@nyu.edu"
+            },
+            "affiliation": {
+                "Qingyang Xi": "NYU",
+                "Brian McFee": "New York University"
+            },
+            "submission_id": "409",
+            "subject_area_primary": "Early research",
+            "special_track": false
+        }
+    },
+    {
+        "title": "vocadito: A dataset of solo vocals with $f_0$, note, and lyric Annotations",
+        "author": [
+            "Rachel Bittner",
+            "Katherine Pasalo",
+            "Juan Jose Bosch",
+            "Gabriel Meseguer Brocal",
+            "David Rubinstein"
+        ],
+        "year": "2021",
+        "abstract": "To compliment the existing set of datasets, we present a small dataset entitled vocadito, consisting of 40 short excerpts of monophonic singing, sung in 7 different languages by singers with varying of levels of training, and recorded on a variety of devices. We provide several types of annotations, including $f_0$, lyrics, and two different note annotations. All annotations were created by musicians. In this extended abstract, we omit all analysis, and refer the reader to the extended technical report. Vocadito is made freely available for public use.",
+        "extra": {
+            "email": {
+                "Rachel Bittner": "rachelbittner@spotify.com",
+                "Katherine Pasalo": "katpasalo@gmail.com",
+                "Juan Jose Bosch": "juanjoseb@spotify.com",
+                "Gabriel Meseguer Brocal": "gabriel.meseguer.brocal@gmail.com",
+                "David Rubinstein": "drubinstein@spotify.com"
+            },
+            "affiliation": {
+                "Rachel Bittner": "Spotify",
+                "Katherine Pasalo": "Spotify",
+                "Juan Jose Bosch": "Spotify",
+                "Gabriel Meseguer Brocal": "IRCAM",
+                "David Rubinstein": "Spotify"
+            },
+            "submission_id": "413",
+            "subject_area_primary": "Dataset contribution",
+            "special_track": false
+        }
+    },
+    {
+        "title": "A StyleGAN-2 inspired Generative Adversarial Network for the PCA-controllable generation of drums samples for content-based retrieval",
+        "author": [
+            "Alejandro Koretzky",
+            "Naveen Rajashekharappa"
+        ],
+        "year": "2021",
+        "abstract": "Generative Adversarial Networks (GAN) have proven incredibly effective at the task of generating highly realistic natural images. On top of this, approaches for the conditioning of the generation process by controlling specific attributes in the latent space (e.g. hair color, gender, age, beard, etc when trained on human faces) have been gaining more attention in recent years. In this work, we validate a StyleGAN-2 inspired architecture for the unlimited generation of high-quality magnitude spectrogram images, for the purpose of content-based retrieval. In addition, in the same way that it is possible to discover and control specific attributes relevant to the distribution of natural images, we demonstrate that the same is applicable to the domain of audio, showing that when trained on drum loops, some of these controllable latent dimensions directly relate to highly semantic factors such as BPM, rhythmic pattern, low pass and high pass filtering, etc. Even though these generated high-resolution spectrograms can be inverted back into the time-domain and made available for use (we demonstrate this using the Griffin-Lim algorithm), the purpose of this project was to validate the approach with the goal of content-based retrieval. Particularly, developing better search and discovery tools for querying a large collection of human-made audio samples.",
+        "extra": {
+            "email": {
+                "Alejandro Koretzky": "alejandro.koretzky@splice.com",
+                "Naveen Rajashekharappa": "naveen@splice.com"
+            },
+            "affiliation": {
+                "Alejandro Koretzky": "Splice.com",
+                "Naveen Rajashekharappa": "Splice.com"
+            },
+            "submission_id": "415",
+            "subject_area_primary": "Early research",
+            "special_track": false
+        }
+    },
+    {
+        "title": "Large-scale analysis of lyrics and melodies in Cantonese pop songs",
+        "author": [
+            "Qiaoyu Yang",
+            "Panzhen Wu",
+            "Zhiyao Duan"
+        ],
+        "year": "2021",
+        "abstract": "In pop songs of tonal languages, researchers have found that the tones of lyrics characters and the melodies contours have similar patterns of motion. However, no large-scale quantitive analysis has been done to generalize the phenomenon. The current study explores the extent of relationship between lyrics and melodies quantitively in a large dataset of pop songs written in Cantonese, a language with one of the richest tonal systems. To align the lyrics with corresponding melody, the singing voices are extracted from the polyphonic music tracks and automatic speech recognition (ASR) systems are applied to the singing voices to detect the lyrics content as well as character-wise timestamps. The transcribed lyrics are matched with true lyrics using Levenshtein distance and then further corrected to ensure the lyrics are precisely sung in each melody segment. Finally, the notes of the melody are extracted and compared with frequencies of generated speech to obtain quantitative relationship.",
+        "extra": {
+            "email": {
+                "Qiaoyu Yang": "qyang15@ur.rochester.edu",
+                "Panzhen Wu": "pwu10@u.rochester.edu",
+                "Zhiyao Duan": "zhiyao.duan@rochester.edu"
+            },
+            "affiliation": {
+                "Qiaoyu Yang": "University of Rochester",
+                "Panzhen Wu": "University of Rochester",
+                "Zhiyao Duan": "Unversity of Rochester"
+            },
+            "submission_id": "416",
+            "subject_area_primary": "Early research",
+            "special_track": false
+        }
+    },
+    {
+        "title": "A Framework for Human-in-the-Loop Expressive Vocal Synthesis",
+        "author": [
+            "Camille Noufi",
+            "Lloyd May"
+        ],
+        "year": "2021",
+        "abstract": "This extended abstract proposes a design framework for interactive, real-time control of expression within a synthesized voice. Within the framework, we propose two concepts that would enable a user to flexibly control their personalized sound. The voice persona that determines the \"tone of voice\" is defined as a point existing within a continuous probability space. This point defines the parameters that determine the distribution space of the low-level features required for synthesis, allowing for flexible modification and fine-tuning.\n Secondly, expression within a persona can be achieved through modification of meaningful high-level abstractions, which we call macros, that subsequently modify the distribution space of corresponding low-level features of the synthetic speech signal.",
+        "extra": {
+            "email": {
+                "Camille Noufi": "cnoufi@ccrma.stanford.edu",
+                "Lloyd May": "lloydmay@ccrma.stanford.edu"
+            },
+            "affiliation": {
+                "Camille Noufi": "Stanford University",
+                "Lloyd May": "Stanford University"
+            },
+            "submission_id": "417",
+            "subject_area_primary": "Early research",
+            "special_track": false
+        }
+    },
+    {
+        "title": "Topic models reveal scale systems in popular music",
+        "author": [
+            "David Sears",
+            "Justin Glosson"
+        ],
+        "year": "2021",
+        "abstract": "This late-breaking demo explores the potential for topic models to discover scale systems in triadic corpora representing both the common-practice and popular music traditions.",
+        "extra": {
+            "email": {
+                "David Sears": "david.sears@ttu.edu",
+                "Justin Glosson": "justin.glosson@ttu.edu"
+            },
+            "affiliation": {
+                "David Sears": "Texas Tech University",
+                "Justin Glosson": "Texas Tech University"
+            },
+            "submission_id": "418",
+            "subject_area_primary": "Early research",
+            "special_track": false
+        }
+    },
+    {
+        "title": "Sheet Sage: Lead sheets from music audio",
+        "author": [
+            "Chris Donahue",
+            "Percy Liang"
+        ],
+        "year": "2021",
+        "abstract": "We present Sheet Sage, a system designed to transcribe Western multitrack music into lead sheets: human-readable scores which indicate melody and harmony. The potential use cases for reliable lead sheet transcription are broad and include music performance, education, interaction, informatics, and generation. However, the task is challenging because it involves many subtasks: beat tracking, key detection, chord recognition, and melody transcription. A major obstacle is melody transcription which, while arguably simpler for humans than chord recognition, remains a challenging task for MIR. Here we leverage recent advancements in audio pre-training to break new ground on this task, resulting in a system which can reliably detect and transcribe the melody in multitrack recordings. By combining this new melody transcription approach with existing strategies for other subtasks, Sheet Sage can transcribe recordings into score representations which echo the musical understanding of human experts.\n \n Examples: https://chrisdonahue.com/sheetsage-lbd",
+        "extra": {
+            "email": {
+                "Chris Donahue": "cdonahue@ucsd.edu",
+                "Percy Liang": "pliang@cs.stanford.edu"
+            },
+            "affiliation": {
+                "Chris Donahue": "Stanford",
+                "Percy Liang": "Stanford University"
+            },
+            "submission_id": "419",
+            "subject_area_primary": "Early research",
+            "special_track": false
+        }
+    },
+    {
+        "title": "DeepDream Applied to an Instrument Recognition CNN",
+        "author": [
+            "Charis Cochran",
+            "Youngmoo Kim"
+        ],
+        "year": "2021",
+        "abstract": "Explainability for the behavior of deep learning models has been a topic of increasing interest, especially in computer vision; however, it has not been as extensively investigated or adapted for audio and music. In this paper, we explore feature visualizations which give insight into learned models based on optimizing inputs to activate certain nodes. To do this we apply DeepDream [1], an algorithm used in the visual domain for exaggerating features which activate specific nodes. We used a model trained on the problem of predominant instrument recognition, which is based on the state-of-the-art (SOTA) model described in Han et.al. [2]. From initial results in optimizing test samples towards any target instrument using DeepDream, we find that the instrument models are highly sensitive to small imperceptible perturbations in the input spectrograms which can consistently influence the model to classify a sample towards the target with 100% accuracy. Additionally, when starting with noise we found that DeepDream creates consistent patterns across instrument classes which are visually distinguishable, but still indistinguishable when sonified. Both of these results indicate that learned instrument models are very fragile.",
+        "extra": {
+            "email": {
+                "Charis Cochran": "crc356@drexel.edu",
+                "Youngmoo Kim": "ykim@drexel.edu"
+            },
+            "affiliation": {
+                "Charis Cochran": "Drexel University",
+                "Youngmoo Kim": "Drexel University"
+            },
+            "submission_id": "421",
+            "subject_area_primary": "Early research",
+            "special_track": false
+        }
+    },
+    {
+        "title": "Beyond chord vocabularies: Exploiting pitch-relationships in a chord estimation metric",
+        "author": [
+            "Johanna Devaney"
+        ],
+        "year": "2021",
+        "abstract": "Chord estimation metrics treat chord labels as independent of one another. This fails to represent the pitch relationships between the chords in a meaningful way, resulting in evaluations that must make compromises with complex chord vocabularies and that often require time-consuming qualitative analyses to determine details about how a chord estimation algorithm performs. This paper presents an accuracy metric for chord estimation that compares the pitch content of the estimation chords against the ground truth that captures both the correct notes that are estimated and additional notes that are inserted into the estimate. This is not a stand-alone evaluation protocol but rather a metric that can be integrated into existing evaluation approaches.",
+        "extra": {
+            "email": {
+                "Johanna Devaney": "johanna.devaney@brooklyn.cuny.edu"
+            },
+            "affiliation": {
+                "Johanna Devaney": "Brooklyn College"
+            },
+            "submission_id": "422",
+            "subject_area_primary": "Early research",
+            "special_track": false
+        }
+    },
+    {
+        "title": "FaceJam.app: Javascript Facial Expressions for Musical Expression",
+        "author": [
+            "Christopher J Tralie"
+        ],
+        "year": "2021",
+        "abstract": "We present www.facejam.app: a system that combines computer vision, computer graphics, and MIR to automatically animate facial expressions to music. This work started off as an offline Python script that won \"best code\" at the HAMR Hackathon at Deezer in 2018, and we have extended it to work live in the browser using Javascript and WebGL. The system automatically detects facial landmarks in an image using face-api.js, and it uses dynamic programming beat tracking to move detected eyebrows up and down to the beat, while also mapping instantaneous power to a \"smile\" expression. These audio aspects drive a model face, which is used to warp an arbitrary face real time using piecewise affine warps via GLSL shaders. The system supports animating multiple faces in an image, and audio can be sourced from uploaded files, player recordings from a microphone, or 30 second preview clips from the Spotify API. Players can also save their favorite results automatically to files from the browser to share on social media. Our fully client side prototype system is currently live at https://www.facejam.app.",
+        "extra": {
+            "email": {
+                "Christopher J Tralie": "ctralie@alumni.princeton.edu"
+            },
+            "affiliation": {
+                "Christopher J Tralie": "Ursinus College"
+            },
+            "submission_id": "423",
+            "subject_area_primary": "Software demo",
+            "special_track": false
+        }
+    },
+    {
+        "title": "Million Song Search: Web Interface for Semantic Music Search Using Musical Word Embedding",
+        "author": [
+            "Seungheon Doh",
+            "Jongpil Lee",
+            "Juhan Nam"
+        ],
+        "year": "2021",
+        "abstract": "We present a web interface for large-scale semantic search using a musically customized word embedding in the back-end. The musical word embedding represents artist entities, track entities, tags, and ordinary words in a single vector space. It is learned based on the affinity between the words and the entities in various text documents and music annotation datasets. The system can allows users to type a query within 9.8M vocabulary words in the musical word embedding. It also supports a multi-query blending function using a semantic averaging of the queries to provide more refined search.",
+        "extra": {
+            "email": {
+                "Seungheon Doh": "seungheondoh@kaist.ac.kr",
+                "Jongpil Lee": "jongpillee@neutune.com",
+                "Juhan Nam": "juhan.nam@kaist.ac.kr"
+            },
+            "affiliation": {
+                "Seungheon Doh": "KAIST",
+                "Jongpil Lee": "Neutune",
+                "Juhan Nam": "KAIST"
+            },
+            "submission_id": "424",
+            "subject_area_primary": "Software demo",
+            "special_track": false
+        }
+    },
+    {
+        "title": "Bit Of This, Bit Of That: Revisiting Search & Discovery",
+        "author": [
+            "Piyush Papreja",
+            "Rohit Sharma"
+        ],
+        "year": "2021",
+        "abstract": "Genre-based categorization forms a vital part of music discovery. What started several decades ago as just a way to market and segment artists into well-defined categories today forms the core of the user experience in music apps in the form of a genre-browse section. However, popular music over the past two decades has become more genre-fluid than ever. Despite the emergence of mood-based, theme-based, and contextual playlists over the strictly single-genre-based ones, the search interfaces have mostly remained the same. To accommodate this ever-growing genre fluidity, we need to revisit the currently existing search interfaces. To this aim, we propose Bit Of This, Bit Of That, a search-and-discovery system that facilitates genre-fluid search, with its novel interface being our primary contribution. Finally, we conclude with a discussion of the first impressions of this work.",
+        "extra": {
+            "email": {
+                "Piyush Papreja": "ppapreja@asu.edu",
+                "Rohit Sharma": "r.r0191@gmail.com"
+            },
+            "affiliation": {
+                "Piyush Papreja": "Arizona State University",
+                "Rohit Sharma": "Adobe Inc"
+            },
+            "submission_id": "428",
+            "subject_area_primary": "Software demo",
+            "special_track": false
+        }
+    },
+    {
+        "title": "Structural Segmentation of Musical Audio with Region Proposal Networks",
+        "author": [
+            "Christopher N Uzokwe",
+            "Youngmoo Kim"
+        ],
+        "year": "2021",
+        "abstract": "Performance in many Music IR tasks has advanced significantly using deep learning methods, particularly convolutional neural networks (CNNs). The fundamental research behind CNNs has primarily been driven by visual domain problems, such as image recognition and object segmentation, and \u201cstandard\u201d CNN architectures are optimized for such visual problems. Our work seeks to leverage these fundamental visual strengths of CNNs by transforming musical structure analysis (MSA) and segmentation into a purely visual task. We use labeled images of self-similarity matrices (SSMs) derived from acoustic features (from popular music examples) as a visual dataset to train a Region Proposal Network (RPN), a state-of-the-art object detection approach, to identify the regions of a song based on visual bounding boxes. This abstract highlights our modifications of the RPN implementation for our SSM dataset, and reports on the fundamental differences between the two tasks that serve as the biggest shortcomings of the approach in its current state.",
+        "extra": {
+            "email": {
+                "Christopher N Uzokwe": "cnu25@drexel.edu",
+                "Youngmoo Kim": "ykim@drexel.edu"
+            },
+            "affiliation": {
+                "Christopher N Uzokwe": "Drexel University",
+                "Youngmoo Kim": "Drexel University"
+            },
+            "submission_id": "429",
+            "subject_area_primary": "Early research",
+            "special_track": false
+        }
+    },
+    {
+        "title": "Large Music Recommendation Studies for Small Teams",
+        "author": [
+            "Kyle Robinson",
+            "Dan Brown"
+        ],
+        "year": "2021",
+        "abstract": "Running live music recommendation studies without direct industry partnerships can be a prohibitively daunting task, especially for small teams. In order to help future researchers interested in such evaluations, we present a number of struggles we faced in the process of generating our own such evaluation system alongside potential solutions. These problems span the topics of users, data, computation, and application architecture.",
+        "extra": {
+            "email": {
+                "Kyle Robinson": "kyle.robinson@uwaterloo.ca",
+                "Dan Brown": "dan.brown@uwaterloo.ca"
+            },
+            "affiliation": {
+                "Kyle Robinson": "University of Waterloo",
+                "Dan Brown": "University of Waterloo"
+            },
+            "submission_id": "430",
+            "subject_area_primary": "",
+            "special_track": false
+        }
+    },
+    {
+        "title": "Utilizing Hierarchical Structure for Audio-Based Music Similarity",
+        "author": [
+            "Christos Plachouras"
+        ],
+        "year": "2021",
+        "abstract": "In this work, I introduce a methodology for measuring the similarity between musical pieces by computing a hierarchical representation of their structure from their audio and comparing audio sections that have a similar structural function. Between a pair of musical pieces, the methodology aims to maximize how much of their audio is used to compute their similarity, under the constraint of only comparing structural segments that are deemed related. This introduces musical structure as a relevant characteristic for music similarity metrics, while minimizing the loss of information about the temporal evolution of music features within pieces. Experiments in music similarity measurements within musical genres as well as between studio and live performances are presented.",
+        "extra": {
+            "email": {
+                "Christos Plachouras": "cp2909@nyu.edu"
+            },
+            "affiliation": {
+                "Christos Plachouras": "New York University Abu Dhabi"
+            },
+            "submission_id": "432",
+            "subject_area_primary": "Early research",
+            "special_track": false
+        }
+    },
+    {
+        "title": "Synthesizing multilingual choral scores for assisted singing practice in Cantāmus",
+        "author": [
+            "Matan Grover",
+            "Hector Parra",
+            "Jordi Janer",
+            "Oscar Mayor"
+        ],
+        "year": "2021",
+        "abstract": "In this demo, we present a web-based system that allows choir conductors and ensemble leaders to automatically generate practice tracks from any custom digital score. The system employs a singing synthesis engine trained on a multilingual choir singing dataset. Digital choral scores are first uploaded in MusicXML format. Then, the system recognizes and renders the different vocal parts. Synchronized audio and digital sheet music are shown on the web interface, which integrates other functionalities for singing practice such as track mixing, or user performance recording and assessment. We will showcase our system, and discuss the main challenges we encountered when processing user-created digital scores in this context.",
+        "extra": {
+            "email": {
+                "Matan Grover": "matan.gover@voctrolabs.com",
+                "Hector Parra": "hector@parra.cat",
+                "Jordi Janer": "jordi.janer@voctrolabs.com",
+                "Oscar Mayor": "oscar.mayor@voctrolabs.com"
+            },
+            "affiliation": {
+                "Matan Grover": "Voctro Labs",
+                "Hector Parra": "Voctro Labs",
+                "Jordi Janer": "Voctro Labs",
+                "Oscar Mayor": "Voctro Labs"
+            },
+            "submission_id": "433",
+            "subject_area_primary": "Software Demo",
+            "special_track": false
+        }
+    }
+]
