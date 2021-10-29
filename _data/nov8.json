@@ -22,7 +22,8 @@
 			"start_time": "21:30",
 			"end_time": "23:00",
 			"title": "Poster 1 (A)",
-			"type": "Poster"
+			"type": "Poster",
+			"details": "/papers/?session-1"
 		}
 	]
 }

@@ -8,7 +8,7 @@
 			"title": "Tutorial A.1.1: Tempo, Beat and Downbeat Estimation",
 			"type": "Tutorial",
 			"details": "/tutorials/#1-tempo-beat-and-downbeat-estimation",
-			"midspace": "#",
+	
 			"description": "Click on the details button to find out more!"
 		},
 		{
@@ -18,7 +18,7 @@
 			"title": "Tutorial A.1.2: Programming MIR Baselines from Scratch",
 			"type": "Tutorial",
 			"details": "/tutorials/#5-programming-mir-baselines-from-scratch-three-case-studies",
-			"midspace": "#",
+			
 			"description": "Click on the details button to find out more!"
 		}, {
 			"date": "2021/11/07",
@@ -27,7 +27,7 @@
 			"title": "Tutorial A.2.1: Music Classification: Beyond Supervised Learning",
 			"type": "Tutorial",
 			"details": "/tutorials/#4-music-classification-beyond-supervised-learning-towards-real-world-applications",
-			"midspace": "#",
+			
 			"description": "Click on the details button to find out more!"
 		},
 		{
@@ -37,7 +37,7 @@
 			"title": "Tutorial A.2.2: Teaching Music Information Retrieval",
 			"type": "Tutorial",
 			"details": "/tutorials/#6-teaching-music-information-retrieval",
-			"midspace": "#",
+			
 			"description": "Click on the details button to find out more!"
 		}
 	]
