@@ -2,7 +2,7 @@
 	display: inline-block;
 	background: #000;
 	color: white;
-	border-radius: 10px;
+	border-radius: 3px;
 	padding: 10px;
 	margin-right: 10px;
 	margin-bottom: 5px;
@@ -20,15 +20,19 @@
 
 
 .filter_button.inactive{ 
-	background-color: #000;
+	background-color: #dfdfdf;
+	color: black;
 }
 
 .filter_button.active{
 	background-color: #0ca7db;
+	:hover{
+		background-color: orange;
+	}
 }
 
 .filter_button:hover{
-	background: #222;
+	background: #aaa;
 	cursor: pointer;
 }
 
@@ -44,10 +48,13 @@
 		display: inline-block;
 		margin-top: 10px; 
 		border: none !important;
-		padding: 10px; 
-		background: #19535f;
+		padding: 5px;
+		padding-left: 10px; 
+		padding-right: 10px; 
+		background: #ccc;
 		text-transform: uppercase;
-		color: white; 
+		color: black; 
+		font-size: 0.8em;
 	}
 
 	.paper_abstract{ 
@@ -79,11 +86,11 @@
 		padding: 5px; 
 		padding-left: 10px; 
 		padding-right: 10px; 
-		border-radius: 10px;
+		// border-radius: 10px;
 		margin-bottom: 10px; 	
 		margin-right: 10px;
 		text-transform: uppercase;	
-		font-size: 0.9em;
+		font-size: 0.75em;
 		display: inline-block;
 }
 
@@ -96,6 +103,7 @@
 	display: inline; 
 	padding: 4px; 
 	margin-right: 0.6em;
+	font-size: 1.1em;
 }
 
 .filters{ 
@@ -119,9 +127,9 @@
 	margin-right: 10px; 
 	margin-top: 10px; 
 	color: black;
-	border-radius: 10px; 
+	// border-radius: 10px; 
 	margin-bottom: 10px; 
-	font-size: 0.9em;
+	font-size: 0.75em;
 	text-align: center;
 	align-content: center;
 	font-weight: normal;
@@ -136,7 +144,7 @@
 	padding-left: 10px; 
 	padding-right: 10px; 	
 	margin-top: 10px;
-	font-size: 0.9em;
-	border-radius: 10px; 
+	font-size: 0.75em;
+	// border-radius: 10px; 
 	margin-right: 10px;	
 }

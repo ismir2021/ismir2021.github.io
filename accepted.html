@@ -5,7 +5,7 @@ permalink: /papers/
 ---
 
 <div class='alert alert-primary' role='alert'>
-	There are 104 papers accepted to be presented at ISMIR 2021, which includes 11 papers under the special call for papers on cultural diversity in MIR.	
+	There are 104 papers accepted to be presented at ISMIR 2021, which includes 11 papers under the special call for papers on cultural diversity in MIR.
 </div>
 
 <div class="container">
@@ -28,20 +28,9 @@ permalink: /papers/
 		<div class="col">
 			{% for paper in site.data.accepted %}
 				<div class="paper" data-paper-best-candidate="{{paper.extra.best_paper_candidate}}" data-subject-area="{{paper.extra.subject_area_primary}}" data-special-call="{{paper.extra.special_track}}" data-paper-session="{{paper.extra.session}}">
-					<div class="paper_title"> 
-						{{ paper.title }} 
+					<div class="paper_title">
+						{{ paper.title }}
 					</div>
-					{% if paper.extra.special_track == true %}
-						<div class="special_call"> 
-							Special call Paper 
-						</div>
-					{% endif %}
-					{% if paper.extra.best_paper_candidate == true %}
-						<div class="best_paper"> 
-							Best Paper Candidate
-						</div>
-					{% endif %}
-					<div class="poster_assignment"> Poster session {{ paper.extra.session }} </div>
 					<div class="paper_authors">
 						{% for author in paper.author %}
 							<span class="paper_author">
@@ -49,14 +38,26 @@ permalink: /papers/
 							</span>
 						{% endfor %}
 					</div>
+					{% if paper.extra.special_track == true %}
+						<div class="special_call">
+							Special call Paper
+						</div>
+					{% endif %}
+					{% if paper.extra.best_paper_candidate == true %}
+						<div class="best_paper">
+							Best Paper Candidate
+						</div>
+					{% endif %}
+					<div class="poster_assignment"> Poster session {{ paper.extra.session }} </div>
+					<br/>
 					<button class="abstract" type="button" data-bs-toggle="collapse" data-bs-target="#paper_abstract_{{ forloop.index }}" aria-expanded="false" aria-controls="paper_abstract_{{ forloop.index }}">
-					Abstract
+					<b> Abstract </b>
 					</button>
-					<a href="{{ paper.ee }}"> 
+					<a href="{{ paper.ee }}">
 						<button class="abstract" type="button"> PDF </button>
 					</a>
-					
-						
+
+
 					<div class="collapse" id="paper_abstract_{{ forloop.index }}">
 						<p class="paper_abstract"> {{ paper.abstract }} </p>
 					</div>
@@ -68,18 +69,18 @@ permalink: /papers/
 
 <script>
 
-	
 
-	function categorize(name){ 
+
+	function categorize(name){
 		const splits = name.split(" -> ");
 		return {main: splits[0], sub: splits[1]};
 	}
 
-	function toFilterString(main, sub){ 
+	function toFilterString(main, sub){
 		return `${main} -> ${sub}`;
 	}
 
-	function toFilterString_session(main){ 
+	function toFilterString_session(main){
 		return `session-${main}`;
 	}
 
@@ -92,7 +93,7 @@ permalink: /papers/
 	}
 
 	const papers = document.getElementsByClassName("paper");
-	const arr = Array.from(papers);	
+	const arr = Array.from(papers);
 	const paper_attrs = arr.map((i) => {
 		return i.getAttribute("data-subject-area");
 	});
@@ -116,7 +117,7 @@ permalink: /papers/
 			if(filter_categories[j].main === myMain){
 				const filtered_string = toFilterString(myMain, filter_categories[j].sub);
 				main_html += toFilterHTML(myMain, filter_categories[j].sub);
-			}			
+			}
 		}
 		main_html += "</div>";
 		htmlString += main_html;
@@ -127,10 +128,10 @@ permalink: /papers/
 	const session_filters = document.getElementById("sessions");
 	var htmlString_sessions = "";
 	for (const i in unique_session){
-		const myMain = unique_session[i];	
-		const filtered_string = toFilterString_session(myMain);		
+		const myMain = unique_session[i];
+		const filtered_string = toFilterString_session(myMain);
 		htmlString_sessions += toFilterHTML_session(myMain);
-	}	
+	}
 
 	session_filters.innerHTML += htmlString_sessions;
 
@@ -140,8 +141,8 @@ permalink: /papers/
 		if (filter === "all"){
 			console.log("all");
 			$(".paper").show();
-		}else if(filter === "special"){ 
-			arr.map((i) => { 
+		}else if(filter === "special"){
+			arr.map((i) => {
 				if ($(i).data("special-call") !== true){
 					$(i).hide()
 				}else{
@@ -149,7 +150,7 @@ permalink: /papers/
 				}
 			});
 		}else if(filter === "bpc"){
-			arr.map((i) => { 
+			arr.map((i) => {
 				if ($(i).data("paper-best-candidate") !== true){
 					$(i).hide()
 				}else{
@@ -158,17 +159,17 @@ permalink: /papers/
 			});
 		}else if(filter.includes("session")){
 			const session_id = filter.split("-")[1];
-			arr.map((i) => { 
-				if (parseInt($(i).data("paper-session")) !== parseInt(session_id)){					
+			arr.map((i) => {
+				if (parseInt($(i).data("paper-session")) !== parseInt(session_id)){
 					$(i).hide()
 				}else{
 
 					$(i).show();
 				}
 			});
-		}else{		
-			console.log("here?");	
-			arr.map((i) => { 
+		}else{
+			console.log("here?");
+			arr.map((i) => {
 				if ($(i).data("subject-area") !== filter){
 					$(i).hide()
 				}else{
@@ -191,15 +192,15 @@ permalink: /papers/
 
 	$(document).ready(()=> {
 		console.log("ready");
-		const url_params = window.location.search.substring(1);		
+		const url_params = window.location.search.substring(1);
 		if(url_params !== ""){
 			if(url_params.includes("&")){
-			const params = decodeURIComponent(url_params).split("&");			
+			const params = decodeURIComponent(url_params).split("&");
 			const filter_main_sub = {
 				main: params[0].split("=")[1],
 				sub: params[1].split("=")[1]
-			};			
-			const filter_string = toFilterString(filter_main_sub.main, filter_main_sub.sub);			
+			};
+			const filter_string = toFilterString(filter_main_sub.main, filter_main_sub.sub);
 			filter_papers(filter_string);
 			$(`.filter_button[data-filter='${filter_string}']`).addClass("active");
 			}else{
@@ -207,10 +208,10 @@ permalink: /papers/
 				$(".filter_button").removeClass("active").addClass("inactive");
 				$(`.filter_button[data-filter='${url_params}']`).addClass("active").removeClass("inactive");
 			}
-		}	
+		}
 	});
 
 
 
-	
+
 </script>
