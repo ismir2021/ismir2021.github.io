@@ -1,3 +1,7 @@
+---
+layout: compress
+---
+
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en-US" }}">
 
@@ -21,20 +25,24 @@
         <h1 class="hero__title" style="color:#fff">{{ page.title }}</h1>
       </div>
     </div>
-    <main class="site__content" style="width: 100%">
-          <div class="container" style="max-width: 96%;">
-            <div class="page-content" style="max-width: 100%;">
-
+    
+    <main class="site__content">
+        
+        <div class="container">
+            
+            <div class="page-content">
+                <button class="btn btn-outline-secondary"> <a href="{{ site.url }}/schedule">Back to Schedule</a></button>
+                <hr/> 
                 {{ content }}
 
             </div>
-          </div>
+        </div>
 
     </main>
+
 
     {% include footer.html %}
 
   </body>
-
 
 </html>

@@ -81,6 +81,7 @@
 		padding-right: 10px; 
 		border-radius: 10px;
 		margin-bottom: 10px; 	
+		margin-right: 10px;
 		text-transform: uppercase;	
 		font-size: 0.9em;
 		display: inline-block;
@@ -100,9 +101,42 @@
 .filters{ 
 	h4{ 
 		margin-bottom: 10px; 
+		margin-top: 10px;
 	}
 }
 
 .active:hover{ 
 	background: orange;
 }
+
+.poster_assignment{ 
+	display: inline-block;
+	background: rgb(195, 109, 43); ;
+	text-transform: uppercase; 
+	padding: 5px;
+	padding-left: 10px; 
+	padding-right: 10px; 
+	margin-right: 10px; 
+	margin-top: 10px; 
+	color: black;
+	border-radius: 10px; 
+	margin-bottom: 10px; 
+	font-size: 0.9em;
+	text-align: center;
+	align-content: center;
+	font-weight: normal;
+	color: white;
+}
+
+.best_paper{ 
+	display: inline-block;
+	background: rgb(215, 212, 56);
+	text-transform: uppercase; 
+	padding: 5px; 
+	padding-left: 10px; 
+	padding-right: 10px; 	
+	margin-top: 10px;
+	font-size: 0.9em;
+	border-radius: 10px; 
+	margin-right: 10px;	
+}	

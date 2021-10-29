@@ -54,7 +54,7 @@ instagram_username: ismir.2021
 sass:
     sass_dir: _sass
 
-service_worker: true
+service_worker: false
 
 # BUILD SETTINGS
 markdown: kramdown
