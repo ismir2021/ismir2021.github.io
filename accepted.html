@@ -36,6 +36,12 @@ permalink: /papers/
 							Special call Paper 
 						</div>
 					{% endif %}
+					{% if paper.extra.best_paper_candidate == true %}
+						<div class="best_paper"> 
+							Best Paper Candidate
+						</div>
+					{% endif %}
+					<div class="poster_assignment"> Poster session {{ paper.extra.session }} </div>
 					<div class="paper_authors">
 						{% for author in paper.author %}
 							<span class="paper_author">
@@ -49,7 +55,7 @@ permalink: /papers/
 					<a href="{{ paper.ee }}"> 
 						<button class="abstract" type="button"> PDF </button>
 					</a>
-					<div class="poster_assignment"> Poster session {{ paper.extra.session }} </div>
+					
 						
 					<div class="collapse" id="paper_abstract_{{ forloop.index }}">
 						<p class="paper_abstract"> {{ paper.abstract }} </p>
