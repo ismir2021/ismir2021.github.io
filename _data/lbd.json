@@ -465,7 +465,7 @@
                 "Valentina Presutti": "University of Bologna"
             },
             "submission_id": "431",
-            "subject_area_primary": "",
+            "subject_area_primary": "Early research",
             "special_track": true
         }
     },
@@ -1314,7 +1314,7 @@
                 "Dan Brown": "University of Waterloo"
             },
             "submission_id": "430",
-            "subject_area_primary": "",
+            "subject_area_primary": "Early research",
             "special_track": false
         }
     },
@@ -1361,7 +1361,7 @@
                 "Oscar Mayor": "Voctro Labs"
             },
             "submission_id": "433",
-            "subject_area_primary": "Software Demo",
+            "subject_area_primary": "Software demo",
             "special_track": false
         }
     }
