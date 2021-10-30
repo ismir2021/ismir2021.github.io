@@ -16,13 +16,13 @@
   dates: 
     - {name: "Submission open date", date: "Aug 20, 2021", done: true}
     - {name: "Submission deadline", date: "Oct 11, 2021", done: true}
-    - {name: "Notification of Acceptance", date: "Oct 26, 2021", done: false}
+    - {name: "Notification of Acceptance", date: "Oct 26, 2021", done: true}
 - title: "Music"
   url: "/cfm/"
   dates: 
     - {name: "Submission deadline", date: "Sep 8, 2021", done: true}
     - {name: "Notification of Acceptance", date: "Oct 10, 2021", done: true}
-    - {name: "Performance-ready submission deadline", date: "Oct 24, 2021", done: false}
+    - {name: "Performance-ready submission deadline", date: "Oct 24, 2021", done: true}
 - title: "Call for Volunteers"
   url: "#"
   dates: 
@@ -48,6 +48,6 @@
 - title: "Satellite Events"
   url: "#"
   dates: 
-    - {name: "WiMIR Workshop", date: "Oct 29-30, 2021", done: false}
+    - {name: "WiMIR Workshop", date: "Oct 29-30, 2021", done: true}
     - {name: "MDX", date: "Nov 12, 2021", done: false}
     - {name: "NLP4MusA", date: "Nov 12, 2021", done: false}

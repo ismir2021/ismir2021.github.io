@@ -4,7 +4,7 @@ title: ISMIR 2021 Call for Sponsors
 permalink: /cfs/
 ---
 
-It is our great pleasure to announce the Call for Sponsors for the 22nd International Society for Music Information Retrieval (ISMIR) Conference. It will be held **online** from **November 8-12, 2021,** and is jointly supported by the Georgia Institute of Technology and the University of Washington.
+It is our great pleasure to announce the Call for Sponsors for the 22nd International Society for Music Information Retrieval (ISMIR) Conference. It will be held **online** from **November 7-12, 2021,** and is jointly supported by the Georgia Institute of Technology and the University of Washington.
  
 ## About ISMIR
  
