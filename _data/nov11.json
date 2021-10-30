@@ -4,8 +4,15 @@
 		{
 			"date": "2021/11/11", 
 			"start_time": "00:00", 
-			"end_time": "02:00",
-			"title": "Industry Presentation",
+			"end_time": "00:30",
+			"title": "Industry Presentation 1 - Sony",
+			"type": "Industry"		
+		},
+		{
+			"date": "2021/11/11", 
+			"start_time": "00:30", 
+			"end_time": "01:30",
+			"title": "Industry Presentation 2",
 			"type": "Industry"		
 		},
 		{
@@ -55,8 +62,15 @@
 		{
 			"date": "2021/11/11", 
 			"start_time": "12:00", 
-			"end_time": "14:00",
-			"title": "Industry Presentation",
+			"end_time": "12:30",
+			"title": "Industry Presentation 3 - Spotify",
+			"type": "Industry"		
+		},
+		{
+			"date": "2021/11/11", 
+			"start_time": "12:30", 
+			"end_time": "13:30",
+			"title": "Industry Presentation 4",
 			"type": "Industry"		
 		},
 		{
