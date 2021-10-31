@@ -48,11 +48,31 @@ permalink: /schedule/
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment-with-locales.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.9/moment-timezone-with-data.min.js"> </script>
 <script src="{{ '/assets/js/daypilot-all.min.js' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}"></script>
-<script src="{{ '/assets/js/ics.js' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ical.js/1.4.0/ical.min.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/ical-generator@3.0.1/dist/index.min.js"></script> -->
 <link type="text/css" rel="stylesheet" href="{{ '/assets/css/calendar_white.css' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}" />
 
 
 <script>
+
+	function generate_ics_string(event_details_json){
+		/**
+		 * Generates an ICS string from the event details json
+		 */
+		var ics_string = "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//hacksw/handcal//NONSGML v1.0//EN\n";
+		ics_string += "BEGIN:VEVENT\n";
+		ics_string += "UID:" + event_details_json.id + "\n";
+		ics_string += "DTSTAMP:" + event_details_json.start.toISOString() + "\n";
+		ics_string += "DTSTART:" + event_details_json.start.toISOString() + "\n";
+		ics_string += "TZID:" + event_details_json.timezone + "\n";
+		ics_string += "DTEND:" + event_details_json.end.toISOString() + "\n";
+		ics_string += "SUMMARY:" + event_details_json.title + "\n";
+		ics_string += "DESCRIPTION:" + event_details_json.description + "\n";
+		ics_string += "END:VEVENT\n";
+		ics_string += "END:VCALENDAR\n";
+		return ics_string;
+	}
+
 	$(document).ready(() => {
 		const time_zones = moment.tz.names();
 		time_zones.map((i) => {
@@ -91,7 +111,7 @@ permalink: /schedule/
 
 
 		});
-
+		console.log(ical());
 	});
 
 	const colormap = {
@@ -170,6 +190,7 @@ permalink: /schedule/
 	const nov13 = JSON.parse('{{ site.data.nov13 | jsonify }}');
 
 	const days = [nov6, nov7, nov8, nov9, nov10, nov11, nov12, nov13];
+
 	var dp = $("#dp").daypilotCalendar({
 		cssClassPrefix: "calendar_white",
 		startDate: new DayPilot.Date("2021-11-07"),
