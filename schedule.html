@@ -17,7 +17,7 @@ permalink: /schedule/
 			</div>
 			<div class="modal-footer">
 				
-				<button type="button " class="btn btn-outline-primary schedule_modal_button" id="ICS"> <a href="#" onclick="javascript:cal.download()"> Add to Calendar </a></button>
+				<button type="button " class="btn btn-outline-primary schedule_modal_button" id="ICS"> <a href="#" onclick="javascript:download_cal()"> Add to Calendar </a></button>
 				<button type="button " class="btn btn-outline-primary schedule_modal_button" id="details"> </button>
 				<button type="button " class="btn btn-outline-primary schedule_modal_button" id="midspace_url"> </button>
 				<button type="button " class="btn btn-outline-primary schedule_modal_button"
@@ -55,23 +55,38 @@ permalink: /schedule/
 
 <script>
 
-	function generate_ics_string(event_details_json){
-		/**
-		 * Generates an ICS string from the event details json
-		 */
-		var ics_string = "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//hacksw/handcal//NONSGML v1.0//EN\n";
-		ics_string += "BEGIN:VEVENT\n";
-		ics_string += "UID:" + event_details_json.id + "\n";
-		ics_string += "DTSTAMP:" + event_details_json.start.toISOString() + "\n";
-		ics_string += "DTSTART:" + event_details_json.start.toISOString() + "\n";
-		ics_string += "TZID:" + event_details_json.timezone + "\n";
-		ics_string += "DTEND:" + event_details_json.end.toISOString() + "\n";
-		ics_string += "SUMMARY:" + event_details_json.title + "\n";
-		ics_string += "DESCRIPTION:" + event_details_json.description + "\n";
-		ics_string += "END:VEVENT\n";
-		ics_string += "END:VCALENDAR\n";
-		return ics_string;
+	function download(filename, text) {
+		var element = document.createElement('a');
+		element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+		element.setAttribute('download', filename);
+
+		element.style.display = 'none';
+		document.body.appendChild(element);
+
+		element.click();
+
+		document.body.removeChild(element);
 	}
+
+	function create_event(event_details){
+		var comp = new ICAL.Component(['vcalendar', [], []])
+		comp.updatePropertyWithValue('prodid', '-//ISMIR Calendar')
+		var vevent = new ICAL.Component('vevent'),
+			event = new ICAL.Event(vevent);
+		console.log("huh?")
+		event.uid = event_details.id;
+		event.startDate = new ICAL.Time.fromJSDate(event_details.start_date);
+		event.endDate = new ICAL.Time.fromJSDate(event_details.end_date);
+		event.location = event_details.location;
+		event.summary = event_details.title;
+		event.description = event_details.title;
+		event.url = event_details.url;
+		comp.addSubcomponent(vevent);
+		return comp;
+	}
+
+
+
 
 	$(document).ready(() => {
 		const time_zones = moment.tz.names();
@@ -111,7 +126,7 @@ permalink: /schedule/
 
 
 		});
-		console.log(ical());
+		
 	});
 
 	const colormap = {
@@ -129,7 +144,9 @@ permalink: /schedule/
 	};
 
 
-
+	function download_cal(){
+		download('cal.ics', cal.toString());
+	}
 	var cal = undefined;
 
 	function add_to_DayPilot(dp, json, timezone) {
@@ -237,8 +254,16 @@ permalink: /schedule/
 				$(".modal-body").html("");			
 			}
 
-			cal = ics();			
-			cal.addEvent(args.e.text(), args.e.text(), "ISMIR 2021", args.e.data.tag.utc_start, args.e.data.tag.utc_end);
+			cal = create_event({
+				id: args.e.data.id,
+				"start_date": my_data.utc_start,
+				"end_date": my_data.utc_end,
+				"title": args.e.text(),
+				"location": "https://ismir2021.ismir.net",
+				"description": description				
+			});
+
+			
 			$('#myModal').appendTo("body");
 			$(".modal-title").html(`${args.e.text()}`);
 			myModal.show();
