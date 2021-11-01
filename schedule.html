@@ -73,7 +73,19 @@ permalink: /schedule/
 		comp.updatePropertyWithValue('prodid', '-//ISMIR Calendar')
 		var vevent = new ICAL.Component('vevent'),
 			event = new ICAL.Event(vevent);
-		console.log("huh?")
+		
+		// Add vtimezone
+		var comp2 = new ICAL.Component('vtimezone');    
+		comp2.updatePropertyWithValue('tzid', 'UTC');  
+	
+
+		var subject = new ICAL.Timezone({
+			tzid: 'UTC',
+			component: comp2,
+		});
+		comp.addSubcomponent(comp2);
+
+		// event details
 		event.uid = event_details.id;
 		event.startDate = new ICAL.Time.fromJSDate(event_details.start_date);
 		event.endDate = new ICAL.Time.fromJSDate(event_details.end_date);
@@ -81,6 +93,7 @@ permalink: /schedule/
 		event.summary = event_details.title;
 		event.description = event_details.title;
 		event.url = event_details.url;
+		event.zone = ICAL.Timezone.utcTimezone;
 		comp.addSubcomponent(vevent);
 		return comp;
 	}
