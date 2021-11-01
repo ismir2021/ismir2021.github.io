@@ -17,7 +17,7 @@ permalink: /schedule/
 			</div>
 			<div class="modal-footer">
 				
-				<button type="button " class="btn btn-outline-primary schedule_modal_button" id="ICS"> <a href="#" onclick="javascript:cal.download()"> Add to Calendar </a></button>
+				<button type="button " class="btn btn-outline-primary schedule_modal_button" id="ICS"> <a href="#" onclick="javascript:download_cal()"> Add to Calendar </a></button>
 				<button type="button " class="btn btn-outline-primary schedule_modal_button" id="details"> </button>
 				<button type="button " class="btn btn-outline-primary schedule_modal_button" id="midspace_url"> </button>
 				<button type="button " class="btn btn-outline-primary schedule_modal_button"
@@ -48,11 +48,59 @@ permalink: /schedule/
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment-with-locales.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.9/moment-timezone-with-data.min.js"> </script>
 <script src="{{ '/assets/js/daypilot-all.min.js' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}"></script>
-<script src="{{ '/assets/js/ics.js' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ical.js/1.4.0/ical.min.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/ical-generator@3.0.1/dist/index.min.js"></script> -->
 <link type="text/css" rel="stylesheet" href="{{ '/assets/css/calendar_white.css' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}" />
 
 
 <script>
+
+	function download(filename, text) {
+		var element = document.createElement('a');
+		element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+		element.setAttribute('download', filename);
+
+		element.style.display = 'none';
+		document.body.appendChild(element);
+
+		element.click();
+
+		document.body.removeChild(element);
+	}
+
+	function create_event(event_details){
+		var comp = new ICAL.Component(['vcalendar', [], []])
+		comp.updatePropertyWithValue('prodid', '-//ISMIR Calendar')
+		var vevent = new ICAL.Component('vevent'),
+			event = new ICAL.Event(vevent);
+		
+		// Add vtimezone
+		var comp2 = new ICAL.Component('vtimezone');    
+		comp2.updatePropertyWithValue('tzid', 'UTC');  
+	
+
+		var subject = new ICAL.Timezone({
+			tzid: 'UTC',
+			component: comp2,
+		});
+		comp.addSubcomponent(comp2);
+
+		// event details
+		event.uid = event_details.id;
+		event.startDate = new ICAL.Time.fromJSDate(event_details.start_date, true);
+		event.endDate = new ICAL.Time.fromJSDate(event_details.end_date, true);
+		event.location = event_details.location;
+		event.summary = event_details.title;
+		event.description = event_details.title;
+		event.url = event_details.url;
+		event.zone = ICAL.Timezone.utcTimezone;
+		comp.addSubcomponent(vevent);
+		return comp;
+	}
+
+
+
+
 	$(document).ready(() => {
 		const time_zones = moment.tz.names();
 		time_zones.map((i) => {
@@ -91,7 +139,7 @@ permalink: /schedule/
 
 
 		});
-
+		
 	});
 
 	const colormap = {
@@ -109,7 +157,9 @@ permalink: /schedule/
 	};
 
 
-
+	function download_cal(){
+		download('cal.ics', cal.toString());
+	}
 	var cal = undefined;
 
 	function add_to_DayPilot(dp, json, timezone) {
@@ -170,6 +220,7 @@ permalink: /schedule/
 	const nov13 = JSON.parse('{{ site.data.nov13 | jsonify }}');
 
 	const days = [nov6, nov7, nov8, nov9, nov10, nov11, nov12, nov13];
+
 	var dp = $("#dp").daypilotCalendar({
 		cssClassPrefix: "calendar_white",
 		startDate: new DayPilot.Date("2021-11-07"),
@@ -216,8 +267,16 @@ permalink: /schedule/
 				$(".modal-body").html("");			
 			}
 
-			cal = ics();			
-			cal.addEvent(args.e.text(), args.e.text(), "ISMIR 2021", args.e.data.tag.utc_start, args.e.data.tag.utc_end);
+			cal = create_event({
+				id: args.e.data.id,
+				"start_date": my_data.utc_start,
+				"end_date": my_data.utc_end,
+				"title": args.e.text(),
+				"location": "https://ismir2021.ismir.net",
+				"description": description				
+			});
+
+			
 			$('#myModal').appendTo("body");
 			$(".modal-title").html(`${args.e.text()}`);
 			myModal.show();
