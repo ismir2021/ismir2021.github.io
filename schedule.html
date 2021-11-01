@@ -87,8 +87,8 @@ permalink: /schedule/
 
 		// event details
 		event.uid = event_details.id;
-		event.startDate = new ICAL.Time.fromJSDate(event_details.start_date);
-		event.endDate = new ICAL.Time.fromJSDate(event_details.end_date);
+		event.startDate = new ICAL.Time.fromJSDate(event_details.start_date, true);
+		event.endDate = new ICAL.Time.fromJSDate(event_details.end_date, true);
 		event.location = event_details.location;
 		event.summary = event_details.title;
 		event.description = event_details.title;
