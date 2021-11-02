@@ -44,6 +44,10 @@
       name: ACRCloud
       url: "https://www.acrcloud.com"
     - 
+      logo: /assets/sponsors/AudibleMagic.png
+      name: Audible Magic 
+      url:  "https://www.audiblemagic.com"
+    - 
       logo: /assets/sponsors/Avid.png
       name: Avid
       url: "https://www.avid.com/"
@@ -82,4 +86,5 @@
     -
       logo: /assets/sponsors/Utopia.png
       name: Utopia Music
-      url: "#"
+      url: "https://utopiamusic.com"
+    
