@@ -29,6 +29,7 @@ navigation:
       - {name: "Schedule", link: "/schedule/"}
       - {name: "Accepted Papers", link: "/papers/"}
       - {name: "Accepted Tutorials", link: "/tutorials/"}
+      - {name: "Accepted Late Breaking Demos", link: "/lbd"}
       - {name: "Lab Showcase", link: "/labshowcase/"}
   - name: "Attend"
     subitems:
