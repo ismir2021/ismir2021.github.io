@@ -45,13 +45,6 @@
 		},		
 		{
 			"date": "2021/11/12", 
-			"start_time": "11:00", 
-			"end_time": "12:00",
-			"title": "Meet up 2",
-			"type": "Special"		
-		},		
-		{
-			"date": "2021/11/12", 
 			"start_time": "13:30", 
 			"end_time": "15:00", 
 			"title": "Industry Panel - MIR and Education",
@@ -73,16 +66,16 @@
 		},
 		{
 			"date": "2021/11/12", 
-			"start_time": "19:00", 
-			"end_time": "2021/11/13 02:00", 
-			"title": "Satellite - Placeholder",
-			"type": "Satellite"	
-		}
-		{
-			"date": "2021/11/12", 
 			"start_time": "12:00", 
 			"end_time": "2021/11/12 20:00", 
 			"title": "Satellite - NLP4MusA",
+			"type": "Satellite"	
+		},
+		{
+			"date": "2021/11/12", 
+			"start_time": "19:00", 
+			"end_time": "2021/11/13 02:00", 
+			"title": "Satellite - Placeholder",
 			"type": "Satellite"	
 		}
 	]
