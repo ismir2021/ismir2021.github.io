@@ -46,10 +46,9 @@ permalink: /schedule/
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment-with-locales.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.9/moment-timezone-with-data.min.js"> </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.33/moment-timezone-with-data-2012-2022.min.js"> </script>
 <script src="{{ '/assets/js/daypilot-all.min.js' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ical.js/1.4.0/ical.min.js"></script>
-<!-- <script src="https://cdn.jsdelivr.net/npm/ical-generator@3.0.1/dist/index.min.js"></script> -->
 <link type="text/css" rel="stylesheet" href="{{ '/assets/css/calendar_white.css' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}" />
 
 
@@ -103,7 +102,8 @@ permalink: /schedule/
 
 	$(document).ready(() => {
 		const time_zones = moment.tz.names();
-		time_zones.map((i) => {
+		const no_etc = time_zones.filter((i) => i.split("/")[0] !== "Etc")
+		no_etc.map((i) => {
 			$(".tz_dropdown").append(
 				`<li> <a class='dropdown-item time_button' data-timezone=${i} href="#"> ${i} </a> </li>`
 				);
@@ -117,11 +117,12 @@ permalink: /schedule/
 		$(".time_button").click((e) => {
 			const target = $(e.target);
 			const selected_timezone = target.data("timezone");
+			console.log(selected_timezone);
+			cons
 			$("#dropdownMenuLink").text(selected_timezone);
 			const DeleteEvents = new Promise((resolve, reject) => {
 				const dp_events = dp.events.list;
 				var eventIdx = dp_events.length - 1;
-
 				for (eventIdx; eventIdx >= 0; eventIdx--) {
 					var myE = dp.events.find(dp.events.list[eventIdx].id);
 					dp.events.remove(myE);
@@ -242,7 +243,7 @@ permalink: /schedule/
 		eventMoveHandling: "Disabled",
 		eventResizeHandling: "Disabled",
 		onEventClicked: (args) => {
-			const my_data = args.e.data.tag;
+			const my_data = args.e.data.tag;	
 			const details_url = my_data.details_url;
 			const midspace_url = my_data.midspace_url;
 			const description = my_data.description;
