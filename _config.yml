@@ -31,6 +31,7 @@ navigation:
       - {name: "Accepted Tutorials", link: "/tutorials/"}
       - {name: "Accepted Late Breaking Demos", link: "/lbd"}
       - {name: "Lab Showcase", link: "/labshowcase/"}
+      - {name: "Music", link: "/music/"}
   - name: "Attend"
     subitems:
     - {name: "Registration", link: "/registration/"}
