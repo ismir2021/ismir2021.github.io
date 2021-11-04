@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /special-sessions/
+permalink: /specialsessions/
 title: Special Sessions at ISMIR 2021 
 ---
 {% include toc.html %}
