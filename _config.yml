@@ -32,7 +32,7 @@ navigation:
       - {name: "Accepted Late Breaking Demos", link: "/lbd"}
       - {name: "Lab Showcase", link: "/labshowcase/"}
       - {name: "Music", link: "/music/"}
-      - {name: "Special Sessions", "/special-sessions/"}
+      - {name: "Special Sessions", link: "/specialsessions/"}
   - name: "Attend"
     subitems:
     - {name: "Registration", link: "/registration/"}
