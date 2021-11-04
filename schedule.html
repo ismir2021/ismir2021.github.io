@@ -118,7 +118,6 @@ permalink: /schedule/
 			const target = $(e.target);
 			const selected_timezone = target.data("timezone");
 			console.log(selected_timezone);
-			cons
 			$("#dropdownMenuLink").text(selected_timezone);
 			const DeleteEvents = new Promise((resolve, reject) => {
 				const dp_events = dp.events.list;
