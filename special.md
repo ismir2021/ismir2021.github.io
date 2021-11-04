@@ -23,7 +23,10 @@ Research at the intersection of neuroscience, medicine, the science of learning,
 
 ## Special Session 2: IMS Digital Musicology Study Group
 
-Details will be added soon!
+This meeting of the International Musicological Society's Digitial Musicology Study Group is open to anyone interested in applying computational methods to musicological questions. The meeting will consist of a series of short presentations about ongoing research projects as well as a general discussion about the future activities of the group.
+
+**Time:** 3:30-5:00 PM on November 9, 2021 (UTC)
+**Moderators:** Johanna Devaney (Brooklyn College and the Graduate Center, CUNY, USA) and Frans Wiering (Utrecht University, The Netherlands)
 
 ---
 
