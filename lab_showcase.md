@@ -343,3 +343,16 @@ UP DSL Lab aims to produce excellent, innovative and nationalistic DSP engineers
 
 We are conducting research at the intersection of computer science and music, connecting computer science methodology to state-of-the-art domain knowledge of music. Our main research areas comprise Music Information Retrieval, Computational/Digital Musicology, Music Technology for Games and Virtual Worlds, and Music Recommendation. Our research has been applied to areas such as melody retrieval; computational music analysis; cultural heritage; big data in music history; fairness in music recommender systems; and music, computing, and health. We collaborate with cultural heritage institutions, such as the Meertens Institute in Amsterdam, with musicologists (e.g. the University of Amsterdam, Goldsmith College), and with music therapists and neuropsychologists (e.g. Leiden Institute for Brain and Cognition, University Medical Center Utrecht).
 
+## 33. Institute of Computational Perception | Johannes Kepler University Linz
+
+*Pinciple Director(s): Prof. Gerhard Widmer and Prof. Markus Schedl*
+*Country: Austria*
+
+The focus of our institute is on Artificial Intelligence and Machine Learning applied to intelligent audio, music, and text processing. We develop and study computational models and algorithms that permit computers to perceive and 'understand' aspects of the external world, where we interpret 'perception' in the widest sense of the word, as the extraction of useful high-level information and knowledge from complex, possibly low-level data (audio, video, image, text, sensor data, and user-item interaction data). Our current research covers the full range of Music Information Retrieval, with an emphasis on modeling expressive music performance and on recommender systems. Our goal is to offer state-of-the-art research and teaching in these areas, and to provide a teaching environment that permits students to get involved in real research projects as early as possible.
+
+## 34. Institute of Music Science and Engineering | King Mongkut's Institute of Technology Ladkrabang (KMITL)
+
+*Principle Director(s): Assist. Prof. Dr. Pitak Thumwarin*
+*Country: Thailand*
+
+Institute of Music Science & Engineering (IMSE) is the first and only faculty in Thailand offering a bachelor degree program, B.Eng. in Music Engineering and Multimedia. This program has been successfully run, producing engineers and specialists in sound/audio engineering, acoustical engineering, sound design and so on, who support the entertainment industry in Thailand and solve the noise pollution problems that the country has faced for a long time due to the shortage of experts. Where our graduates began their career in many key areas of the related industries, it appears that the demand for more experienced and skilled experts is still high, which may only be met by a higher education beyond bachelor program. Offering an opportunity for students to deepen and extend their knowledge and experience in the topics mentioned above, IMSE opens a master degree program, M.Eng in Acoustics and Multimedia Technology, which is the first of its kind in the ASEAN countries.
