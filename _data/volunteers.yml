@@ -94,35 +94,72 @@
   name: "Sultan Eylem Atabay"
   photo: "/assets/volunteers/SultanEylemAtabay.JPG"
   bio: "Sultan Eylem Atabay studies Sound and Music Computing master's in Universitat Pompeu Fabra with an interest in interface design for DMI, intersection of artistic creation and music technologies. She is an amateur ukulele & piano player but also loves to synthesize noise with live coding."
-# - 
-#   name: "Marcus William"  
-# - 
-#   name: "Leonardo Parada"  
-# - 
-#   name: "Milap Rane"  
-# - 
-#   name: "Rafael Arias"  
-# - 
-#   name: "Maurice Frank"  
-# - 
-#   name: "Robertus Chris"  
-# - 
-#   name: "Ahmad Ali"  
-# - 
-#   name: "Lingan Gu"  
-# - 
-#   name: "Warsha Kiringoda"  
-# - 
-#   name: "Amir Abbas Orouji"  
-# - 
-#   name: "Giorgio De Luca"  
-# - 
-#   name: "Batita Yosser "  
-# - 
-#   name: "Jaya Srivastava "  
-# - 
-#   name: "Carrus Wan"
-# - 
-#   name: "Hasan Sercan Atlı"
-# - 
-#   name: "Sanga Chaki"
+- 
+  name: "Gu Lingan"
+  photo: "/assets/volunteers/GuLingan.jpg"
+  bio: "Gu Lingan is a fresh graduate in National Institute of Education, Nanyang Technology University. And she is currently working as a research assistant intern in Beijing Normal University. Her research interests areas are human-in-the loop artificial intelligence, music information retrieval and audiovisual design."
+-
+  name: "Brian McCorkle"
+  photo: "/assets/volunteers/Brian-McCorkle.jpg"
+  bio: "Brian McCorkle is a composer, performer, and digital artist. He was the co-Director of the Panoply Performance Laboratory (PPL) for over a decade and a founding member of Varispeed Collective. Currently studying Computer Science and Applied Mathematics at University at Albany, McCorkle is excited about the applications of MIR methods to musical composition."
+-
+  name: "Yi Shan"
+  photo: "/assets/volunteers/YiShan.png"
+  bio: "Yi Shan is a Master’s student majoring in Music Technology in New York University."
+-
+  name: "Shreshth Saxena"
+  photo: "/assets/volunteers/shreshth_saxena.jpg"
+  bio: "Shreshth Saxena is a first-year PhD candidate at the Max Planck Institute for Empirical Aesthetics. His research interests lie at the intersection of Cognitive and Computer Sciences. He is looking into the allocation of attention by humans and machines in an audio-visual setting."
+-
+  name: "Ajeet Kumar Singh"  
+  photo: "/assets/volunteers/Ajeet.jpg"
+  bio: "Ajeet kumar Singh has completed his Master and currently Research Assistant at IIT DELHI, his research interest lies into Deep learning Music generation, speech and Audio, he has work on several project and published paper, He is looking for good PhD position fall 2022."
+-
+  name: "Nora Hernandez"
+  photo: "/assets/volunteers/Hernandez-Nora.png"
+  bio: "Nora is a first-year PhD student at HKU. Her research interests include STEAM education, specially using music in AI education with high-school students. Her personal interest include philosophy of science, film appreciation, and becoming a decent trumpetist."
+-
+  name: "Zuo Wang"
+  photo: "/assets/volunteers/WangZuo.jpg"
+  bio: "Wang Zuo is a MPhil student from the education faculty of the University of Hong Kong studying music information retrieval."
+- 
+  name: "Varvara Papazoglou"
+  photo: "/assets/volunteers/VarvaraPapazoglou.jpg"
+  bio: "Varvara Papazoglou is a PhD candidate at the University of Sheffield, in the Natural Language Processing group, working on song lyrics. She follows an interdisciplinary research approach, combining computer science with linguistics and cognition. Outside research, she enjoys teaching, language learning, photography, and song lyrics writing."
+- 
+  name: "Soroush Omranpour"
+  photo:  "/assets/volunteers/SoroushOmranpour.jpg"
+  bio: "I hold a bachelor's degree in Computer Engineering from Sharif University of Technology. I have been working on speech recognition, speech synthesis, and NLP for the past two years but my profound passion for music has brought me here. In my free time, I play Spanish guitar and an Arturia mini Midi keyboard, and sometimes, I generate music with transformers!"
+-
+  name: "Hemantha Bharadwaj"
+  photo: "/assets/volunteers/Hemantha_Bharadwaj_Photo.JPG"
+  bio: "Hemantha Bharadwaj is a final year electrical and electronics engineering undergraduate student at BITS Pilani, India. His research interests lie in the area of audio digital signal processing and machine learning. Outside of his research, he likes to spend his time playing the piano and producing electronic music."
+- 
+  name: "Ameaza Rodrigues"
+  photo: "/assets/volunteers/AmeazaRodrigues.jpeg"
+  bio: "Ameaza is a Computer Engineering undergrad from Mumbai, India. She is a Machine Learning enthusiast who also enjoys music and performing arts. "
+- 
+  name: "Dias Khalniyasov"
+  photo: "/assets/volunteers/DiasKhalniyasov.jpg"
+  bio: "Dias Khalniyasov is a MSc Data Science student in La Sapienza University of Rome. Had experience with TTS, STT in Kazakh language, in free time likes to produce electronic music."
+-
+  name: "Qinyi Chen"
+  photo: "/assets/volunteers/QinyiChen.jpg"
+  bio: "Qinyi Chen is currently a MSc student studying Sound and Music Computing in Queen Mary, University of London."
+-
+  name: "Ingrid Knochenhauer de Souza Mendes"
+  photo: "/assets/volunteers/Ingrid_Knochenhauer.jpg"
+  bio: "Masters in acoustics, civil engineering, researcher, data scientist, a multidisciplinary professional. I have been studying deeper audio, Machine Learning and Music Information Retrieval.It amazes me when I can face new scenarios, challenges, create solutions and concretize ideas. Also, I believe in Research and Innovation allied to lifelong learning. Thinking outside the box turns what is impossible into an amazing something tomorrow."
+-
+  name: "Harshita Seth"
+  photo: "/assets/volunteers/Harshita_Seth.jpg"
+  bio: "Harshita Seth is currently a Master student at Queen Mary University of London. Her intersts lies in sound, music, speech, and AI."
+-
+  name: "Amir Abbas Orouji"
+  photo: "/assets/volunteers/Amir.A.Orouji.jpg"
+  bio: "Amir Is currently studying master of multimedia at University of Porto while he also finished another master in field of sound and acoustics prior to his current position. His interests mainly are generative art and computer music."
+- 
+  name: "Joshua Schlichting"
+  photo: "/assets/volunteers/Joshua_Schlichting.jpg"
+  bio: "Joshua Schlichting is a Bachelor student of Psychology and Musicology at University of Heidelberg. Together with Max Planck Institute of Empirical Aesthetics, he is researching the development of rhythmic abilities in children."
+  
