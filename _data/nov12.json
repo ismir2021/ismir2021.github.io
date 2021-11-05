@@ -42,6 +42,13 @@
 			"end_time": "12:00",
 			"title": "Diversity & Inclusion Special Session: Local Initiatives",
 			"type": "WiMIR"		
+		},
+		{
+			"date": "2021/11/12", 
+			"start_time": "12:30", 
+			"end_time": "2021/11/13 05:00", 
+			"title": "Satellite - MDX",
+			"type": "Satellite"	
 		},		
 		{
 			"date": "2021/11/12", 
@@ -69,13 +76,6 @@
 			"start_time": "22:00", 
 			"end_time": "2021/11/13 06:00", 
 			"title": "Satellite - NLP4MusA",
-			"type": "Satellite"	
-		},
-		{
-			"date": "2021/11/12", 
-			"start_time": "19:00", 
-			"end_time": "2021/11/13 02:00", 
-			"title": "Satellite - Placeholder",
 			"type": "Satellite"	
 		}
 	]
