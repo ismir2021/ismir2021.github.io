@@ -25,11 +25,11 @@ navigation:
     - {name: "Call for Lab Showcase", link: "/cflab/"}
   - name: "Program"
     subitems: 
-      - {name: "Keynote Speakers", link: "/keynotes/"}
       - {name: "Schedule", link: "/schedule/"}
-      - {name: "Accepted Papers", link: "/papers/"}
-      - {name: "Accepted Tutorials", link: "/tutorials/"}
-      - {name: "Accepted Late Breaking Demos", link: "/lbd"}
+      - {name: "Keynote Speakers", link: "/keynotes/"}
+      - {name: "Papers", link: "/papers/"}
+      - {name: "Tutorials", link: "/tutorials/"}
+      - {name: "Late Breaking Demos", link: "/lbd"}
       - {name: "Lab Showcase", link: "/labshowcase/"}
       - {name: "Music", link: "/music/"}
       - {name: "Special Sessions", link: "/specialsessions/"}
@@ -48,7 +48,7 @@ tagline: >
 
 hero_img: banners/banner.png # Main background image: use the path from /assets/img/ => This will output /assets/img/posts/sleek_lg.jpg
 
-email: your-email@domain.com # email for form submission
+email: ismir2021@ismir.net # email for form submission
 twitter_username: ismir2021 # replace with your_twitter_username or comment to remove link from footer
 wechat_username: true
 facebook_username: ismir2021

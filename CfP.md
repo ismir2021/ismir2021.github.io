@@ -13,8 +13,8 @@ The annual conference of the International Society for Music Information Retriev
 Time zone: Anywhere on Earth (AoE)
 - ~~Abstract Submission: May 8, 2021~~
 - ~~Final Submission: May 15, 2021~~
-- Notification of Acceptance: July 9, 2021
-- Camera-Ready Upload: August 2, 2021
+- ~~Notification of Acceptance: July 9, 2021~~
+- ~~Camera-Ready Upload: August 2, 2021~~
 
 There will be *no extension* to the submission deadlines. However, authors of registered papers on or before May 8th will be allowed to upload new versions of their papers until May 15th.
 

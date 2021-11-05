@@ -14,11 +14,11 @@ Those interested should follow the submission guidelines (see below) and submit 
 
 ## Important Dates
 
-- Time zone: Anywhere On Earth (AOE)
-- Submission open: August 20 (Fri), 2021
-- Submission deadline: October 11 (Mon), 2021
-- Notification of acceptance: October 26 (Tue), 2021
-- Camera-ready & final video/poster upload: November 1 (Mon), 2021
+Time zone: Anywhere On Earth (AOE)
+- ~~Submission open: August 20 (Fri), 2021~~
+- ~~Submission deadline: October 11 (Mon), 2021~~
+- ~~Notification of acceptance: October 26 (Tue), 2021~~
+- ~~Camera-ready & final video/poster upload: November 1 (Mon), 2021~~
 
 ## Submission Guidelines
 

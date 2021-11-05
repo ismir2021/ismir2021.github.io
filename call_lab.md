@@ -24,8 +24,8 @@ Please refer to the [submission form](https://bit.ly/ismir2021labs) or send the 
 
 ## Important Dates:
 
-- Submission Deadline: Sep 30, 2021  
-- Notification of Acceptance: Oct 10, 2021
+- ~~Submission Deadline: Sep 30, 2021~~ 
+- ~~Notification of Acceptance: Oct 10, 2021~~
 
 ## Questions:
 

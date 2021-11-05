@@ -11,11 +11,12 @@ The annual conference of the International Society for Music Information Retriev
 To make the conference more accessible and inclusive, in addition to the standard tutorial suggestions, we particularly welcome tutorial proposals which either cover fundamental and introductory topics in MIR, or present an informative and stimulating coverage of current MIR topics in a manner that is targeted towards people new to the field.
 
 
-### Important Dates (AoE)
+## Important Dates
 
-* Initial Proposal Submission: April 9, 2021
-* Final Proposal Submission: April 16, 2021
-* Notification of Acceptance: June 4, 2021
+Time zone: Anywhere On Earth (AOE)
+- ~~Initial Proposal Submission: April 9, 2021~~
+- ~~Final Proposal Submission: April 16, 2021~~
+- ~~Notification of Acceptance: June 4, 2021~~
 
 
 ### Submissions
