@@ -77,6 +77,6 @@ We aim to conduct parts of this session in a workshop format, facilitating an op
 
 **Time:** 2.30-3.30 PM on November 11, 2021 (UTC)
 
-**Moderators:** Andre Holzapfel (KTH Royal Institute of Technology, Sweden), Petra Pauliina Jääskeläinen (Uppsala University, Sweden), Anna-Kaisa Kaila (KTH Royal Institute of Technology, Sweden)
+**Moderators:** Andre Holzapfel (KTH Royal Institute of Technology, Sweden), Petra Pauliina Jääskeläinen (KTH Royal Institute of Technology, Sweden), Anna-Kaisa Kaila (KTH Royal Institute of Technology, Sweden)
 
 ---
