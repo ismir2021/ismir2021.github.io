@@ -23,8 +23,7 @@ Please find information on tutorials [here](/tutorials/). Information on the Sat
 For additional information, please feel free to contact the ISMIR registration team via [ismir2021-registration@ismir.net](mailto:ismir2021-registration@ismir.net)
 
 ### Registration Fee Waivers
-You can apply for a __reduced or waived participation fee__ [here](https://docs.google.com/forms/d/e/1FAIpQLSewOxtkMKf5P4JdfJ-OQ3Oo81_g76-R2xWMwopc8ANNFE1mHQ/viewform).
-Please check if you are eligible, apply, and receive your waiver before you register for the conference. 
+Applications for registration fee waivers are now closed
 
 ### Important Dates (AoE)
 
