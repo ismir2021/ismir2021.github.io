@@ -8,7 +8,7 @@ permalink: /labshowcase/
 
 ## 1. AIST (Media Interaction Group) | National Institute of Advanced Industrial Science and Technology
 
-*Principle Director(s): Masataka Goto*  
+*PI: Masataka Goto*  
 *Website: [https://staff.aist.go.jp/m.goto/MIG/index-j.html](https://staff.aist.go.jp/m.goto/MIG/index-j.html)*  
 *Country: Japan*
 
@@ -16,7 +16,7 @@ Since Masataka Goto is a big fan of ISMIR, he and his colleagues attend ISMIR ev
 
 ## 2. ATIC-amuses | Universidad de Málaga
 
-*Principle Director(s): Lorenzo J. Tardon / Isabel Barbancho*  
+*PI: Lorenzo J. Tardon / Isabel Barbancho*  
 *Website: [https://www.uma.es/atic/info/126243/infraestructuras/](https://www.uma.es/atic/info/126243/infraestructuras/)*  
 *Country: Spain*
 
@@ -73,7 +73,7 @@ PC and MAC type computers, scanner, printer, Ultimaker S3 3D printer, Gigabyte A
 
 ## 3. Algomus | Université de Lille, CRIStAL
 
-*Principle Director(s): Mathieu Giraud*  
+*PI: Mathieu Giraud*  
 *Website: [http://www.algomus.fr/](http://www.algomus.fr/)*  
 *Country: France*
 
@@ -81,7 +81,7 @@ Algomus (Algorithmic Musicology, [www.algomus.fr](http://www.algomus.fr/)) is a 
 
 ## 4. Audio Data Analysis and Signal Processing (ADASP) | Télécom Paris / Institut Polytechnique de Paris
 
-*Principle Director(s): Slim Essid*  
+*PI: Slim Essid*  
 *Website: [https://adasp.telecom-paris.fr](https://adasp.telecom-paris.fr)*  
 *Country: France*
 
@@ -107,7 +107,7 @@ More on [https://adasp.telecom-paris.fr](https://adasp.telecom-paris.fr).
 
 ## 5. Audio Information Research (AIR) Lab | University of Rochester
 
-*Principle Director(s): Zhiyao Duan*  
+*PI: Zhiyao Duan*  
 *Website: [http://www2.ece.rochester.edu/projects/air/index.html](http://www2.ece.rochester.edu/projects/air/index.html)*  
 *Country: United States*
 
@@ -115,14 +115,14 @@ At the AIR lab, we conduct research in the emerging field of computer audition, 
 
 ## 6. BLACK BOX | German Research Center for AI (DFKI)
 
-*Principle Director(s): Dr. Stephan Baumann*  
+*PI: Dr. Stephan Baumann*  
 *Country: Germany*
 
 The BLACK BOX is a brandnew lab doing interdisciplinary research about affective and emotional response to AI-generated music. We conduct first experiments using devices to measure biophysical signals (e.g EDA, HRV with the EMPATICA wristband) of listeners and asking in parallel for their perceived emotions (e.g Valence Arousal, GEMS, etc.). We aim at providing a dataset for other researchers and using this dataset to explore deep networks for emotion classification tasks. In addition we are interested how this research might affect new generative models for music generation (e.g. VAEs, CANs, etc.) and co-creation opportunities for artists. The team is an interdisciplinary mixture of cognitive scientists, music retrieval and AI experts as well as musicians, composers interested in the usage of AI.
 
 ## 7. Centre for Digital Music | Queen Mary University of London
 
-*Principle Director(s): Mark Sandler and Simon Dixon*  
+*PI: Mark Sandler and Simon Dixon*  
 *Website: [https://c4dm.eecs.qmul.ac.uk/](https://c4dm.eecs.qmul.ac.uk/)*  
 *Country: United Kingdom*
 
@@ -130,7 +130,7 @@ The Centre for Digital Music was established at Queen Mary University of London 
 
 ## 8. Computer Music Lab | Cargenie Mellon University
 
-*Principle Director(s): Roger B. Dannenberg*  
+*PI: Roger B. Dannenberg*  
 *Website: [https://www.cs.cmu.edu/~music/](https://www.cs.cmu.edu/~music/)*  
 *Country: United States*
 
@@ -138,7 +138,7 @@ The Computer Music Lab at CMU develops computer music and interactive performanc
 
 ## 9. Digital Audio Processing Lab | I.I.T. Bombay
 
-*Principle Director(s): Prof. Preeti Rao*  
+*PI: Prof. Preeti Rao*  
 *Website: [https://www.ee.iitb.ac.in/student/~daplab/](https://www.ee.iitb.ac.in/student/~daplab/)*  
 *Country: India*
 
@@ -146,7 +146,7 @@ The Digital Audio Processing Lab is involved in research for speech and audio ap
 
 ## 10. Digital and Cognitive Musicology Lab (DCML) | École Polytechnique Fédérale de Lausanne (EPFL)
 
-*Principle Director(s): Martin Rohrmeier*  
+*PI: Martin Rohrmeier*  
 *Website: [https://www.epfl.ch/labs/dcml/](https://www.epfl.ch/labs/dcml/)*  
 *Country: Switzerland*
 
@@ -154,7 +154,7 @@ The Digital and Cognitive Musicology Lab (DCML) is a multi-disciplinary lab base
 
 ## 11. Distributed Digital Music Archives and Libraries | McGill University
 
-*Principle Director(s): Prof. Ichiro Fujinaga*  
+*PI: Prof. Ichiro Fujinaga*  
 *Website: [https://ddmal.music.mcgill.ca/](https://ddmal.music.mcgill.ca/)*  
 *Country: Canada*
 
@@ -164,14 +164,14 @@ In order to achieve this goal, libraries, museums, and archives throughout the w
 
 ## 12. Doug Turnbull | Ithaca College
 
-*Principle Director(s): Doug Turnbull*  
+*PI: Doug Turnbull*  
 *Country: United States*
 
 We are currently focused on music recommender systems to help support local music communities. This includes both [Localify.org](http://localify.org/) and Porchfest projects.
 
 ## 13. Gotham Lab | T.U. Dortmund
 
-*Principle Director(s): Prof. Mark Gotham*  
+*PI: Prof. Mark Gotham*  
 *Country: Germany*
 
 On 1.10.2021, I begin a professorship in music theory at T.U. Dortmund. There I will create a new lab for computational approaches to music theory, analysis and composition. At least 1–2 positions are available for a first cohort of lab members at the PhD or Postdoc level immediately.
@@ -182,21 +182,21 @@ While primarily based in Dortmund, the lab will also benefit from a second home 
 
 ## 14. Institute of Computational Perception | Johannes Kepler University Linz
 
-*Principle Director(s): Prof. Gerhard Widmer and Prof. Markus Schedl*  
+*PI: Prof. Gerhard Widmer and Prof. Markus Schedl*  
 *Country: Austria*
 
 The focus of our institute is on Artificial Intelligence and Machine Learning applied to intelligent audio, music, and text processing. We develop and study computational models and algorithms that permit computers to perceive and 'understand' aspects of the external world, where we interpret 'perception' in the widest sense of the word, as the extraction of useful high-level information and knowledge from complex, possibly low-level data (audio, video, image, text, sensor data, and user-item interaction data). Our current research covers the full range of Music Information Retrieval, with an emphasis on modeling expressive music performance and on recommender systems. Our goal is to offer state-of-the-art research and teaching in these areas, and to provide a teaching environment that permits students to get involved in real research projects as early as possible.
 
 ## 15. Institute of Music Science and Engineering | King Mongkut's Institute of Technology Ladkrabang (KMITL)
 
-*Principle Director(s): Assist. Prof. Dr. Pitak Thumwarin*  
+*PI: Assist. Prof. Dr. Pitak Thumwarin*  
 *Country: Thailand*
 
 Institute of Music Science & Engineering (IMSE) is the first and only faculty in Thailand offering a bachelor degree program, B.Eng. in Music Engineering and Multimedia. This program has been successfully run, producing engineers and specialists in sound/audio engineering, acoustical engineering, sound design and so on, who support the entertainment industry in Thailand and solve the noise pollution problems that the country has faced for a long time due to the shortage of experts. Where our graduates began their career in many key areas of the related industries, it appears that the demand for more experienced and skilled experts is still high, which may only be met by a higher education beyond bachelor program. Offering an opportunity for students to deepen and extend their knowledge and experience in the topics mentioned above, IMSE opens a master degree program, M.Eng in Acoustics and Multimedia Technology, which is the first of its kind in the ASEAN countries.
 
 ## 16. Interactive Audio Lab | Northwestern University
 
-*Principle Director(s): Prof. Bryan Pardo*  
+*PI: Prof. Bryan Pardo*  
 *Website: [https://interactiveaudiolab.github.io/](https://interactiveaudiolab.github.io/)*  
 *Country: United States*
 
@@ -204,7 +204,7 @@ Northwestern University's Interactive Audio Lab ([https://interactiveaudiolab.gi
 
 ## 17. International Audio Laboratories Erlangen | Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU) and Fraunhofer Institute for Integrated Circuits IIS
 
-*Principle Director(s): Bernhard Grill*  
+*PI: Bernhard Grill*  
 *Website: [https://www.audiolabs-erlangen.de/](https://www.audiolabs-erlangen.de/)*  
 *Country: Germany*
 
@@ -212,7 +212,7 @@ Being the birthplace of mp3 and AAC, Erlangen has a long history in audio coding
 
 ## 18. MERI (Music Engagement Research Initiative) | Stanford University
 
-*Principle Director(s): Jonathan Berger (PI), Chris Chafe*  
+*PI: Jonathan Berger (PI), Chris Chafe*  
 *Website: [https://ccrma.stanford.edu/groups/meri/](https://ccrma.stanford.edu/groups/meri/)*  
 *Country: United States*
 
@@ -226,7 +226,7 @@ We seek to increase our understanding of how and why humans engage with music. O
 
 ## 19. Mistic | University of Victoria
 
-*Principle Director(s): Prof. George Tzanetakis*  
+*PI: Prof. George Tzanetakis*  
 *Website: [https://www.mistic.ece.uvic.ca/](https://www.mistic.ece.uvic.ca/)*  
 *Country: Canada*
 
@@ -234,7 +234,7 @@ The MISTIC lab directed by Dr. Tzanetakis conducts interdisciplinary research in
 
 ## 20. Music Computing and Psychology Lab | University of York
 
-*Principle Director(s): Tom Collins*  
+*PI: Tom Collins*  
 *Website: [https://www.tomcollinsresearch.net/](https://www.tomcollinsresearch.net/)*  
 *Country: United Kingdom*
 
@@ -242,7 +242,7 @@ Both in the lab and with collaborators across the globe, we apply the scientific
 
 ## 21. Music Informatics Group | Georgia Institute of Technology
 
-*Principle Director(s): Alexander Lerch*  
+*PI: Alexander Lerch*  
 *Website: [https://musicinformatics.gatech.edu/](https://musicinformatics.gatech.edu/)*  
 *Country: United States*
 
@@ -250,7 +250,7 @@ The Music Informatics Group, hosted at the Georgia Tech Center for Music Technol
 
 ## 22. Music Technology Group | Universitat Pompeu Fabra
 
-*Principle Director(s): Xavier Serra*  
+*PI: Xavier Serra*  
 *Website: [https://www.upf.edu/web/mtg](https://www.upf.edu/web/mtg)*  
 *Country: Spain*
 
@@ -258,7 +258,7 @@ The Music Technology Group (MTG) of the Universitat Pompeu Fabra in Barcelona, p
 
 ## 23. Music X Lab | NYU Shanghai
 
-*Principle Director(s): Gus Xia*  
+*PI: Gus Xia*  
 *Website: [http://www.musicxlab.com/#/](http://www.musicxlab.com/#/)*  
 *Country: China*
 
@@ -268,7 +268,7 @@ To answer the questions above, we design various algorithms & intelligent system
 
 ## 24. Music and Audio Computing Lab | KAIST
 
-*Principle Director(s): Juhan Nam*  
+*PI: Juhan Nam*  
 *Website: [https://mac.kaist.ac.kr/](https://mac.kaist.ac.kr/)*  
 *Country: South Korea*
 
@@ -276,7 +276,7 @@ The Music and Audio Computing Lab (MACLab) is a music research group in the Grad
 
 ## 25. Music and Audio Research Group (MARG) | Seoul National University
 
-*Principle Director(s): Kyogu Lee*  
+*PI: Kyogu Lee*  
 *Website: [http://marg.snu.ac.kr/](http://marg.snu.ac.kr/)*  
 *Country: South Korea*
 
@@ -290,7 +290,7 @@ Music and Audio Research Group (MARG) at Seoul National University is a highly i
 
 ## 26. Music and Audio Research Lab (MARL) | New York University
 
-*Principle Director(s): Juan Pablo Bello*  
+*PI: Juan Pablo Bello*  
 *Website: [https://steinhardt.nyu.edu/marl](https://steinhardt.nyu.edu/marl)*  
 *Country: United States*
 
@@ -298,7 +298,7 @@ MARL brings together scholars from a variety of disciplines to explore the inter
 
 ## 27. Music and Sound Cultures (MaSC) | New York University Abu Dhabi
 
-*Principle Director(s): Carlos Guedes*  
+*PI: Carlos Guedes*  
 *Website: [https://masc.hosting.nyu.edu/](https://masc.hosting.nyu.edu/)*  
 *Country: United Arab Emirates*
 
@@ -306,7 +306,7 @@ The Music and Sound Cultures research group (MaSC — [https://masc.hosting.nyu.
 
 ## 28. NUS Sound and Music Computing Lab | National University of Singapore
 
-*Principle Director(s): Ye Wang*  
+*PI: Ye Wang*  
 *Website: [https://smcnus.comp.nus.edu.sg/](https://smcnus.comp.nus.edu.sg/)*  
 *Country: Singapore*
 
@@ -315,7 +315,7 @@ Leveraging on neuroscience as a glue, we seek to harness the synergy of SMC, MIR
 
 ## 29. Research about listening lab | James Cook University
 
-*Principle Director(s): Dr Amanda Krause*  
+*PI: Dr Amanda Krause*  
 *Website: [http://www.researchaboutlistening.com/](http://www.researchaboutlistening.com/)*  
 *Country: Australia*
 
@@ -323,21 +323,21 @@ The Research About Listening lab ([http://www.researchaboutlistening.com](http:/
 
 ## 30. Semantic Music Technologies | Fraunhofer Institute for Digital Media Technology
 
-*Principle Director(s): Hanna Lukashevich*  
+*PI: Hanna Lukashevich*  
 *Country: Germany*
 
 The Fraunhofer Institute for Digital Media Technology IDMT is one of over 70 institutes of the Fraunhofer-Gesellschaft, the world's leading organization for applied research based in Germany. Fraunhofer IDMT is specifically focused on applied research on AI driven media management and delivery solutions for the media industry. We would like to showcase our research group “Semantic Music Technologies” that covers a wide spectrum of MIR and machine listening tasks. We have a team of about 10 researchers, including PhD and Master students, who conduct applied research in various areas as AI-based music analysis for search, recommendation, game and educational applications, and music production; audio figerprinting; as well as classification of acoustic scenes and detection of audio events.
 
 ## 31. Sound Interaction and Computing (SInC) Lab | New Jersey Institute of Technology
 
-*Principle Director(s): Mark Cartwright*  
+*PI: Mark Cartwright*  
 *Country: United States*
 
 The Sound Interaction and Computing (SInC) Lab is headed by Prof. Mark Cartwright in the Informatics Department of New Jersey Institute of Technology. The lab pursues research at the intersection of Human-Computer Interaction and Machine Learning with the aim of building tools to aid in the understanding and the creative expression of sound. To do so, the lab studies people’s needs and practices, researches new technology to meet those needs, and then studies how people use the new technology.
 
 ## 32. UP Digital Signal Processing Laboratory | University of the Philippines (Diliman Campus)
 
-*Principle Director(s): Crisron Rudolf G. Lucas*  
+*PI: Crisron Rudolf G. Lucas*  
 *Website: [https://www.updsp.org/](https://www.updsp.org/)*  
 *Country: Philippines*
 
@@ -345,7 +345,7 @@ UP DSL Lab aims to produce excellent, innovative and nationalistic DSP engineers
 
 ## 33. Utrecht MIR Lab | Utrecht University
 
-*Principle Director(s): Anja Volk and Frans Wiering*  
+*PI: Anja Volk and Frans Wiering*  
 *Country: Netherlands*
 
 We are conducting research at the intersection of computer science and music, connecting computer science methodology to state-of-the-art domain knowledge of music. Our main research areas comprise Music Information Retrieval, Computational/Digital Musicology, Music Technology for Games and Virtual Worlds, and Music Recommendation. Our research has been applied to areas such as melody retrieval; computational music analysis; cultural heritage; big data in music history; fairness in music recommender systems; and music, computing, and health. We collaborate with cultural heritage institutions, such as the Meertens Institute in Amsterdam, with musicologists (e.g. the University of Amsterdam, Goldsmith College), and with music therapists and neuropsychologists (e.g. Leiden Institute for Brain and Cognition, University Medical Center Utrecht).
