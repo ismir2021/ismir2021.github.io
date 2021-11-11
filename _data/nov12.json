@@ -24,6 +24,13 @@
 		},	
 		{
 			"date": "2021/11/12", 
+			"start_time": "05:30", 
+			"end_time": "06:30", 
+			"title": "Music - Concert 4 (Replay)",
+			"type": "Music"		
+		},	
+		{
+			"date": "2021/11/12", 
 			"start_time": "07:00", 
 			"end_time": "09:00", 
 			"title": "Late Breaking Demos (B)",
