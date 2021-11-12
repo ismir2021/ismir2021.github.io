@@ -1097,7 +1097,7 @@
         ],
         "year": "2021",
         "abstract": "Performance in many Music IR tasks has advanced significantly using deep learning methods, particularly convolutional neural networks (CNNs). The fundamental research behind CNNs has primarily been driven by visual domain problems, such as image recognition and object segmentation, and \"standard\" CNN architectures are optimized for such visual problems. Our work seeks to leverage these fundamental visual strengths of CNNs by transforming musical structure analysis (MSA) and segmentation into a purely visual task. We use labeled images of self-similarity matrices (SSMs) derived from acoustic features (from popular music examples) as a visual dataset to train a Region Proposal Network (RPN), a state-of-the-art object detection approach, to identify the regions of a song based on visual bounding boxes. This abstract highlights our modifications of the RPN implementation for our SSM dataset, and reports on the fundamental differences between the two tasks that serve as the biggest shortcomings of the approach in its current state.",
-        "ee": "https://archives.ismir.net/ismir2021/latebreaking/0000055.pdf",
+        "ee": "https://archives.ismir.net/ismir2021/latebreaking/000055.pdf",
         "extra": {
             "affiliation": {
                 "Christopher N Uzokwe": "Drexel University",
