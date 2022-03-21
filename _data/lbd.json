@@ -201,7 +201,7 @@
             "Patrick Kramer"
         ],
         "year": "2021",
-        "abstract": "State-of-the-art algorithms in many music information retrieval (MIR) tasks such as chord recognition, multipitch estimation, or instrument recognition rely on deep learning algorithms, which require large amounts of data to be trained and evaluated. In this paper, we present the IDMT-SMT-CHORD-SEQUENCES dataset, which is a novel synthetic dataset of 15,000 chord progressions played on 45 different musical instruments. The dataset is organized in a triplet fashion and each triplet includes one "anchor" chord sequence as well as one corresponding similar and dissimilar chord progression. The audio files are synthesized from MIDI data using FluidSynth with a selected sound font. Furthermore, we conducted a benchmark experiment on time-dependent harmonic similarity based on learnt embedding representations. The results show that a convolutional neural network (CNN), which considers the temporal context of a chord progression, outperforms a simpler approach based on temporal averaging of input features.",
+        "abstract": "State-of-the-art algorithms in many music information retrieval (MIR) tasks such as chord recognition, multipitch estimation, or instrument recognition rely on deep learning algorithms, which require large amounts of data to be trained and evaluated. In this paper, we present the IDMT-SMT-CHORD-SEQUENCES dataset, which is a novel synthetic dataset of 15,000 chord progressions played on 45 different musical instruments. The dataset is organized in a triplet fashion and each triplet includes one \"anchor\" chord sequence as well as one corresponding similar and dissimilar chord progression. The audio files are synthesized from MIDI data using FluidSynth with a selected sound font. Furthermore, we conducted a benchmark experiment on time-dependent harmonic similarity based on learnt embedding representations. The results show that a convolutional neural network (CNN), which considers the temporal context of a chord progression, outperforms a simpler approach based on temporal averaging of input features.",
         "ee": "https://archives.ismir.net/ismir2021/latebreaking/000011.pdf",
         "extra": {
             "affiliation": {
@@ -406,7 +406,7 @@
         }
     },
     {
-        "title": "A real-time beat tracking system based on predominant local pulse information",
+        "title": "A Real-Time Beat Tracking System Based on Predominant Local Pulse Information",
         "author": [
             "Peter Meier",
             "Gerhard Krump",
